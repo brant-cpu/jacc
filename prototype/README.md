@@ -1,0 +1,45 @@
+# J.A.C.C. Phase 1 prototype
+
+A dependency-free, one-finger Canvas exploration slice for GSEI Discovery Training Grounds. All visuals are provisional; the astronaut and PIP are geometric placeholders, not canonical production designs.
+
+## Run
+
+Requires Python 3 and a modern browser. Node is used only for tests.
+
+```sh
+cd /workspace/jacc/prototype
+python3 -m http.server 8000 --bind 0.0.0.0
+```
+
+Open the server on port 8000 using your development environment's browser access, or visit `http://localhost:8000` on your own computer. For a physical iPad, serve on a reachable trusted local network and use the computer's LAN address. No package installation, backend, credentials, or build step is required.
+
+Tap Explore, then tap a picture or the ground. Navigation avoids the pond and is interruptible. Picture targets automatically position Alex beside an activity. Tap the pickaxe for quartz, an iron-bearing mineral, and a fossil in a repeating cycle. Close each card with X; revisit any discovered item in the journal. PIP can highlight destinations, demonstrate digging, repeat guidance, return to a previous activity, or go home. Settings control audio volume, optional synthesized narration, animation, and visual effects. Pause and modal dialogs suspend movement. Tab and Enter operate destination buttons and menus; Escape closes dialogs. Local storage remembers discoveries and settings when available.
+
+## Files and architecture
+
+- `index.html`, `style.css`: responsive landscape presentation and accessible DOM controls over the Canvas.
+- `src/main.js`: contextual interaction, movement updates, geology lifecycle, overlays, settings, journal and rendering.
+- `src/navigation.js`: grid breadth-first pathfinding and obstacle mask.
+- `src/data.js`: configurable science cards, seven mode registrations, world destinations and canonical six-person roster.
+- `src/foundation.js`: optional image asset loading, scene lifecycle and extensible character registry.
+- `assets/pip.svg`: noncanonical placeholder robot icon.
+- `tests/navigation.test.js`: routing and content checks.
+- `tests/browser.cjs`: actual mouse and emulated iPad-size touch workflow checks. Uses the managed machine's preinstalled Playwright; override its import and Chromium path for another machine.
+
+## Validation
+
+`node --test tests/navigation.test.js` runs three tests: every pair of destinations reachable without crossing the pond, blocked/boundary handling, and configurable material/roster/mode data. `node tests/browser.cjs` runs desktop mouse and 1024×768 touch contexts in Chromium: four digs covering the complete discovery cycle and repeat, journal entries, PIP highlighting, pause/resume, platform navigation, keyboard modal operation, minimum 60px targets, and JavaScript error collection. Each browser run writes a screenshot.
+
+## Scope and limitations
+
+This is a playable first implementation, not a certified-accessible or production-complete game. Magnet, crystal and engineering locations provide observation cards; later-phase experiments are deliberately unimplemented. The hill and platform use a top-down traversable grid and decorative ramp, without a physics or elevation simulation. Only Alex is playable. There are no enemies, grades, timers, failure penalties, monetization or backend.
+
+Physical iPad Safari, VoiceOver, switch access, speech availability and testing with children remain required. Symbols and optional browser narration help, but do not establish reading-free comprehension; validate and replace them with tested pictorial instructions and recorded narration. Emoji appearance varies across devices. Full keyboard free-ground navigation is unavailable; keyboard users can reach every activity using destination buttons. Small portrait layouts may require scrolling. Persistence can be unavailable in private browsing. Reduced animation removes walking bob and shortens digging; travel remains visible. Journal and settings are local to the browser.
+
+## Repository and assets
+
+At implementation time `/workspace/jacc` had only Git metadata, no HEAD, source or assets. Fetching `brant-cpu/jacc` failed because the configured network proxy was unreachable. All work is isolated under `prototype/`; upstream architecture and assets could not be inspected. The referenced PDF was not available. Reconcile this directory with upstream before merging.
+
+Still needed: approved astronaut/PIP art, environmental pixel art, material illustrations, accessible pictorial instruction sequences, recorded narration and sound assets. No replacement art is presented as canonical.
+
+Next milestone: reconcile upstream, test this slice with children and accessibility users on real iPads, improve pictorial navigation and audio guidance, then implement the Phase 2 magnetism experiment and tap-to-build bridge using the shared contextual interaction system.
