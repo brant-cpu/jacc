@@ -4,7 +4,7 @@ assert.equal(p.firstLayout,scene.name);assert.equal(p.properties.orientation,'la
 const names=new Set(scene.objects.map(o=>o.name));assert.equal(names.size,scene.objects.length);
 for(const i of scene.instances)assert.ok(names.has(i.name));
 for(const r of p.resources.resources)assert.ok(fs.existsSync(path.join(__dirname,'..',r.file)),r.file);
-const map=new Map(scene.instances.map(i=>[i.name,{...i,hidden:false,getX(){return this.x},getY(){return this.y},getWidth(){return this.width},getHeight(){return this.height},setPosition(x,y){this.x=x;this.y=y},setWidth(w){this.width=w},setHeight(h){this.height=h},hide(v=true){this.hidden=v},setOpacity(v){this.opacity=v},setString(v){this.string=v}}]));
+const map=new Map(scene.instances.map(i=>[i.name,{...i,hidden:false,getX(){return this.x},getY(){return this.y},getWidth(){return this.width},getHeight(){return this.height},setPosition(x,y){this.x=x;this.y=y},setWidth(w){this.width=w},setHeight(h){this.height=h},hide(v=true){this.hidden=v},setOpacity(v){this.opacity=v},setString(v){this.string=v},setAnimation(v){this.animation=v},setZOrder(v){this.zOrder=v}}]));
 const runtimeScene={getObjects:n=>[map.get(n)]};let cursor={x:0,y:0},release=false,keys=new Set();
 const gdjs={evtTools:{input:{touchSimulateMouse(){},isKeyPressed:(s,k)=>keys.has(k),getCursorX:()=>cursor.x,getCursorY:()=>cursor.y,isMouseButtonReleased:()=>release},runtimeScene:{getElapsedTimeInSeconds:()=>.05}}};
 const run=Function('runtimeScene','gdjs',scene.events.find(e=>e.inlineCode).inlineCode.join('\n'));const frame=()=>run(runtimeScene,gdjs);
@@ -21,3 +21,9 @@ click('SettingsButton');click('Option2');assert.equal(runtimeScene.__jacc.settin
 keys.add('Return');frame();keys.clear();frame();assert.equal(runtimeScene.__jacc.overlay,'PIP');keys.add('Escape');frame();keys.clear();assert.equal(runtimeScene.__jacc.overlay,null);
 console.log('PASS: native schema/resources, repeated geology, journal, PIP demonstration, pause, platform navigation, settings, keyboard event logic');
 console.log('NOTE: native runtime API harness, not a GDevelop editor/renderer test.');
+
+const roster=['Alex Thompson','Malik Adeyemi','Maya Rodriguez','Aiden Williams','Kaito Tanaka','Lucas Turner'];
+const foundBefore=[...runtimeScene.__jacc.found];
+for(let i=0;i<6;i++){click('CrewButton');assert.equal(runtimeScene.__jacc.buttons.length,6);assert.ok(map.get('CrewName'+i).string.includes(roster[i]));click('CrewCard'+i);assert.equal(runtimeScene.__jacc.crew,i);assert.equal(map.get('Alex').animation,i);assert.ok(map.get('ActiveCrew').string.includes(roster[i]));assert.equal(runtimeScene.__jacc.overlay,null);assert.deepEqual([...runtimeScene.__jacc.found],foundBefore);click('CrewButton');assert.ok(map.get('CrewName'+i).string.startsWith('[Selected]'));click('Close');}
+click('Target_dig');tick(250);assert.equal(runtimeScene.__jacc.overlay,'Fossil');assert.equal(runtimeScene.__jacc.crew,5);click('Close');
+console.log('PASS: all six native selections, selected state, discovery retention and digging after switching');

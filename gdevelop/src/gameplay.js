@@ -2,17 +2,19 @@
 const obj=name=>runtimeScene.getObjects(name)[0];
 const text=(name,value)=>obj(name).setString(value);
 if(!runtimeScene.__jacc){
- runtimeScene.__jacc={started:false,paused:false,path:[],pending:null,dig:0,action:0,found:new Set(),last:null,overlay:null,buttons:[],focus:0,tab:false,enter:false,settings:{reduced:false,effects:true,narration:false,volume:.3}};
+ runtimeScene.__jacc={crew:0,started:false,paused:false,path:[],pending:null,dig:0,action:0,found:new Set(),last:null,overlay:null,buttons:[],focus:0,tab:false,enter:false,settings:{reduced:false,effects:true,narration:false,volume:.3}};
 }
 const s=runtimeScene.__jacc,actor=obj('Alex');
 const say=message=>{text('Status',message);if(s.settings.narration&&typeof speechSynthesis!=='undefined'){speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(message);u.volume=s.settings.volume;speechSynthesis.speak(u)}};
-const ui=['Panel','CardTitle','CardBody','CardVisual','Close','CloseLabel',...Array.from({length:6},(_,i)=>['Option'+i,'OptionLabel'+i]).flat()];
+const crewUI=Array.from({length:6},(_,i)=>['CrewCard'+i,'CrewPortrait'+i,'CrewName'+i,'CrewDetail'+i]).flat();
+const ui=[...crewUI,'Panel','CardTitle','CardBody','CardVisual','Close','CloseLabel',...Array.from({length:6},(_,i)=>['Option'+i,'OptionLabel'+i]).flat()];
 function close(){s.overlay=null;for(const n of ui)obj(n).hide();}
 function open(title,body,visual,options=[]){s.overlay=title;s.buttons=[];for(const n of ui)obj(n).hide();for(const n of ['Panel','CardTitle','CardBody','CardVisual','Close','CloseLabel'])obj(n).hide(false);text('CardTitle',title);text('CardBody',body.replace(/(.{1,64})(?:\s|$)/g,'$1\n').trim());text('CardVisual',visual);options.slice(0,6).forEach(([label,fn],i)=>{obj('Option'+i).hide(false);obj('OptionLabel'+i).hide(false);text('OptionLabel'+i,label);s.buttons.push({name:'Option'+i,fn})});say(title+'. '+body);}
 function select(o){s.started=true;s.path=pathfind([actor.getX()+20,actor.getY()+45],[o.x-65,o.y+55]);s.pending=o;s.action=0;say('Going to '+o.name);if(!s.path.length){s.pending=null;arrive(o)}}
 function card(o){open(o.name,o.text,o.icon+'   '+o.diagram,[['Listen / replay',()=>{say(o.text);if(typeof speechSynthesis!=='undefined'){speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(o.text);u.volume=s.settings.volume;speechSynthesis.speak(u)}}],['Revisit',()=>{close();select(objects.find(x=>x.id===o.id)||objects.find(x=>x.id==='dig'))}]]);}
 function arrive(o){s.last=o.id;if(o.kind==='home'){say('Back at the start. Choose a picture.');return}if(o.kind==='dig'){s.action=s.settings.reduced?.2:1.2;say('Digging through the soil...');return}s.found.add(o.id);card(o)}
-function pip(){open('PIP','Choose a picture. Alex will walk there and explore.','PIP  >  TAP  >  DISCOVER',[
+function crewMenu(){open('J.A.C.C. Crew','Tap an astronaut. Everyone can explore every activity.','');for(let i=0;i<roster.length;i++){const r=roster[i];for(const name of ['CrewCard','CrewPortrait','CrewName','CrewDetail'])obj(name+i).hide(false);text('CrewName'+i,(s.crew===i?'[Selected] ':'')+r[0]);text('CrewDetail'+i,(r[1]+' suit | '+r[2]).replace(/(.{1,29})(?:\s|$)/g,'$1\n').trim());s.buttons.push({name:'CrewCard'+i,fn:()=>{s.crew=i;actor.setAnimation(i);text('ActiveCrew',r[0]+' | '+r[1]+' | '+r[2]);close();say(r[0]+' selected. '+r[2])}});}}
+function pip(){open('PIP','Choose a picture. Your astronaut will walk there and explore.','PIP  >  TAP  >  DISCOVER',[
  ['Show places',()=>{close();s.settings.effects=true;objects.forEach(o=>obj('Target_'+o.id).setOpacity(190));say('The cream pictures are places to explore.')}],
  ['Show me a dig',()=>{close();select(objects.find(o=>o.id==='dig'))}],
  ['Previous activity',()=>{close();select(objects.find(o=>o.id===s.last)||objects[0])}],
@@ -31,7 +33,7 @@ if(!s.initialized){s.initialized=true;close();say('Tap a picture or the ground t
 const actions=s.overlay?[{name:'Close',fn:close},...s.buttons]:[
  {name:'PipButton',fn:pip},{name:'JournalButton',fn:journal},{name:'SettingsButton',fn:settings},
  {name:'PauseButton',fn:()=>{s.paused=!s.paused;text('PauseLabel',s.paused?'Resume':'Pause');say(s.paused?'Paused. Take your time.':'Ready to explore.')}},
- {name:'CrewButton',fn:()=>open('Alex Thompson','Red suit. Fleming Model: Electromagnetism.\nOnly Alex is playable in Phase 1. All artwork is temporary.','J.A.C.C. CREW')},
+ {name:'CrewButton',fn:crewMenu},
  ...objects.map(o=>({name:'Target_'+o.id,fn:()=>{if(!s.paused)select(o)}}))];
 const key=k=>gdjs.evtTools.input.isKeyPressed(runtimeScene,k);
 if(key('Escape')&&s.overlay)close();
@@ -49,4 +51,5 @@ if(!s.paused&&!s.overlay){
  if(s.action>0){s.action-=dt;if(s.action<=0){const m=materials[s.dig++%materials.length];s.found.add(m.id);card(m)}}
 }
 obj('PipRobot').setPosition(actor.getX()+43,actor.getY()-10);
+obj('Focus').setZOrder(s.overlay?51:3);
 obj('Focus').setPosition(obj(actions[s.focus].name).getX()-5,obj(actions[s.focus].name).getY()-5);obj('Focus').setWidth(obj(actions[s.focus].name).getWidth()+10);obj('Focus').setHeight(obj(actions[s.focus].name).getHeight()+10);

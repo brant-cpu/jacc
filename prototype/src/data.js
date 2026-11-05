@@ -13,3 +13,6 @@ export const objects=[
 {id:'crystal',x:815,y:180,icon:'💎',name:'Crystal lookout',text:'Look at the repeating shapes of crystals. This platform lets us observe from above.',diagram:'◇ ◇ ◇'},
 {id:'bridge',x:830,y:480,icon:'🌉',name:'Engineering area',text:'A bridge supports a path across a gap. Tap-to-build activities come in a later phase.',diagram:'🟫 🌉 🟫'}];
 export const modes={exploration:{phase:1,status:'playable'},geology:{phase:1,status:'playable'},lab:{phase:2,status:'planned'},engineering:{phase:2,status:'planned'},ocean:{phase:3,status:'planned'},flight:{phase:3,status:'planned'},pip:{phase:1,status:'basic'}};
+
+// Temporary suit-color placeholders; not production character designs.
+export const suitColors={Red:'#cf4348',Green:'#38864a',Pink:'#d76a9d',Yellow:'#edc74d',White:'#f2f2e8',Black:'#303842'};

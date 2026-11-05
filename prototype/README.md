@@ -28,7 +28,7 @@ Tap Explore, then tap a picture or the ground. Navigation avoids the pond and is
 
 ## Scope and limitations
 
-This is a playable first implementation, not a certified-accessible or production-complete game. Magnet, crystal and engineering locations provide observation cards; later-phase experiments are deliberately unimplemented. The hill and platform use a top-down traversable grid and decorative ramp, without a physics or elevation simulation. Only Alex is playable. There are no enemies, grades, timers, failure penalties, monetization or backend.
+This is a playable first implementation, not a certified-accessible or production-complete game. Magnet, crystal and engineering locations provide observation cards; later-phase experiments are deliberately unimplemented. The hill and platform use a top-down traversable grid and decorative ramp, without a physics or elevation simulation. All six canonical astronauts are selectable with temporary suit-color placeholders. There are no enemies, grades, timers, failure penalties, monetization or backend.
 
 Physical iPad Safari, VoiceOver, switch access, speech availability and testing with children remain required. Symbols and optional browser narration help, but do not establish reading-free comprehension; validate and replace them with tested pictorial instructions and recorded narration. Emoji appearance varies across devices. Full keyboard free-ground navigation is unavailable; keyboard users can reach every activity using destination buttons. Small portrait layouts may require scrolling. Persistence can be unavailable in private browsing. Reduced animation removes walking bob and shortens digging; travel remains visible. Journal and settings are local to the browser.
 
@@ -41,3 +41,7 @@ Still needed: approved astronaut/PIP art, environmental pixel art, material illu
 Next milestone: reconcile upstream, test this slice with children and accessibility users on real iPads, improve pictorial navigation and audio guidance, then implement the Phase 2 magnetism experiment and tap-to-build bridge using the shared contextual interaction system.
 
 Browser regression tests now default to intercepted static files on an opaque-origin sandbox, without a running server. This catches ES module and local-storage assumptions. Managed Chromium blocks file:// URLs, so a literal double-click test on Windows remains unverified. Set JACC_TEST_URL to test an ordinary HTTP deployment.
+
+## Crew selection
+
+Open Crew and tap one of the six astronauts to switch immediately. Cards show the canonical name, suit color, and scientific specialization. A selected badge identifies the current astronaut; the play screen also displays their name. Switching preserves location, movement, discoveries and pause state, and all astronauts can explore every activity. There are no new character powers or biographies. All character visuals are temporary suit-color placeholders. Keyboard users can select cards with Tab and Enter. Browser selection is saved when local storage is available; native preview selection lasts for that preview session.
