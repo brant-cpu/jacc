@@ -4,19 +4,15 @@ A dependency-free, one-finger Canvas exploration slice for GSEI Discovery Traini
 
 ## Run
 
-Requires Python 3 and a modern browser. Node is used only for tests.
+Extract the complete ZIP, then double-click `index.html` inside `prototype/`. Chrome, Edge, Firefox or Safari can run this build directly. Python and GDevelop are not required to play it. This is still a browser prototype, not a native GDevelop project.
 
-```sh
-cd /workspace/jacc/prototype
-python3 -m http.server 8000 --bind 0.0.0.0
-```
-
-Open the server on port 8000 using your development environment's browser access, or visit `http://localhost:8000` on your own computer. For a physical iPad, serve on a reachable trusted local network and use the computer's LAN address. No package installation, backend, credentials, or build step is required.
+Developers: edit the modular files in `src/`, then run `node scripts/build.mjs` to refresh the checked-in `game.js` classic script. That bundle supports local-file opening without blocked ES module imports. An optional web server can also serve this folder.
 
 Tap Explore, then tap a picture or the ground. Navigation avoids the pond and is interruptible. Picture targets automatically position Alex beside an activity. Tap the pickaxe for quartz, an iron-bearing mineral, and a fossil in a repeating cycle. Close each card with X; revisit any discovered item in the journal. PIP can highlight destinations, demonstrate digging, repeat guidance, return to a previous activity, or go home. Settings control audio volume, optional synthesized narration, animation, and visual effects. Pause and modal dialogs suspend movement. Tab and Enter operate destination buttons and menus; Escape closes dialogs. Local storage remembers discoveries and settings when available.
 
 ## Files and architecture
 
+- `scripts/build.mjs`, `game.js`: reproducible local-file-compatible browser bundle.
 - `index.html`, `style.css`: responsive landscape presentation and accessible DOM controls over the Canvas.
 - `src/main.js`: contextual interaction, movement updates, geology lifecycle, overlays, settings, journal and rendering.
 - `src/navigation.js`: grid breadth-first pathfinding and obstacle mask.
@@ -43,3 +39,5 @@ At implementation time `/workspace/jacc` had only Git metadata, no HEAD, source 
 Still needed: approved astronaut/PIP art, environmental pixel art, material illustrations, accessible pictorial instruction sequences, recorded narration and sound assets. No replacement art is presented as canonical.
 
 Next milestone: reconcile upstream, test this slice with children and accessibility users on real iPads, improve pictorial navigation and audio guidance, then implement the Phase 2 magnetism experiment and tap-to-build bridge using the shared contextual interaction system.
+
+Browser regression tests now default to intercepted static files on an opaque-origin sandbox, without a running server. This catches ES module and local-storage assumptions. Managed Chromium blocks file:// URLs, so a literal double-click test on Windows remains unverified. Set JACC_TEST_URL to test an ordinary HTTP deployment.

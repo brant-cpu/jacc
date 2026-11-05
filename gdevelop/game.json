@@ -1,0 +1,3300 @@
+{
+  "firstLayout": "DiscoveryGrounds",
+  "gdVersion": {
+    "build": 99,
+    "major": 4,
+    "minor": 0,
+    "revision": 0
+  },
+  "properties": {
+    "adaptGameResolutionAtRuntime": false,
+    "folderProject": false,
+    "orientation": "landscape",
+    "packageName": "com.granitepixelgames.jacc",
+    "pixelsRounding": true,
+    "projectUuid": "d8c743f8-50a7-4cbc-8acc-573dbf9ce521",
+    "scaleMode": "nearest",
+    "sizeOnStartupMode": "adaptWidth",
+    "useExternalSourceFiles": false,
+    "version": "1.0.0",
+    "name": "J.A.C.C. — Discovery Training Grounds",
+    "author": "Granite Pixel Games",
+    "windowWidth": 1000,
+    "windowHeight": 600,
+    "latestCompilationDirectory": "",
+    "maxFPS": 60,
+    "minFPS": 10,
+    "verticalSync": false,
+    "platformSpecificAssets": {},
+    "loadingScreen": {
+      "backgroundColor": 0,
+      "backgroundFadeInDuration": 0.2,
+      "backgroundImageResourceName": "",
+      "gdevelopLogoStyle": "light",
+      "logoAndProgressFadeInDuration": 0.2,
+      "logoAndProgressLogoFadeInDelay": 0.2,
+      "minDuration": 1.5,
+      "progressBarColor": 16777215,
+      "progressBarHeight": 20,
+      "progressBarMaxWidth": 200,
+      "progressBarMinWidth": 40,
+      "progressBarWidthPercent": 30,
+      "showGDevelopSplash": true,
+      "showProgressBar": true
+    },
+    "authorIds": [],
+    "extensionProperties": [],
+    "platforms": [
+      {
+        "name": "GDevelop JS platform"
+      }
+    ],
+    "currentPlatform": "GDevelop JS platform"
+  },
+  "resources": {
+    "resources": [
+      {
+        "name": "ground",
+        "kind": "image",
+        "file": "assets/ground.png",
+        "metadata": "",
+        "userAdded": true,
+        "smoothed": false
+      },
+      {
+        "name": "path",
+        "kind": "image",
+        "file": "assets/path.png",
+        "metadata": "",
+        "userAdded": true,
+        "smoothed": false
+      },
+      {
+        "name": "pond",
+        "kind": "image",
+        "file": "assets/pond.png",
+        "metadata": "",
+        "userAdded": true,
+        "smoothed": false
+      },
+      {
+        "name": "hill",
+        "kind": "image",
+        "file": "assets/hill.png",
+        "metadata": "",
+        "userAdded": true,
+        "smoothed": false
+      },
+      {
+        "name": "platform",
+        "kind": "image",
+        "file": "assets/platform.png",
+        "metadata": "",
+        "userAdded": true,
+        "smoothed": false
+      },
+      {
+        "name": "button",
+        "kind": "image",
+        "file": "assets/button.png",
+        "metadata": "",
+        "userAdded": true,
+        "smoothed": false
+      },
+      {
+        "name": "panel",
+        "kind": "image",
+        "file": "assets/panel.png",
+        "metadata": "",
+        "userAdded": true,
+        "smoothed": false
+      },
+      {
+        "name": "marker",
+        "kind": "image",
+        "file": "assets/marker.png",
+        "metadata": "",
+        "userAdded": true,
+        "smoothed": false
+      },
+      {
+        "name": "alex",
+        "kind": "image",
+        "file": "assets/alex.png",
+        "metadata": "",
+        "userAdded": true,
+        "smoothed": false
+      },
+      {
+        "name": "pip",
+        "kind": "image",
+        "file": "assets/pip.png",
+        "metadata": "",
+        "userAdded": true,
+        "smoothed": false
+      }
+    ],
+    "resourceFolders": []
+  },
+  "objects": [],
+  "objectsGroups": [],
+  "variables": [],
+  "layouts": [
+    {
+      "layers": [
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        }
+      ],
+      "name": "DiscoveryGrounds",
+      "mangledName": "DiscoveryGrounds",
+      "title": "J.A.C.C.",
+      "r": 183,
+      "v": 217,
+      "b": 141,
+      "objects": [
+        {
+          "name": "Ground",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "ground",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Hill",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "hill",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Path",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "path",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Trail",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "path",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "TopTrail",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "path",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Pond",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "pond",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Platform",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "platform",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Ramp",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "path",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Focus",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "marker",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Marker",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "marker",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Alex",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "alex",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "PipRobot",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "pip",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Title",
+          "type": "TextObject::Text",
+          "variables": [],
+          "behaviors": [],
+          "effects": [],
+          "bold": true,
+          "italic": false,
+          "underlined": false,
+          "smoothed": true,
+          "text": "J.A.C.C. | GSEI Discovery Training Grounds",
+          "font": "",
+          "characterSize": 22,
+          "color": {
+            "r": 23,
+            "g": 56,
+            "b": 74
+          },
+          "textAlignment": "left",
+          "verticalTextAlignment": "top",
+          "lineHeight": 0,
+          "isOutlineEnabled": false,
+          "isShadowEnabled": false,
+          "string": "J.A.C.C. | GSEI Discovery Training Grounds",
+          "content": {
+            "bold": true,
+            "italic": false,
+            "underlined": false,
+            "smoothed": true,
+            "text": "J.A.C.C. | GSEI Discovery Training Grounds",
+            "font": "",
+            "characterSize": 22,
+            "color": "23;56;74",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "lineHeight": 0,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false
+          }
+        },
+        {
+          "name": "PipButton",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "PipLabel",
+          "type": "TextObject::Text",
+          "variables": [],
+          "behaviors": [],
+          "effects": [],
+          "bold": true,
+          "italic": false,
+          "underlined": false,
+          "smoothed": true,
+          "text": "PIP",
+          "font": "",
+          "characterSize": 18,
+          "color": {
+            "r": 23,
+            "g": 56,
+            "b": 74
+          },
+          "textAlignment": "left",
+          "verticalTextAlignment": "top",
+          "lineHeight": 0,
+          "isOutlineEnabled": false,
+          "isShadowEnabled": false,
+          "string": "PIP",
+          "content": {
+            "bold": true,
+            "italic": false,
+            "underlined": false,
+            "smoothed": true,
+            "text": "PIP",
+            "font": "",
+            "characterSize": 18,
+            "color": "23;56;74",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "lineHeight": 0,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false
+          }
+        },
+        {
+          "name": "CrewButton",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "CrewLabel",
+          "type": "TextObject::Text",
+          "variables": [],
+          "behaviors": [],
+          "effects": [],
+          "bold": true,
+          "italic": false,
+          "underlined": false,
+          "smoothed": true,
+          "text": "CREW",
+          "font": "",
+          "characterSize": 18,
+          "color": {
+            "r": 23,
+            "g": 56,
+            "b": 74
+          },
+          "textAlignment": "left",
+          "verticalTextAlignment": "top",
+          "lineHeight": 0,
+          "isOutlineEnabled": false,
+          "isShadowEnabled": false,
+          "string": "CREW",
+          "content": {
+            "bold": true,
+            "italic": false,
+            "underlined": false,
+            "smoothed": true,
+            "text": "CREW",
+            "font": "",
+            "characterSize": 18,
+            "color": "23;56;74",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "lineHeight": 0,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false
+          }
+        },
+        {
+          "name": "JournalButton",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "JournalLabel",
+          "type": "TextObject::Text",
+          "variables": [],
+          "behaviors": [],
+          "effects": [],
+          "bold": true,
+          "italic": false,
+          "underlined": false,
+          "smoothed": true,
+          "text": "JOURNAL",
+          "font": "",
+          "characterSize": 18,
+          "color": {
+            "r": 23,
+            "g": 56,
+            "b": 74
+          },
+          "textAlignment": "left",
+          "verticalTextAlignment": "top",
+          "lineHeight": 0,
+          "isOutlineEnabled": false,
+          "isShadowEnabled": false,
+          "string": "JOURNAL",
+          "content": {
+            "bold": true,
+            "italic": false,
+            "underlined": false,
+            "smoothed": true,
+            "text": "JOURNAL",
+            "font": "",
+            "characterSize": 18,
+            "color": "23;56;74",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "lineHeight": 0,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false
+          }
+        },
+        {
+          "name": "SettingsButton",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "SettingsLabel",
+          "type": "TextObject::Text",
+          "variables": [],
+          "behaviors": [],
+          "effects": [],
+          "bold": true,
+          "italic": false,
+          "underlined": false,
+          "smoothed": true,
+          "text": "SETTINGS",
+          "font": "",
+          "characterSize": 18,
+          "color": {
+            "r": 23,
+            "g": 56,
+            "b": 74
+          },
+          "textAlignment": "left",
+          "verticalTextAlignment": "top",
+          "lineHeight": 0,
+          "isOutlineEnabled": false,
+          "isShadowEnabled": false,
+          "string": "SETTINGS",
+          "content": {
+            "bold": true,
+            "italic": false,
+            "underlined": false,
+            "smoothed": true,
+            "text": "SETTINGS",
+            "font": "",
+            "characterSize": 18,
+            "color": "23;56;74",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "lineHeight": 0,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false
+          }
+        },
+        {
+          "name": "PauseButton",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "PauseLabel",
+          "type": "TextObject::Text",
+          "variables": [],
+          "behaviors": [],
+          "effects": [],
+          "bold": true,
+          "italic": false,
+          "underlined": false,
+          "smoothed": true,
+          "text": "PAUSE",
+          "font": "",
+          "characterSize": 18,
+          "color": {
+            "r": 23,
+            "g": 56,
+            "b": 74
+          },
+          "textAlignment": "left",
+          "verticalTextAlignment": "top",
+          "lineHeight": 0,
+          "isOutlineEnabled": false,
+          "isShadowEnabled": false,
+          "string": "PAUSE",
+          "content": {
+            "bold": true,
+            "italic": false,
+            "underlined": false,
+            "smoothed": true,
+            "text": "PAUSE",
+            "font": "",
+            "characterSize": 18,
+            "color": "23;56;74",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "lineHeight": 0,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false
+          }
+        },
+        {
+          "name": "Status",
+          "type": "TextObject::Text",
+          "variables": [],
+          "behaviors": [],
+          "effects": [],
+          "bold": true,
+          "italic": false,
+          "underlined": false,
+          "smoothed": true,
+          "text": "Tap a picture to explore.",
+          "font": "",
+          "characterSize": 20,
+          "color": {
+            "r": 23,
+            "g": 56,
+            "b": 74
+          },
+          "textAlignment": "left",
+          "verticalTextAlignment": "top",
+          "lineHeight": 0,
+          "isOutlineEnabled": false,
+          "isShadowEnabled": false,
+          "string": "Tap a picture to explore.",
+          "content": {
+            "bold": true,
+            "italic": false,
+            "underlined": false,
+            "smoothed": true,
+            "text": "Tap a picture to explore.",
+            "font": "",
+            "characterSize": 20,
+            "color": "23;56;74",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "lineHeight": 0,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false
+          }
+        },
+        {
+          "name": "Target_home",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Label_home",
+          "type": "TextObject::Text",
+          "variables": [],
+          "behaviors": [],
+          "effects": [],
+          "bold": true,
+          "italic": false,
+          "underlined": false,
+          "smoothed": true,
+          "text": "🏠\nStart",
+          "font": "",
+          "characterSize": 16,
+          "color": {
+            "r": 23,
+            "g": 56,
+            "b": 74
+          },
+          "textAlignment": "left",
+          "verticalTextAlignment": "top",
+          "lineHeight": 0,
+          "isOutlineEnabled": false,
+          "isShadowEnabled": false,
+          "string": "🏠\nStart",
+          "content": {
+            "bold": true,
+            "italic": false,
+            "underlined": false,
+            "smoothed": true,
+            "text": "🏠\nStart",
+            "font": "",
+            "characterSize": 16,
+            "color": "23;56;74",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "lineHeight": 0,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false
+          }
+        },
+        {
+          "name": "Target_plant",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Label_plant",
+          "type": "TextObject::Text",
+          "variables": [],
+          "behaviors": [],
+          "effects": [],
+          "bold": true,
+          "italic": false,
+          "underlined": false,
+          "smoothed": true,
+          "text": "🌱\nLiving\nplant",
+          "font": "",
+          "characterSize": 16,
+          "color": {
+            "r": 23,
+            "g": 56,
+            "b": 74
+          },
+          "textAlignment": "left",
+          "verticalTextAlignment": "top",
+          "lineHeight": 0,
+          "isOutlineEnabled": false,
+          "isShadowEnabled": false,
+          "string": "🌱\nLiving\nplant",
+          "content": {
+            "bold": true,
+            "italic": false,
+            "underlined": false,
+            "smoothed": true,
+            "text": "🌱\nLiving\nplant",
+            "font": "",
+            "characterSize": 16,
+            "color": "23;56;74",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "lineHeight": 0,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false
+          }
+        },
+        {
+          "name": "Target_rock",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Label_rock",
+          "type": "TextObject::Text",
+          "variables": [],
+          "behaviors": [],
+          "effects": [],
+          "bold": true,
+          "italic": false,
+          "underlined": false,
+          "smoothed": true,
+          "text": "🪨\nHill\nrock",
+          "font": "",
+          "characterSize": 16,
+          "color": {
+            "r": 23,
+            "g": 56,
+            "b": 74
+          },
+          "textAlignment": "left",
+          "verticalTextAlignment": "top",
+          "lineHeight": 0,
+          "isOutlineEnabled": false,
+          "isShadowEnabled": false,
+          "string": "🪨\nHill\nrock",
+          "content": {
+            "bold": true,
+            "italic": false,
+            "underlined": false,
+            "smoothed": true,
+            "text": "🪨\nHill\nrock",
+            "font": "",
+            "characterSize": 16,
+            "color": "23;56;74",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "lineHeight": 0,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false
+          }
+        },
+        {
+          "name": "Target_dig",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Label_dig",
+          "type": "TextObject::Text",
+          "variables": [],
+          "behaviors": [],
+          "effects": [],
+          "bold": true,
+          "italic": false,
+          "underlined": false,
+          "smoothed": true,
+          "text": "⛏️\nDig\nsite",
+          "font": "",
+          "characterSize": 16,
+          "color": {
+            "r": 23,
+            "g": 56,
+            "b": 74
+          },
+          "textAlignment": "left",
+          "verticalTextAlignment": "top",
+          "lineHeight": 0,
+          "isOutlineEnabled": false,
+          "isShadowEnabled": false,
+          "string": "⛏️\nDig\nsite",
+          "content": {
+            "bold": true,
+            "italic": false,
+            "underlined": false,
+            "smoothed": true,
+            "text": "⛏️\nDig\nsite",
+            "font": "",
+            "characterSize": 16,
+            "color": "23;56;74",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "lineHeight": 0,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false
+          }
+        },
+        {
+          "name": "Target_magnet",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Label_magnet",
+          "type": "TextObject::Text",
+          "variables": [],
+          "behaviors": [],
+          "effects": [],
+          "bold": true,
+          "italic": false,
+          "underlined": false,
+          "smoothed": true,
+          "text": "🧲\nMagnet\nstation",
+          "font": "",
+          "characterSize": 16,
+          "color": {
+            "r": 23,
+            "g": 56,
+            "b": 74
+          },
+          "textAlignment": "left",
+          "verticalTextAlignment": "top",
+          "lineHeight": 0,
+          "isOutlineEnabled": false,
+          "isShadowEnabled": false,
+          "string": "🧲\nMagnet\nstation",
+          "content": {
+            "bold": true,
+            "italic": false,
+            "underlined": false,
+            "smoothed": true,
+            "text": "🧲\nMagnet\nstation",
+            "font": "",
+            "characterSize": 16,
+            "color": "23;56;74",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "lineHeight": 0,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false
+          }
+        },
+        {
+          "name": "Target_crystal",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Label_crystal",
+          "type": "TextObject::Text",
+          "variables": [],
+          "behaviors": [],
+          "effects": [],
+          "bold": true,
+          "italic": false,
+          "underlined": false,
+          "smoothed": true,
+          "text": "💎\nCrystal\nlookout",
+          "font": "",
+          "characterSize": 16,
+          "color": {
+            "r": 23,
+            "g": 56,
+            "b": 74
+          },
+          "textAlignment": "left",
+          "verticalTextAlignment": "top",
+          "lineHeight": 0,
+          "isOutlineEnabled": false,
+          "isShadowEnabled": false,
+          "string": "💎\nCrystal\nlookout",
+          "content": {
+            "bold": true,
+            "italic": false,
+            "underlined": false,
+            "smoothed": true,
+            "text": "💎\nCrystal\nlookout",
+            "font": "",
+            "characterSize": 16,
+            "color": "23;56;74",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "lineHeight": 0,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false
+          }
+        },
+        {
+          "name": "Target_bridge",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Label_bridge",
+          "type": "TextObject::Text",
+          "variables": [],
+          "behaviors": [],
+          "effects": [],
+          "bold": true,
+          "italic": false,
+          "underlined": false,
+          "smoothed": true,
+          "text": "🌉\nEngineering\narea",
+          "font": "",
+          "characterSize": 16,
+          "color": {
+            "r": 23,
+            "g": 56,
+            "b": 74
+          },
+          "textAlignment": "left",
+          "verticalTextAlignment": "top",
+          "lineHeight": 0,
+          "isOutlineEnabled": false,
+          "isShadowEnabled": false,
+          "string": "🌉\nEngineering\narea",
+          "content": {
+            "bold": true,
+            "italic": false,
+            "underlined": false,
+            "smoothed": true,
+            "text": "🌉\nEngineering\narea",
+            "font": "",
+            "characterSize": 16,
+            "color": "23;56;74",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "lineHeight": 0,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false
+          }
+        },
+        {
+          "name": "Panel",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "panel",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "CardTitle",
+          "type": "TextObject::Text",
+          "variables": [],
+          "behaviors": [],
+          "effects": [],
+          "bold": true,
+          "italic": false,
+          "underlined": false,
+          "smoothed": true,
+          "text": "Discovery",
+          "font": "",
+          "characterSize": 30,
+          "color": {
+            "r": 23,
+            "g": 56,
+            "b": 74
+          },
+          "textAlignment": "left",
+          "verticalTextAlignment": "top",
+          "lineHeight": 0,
+          "isOutlineEnabled": false,
+          "isShadowEnabled": false,
+          "string": "Discovery",
+          "content": {
+            "bold": true,
+            "italic": false,
+            "underlined": false,
+            "smoothed": true,
+            "text": "Discovery",
+            "font": "",
+            "characterSize": 30,
+            "color": "23;56;74",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "lineHeight": 0,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false
+          }
+        },
+        {
+          "name": "CardBody",
+          "type": "TextObject::Text",
+          "variables": [],
+          "behaviors": [],
+          "effects": [],
+          "bold": true,
+          "italic": false,
+          "underlined": false,
+          "smoothed": true,
+          "text": "",
+          "font": "",
+          "characterSize": 19,
+          "color": {
+            "r": 23,
+            "g": 56,
+            "b": 74
+          },
+          "textAlignment": "left",
+          "verticalTextAlignment": "top",
+          "lineHeight": 0,
+          "isOutlineEnabled": false,
+          "isShadowEnabled": false,
+          "string": "",
+          "content": {
+            "bold": true,
+            "italic": false,
+            "underlined": false,
+            "smoothed": true,
+            "text": "",
+            "font": "",
+            "characterSize": 19,
+            "color": "23;56;74",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "lineHeight": 0,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false
+          }
+        },
+        {
+          "name": "CardVisual",
+          "type": "TextObject::Text",
+          "variables": [],
+          "behaviors": [],
+          "effects": [],
+          "bold": true,
+          "italic": false,
+          "underlined": false,
+          "smoothed": true,
+          "text": "",
+          "font": "",
+          "characterSize": 30,
+          "color": {
+            "r": 23,
+            "g": 56,
+            "b": 74
+          },
+          "textAlignment": "left",
+          "verticalTextAlignment": "top",
+          "lineHeight": 0,
+          "isOutlineEnabled": false,
+          "isShadowEnabled": false,
+          "string": "",
+          "content": {
+            "bold": true,
+            "italic": false,
+            "underlined": false,
+            "smoothed": true,
+            "text": "",
+            "font": "",
+            "characterSize": 30,
+            "color": "23;56;74",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "lineHeight": 0,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false
+          }
+        },
+        {
+          "name": "Close",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "CloseLabel",
+          "type": "TextObject::Text",
+          "variables": [],
+          "behaviors": [],
+          "effects": [],
+          "bold": true,
+          "italic": false,
+          "underlined": false,
+          "smoothed": true,
+          "text": "X",
+          "font": "",
+          "characterSize": 28,
+          "color": {
+            "r": 23,
+            "g": 56,
+            "b": 74
+          },
+          "textAlignment": "left",
+          "verticalTextAlignment": "top",
+          "lineHeight": 0,
+          "isOutlineEnabled": false,
+          "isShadowEnabled": false,
+          "string": "X",
+          "content": {
+            "bold": true,
+            "italic": false,
+            "underlined": false,
+            "smoothed": true,
+            "text": "X",
+            "font": "",
+            "characterSize": 28,
+            "color": "23;56;74",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "lineHeight": 0,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false
+          }
+        },
+        {
+          "name": "Option0",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "OptionLabel0",
+          "type": "TextObject::Text",
+          "variables": [],
+          "behaviors": [],
+          "effects": [],
+          "bold": true,
+          "italic": false,
+          "underlined": false,
+          "smoothed": true,
+          "text": "",
+          "font": "",
+          "characterSize": 18,
+          "color": {
+            "r": 23,
+            "g": 56,
+            "b": 74
+          },
+          "textAlignment": "left",
+          "verticalTextAlignment": "top",
+          "lineHeight": 0,
+          "isOutlineEnabled": false,
+          "isShadowEnabled": false,
+          "string": "",
+          "content": {
+            "bold": true,
+            "italic": false,
+            "underlined": false,
+            "smoothed": true,
+            "text": "",
+            "font": "",
+            "characterSize": 18,
+            "color": "23;56;74",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "lineHeight": 0,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false
+          }
+        },
+        {
+          "name": "Option1",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "OptionLabel1",
+          "type": "TextObject::Text",
+          "variables": [],
+          "behaviors": [],
+          "effects": [],
+          "bold": true,
+          "italic": false,
+          "underlined": false,
+          "smoothed": true,
+          "text": "",
+          "font": "",
+          "characterSize": 18,
+          "color": {
+            "r": 23,
+            "g": 56,
+            "b": 74
+          },
+          "textAlignment": "left",
+          "verticalTextAlignment": "top",
+          "lineHeight": 0,
+          "isOutlineEnabled": false,
+          "isShadowEnabled": false,
+          "string": "",
+          "content": {
+            "bold": true,
+            "italic": false,
+            "underlined": false,
+            "smoothed": true,
+            "text": "",
+            "font": "",
+            "characterSize": 18,
+            "color": "23;56;74",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "lineHeight": 0,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false
+          }
+        },
+        {
+          "name": "Option2",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "OptionLabel2",
+          "type": "TextObject::Text",
+          "variables": [],
+          "behaviors": [],
+          "effects": [],
+          "bold": true,
+          "italic": false,
+          "underlined": false,
+          "smoothed": true,
+          "text": "",
+          "font": "",
+          "characterSize": 18,
+          "color": {
+            "r": 23,
+            "g": 56,
+            "b": 74
+          },
+          "textAlignment": "left",
+          "verticalTextAlignment": "top",
+          "lineHeight": 0,
+          "isOutlineEnabled": false,
+          "isShadowEnabled": false,
+          "string": "",
+          "content": {
+            "bold": true,
+            "italic": false,
+            "underlined": false,
+            "smoothed": true,
+            "text": "",
+            "font": "",
+            "characterSize": 18,
+            "color": "23;56;74",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "lineHeight": 0,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false
+          }
+        },
+        {
+          "name": "Option3",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "OptionLabel3",
+          "type": "TextObject::Text",
+          "variables": [],
+          "behaviors": [],
+          "effects": [],
+          "bold": true,
+          "italic": false,
+          "underlined": false,
+          "smoothed": true,
+          "text": "",
+          "font": "",
+          "characterSize": 18,
+          "color": {
+            "r": 23,
+            "g": 56,
+            "b": 74
+          },
+          "textAlignment": "left",
+          "verticalTextAlignment": "top",
+          "lineHeight": 0,
+          "isOutlineEnabled": false,
+          "isShadowEnabled": false,
+          "string": "",
+          "content": {
+            "bold": true,
+            "italic": false,
+            "underlined": false,
+            "smoothed": true,
+            "text": "",
+            "font": "",
+            "characterSize": 18,
+            "color": "23;56;74",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "lineHeight": 0,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false
+          }
+        },
+        {
+          "name": "Option4",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "OptionLabel4",
+          "type": "TextObject::Text",
+          "variables": [],
+          "behaviors": [],
+          "effects": [],
+          "bold": true,
+          "italic": false,
+          "underlined": false,
+          "smoothed": true,
+          "text": "",
+          "font": "",
+          "characterSize": 18,
+          "color": {
+            "r": 23,
+            "g": 56,
+            "b": 74
+          },
+          "textAlignment": "left",
+          "verticalTextAlignment": "top",
+          "lineHeight": 0,
+          "isOutlineEnabled": false,
+          "isShadowEnabled": false,
+          "string": "",
+          "content": {
+            "bold": true,
+            "italic": false,
+            "underlined": false,
+            "smoothed": true,
+            "text": "",
+            "font": "",
+            "characterSize": 18,
+            "color": "23;56;74",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "lineHeight": 0,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false
+          }
+        },
+        {
+          "name": "Option5",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "OptionLabel5",
+          "type": "TextObject::Text",
+          "variables": [],
+          "behaviors": [],
+          "effects": [],
+          "bold": true,
+          "italic": false,
+          "underlined": false,
+          "smoothed": true,
+          "text": "",
+          "font": "",
+          "characterSize": 18,
+          "color": {
+            "r": 23,
+            "g": 56,
+            "b": 74
+          },
+          "textAlignment": "left",
+          "verticalTextAlignment": "top",
+          "lineHeight": 0,
+          "isOutlineEnabled": false,
+          "isShadowEnabled": false,
+          "string": "",
+          "content": {
+            "bold": true,
+            "italic": false,
+            "underlined": false,
+            "smoothed": true,
+            "text": "",
+            "font": "",
+            "characterSize": 18,
+            "color": "23;56;74",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "lineHeight": 0,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false
+          }
+        }
+      ],
+      "instances": [
+        {
+          "name": "Ground",
+          "x": 0,
+          "y": 0,
+          "width": 1000,
+          "height": 600,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 0,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "Hill",
+          "x": 220,
+          "y": 110,
+          "width": 280,
+          "height": 150,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 1,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "Path",
+          "x": 90,
+          "y": 435,
+          "width": 800,
+          "height": 55,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 1,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "Trail",
+          "x": 195,
+          "y": 175,
+          "width": 50,
+          "height": 280,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 1,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "TopTrail",
+          "x": 220,
+          "y": 150,
+          "width": 650,
+          "height": 50,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 1,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "Pond",
+          "x": 520,
+          "y": 160,
+          "width": 160,
+          "height": 160,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 2,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "Platform",
+          "x": 740,
+          "y": 125,
+          "width": 180,
+          "height": 100,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 2,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "Ramp",
+          "x": 745,
+          "y": 215,
+          "width": 65,
+          "height": 180,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 2,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "Focus",
+          "x": 0,
+          "y": 0,
+          "width": 90,
+          "height": 70,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 3,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "Marker",
+          "x": 120,
+          "y": 450,
+          "width": 24,
+          "height": 24,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 3,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "Alex",
+          "x": 110,
+          "y": 415,
+          "width": 40,
+          "height": 56,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 10,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "PipRobot",
+          "x": 155,
+          "y": 400,
+          "width": 40,
+          "height": 40,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 10,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "Title",
+          "x": 20,
+          "y": 12,
+          "width": 0,
+          "height": 0,
+          "customSize": false,
+          "angle": 0,
+          "zOrder": 5,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "PipButton",
+          "x": 460,
+          "y": 8,
+          "width": 100,
+          "height": 65,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 20,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "PipLabel",
+          "x": 468,
+          "y": 26,
+          "width": 0,
+          "height": 0,
+          "customSize": false,
+          "angle": 0,
+          "zOrder": 21,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "CrewButton",
+          "x": 566,
+          "y": 8,
+          "width": 100,
+          "height": 65,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 20,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "CrewLabel",
+          "x": 574,
+          "y": 26,
+          "width": 0,
+          "height": 0,
+          "customSize": false,
+          "angle": 0,
+          "zOrder": 21,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "JournalButton",
+          "x": 672,
+          "y": 8,
+          "width": 100,
+          "height": 65,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 20,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "JournalLabel",
+          "x": 680,
+          "y": 26,
+          "width": 0,
+          "height": 0,
+          "customSize": false,
+          "angle": 0,
+          "zOrder": 21,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "SettingsButton",
+          "x": 778,
+          "y": 8,
+          "width": 100,
+          "height": 65,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 20,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "SettingsLabel",
+          "x": 786,
+          "y": 26,
+          "width": 0,
+          "height": 0,
+          "customSize": false,
+          "angle": 0,
+          "zOrder": 21,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "PauseButton",
+          "x": 884,
+          "y": 8,
+          "width": 100,
+          "height": 65,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 20,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "PauseLabel",
+          "x": 892,
+          "y": 26,
+          "width": 0,
+          "height": 0,
+          "customSize": false,
+          "angle": 0,
+          "zOrder": 21,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "Status",
+          "x": 20,
+          "y": 563,
+          "width": 0,
+          "height": 0,
+          "customSize": false,
+          "angle": 0,
+          "zOrder": 30,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "Target_home",
+          "x": 83,
+          "y": 425,
+          "width": 94,
+          "height": 70,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 5,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "Label_home",
+          "x": 90,
+          "y": 429,
+          "width": 0,
+          "height": 0,
+          "customSize": false,
+          "angle": 0,
+          "zOrder": 6,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "Target_plant",
+          "x": 173,
+          "y": 210,
+          "width": 94,
+          "height": 70,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 5,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "Label_plant",
+          "x": 180,
+          "y": 214,
+          "width": 0,
+          "height": 0,
+          "customSize": false,
+          "angle": 0,
+          "zOrder": 6,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "Target_rock",
+          "x": 333,
+          "y": 140,
+          "width": 94,
+          "height": 70,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 5,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "Label_rock",
+          "x": 340,
+          "y": 144,
+          "width": 0,
+          "height": 0,
+          "customSize": false,
+          "angle": 0,
+          "zOrder": 6,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "Target_dig",
+          "x": 408,
+          "y": 385,
+          "width": 94,
+          "height": 70,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 5,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "Label_dig",
+          "x": 415,
+          "y": 389,
+          "width": 0,
+          "height": 0,
+          "customSize": false,
+          "angle": 0,
+          "zOrder": 6,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "Target_magnet",
+          "x": 663,
+          "y": 375,
+          "width": 94,
+          "height": 70,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 5,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "Label_magnet",
+          "x": 670,
+          "y": 379,
+          "width": 0,
+          "height": 0,
+          "customSize": false,
+          "angle": 0,
+          "zOrder": 6,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "Target_crystal",
+          "x": 768,
+          "y": 145,
+          "width": 94,
+          "height": 70,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 5,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "Label_crystal",
+          "x": 775,
+          "y": 149,
+          "width": 0,
+          "height": 0,
+          "customSize": false,
+          "angle": 0,
+          "zOrder": 6,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "Target_bridge",
+          "x": 783,
+          "y": 445,
+          "width": 94,
+          "height": 70,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 5,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "Label_bridge",
+          "x": 790,
+          "y": 449,
+          "width": 0,
+          "height": 0,
+          "customSize": false,
+          "angle": 0,
+          "zOrder": 6,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "Panel",
+          "x": 100,
+          "y": 90,
+          "width": 800,
+          "height": 455,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 50,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "CardTitle",
+          "x": 125,
+          "y": 110,
+          "width": 0,
+          "height": 0,
+          "customSize": false,
+          "angle": 0,
+          "zOrder": 51,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "CardBody",
+          "x": 125,
+          "y": 180,
+          "width": 0,
+          "height": 0,
+          "customSize": false,
+          "angle": 0,
+          "zOrder": 51,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "CardVisual",
+          "x": 125,
+          "y": 260,
+          "width": 0,
+          "height": 0,
+          "customSize": false,
+          "angle": 0,
+          "zOrder": 51,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "Close",
+          "x": 810,
+          "y": 100,
+          "width": 75,
+          "height": 65,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 52,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "CloseLabel",
+          "x": 835,
+          "y": 113,
+          "width": 0,
+          "height": 0,
+          "customSize": false,
+          "angle": 0,
+          "zOrder": 53,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "Option0",
+          "x": 125,
+          "y": 325,
+          "width": 355,
+          "height": 65,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 52,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "OptionLabel0",
+          "x": 135,
+          "y": 342,
+          "width": 0,
+          "height": 0,
+          "customSize": false,
+          "angle": 0,
+          "zOrder": 53,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "Option1",
+          "x": 500,
+          "y": 325,
+          "width": 355,
+          "height": 65,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 52,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "OptionLabel1",
+          "x": 510,
+          "y": 342,
+          "width": 0,
+          "height": 0,
+          "customSize": false,
+          "angle": 0,
+          "zOrder": 53,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "Option2",
+          "x": 125,
+          "y": 395,
+          "width": 355,
+          "height": 65,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 52,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "OptionLabel2",
+          "x": 135,
+          "y": 412,
+          "width": 0,
+          "height": 0,
+          "customSize": false,
+          "angle": 0,
+          "zOrder": 53,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "Option3",
+          "x": 500,
+          "y": 395,
+          "width": 355,
+          "height": 65,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 52,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "OptionLabel3",
+          "x": 510,
+          "y": 412,
+          "width": 0,
+          "height": 0,
+          "customSize": false,
+          "angle": 0,
+          "zOrder": 53,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "Option4",
+          "x": 125,
+          "y": 465,
+          "width": 355,
+          "height": 65,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 52,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "OptionLabel4",
+          "x": 135,
+          "y": 482,
+          "width": 0,
+          "height": 0,
+          "customSize": false,
+          "angle": 0,
+          "zOrder": 53,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "Option5",
+          "x": 500,
+          "y": 465,
+          "width": 355,
+          "height": 65,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 52,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "OptionLabel5",
+          "x": 510,
+          "y": 482,
+          "width": 0,
+          "height": 0,
+          "customSize": false,
+          "angle": 0,
+          "zOrder": 53,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "comment": "JACC native prototype. Gameplay uses native objects; edit gdevelop/src/gameplay.js then run build.mjs. All artwork is provisional.",
+          "color": {
+            "r": 255,
+            "g": 230,
+            "b": 109,
+            "textR": 0,
+            "textG": 0,
+            "textB": 0
+          }
+        },
+        {
+          "type": "BuiltinCommonInstructions::JsCode",
+          "inlineCode": [
+            "// Canonical names and specializations; visuals are temporary geometric placeholders.",
+            "const roster=[['Alex Thompson','Red','Fleming Model — Electromagnetism'],['Malik Adeyemi','Green','Townes Model — Laser optics and computing'],['Maya Rodriguez','Pink','Allwood Model — Geology and chemistry'],['Aiden Williams','Yellow','Engineering Model — Construction and heavy engineering'],['Kaito Tanaka','White','Aeronautics Model — Flight and speed'],['Lucas Turner','Black','Generation-1 J.A.C.C.']];",
+            "const materials=[",
+            "{id:'quartz',name:'Quartz',icon:'💎',diagram:'☀️ → 💎 → ✨',text:'Quartz is a mineral. Look at its crystal faces! Light can pass through some quartz.'},",
+            "{id:'iron',name:'Iron-bearing mineral',icon:'🪨',diagram:'🧲 → 🪨',text:'Some iron-bearing minerals, such as magnetite, are attracted to a magnet. Not all iron minerals are magnetic.'},",
+            "{id:'fossil',name:'Fossil',icon:'🐚',diagram:'🐚 → 🟫 → 🪨',text:'A fossil is a preserved trace or remain of ancient life. Layers of sediment can bury and preserve shells.'}];",
+            "const objects=[",
+            "{id:'home',x:130,y:460,icon:'🏠',name:'Start',kind:'home'},",
+            "{id:'plant',x:220,y:245,icon:'🌱',name:'Living plant',text:'Plants are living things. They need water and light to grow.',diagram:'☀️ + 💧 → 🌱'},",
+            "{id:'rock',x:380,y:175,icon:'🪨',name:'Hill rock',text:'This rock is nonliving. Look at its shape and compare it with the plant.',diagram:'🌱 ≠ 🪨'},",
+            "{id:'dig',x:455,y:420,icon:'⛏️',name:'Dig site',kind:'dig'},",
+            "{id:'magnet',x:710,y:410,icon:'🧲',name:'Magnet station',text:'Magnets can pull some materials without touching them. The science lab opens in a later phase.',diagram:'🧲 ← 🪨'},",
+            "{id:'crystal',x:815,y:180,icon:'💎',name:'Crystal lookout',text:'Look at the repeating shapes of crystals. This platform lets us observe from above.',diagram:'◇ ◇ ◇'},",
+            "{id:'bridge',x:830,y:480,icon:'🌉',name:'Engineering area',text:'A bridge supports a path across a gap. Tap-to-build activities come in a later phase.',diagram:'🟫 🌉 🟫'}];",
+            "const modes={exploration:{phase:1,status:'playable'},geology:{phase:1,status:'playable'},lab:{phase:2,status:'planned'},engineering:{phase:2,status:'planned'},ocean:{phase:3,status:'planned'},flight:{phase:3,status:'planned'},pip:{phase:1,status:'basic'}};",
+            "",
+            "const COLS=25, ROWS=15, CELL=40;",
+            "// The pond is blocked. Hill and ramp/platform cells are traversable automatically.",
+            "function blocked(x,y){return x>=13&&x<=16&&y>=4&&y<=7;}",
+            "function cellAt(x,y){return [Math.max(0,Math.min(COLS-1,Math.floor(x/CELL))),Math.max(0,Math.min(ROWS-1,Math.floor(y/CELL)))];}",
+            "function pathfind(from,to){const start=cellAt(...from),goal=cellAt(...to);if(blocked(...goal))return [];const key=p=>p.join(',');const queue=[start],parents=new Map([[key(start),null]]);for(let i=0;i<queue.length;i++){const p=queue[i];if(key(p)===key(goal)){const out=[];let c=p;while(parents.get(key(c))!==null){out.push([c[0]*CELL+20,c[1]*CELL+20]);c=parents.get(key(c));}return out.reverse();}for(const [dx,dy] of [[1,0],[-1,0],[0,1],[0,-1]]){const n=[p[0]+dx,p[1]+dy];if(n[0]<0||n[1]<0||n[0]>=COLS||n[1]>=ROWS||blocked(...n)||parents.has(key(n)))continue;parents.set(key(n),p);queue.push(n);}}return [];}",
+            "",
+            "// Runs once per frame as a native GDevelop JavaScript event.",
+            "const obj=name=>runtimeScene.getObjects(name)[0];",
+            "const text=(name,value)=>obj(name).setString(value);",
+            "if(!runtimeScene.__jacc){",
+            " runtimeScene.__jacc={started:false,paused:false,path:[],pending:null,dig:0,action:0,found:new Set(),last:null,overlay:null,buttons:[],focus:0,tab:false,enter:false,settings:{reduced:false,effects:true,narration:false,volume:.3}};",
+            "}",
+            "const s=runtimeScene.__jacc,actor=obj('Alex');",
+            "const say=message=>{text('Status',message);if(s.settings.narration&&typeof speechSynthesis!=='undefined'){speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(message);u.volume=s.settings.volume;speechSynthesis.speak(u)}};",
+            "const ui=['Panel','CardTitle','CardBody','CardVisual','Close','CloseLabel',...Array.from({length:6},(_,i)=>['Option'+i,'OptionLabel'+i]).flat()];",
+            "function close(){s.overlay=null;for(const n of ui)obj(n).hide();}",
+            "function open(title,body,visual,options=[]){s.overlay=title;s.buttons=[];for(const n of ui)obj(n).hide();for(const n of ['Panel','CardTitle','CardBody','CardVisual','Close','CloseLabel'])obj(n).hide(false);text('CardTitle',title);text('CardBody',body.replace(/(.{1,64})(?:\\s|$)/g,'$1\\n').trim());text('CardVisual',visual);options.slice(0,6).forEach(([label,fn],i)=>{obj('Option'+i).hide(false);obj('OptionLabel'+i).hide(false);text('OptionLabel'+i,label);s.buttons.push({name:'Option'+i,fn})});say(title+'. '+body);}",
+            "function select(o){s.started=true;s.path=pathfind([actor.getX()+20,actor.getY()+45],[o.x-65,o.y+55]);s.pending=o;s.action=0;say('Going to '+o.name);if(!s.path.length){s.pending=null;arrive(o)}}",
+            "function card(o){open(o.name,o.text,o.icon+'   '+o.diagram,[['Listen / replay',()=>{say(o.text);if(typeof speechSynthesis!=='undefined'){speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(o.text);u.volume=s.settings.volume;speechSynthesis.speak(u)}}],['Revisit',()=>{close();select(objects.find(x=>x.id===o.id)||objects.find(x=>x.id==='dig'))}]]);}",
+            "function arrive(o){s.last=o.id;if(o.kind==='home'){say('Back at the start. Choose a picture.');return}if(o.kind==='dig'){s.action=s.settings.reduced?.2:1.2;say('Digging through the soil...');return}s.found.add(o.id);card(o)}",
+            "function pip(){open('PIP','Choose a picture. Alex will walk there and explore.','PIP  >  TAP  >  DISCOVER',[",
+            " ['Show places',()=>{close();s.settings.effects=true;objects.forEach(o=>obj('Target_'+o.id).setOpacity(190));say('The cream pictures are places to explore.')}],",
+            " ['Show me a dig',()=>{close();select(objects.find(o=>o.id==='dig'))}],",
+            " ['Previous activity',()=>{close();select(objects.find(o=>o.id===s.last)||objects[0])}],",
+            " ['Repeat guidance',()=>say('Tap a picture to explore. Tap the pickaxe to dig. Nothing needs holding or dragging.')],",
+            " ['Return home',()=>{close();select(objects[0])}]",
+            " ]);}",
+            "function journal(page=0){const found=[...objects,...materials].filter(o=>s.found.has(o.id));const entries=found.slice(page*4,page*4+4).map(o=>[o.icon+' '+o.name,()=>card(o)]);if(page>0)entries.push(['Previous page',()=>journal(page-1)]);if(found.length>(page+1)*4)entries.push(['Next page',()=>journal(page+1)]);open('Discovery journal',found.length?'Choose a discovery to replay.':'Explore or dig to find a discovery.','OBSERVE > DISCOVER > REPEAT',entries);}",
+            "",
+            "function settings(){const v=s.settings;open('Settings','All activities wait for you. No scores or penalties.','TAKE YOUR TIME',[",
+            " ['Volume '+Math.round(v.volume*100)+'%',()=>{v.volume=v.volume>=1?0:Math.min(1,Math.round((v.volume+.25)*100)/100);settings()}],",
+            " ['Narration '+(v.narration?'ON':'OFF'),()=>{v.narration=!v.narration;settings()}],",
+            " ['Reduced animation '+(v.reduced?'ON':'OFF'),()=>{v.reduced=!v.reduced;settings()}],",
+            " ['Visual effects '+(v.effects?'ON':'OFF'),()=>{v.effects=!v.effects;obj('Marker').hide(!v.effects);settings()}]",
+            " ]);}",
+            "if(!s.initialized){s.initialized=true;close();say('Tap a picture or the ground to explore. PIP can help.');gdjs.evtTools.input.touchSimulateMouse(runtimeScene,true);}",
+            "const actions=s.overlay?[{name:'Close',fn:close},...s.buttons]:[",
+            " {name:'PipButton',fn:pip},{name:'JournalButton',fn:journal},{name:'SettingsButton',fn:settings},",
+            " {name:'PauseButton',fn:()=>{s.paused=!s.paused;text('PauseLabel',s.paused?'Resume':'Pause');say(s.paused?'Paused. Take your time.':'Ready to explore.')}},",
+            " {name:'CrewButton',fn:()=>open('Alex Thompson','Red suit. Fleming Model: Electromagnetism.\\nOnly Alex is playable in Phase 1. All artwork is temporary.','J.A.C.C. CREW')},",
+            " ...objects.map(o=>({name:'Target_'+o.id,fn:()=>{if(!s.paused)select(o)}}))];",
+            "const key=k=>gdjs.evtTools.input.isKeyPressed(runtimeScene,k);",
+            "if(key('Escape')&&s.overlay)close();",
+            "if(key('Tab')&&!s.tab)s.focus=(s.focus+1)%actions.length;",
+            "s.tab=key('Tab');s.focus%=actions.length;",
+            "if(key('Return')&&!s.enter)actions[s.focus].fn();s.enter=key('Return');",
+            "const x=gdjs.evtTools.input.getCursorX(runtimeScene,'',0),y=gdjs.evtTools.input.getCursorY(runtimeScene,'',0);",
+            "if(gdjs.evtTools.input.isMouseButtonReleased(runtimeScene,'Left')){",
+            " const hit=actions.find(a=>{const o=obj(a.name);return x>=o.getX()&&x<=o.getX()+o.getWidth()&&y>=o.getY()&&y<=o.getY()+o.getHeight()});",
+            " if(hit)hit.fn();else if(!s.overlay&&!s.paused&&y>95){s.started=true;s.pending=null;s.action=0;s.path=pathfind([actor.getX()+20,actor.getY()+45],[x,y]);obj('Marker').setPosition(x-12,y-12);obj('Marker').hide(!s.settings.effects);say(s.path.length?'Walking to your marker.':'Choose the path around the pond.');}",
+            "}",
+            "const dt=Math.min(gdjs.evtTools.runtimeScene.getElapsedTimeInSeconds(runtimeScene),.05);",
+            "if(!s.paused&&!s.overlay){",
+            " if(s.path.length){const [x,y]=s.path[0],ax=actor.getX()+20,ay=actor.getY()+45,dx=x-ax,dy=y-ay,d=Math.hypot(dx,dy),step=150*dt;if(d<=step){actor.setPosition(x-20,y-45);s.path.shift();if(!s.path.length&&s.pending){const o=s.pending;s.pending=null;arrive(o)}}else actor.setPosition(actor.getX()+dx/d*step,actor.getY()+dy/d*step);}",
+            " if(s.action>0){s.action-=dt;if(s.action<=0){const m=materials[s.dig++%materials.length];s.found.add(m.id);card(m)}}",
+            "}",
+            "obj('PipRobot').setPosition(actor.getX()+43,actor.getY()-10);",
+            "obj('Focus').setPosition(obj(actions[s.focus].name).getX()-5,obj(actions[s.focus].name).getY()-5);obj('Focus').setWidth(obj(actions[s.focus].name).getWidth()+10);obj('Focus').setHeight(obj(actions[s.focus].name).getHeight()+10);",
+            ""
+          ],
+          "parameterObjects": "",
+          "useStrict": true,
+          "eventsSheetExpanded": false
+        }
+      ],
+      "variables": [],
+      "objectsGroups": [],
+      "behaviorsSharedData": []
+    }
+  ],
+  "externalEvents": [],
+  "eventsFunctionsExtensions": [],
+  "externalLayouts": [],
+  "externalSourceFiles": []
+}
