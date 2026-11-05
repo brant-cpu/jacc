@@ -2,7 +2,7 @@
 const obj=name=>runtimeScene.getObjects(name)[0];
 const text=(name,value)=>obj(name).setString(value);
 if(!runtimeScene.__jacc){
- runtimeScene.__jacc={pip:standardPip(),pipTab:'travel',pipPage:0,crew:0,started:false,paused:false,path:[],pending:null,dig:0,action:0,found:new Set(),visited:new Set(),last:null,overlay:null,buttons:[],focus:0,tab:false,enter:false,settings:{reduced:false,effects:true,narration:false,volume:.3}};
+ runtimeScene.__jacc={zone:'hq',journey:null,pip:standardPip(),pipTab:'travel',pipPage:0,crew:0,started:false,paused:false,path:[],pending:null,dig:0,action:0,found:new Set(),visited:new Set(),last:null,overlay:null,buttons:[],focus:0,tab:false,enter:false,settings:{reduced:false,effects:true,narration:false,volume:.3}};
 }
 const s=runtimeScene.__jacc,actor=obj('Alex');
 const say=message=>{text('Status',message);if(s.settings.narration&&typeof speechSynthesis!=='undefined'){speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(message);u.volume=s.settings.volume;speechSynthesis.speak(u)}};
@@ -10,16 +10,19 @@ const crewUI=Array.from({length:6},(_,i)=>['CrewCard'+i,'CrewPortrait'+i,'CrewNa
 const ui=[...pipWorkshopUI,...crewUI,'Panel','CardTitle','CardBody','CardVisual','Close','CloseLabel',...Array.from({length:6},(_,i)=>['Option'+i,'OptionLabel'+i]).flat()];
 function close(){s.overlay=null;for(const n of ui)obj(n).hide();}
 function open(title,body,visual,options=[]){s.overlay=title;s.buttons=[];obj('WorkshopNote').setPosition(125,435);for(const n of ui)obj(n).hide();for(const n of ['Panel','CardTitle','CardBody','CardVisual','Close','CloseLabel'])obj(n).hide(false);text('CardTitle',title);text('CardBody',body.replace(/(.{1,64})(?:\s|$)/g,'$1\n').trim());text('CardVisual',visual);options.slice(0,6).forEach(([label,fn],i)=>{obj('Option'+i).hide(false);obj('OptionLabel'+i).hide(false);text('OptionLabel'+i,label);s.buttons.push({name:'Option'+i,fn})});say(title+'. '+body);}
-function select(o){s.started=true;s.path=pathfind([actor.getX()+20,actor.getY()+45],[o.x-65,o.y+55]);s.pending=o;s.action=0;say('Going to '+o.name);if(!s.path.length){s.pending=null;arrive(o)}}
-function card(o){open(o.name,o.text,o.icon+'   '+o.diagram,[['Listen / replay',()=>{say(o.text);if(typeof speechSynthesis!=='undefined'){speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(o.text);u.volume=s.settings.volume;speechSynthesis.speak(u)}}],['Revisit',()=>{close();select(objects.find(x=>x.id===o.id)||objects.find(x=>x.id==='dig'))}],...(materials.some(m=>m.id===o.id)?[['Ask PIP',()=>nativePipAnalysis(o.id)]]:[])]);}
-function arrive(o){s.last=o.id;if(o.kind!=='dig')s.visited.add(o.id);if(o.kind==='home'){say('Back at the start. Choose a picture.');return}if(o.kind==='dig'){s.action=s.settings.reduced?.2:1.2;say('Digging through the soil...');return}s.found.add(o.id);card(o)}
+function nativeActiveObjects(){return objects.filter(o=>o.zone===s.zone)}
+function nativeZone(id){s.zone=id;s.journey=null;s.pending=null;s.path=[];s.action=0;const [x,y]=zones[id].spawn;actor.setPosition(x-20,y-45);for(const name of ['Ground','Hill','Path','Trail','TopTrail','Pond','Platform','Ramp'])obj(name).hide(id==='hq');obj('HQBackdrop').hide(id!=='hq');for(const o of objects){obj('Target_'+o.id).hide(o.zone!==id);obj('Label_'+o.id).hide(o.zone!==id)}text('Title','J.A.C.C. | '+(id==='hq'?'GSEI HQ':'Training Grounds'));say('Welcome to '+zones[id].name+'.');}
+function select(o){if(!o||s.paused)return;s.started=true;s.journey=null;if(o.zone!==s.zone){s.journey=o.id;o=objects.find(x=>x.id===zones[s.zone].exit)}s.path=pathfind([actor.getX()+20,actor.getY()+45],[o.x-65,o.y+55],s.zone);s.pending=o;s.action=0;say('Going to '+o.name);if(!s.path.length){s.pending=null;const here=cellAt(actor.getX()+20,actor.getY()+45),goal=cellAt(o.x-65,o.y+55);if(here.join()===goal.join()&&!blocked(...goal,s.zone))arrive(o);else{s.journey=null;say('Choose a clear path to explore.');}}}
+
+function card(o){open(o.name,o.text,o.icon+'   '+o.diagram,[['Listen / replay',()=>{say(o.text);if(typeof speechSynthesis!=='undefined'){speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(o.text);u.volume=s.settings.volume;speechSynthesis.speak(u)}}],['Revisit',()=>{close();select(objects.find(x=>x.id===o.id)||objects.find(x=>x.id==='dig'))}],...(o.id==='hq-map'?[['Go exploring',()=>{close();select(objects.find(x=>x.id==='hq-exit'))}]]:[]),...(o.id==='hq-lab'?[['Find a sample',()=>{close();select(objects.find(x=>x.id==='dig'))}]]:[]),...(o.id==='hq-bunks'?[['Rest here',()=>{close();s.paused=true;text('PauseLabel','Resume');say('Resting. Resume whenever you are ready.')}]]:[]),...(materials.some(m=>m.id===o.id)?[['Ask PIP',()=>nativePipAnalysis(o.id)]]:[])]);}
+function arrive(o){s.last=o.id;if(o.kind!=='dig')s.visited.add(o.id);if(o.kind==='portal'){const next=s.journey;nativeZone(o.to);if(next)select(objects.find(x=>x.id===next));return}if(o.kind==='workshop'){nativePipWorkshop();return}if(o.kind==='crew'){crewMenu();return}if(o.kind==='home'){say('Back at the start. Choose a picture.');return}if(o.kind==='dig'){s.action=s.settings.reduced?.2:1.2;say('Digging through the soil...');return}s.found.add(o.id);card(o)}
 function crewMenu(){open('J.A.C.C. Crew','Tap an astronaut. Everyone can explore every activity.','');for(let i=0;i<roster.length;i++){const r=roster[i];for(const name of ['CrewCard','CrewPortrait','CrewName','CrewDetail'])obj(name+i).hide(false);text('CrewName'+i,(s.crew===i?'[Selected] ':'')+r[0]);text('CrewDetail'+i,(r[1]+' suit | '+r[2]).replace(/(.{1,29})(?:\s|$)/g,'$1\n').trim());s.buttons.push({name:'CrewCard'+i,fn:()=>{s.crew=i;actor.setAnimation(i);text('ActiveCrew',r[0]+' | '+r[1]+' | '+r[2]);close();say(r[0]+' selected. '+r[2])}});}}
 function pip(){open('PIP','Choose a picture. Your astronaut will walk there and explore.','PIP  >  TAP  >  DISCOVER',[
- ['Show places',()=>{close();s.settings.effects=true;objects.forEach(o=>obj('Target_'+o.id).setOpacity(190));say('The cream pictures are places to explore.')}],
+ ['Show places',()=>{close();s.settings.effects=true;nativeActiveObjects().forEach(o=>obj('Target_'+o.id).setOpacity(190));say('The cream pictures are places to explore.')}],
  ['Show me a dig',()=>{close();select(objects.find(o=>o.id==='dig'))}],
- ['Previous activity',()=>{close();select(objects.find(o=>o.id===s.last)||objects[0])}],
+ ['Previous activity',()=>{close();select(objects.find(o=>o.id===s.last)||objects.find(o=>o.id===zones[s.zone].home))}],
  ['Repeat guidance',()=>say('Tap a picture to explore. Tap the pickaxe to dig. Nothing needs holding or dragging.')],
- ['Return home',()=>{close();select(objects[0])}],
+ ['Return home',()=>{close();select(objects.find(o=>o.id===zones[s.zone].home))}],
  ['Build PIP',()=>nativePipWorkshop()]
  ]);}
 function listenJournal(message){if(typeof speechSynthesis!=='undefined'){speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(message);u.volume=s.settings.volume;u.rate=.85;speechSynthesis.speak(u)}}
@@ -36,12 +39,12 @@ function settings(){const v=s.settings;open('Settings','All activities wait for 
  ['Reduced animation '+(v.reduced?'ON':'OFF'),()=>{v.reduced=!v.reduced;settings()}],
  ['Visual effects '+(v.effects?'ON':'OFF'),()=>{v.effects=!v.effects;obj('Marker').hide(!v.effects);settings()}]
  ]);}
-if(!s.initialized){s.initialized=true;close();say('Tap a picture or the ground to explore. PIP can help.');gdjs.evtTools.input.touchSimulateMouse(runtimeScene,true);}
+if(!s.initialized){s.initialized=true;close();nativeZone('hq');say('Tap a picture or the ground to explore. PIP can help.');gdjs.evtTools.input.touchSimulateMouse(runtimeScene,true);}
 const actions=s.overlay?[{name:'Close',fn:close},...s.buttons]:[
  {name:'PipButton',fn:pip},{name:'JournalButton',fn:journal},{name:'SettingsButton',fn:settings},
  {name:'PauseButton',fn:()=>{s.paused=!s.paused;text('PauseLabel',s.paused?'Resume':'Pause');say(s.paused?'Paused. Take your time.':'Ready to explore.')}},
  {name:'CrewButton',fn:crewMenu},
- ...objects.map(o=>({name:'Target_'+o.id,fn:()=>{if(!s.paused)select(o)}}))];
+ ...nativeActiveObjects().map(o=>({name:'Target_'+o.id,fn:()=>{if(!s.paused)select(o)}}))];
 const key=k=>gdjs.evtTools.input.isKeyPressed(runtimeScene,k);
 if(key('Escape')&&s.overlay)close();
 if(key('Tab')&&!s.tab)s.focus=(s.focus+1)%actions.length;
@@ -57,7 +60,7 @@ if(s.overlay==='PIP Workshop'){
 s.pipHeld=held;
 if(released&&!dropped){
  const hit=actions.find(a=>{const o=obj(a.name);return x>=o.getX()&&x<=o.getX()+o.getWidth()&&y>=o.getY()&&y<=o.getY()+o.getHeight()});
- if(hit)hit.fn();else if(!s.overlay&&!s.paused&&y>95){s.started=true;s.pending=null;s.action=0;s.path=pathfind([actor.getX()+20,actor.getY()+45],[x,y]);obj('Marker').setPosition(x-12,y-12);obj('Marker').hide(!s.settings.effects);say(s.path.length?'Walking to your marker.':'Choose the path around the pond.');}
+ if(hit)hit.fn();else if(!s.overlay&&!s.paused&&y>95&&y<520){s.started=true;s.pending=null;s.action=0;s.journey=null;s.path=pathfind([actor.getX()+20,actor.getY()+45],[x,y],s.zone);obj('Marker').setPosition(x-12,y-12);obj('Marker').hide(!s.settings.effects);say(s.path.length?'Walking to your marker.':'Choose the path around the pond.');}
 }
 const dt=Math.min(gdjs.evtTools.runtimeScene.getElapsedTimeInSeconds(runtimeScene),.05);
 if(!s.paused&&!s.overlay){

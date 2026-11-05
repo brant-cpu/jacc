@@ -4,7 +4,7 @@ Granite Pixel Games • Phase 1 working prototypes
 
 ## Using GDevelop 5?
 
-Open **[gdevelop/game.json](gdevelop/game.json)** in GDevelop, open **DiscoveryGrounds**, then press **Preview**. Download and extract the complete repository first; opening the GitHub code page does not launch the project. Keep `gdevelop/assets/` beside the project. See [GDevelop instructions and validation limits](gdevelop/README.md).
+Open **[gdevelop/game.json](gdevelop/game.json)** in GDevelop, open **GSEI_HQ**, then press **Preview**. Download and extract the complete repository first; opening the GitHub code page does not launch the project. Keep `gdevelop/assets/` beside the project. See [GDevelop instructions and validation limits](gdevelop/README.md).
 
 ## Playing in a desktop browser?
 
@@ -15,3 +15,7 @@ These are separate implementations. The browser HTML is not a GDevelop project. 
 ## Build PIP
 
 Open **PIP → Build PIP** for the schematic workshop. Tap parts or optionally drag them onto PIP. Standard restores the base buddy; Match crew copies the current astronaut's suit color. Use Analyze, or Ask PIP on a discovery card, for illustrated offline science explanations. See each build's README for implemented features and limits.
+
+## Starting zone: GSEI HQ
+
+New games begin at HQ: star-base arrival bay, science lab and dormitory. Tap pictures to visit rooms, open PIP's workbench, choose crew at the lockers, or rest at the bunks. The green Training grounds door leads to the outdoor discoveries; the HQ entrance brings you home. Existing discoveries and customization are retained. This is an environment foundation with provisional schematic art.

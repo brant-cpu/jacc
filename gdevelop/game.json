@@ -1,5 +1,5 @@
 {
-  "firstLayout": "DiscoveryGrounds",
+  "firstLayout": "GSEI_HQ",
   "gdVersion": {
     "build": 99,
     "major": 4,
@@ -17,7 +17,7 @@
     "sizeOnStartupMode": "adaptWidth",
     "useExternalSourceFiles": false,
     "version": "1.0.0",
-    "name": "J.A.C.C. — Discovery Training Grounds",
+    "name": "J.A.C.C. — GSEI HQ",
     "author": "Granite Pixel Games",
     "windowWidth": 1000,
     "windowHeight": 600,
@@ -180,6 +180,14 @@
         "metadata": "",
         "userAdded": true,
         "smoothed": false
+      },
+      {
+        "name": "hq-backdrop",
+        "kind": "image",
+        "file": "assets/hq-backdrop.png",
+        "metadata": "",
+        "userAdded": true,
+        "smoothed": true
       },
       {
         "name": "pip-blueprint",
@@ -405,8 +413,8 @@
           "effects": []
         }
       ],
-      "name": "DiscoveryGrounds",
-      "mangledName": "DiscoveryGrounds",
+      "name": "GSEI_HQ",
+      "mangledName": "GSEI_HQ",
       "title": "J.A.C.C.",
       "r": 183,
       "v": 217,
@@ -976,6 +984,120 @@
           ]
         },
         {
+          "name": "HQBackdrop",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "hq-backdrop",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Header",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "pip-blueprint",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Footer",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "panel",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
           "name": "Title",
           "type": "TextObject::Text",
           "variables": [],
@@ -985,29 +1107,29 @@
           "italic": false,
           "underlined": false,
           "smoothed": true,
-          "text": "J.A.C.C. | GSEI Discovery Training Grounds",
+          "text": "J.A.C.C. | GSEI HQ",
           "font": "",
           "characterSize": 22,
           "color": {
-            "r": 23,
-            "g": 56,
-            "b": 74
+            "r": 239,
+            "g": 248,
+            "b": 245
           },
           "textAlignment": "left",
           "verticalTextAlignment": "top",
           "lineHeight": 0,
           "isOutlineEnabled": false,
           "isShadowEnabled": false,
-          "string": "J.A.C.C. | GSEI Discovery Training Grounds",
+          "string": "J.A.C.C. | GSEI HQ",
           "content": {
             "bold": true,
             "italic": false,
             "underlined": false,
             "smoothed": true,
-            "text": "J.A.C.C. | GSEI Discovery Training Grounds",
+            "text": "J.A.C.C. | GSEI HQ",
             "font": "",
             "characterSize": 22,
-            "color": "23;56;74",
+            "color": "239;248;245",
             "textAlignment": "left",
             "verticalTextAlignment": "top",
             "lineHeight": 0,
@@ -1533,7 +1655,7 @@
           "italic": false,
           "underlined": false,
           "smoothed": true,
-          "text": "🏠\nStart",
+          "text": "🏠\nHQ\nentrance",
           "font": "",
           "characterSize": 16,
           "color": {
@@ -1546,13 +1668,13 @@
           "lineHeight": 0,
           "isOutlineEnabled": false,
           "isShadowEnabled": false,
-          "string": "🏠\nStart",
+          "string": "🏠\nHQ\nentrance",
           "content": {
             "bold": true,
             "italic": false,
             "underlined": false,
             "smoothed": true,
-            "text": "🏠\nStart",
+            "text": "🏠\nHQ\nentrance",
             "font": "",
             "characterSize": 16,
             "color": "23;56;74",
@@ -2021,6 +2143,630 @@
             "underlined": false,
             "smoothed": true,
             "text": "🌉\nEngineering\narea",
+            "font": "",
+            "characterSize": 16,
+            "color": "23;56;74",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "lineHeight": 0,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false
+          }
+        },
+        {
+          "name": "Target_hq-map",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Label_hq-map",
+          "type": "TextObject::Text",
+          "variables": [],
+          "behaviors": [],
+          "effects": [],
+          "bold": true,
+          "italic": false,
+          "underlined": false,
+          "smoothed": true,
+          "text": "🪐\nStar\nmap",
+          "font": "",
+          "characterSize": 16,
+          "color": {
+            "r": 23,
+            "g": 56,
+            "b": 74
+          },
+          "textAlignment": "left",
+          "verticalTextAlignment": "top",
+          "lineHeight": 0,
+          "isOutlineEnabled": false,
+          "isShadowEnabled": false,
+          "string": "🪐\nStar\nmap",
+          "content": {
+            "bold": true,
+            "italic": false,
+            "underlined": false,
+            "smoothed": true,
+            "text": "🪐\nStar\nmap",
+            "font": "",
+            "characterSize": 16,
+            "color": "23;56;74",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "lineHeight": 0,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false
+          }
+        },
+        {
+          "name": "Target_hq-bay",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Label_hq-bay",
+          "type": "TextObject::Text",
+          "variables": [],
+          "behaviors": [],
+          "effects": [],
+          "bold": true,
+          "italic": false,
+          "underlined": false,
+          "smoothed": true,
+          "text": "🚀\nArrival\nbay",
+          "font": "",
+          "characterSize": 16,
+          "color": {
+            "r": 23,
+            "g": 56,
+            "b": 74
+          },
+          "textAlignment": "left",
+          "verticalTextAlignment": "top",
+          "lineHeight": 0,
+          "isOutlineEnabled": false,
+          "isShadowEnabled": false,
+          "string": "🚀\nArrival\nbay",
+          "content": {
+            "bold": true,
+            "italic": false,
+            "underlined": false,
+            "smoothed": true,
+            "text": "🚀\nArrival\nbay",
+            "font": "",
+            "characterSize": 16,
+            "color": "23;56;74",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "lineHeight": 0,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false
+          }
+        },
+        {
+          "name": "Target_hq-lab",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Label_hq-lab",
+          "type": "TextObject::Text",
+          "variables": [],
+          "behaviors": [],
+          "effects": [],
+          "bold": true,
+          "italic": false,
+          "underlined": false,
+          "smoothed": true,
+          "text": "🔬\nScience\nlab",
+          "font": "",
+          "characterSize": 16,
+          "color": {
+            "r": 23,
+            "g": 56,
+            "b": 74
+          },
+          "textAlignment": "left",
+          "verticalTextAlignment": "top",
+          "lineHeight": 0,
+          "isOutlineEnabled": false,
+          "isShadowEnabled": false,
+          "string": "🔬\nScience\nlab",
+          "content": {
+            "bold": true,
+            "italic": false,
+            "underlined": false,
+            "smoothed": true,
+            "text": "🔬\nScience\nlab",
+            "font": "",
+            "characterSize": 16,
+            "color": "23;56;74",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "lineHeight": 0,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false
+          }
+        },
+        {
+          "name": "Target_hq-pip",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Label_hq-pip",
+          "type": "TextObject::Text",
+          "variables": [],
+          "behaviors": [],
+          "effects": [],
+          "bold": true,
+          "italic": false,
+          "underlined": false,
+          "smoothed": true,
+          "text": "🤖\nPIP\nworkbench",
+          "font": "",
+          "characterSize": 16,
+          "color": {
+            "r": 23,
+            "g": 56,
+            "b": 74
+          },
+          "textAlignment": "left",
+          "verticalTextAlignment": "top",
+          "lineHeight": 0,
+          "isOutlineEnabled": false,
+          "isShadowEnabled": false,
+          "string": "🤖\nPIP\nworkbench",
+          "content": {
+            "bold": true,
+            "italic": false,
+            "underlined": false,
+            "smoothed": true,
+            "text": "🤖\nPIP\nworkbench",
+            "font": "",
+            "characterSize": 16,
+            "color": "23;56;74",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "lineHeight": 0,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false
+          }
+        },
+        {
+          "name": "Target_hq-bunks",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Label_hq-bunks",
+          "type": "TextObject::Text",
+          "variables": [],
+          "behaviors": [],
+          "effects": [],
+          "bold": true,
+          "italic": false,
+          "underlined": false,
+          "smoothed": true,
+          "text": "🛏️\nCozy\nbunks",
+          "font": "",
+          "characterSize": 16,
+          "color": {
+            "r": 23,
+            "g": 56,
+            "b": 74
+          },
+          "textAlignment": "left",
+          "verticalTextAlignment": "top",
+          "lineHeight": 0,
+          "isOutlineEnabled": false,
+          "isShadowEnabled": false,
+          "string": "🛏️\nCozy\nbunks",
+          "content": {
+            "bold": true,
+            "italic": false,
+            "underlined": false,
+            "smoothed": true,
+            "text": "🛏️\nCozy\nbunks",
+            "font": "",
+            "characterSize": 16,
+            "color": "23;56;74",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "lineHeight": 0,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false
+          }
+        },
+        {
+          "name": "Target_hq-locker",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Label_hq-locker",
+          "type": "TextObject::Text",
+          "variables": [],
+          "behaviors": [],
+          "effects": [],
+          "bold": true,
+          "italic": false,
+          "underlined": false,
+          "smoothed": true,
+          "text": "🧑‍🚀\nCrew\nlockers",
+          "font": "",
+          "characterSize": 16,
+          "color": {
+            "r": 23,
+            "g": 56,
+            "b": 74
+          },
+          "textAlignment": "left",
+          "verticalTextAlignment": "top",
+          "lineHeight": 0,
+          "isOutlineEnabled": false,
+          "isShadowEnabled": false,
+          "string": "🧑‍🚀\nCrew\nlockers",
+          "content": {
+            "bold": true,
+            "italic": false,
+            "underlined": false,
+            "smoothed": true,
+            "text": "🧑‍🚀\nCrew\nlockers",
+            "font": "",
+            "characterSize": 16,
+            "color": "23;56;74",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "lineHeight": 0,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false
+          }
+        },
+        {
+          "name": "Target_hq-home",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Label_hq-home",
+          "type": "TextObject::Text",
+          "variables": [],
+          "behaviors": [],
+          "effects": [],
+          "bold": true,
+          "italic": false,
+          "underlined": false,
+          "smoothed": true,
+          "text": "🏠\nWelcome\nhub",
+          "font": "",
+          "characterSize": 16,
+          "color": {
+            "r": 23,
+            "g": 56,
+            "b": 74
+          },
+          "textAlignment": "left",
+          "verticalTextAlignment": "top",
+          "lineHeight": 0,
+          "isOutlineEnabled": false,
+          "isShadowEnabled": false,
+          "string": "🏠\nWelcome\nhub",
+          "content": {
+            "bold": true,
+            "italic": false,
+            "underlined": false,
+            "smoothed": true,
+            "text": "🏠\nWelcome\nhub",
+            "font": "",
+            "characterSize": 16,
+            "color": "23;56;74",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "lineHeight": 0,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false
+          }
+        },
+        {
+          "name": "Target_hq-exit",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Label_hq-exit",
+          "type": "TextObject::Text",
+          "variables": [],
+          "behaviors": [],
+          "effects": [],
+          "bold": true,
+          "italic": false,
+          "underlined": false,
+          "smoothed": true,
+          "text": "🌱\nTraining\ngrounds",
+          "font": "",
+          "characterSize": 16,
+          "color": {
+            "r": 23,
+            "g": 56,
+            "b": 74
+          },
+          "textAlignment": "left",
+          "verticalTextAlignment": "top",
+          "lineHeight": 0,
+          "isOutlineEnabled": false,
+          "isShadowEnabled": false,
+          "string": "🌱\nTraining\ngrounds",
+          "content": {
+            "bold": true,
+            "italic": false,
+            "underlined": false,
+            "smoothed": true,
+            "text": "🌱\nTraining\ngrounds",
             "font": "",
             "characterSize": 16,
             "color": "23;56;74",
@@ -6419,13 +7165,58 @@
         },
         {
           "name": "Alex",
-          "x": 110,
+          "x": 400,
           "y": 415,
           "width": 40,
           "height": 56,
           "customSize": true,
           "angle": 0,
           "zOrder": 10,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "HQBackdrop",
+          "x": 0,
+          "y": 0,
+          "width": 1000,
+          "height": 600,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 0,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "Header",
+          "x": 0,
+          "y": 0,
+          "width": 1000,
+          "height": 90,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 3,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "Footer",
+          "x": 0,
+          "y": 520,
+          "width": 1000,
+          "height": 80,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 3,
           "layer": "",
           "locked": false,
           "numberProperties": [],
@@ -6826,6 +7617,246 @@
           "name": "Label_bridge",
           "x": 790,
           "y": 449,
+          "width": 0,
+          "height": 0,
+          "customSize": false,
+          "angle": 0,
+          "zOrder": 6,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "Target_hq-map",
+          "x": 133,
+          "y": 145,
+          "width": 94,
+          "height": 70,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 5,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "Label_hq-map",
+          "x": 140,
+          "y": 149,
+          "width": 0,
+          "height": 0,
+          "customSize": false,
+          "angle": 0,
+          "zOrder": 6,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "Target_hq-bay",
+          "x": 193,
+          "y": 220,
+          "width": 94,
+          "height": 70,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 5,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "Label_hq-bay",
+          "x": 200,
+          "y": 224,
+          "width": 0,
+          "height": 0,
+          "customSize": false,
+          "angle": 0,
+          "zOrder": 6,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "Target_hq-lab",
+          "x": 453,
+          "y": 145,
+          "width": 94,
+          "height": 70,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 5,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "Label_hq-lab",
+          "x": 460,
+          "y": 149,
+          "width": 0,
+          "height": 0,
+          "customSize": false,
+          "angle": 0,
+          "zOrder": 6,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "Target_hq-pip",
+          "x": 553,
+          "y": 220,
+          "width": 94,
+          "height": 70,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 5,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "Label_hq-pip",
+          "x": 560,
+          "y": 224,
+          "width": 0,
+          "height": 0,
+          "customSize": false,
+          "angle": 0,
+          "zOrder": 6,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "Target_hq-bunks",
+          "x": 773,
+          "y": 145,
+          "width": 94,
+          "height": 70,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 5,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "Label_hq-bunks",
+          "x": 780,
+          "y": 149,
+          "width": 0,
+          "height": 0,
+          "customSize": false,
+          "angle": 0,
+          "zOrder": 6,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "Target_hq-locker",
+          "x": 853,
+          "y": 220,
+          "width": 94,
+          "height": 70,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 5,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "Label_hq-locker",
+          "x": 860,
+          "y": 224,
+          "width": 0,
+          "height": 0,
+          "customSize": false,
+          "angle": 0,
+          "zOrder": 6,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "Target_hq-home",
+          "x": 453,
+          "y": 415,
+          "width": 94,
+          "height": 70,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 5,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "Label_hq-home",
+          "x": 460,
+          "y": 419,
+          "width": 0,
+          "height": 0,
+          "customSize": false,
+          "angle": 0,
+          "zOrder": 6,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "Target_hq-exit",
+          "x": 803,
+          "y": 415,
+          "width": 94,
+          "height": 70,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 5,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "Label_hq-exit",
+          "x": 810,
+          "y": 419,
           "width": 0,
           "height": 0,
           "customSize": false,
@@ -8129,14 +9160,67 @@
         {
           "type": "BuiltinCommonInstructions::JsCode",
           "inlineCode": [
+            "// Provisional HQ environment, shared by both builds. Ground coordinates are 1000 × 600.",
+            "const zones={hq:{id:'hq',name:'GSEI HQ',spawn:[420,460],exit:'hq-exit',home:'hq-home'},grounds:{id:'grounds',name:'GSEI Discovery Training Grounds',spawn:[200,500],exit:'home',home:'home'}};",
+            "const hqObjects=[",
+            " {id:'hq-map',zone:'hq',x:180,y:180,icon:'🪐',name:'Star map',kind:'inspect',text:'Our star base is a place to begin an adventure. Look at Earth, the Moon and the stars.',diagram:'🌍 → 🌙 → ✨'},",
+            " {id:'hq-bay',zone:'hq',x:240,y:255,icon:'🚀',name:'Arrival bay',kind:'inspect',text:'Welcome to HQ! A landing bay gives a craft a clear place to arrive. Our adventures start here.',diagram:'🚀 → 🛬 → 🏠'},",
+            " {id:'hq-lab',zone:'hq',x:500,y:180,icon:'🔬',name:'Science lab',kind:'inspect',text:'Look closely. Compare shapes. Ask a question. This lab is our place to investigate discoveries.',diagram:'👀 → 🔎 → 💡'},",
+            " {id:'hq-pip',zone:'hq',x:600,y:255,icon:'🤖',name:'PIP workbench',kind:'workshop'},",
+            " {id:'hq-bunks',zone:'hq',x:820,y:180,icon:'🛏️',name:'Cozy bunks',kind:'inspect',text:'This is a quiet place to rest. There is no hurry. I can take a break whenever I want.',diagram:'🧑‍🚀 → 🛏️ → 💛'},",
+            " {id:'hq-locker',zone:'hq',x:900,y:255,icon:'🧑‍🚀',name:'Crew lockers',kind:'crew'},",
+            " {id:'hq-home',zone:'hq',x:500,y:450,icon:'🏠',name:'Welcome hub',kind:'home'},",
+            " {id:'hq-exit',zone:'hq',x:850,y:450,icon:'🌱',name:'Training grounds',kind:'portal',to:'grounds'}",
+            "];",
+            "function hqBlocked(x,y){return x===0||x===24||y<=2||y>=13||((x===8||x===16)&&y>=3&&y<=7)||(y===8&&![4,12,20].includes(x))||(y===4&&((x>=3&&x<=5)||(x>=11&&x<=13)||(x>=19&&x<=21)));}",
+            "// Rectangle/ellipse/text primitives keep the Canvas and GDevelop backdrop aligned.",
+            "const hqPlan=[",
+            " {kind:'rect',x:0,y:0,w:1000,h:600,color:'#152f46'},",
+            " {kind:'rect',x:40,y:120,w:280,h:200,color:'#b9d9e9'},",
+            " {kind:'rect',x:360,y:120,w:280,h:200,color:'#c6e6d8'},",
+            " {kind:'rect',x:680,y:120,w:280,h:200,color:'#eed7b6'},",
+            " {kind:'rect',x:40,y:360,w:920,h:160,color:'#d8e2e4'},",
+            " {kind:'rect',x:160,y:320,w:40,h:40,color:'#b9d9e9'},",
+            " {kind:'rect',x:480,y:320,w:40,h:40,color:'#c6e6d8'},",
+            " {kind:'rect',x:800,y:320,w:40,h:40,color:'#eed7b6'},",
+            " {kind:'rect',x:55,y:205,w:65,h:70,color:'#284e68'},",
+            " {kind:'rect',x:62,y:213,w:51,h:53,color:'#5286a6'},",
+            " {kind:'ellipse',x:170,y:275,w:52,h:22,color:'#edf5f3'},",
+            " {kind:'ellipse',x:170,y:275,w:36,h:14,color:'#8eafb9'},",
+            " {kind:'rect',x:120,y:160,w:120,h:40,color:'#356682'},",
+            " {kind:'rect',x:128,y:166,w:104,h:27,color:'#132f49'},",
+            " {kind:'rect',x:132,y:169,w:6,h:6,color:'#fff1b8'},",
+            " {kind:'rect',x:190,y:179,w:5,h:5,color:'#fff1b8'},",
+            " {kind:'rect',x:220,y:168,w:5,h:5,color:'#fff1b8'},",
+            " {kind:'rect',x:440,y:160,w:120,h:40,color:'#6eaaa4'},",
+            " {kind:'rect',x:447,y:164,w:106,h:12,color:'#f0faf0'},",
+            " {kind:'rect',x:570,y:245,w:62,h:42,color:'#6eaaa4'},",
+            " {kind:'rect',x:577,y:251,w:48,h:9,color:'#f0faf0'},",
+            " {kind:'rect',x:760,y:160,w:120,h:40,color:'#8f7062'},",
+            " {kind:'rect',x:766,y:165,w:40,h:29,color:'#fcf4d9'},",
+            " {kind:'rect',x:809,y:165,w:64,h:29,color:'#d39a88'},",
+            " {kind:'rect',x:875,y:245,w:65,h:45,color:'#9a7a65'},",
+            " {kind:'rect',x:879,y:248,w:26,h:35,color:'#e6c8a3'},",
+            " {kind:'rect',x:911,y:248,w:25,h:35,color:'#e6c8a3'},",
+            " {kind:'rect',x:60,y:415,w:880,h:8,color:'#a5c6ce'},",
+            " {kind:'rect',x:792,y:420,w:130,h:72,color:'#b7d98d'},",
+            " {kind:'text',x:60,y:145,text:'01 / STAR BASE',color:'#17384a',size:18},",
+            " {kind:'text',x:380,y:145,text:'02 / SCIENCE LAB',color:'#17384a',size:18},",
+            " {kind:'text',x:700,y:145,text:'03 / DORMITORY',color:'#17384a',size:18},",
+            " {kind:'text',x:65,y:390,text:'WELCOME HOME',color:'#315e72',size:17},",
+            " {kind:'text',x:690,y:512,text:'TRAINING GROUNDS →',color:'#315e72',size:16},",
+            " {kind:'text',x:60,y:555,text:'Explore • Discover • Rest • Repeat',color:'#dfefed',size:16}",
+            "];",
+            "function hqSvg(){return '<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"1000\" height=\"600\">'+hqPlan.map(p=>p.kind==='rect'?`<rect x=\"${p.x}\" y=\"${p.y}\" width=\"${p.w}\" height=\"${p.h}\" rx=\"3\" fill=\"${p.color}\"/>`:p.kind==='ellipse'?`<ellipse cx=\"${p.x}\" cy=\"${p.y}\" rx=\"${p.w}\" ry=\"${p.h}\" fill=\"${p.color}\"/>`:`<text x=\"${p.x}\" y=\"${p.y}\" fill=\"${p.color}\" font-size=\"${p.size}\" font-family=\"sans-serif\" font-weight=\"bold\">${p.text}</text>`).join('')+'</svg>';}",
+            "",
             "// Canonical names and specializations; visuals are temporary geometric placeholders.",
             "const roster=[['Alex Thompson','Red','Fleming Model — Electromagnetism'],['Malik Adeyemi','Green','Townes Model — Laser optics and computing'],['Maya Rodriguez','Pink','Allwood Model — Geology and chemistry'],['Aiden Williams','Yellow','Engineering Model — Construction and heavy engineering'],['Kaito Tanaka','White','Aeronautics Model — Flight and speed'],['Lucas Turner','Black','Generation-1 J.A.C.C.']];",
             "const materials=[",
             "{id:'quartz',name:'Quartz',icon:'💎',diagram:'☀️ → 💎 → ✨',text:'Quartz is a mineral. Look at its crystal faces! Light can pass through some quartz.'},",
             "{id:'iron',name:'Iron-bearing mineral',icon:'🪨',diagram:'🧲 → 🪨',text:'Some iron-bearing minerals, such as magnetite, are attracted to a magnet. Not all iron minerals are magnetic.'},",
             "{id:'fossil',name:'Fossil',icon:'🐚',diagram:'🐚 → 🟫 → 🪨',text:'A fossil is a preserved trace or remain of ancient life. Layers of sediment can bury and preserve shells.'}];",
-            "const objects=[",
-            "{id:'home',x:130,y:460,icon:'🏠',name:'Start',kind:'home'},",
+            "const trainingObjects=[",
+            "{id:'home',x:130,y:460,icon:'🏠',name:'HQ entrance',kind:'portal',to:'hq'},",
             "{id:'plant',x:220,y:245,icon:'🌱',name:'Living plant',text:'Plants are living things. They need water and light to grow.',diagram:'☀️ + 💧 → 🌱'},",
             "{id:'rock',x:380,y:175,icon:'🪨',name:'Hill rock',text:'This rock is nonliving. Look at its shape and compare it with the plant.',diagram:'🌱 ≠ 🪨'},",
             "{id:'dig',x:455,y:420,icon:'⛏️',name:'Dig site',kind:'dig'},",
@@ -8148,11 +9232,13 @@
             "// Temporary suit-color placeholders; not production character designs.",
             "const suitColors={Red:'#cf4348',Green:'#38864a',Pink:'#d76a9d',Yellow:'#edc74d',White:'#f2f2e8',Black:'#303842'};",
             "",
+            "const objects=[...trainingObjects.map(o=>({...o,zone:'grounds'})),...hqObjects];",
+            "",
             "const COLS=25, ROWS=15, CELL=40;",
             "// The pond is blocked. Hill and ramp/platform cells are traversable automatically.",
-            "function blocked(x,y){return x>=13&&x<=16&&y>=4&&y<=7;}",
+            "function blocked(x,y,zone='grounds'){if(zone==='hq')return hqBlocked(x,y);return x>=13&&x<=16&&y>=4&&y<=7;}",
             "function cellAt(x,y){return [Math.max(0,Math.min(COLS-1,Math.floor(x/CELL))),Math.max(0,Math.min(ROWS-1,Math.floor(y/CELL)))];}",
-            "function pathfind(from,to){const start=cellAt(...from),goal=cellAt(...to);if(blocked(...goal))return [];const key=p=>p.join(',');const queue=[start],parents=new Map([[key(start),null]]);for(let i=0;i<queue.length;i++){const p=queue[i];if(key(p)===key(goal)){const out=[];let c=p;while(parents.get(key(c))!==null){out.push([c[0]*CELL+20,c[1]*CELL+20]);c=parents.get(key(c));}return out.reverse();}for(const [dx,dy] of [[1,0],[-1,0],[0,1],[0,-1]]){const n=[p[0]+dx,p[1]+dy];if(n[0]<0||n[1]<0||n[0]>=COLS||n[1]>=ROWS||blocked(...n)||parents.has(key(n)))continue;parents.set(key(n),p);queue.push(n);}}return [];}",
+            "function pathfind(from,to,zone='grounds'){const start=cellAt(...from),goal=cellAt(...to);if(blocked(...goal,zone))return [];const key=p=>p.join(',');const queue=[start],parents=new Map([[key(start),null]]);for(let i=0;i<queue.length;i++){const p=queue[i];if(key(p)===key(goal)){const out=[];let c=p;while(parents.get(key(c))!==null){out.push([c[0]*CELL+20,c[1]*CELL+20]);c=parents.get(key(c));}return out.reverse();}for(const [dx,dy] of [[1,0],[-1,0],[0,1],[0,-1]]){const n=[p[0]+dx,p[1]+dy];if(n[0]<0||n[1]<0||n[0]>=COLS||n[1]>=ROWS||blocked(...n,zone)||parents.has(key(n)))continue;parents.set(key(n),p);queue.push(n);}}return [];}",
             "",
             "// Shared, first-person journal content for the browser and native GDevelop build.",
             "const journalSections=[",
@@ -8163,7 +9249,15 @@
             " {id:'minerals',title:'My Minerals',icon:'💎',intro:'Minerals I found in the soil.',empty:'I can dig to find a mineral.',target:'dig'}",
             "];",
             "const journalActivities={",
-            " home:['I went back to the start.','I can follow the path home.'],",
+            " 'hq-map':['I looked at the star map.','A map helps me choose where to explore.'],",
+            " 'hq-bay':['I visited the arrival bay.','A clear landing area gives a craft room to arrive.'],",
+            " 'hq-lab':['I visited the science lab.','I can observe, compare and ask questions.'],",
+            " 'hq-pip':['I visited the PIP workbench.','Tools help us investigate.'],",
+            " 'hq-bunks':['I found a cozy place to rest.','I can take a break whenever I want.'],",
+            " 'hq-locker':['I visited the crew lockers.','Every crew member can explore.'],",
+            " 'hq-home':['I explored our welcome hub.','This is our home base.'],",
+            " 'hq-exit':['I went to the training grounds.','The path leads back to HQ.'],",
+            " home:['I went back to HQ.','I can follow the path home.'],",
             " plant:['I looked at a plant.','Plants are living things.'],",
             " rock:['I explored the hill.','Rocks are nonliving things.'],",
             " dig:['I dug in the soil.','The soil has layers.'],",
@@ -8178,7 +9272,7 @@
             " if(materials.some(m=>found.has(m.id)))seen.add('dig');",
             " if(section==='experiments')return []; // Observation visits are not completed experiments.",
             " if(section==='found'||section==='minerals')return [...objects,...materials].filter(o=>found.has(o.id)&&(section!=='minerals'||['quartz','iron'].includes(o.id))).map(o=>({id:o.id,title:o.name,icon:o.icon,summary:section==='minerals'?'I found '+o.name.toLowerCase()+'.':'I discovered '+o.name.toLowerCase()+'.',fact:({quartz:'Quartz is a mineral with crystal faces.',iron:'Some iron-bearing minerals are attracted to magnets.',fossil:'A fossil is a trace or remain of ancient life.'})[o.id]||journalActivities[o.id]?.[1]||o.text,target:materials.includes(o)?'dig':o.id}));",
-            " return objects.filter(o=>seen.has(o.id)&&(section!=='adventures'||['home','plant','rock','crystal','bridge'].includes(o.id))).map(o=>({id:o.id,title:journalActivities[o.id][0],icon:o.icon,summary:journalActivities[o.id][0],fact:journalActivities[o.id][1],target:o.id}));",
+            " return objects.filter(o=>seen.has(o.id)&&(section!=='adventures'||(['home','plant','rock','crystal','bridge'].includes(o.id)||o.zone==='hq'))).map(o=>({id:o.id,title:journalActivities[o.id][0],icon:o.icon,summary:journalActivities[o.id][0],fact:journalActivities[o.id][1],target:o.id}));",
             "}",
             "",
             "// Original schematic placeholders. No licensed character artwork or permanent PIP design.",
@@ -8213,7 +9307,7 @@
             "// Native GDevelop workshop: no embedded web view or runtime dependencies.",
             "const pipWorkshopUI=['PipBlueprint','PipBlueprintLabel','WorkshopNote','PipGhost','ScienceModel',...['travel','trim','body','eyes','tool'].map(n=>'Workshop'+n),...Array.from({length:5},(_,i)=>['PipTab'+i,'PipTabLabel'+i,'PipAction'+i,'PipActionLabel'+i]).flat(),...Array.from({length:4},(_,i)=>['PipPart'+i,'PipPartLabel'+i]).flat()];",
             "function nativePipLayer(name,slot,config){const options=slot==='body'?pipPalette:pipGroups.find(g=>g.id===slot).parts;obj(name).setAnimation(options.findIndex(p=>p.id===config[slot==='body'?'color':slot]));}",
-            "function nativePipUpdate(){for(const slot of ['travel','trim','body','eyes','tool']){const name=slot==='body'?'PipRobot':'Pip'+slot;obj(name).setPosition(actor.getX()+28,actor.getY()-36);nativePipLayer(name,slot,s.pip);if(s.overlay==='PIP Workshop')nativePipLayer('Workshop'+slot,slot,s.pip);}}",
+            "function nativePipUpdate(){for(const slot of ['travel','trim','body','eyes','tool']){const name=slot==='body'?'PipRobot':'Pip'+slot;obj(name).setPosition(actor.getX()-58,actor.getY()-35);nativePipLayer(name,slot,s.pip);if(s.overlay==='PIP Workshop')nativePipLayer('Workshop'+slot,slot,s.pip);}}",
             "function nativePipFit(slot,id){s.pip=attachPip(s.pip,slot,id);const part=slot==='color'?pipPalette.find(p=>p.id===id):pipGroups.find(g=>g.id===slot).parts.find(p=>p.id===id);nativePipWorkshop(s.pipTab,s.pipPage);text('WorkshopNote','Fitted: '+part.name+'. '+(part.note||'My buddy has a new color.'));say('PIP fitted: '+part.name);}",
             "function nativePipWorkshop(tab='travel',page=0){s.pipTab=tab;s.pipPage=page;open('PIP Workshop','Tap a part. Or drag it onto PIP.','');obj('CardBody').hide();obj('CardVisual').hide();for(const n of ['PipBlueprint','PipBlueprintLabel','WorkshopNote',...['travel','trim','body','eyes','tool'].map(n=>'Workshop'+n)])obj(n).hide(false);text('WorkshopNote','Tap to attach. Dragging is optional. PIP is always safe.');",
             " const groups=[...pipGroups,{id:'color',title:'Colors',icon:'🎨'}];for(let i=0;i<groups.length;i++){const g=groups[i];obj('PipTab'+i).hide(false);obj('PipTabLabel'+i).hide(false);text('PipTabLabel'+i,(g.id===tab?'✓ ':'')+g.title);s.buttons.push({name:'PipTab'+i,fn:()=>nativePipWorkshop(g.id,0)});}",
@@ -8231,7 +9325,7 @@
             "const obj=name=>runtimeScene.getObjects(name)[0];",
             "const text=(name,value)=>obj(name).setString(value);",
             "if(!runtimeScene.__jacc){",
-            " runtimeScene.__jacc={pip:standardPip(),pipTab:'travel',pipPage:0,crew:0,started:false,paused:false,path:[],pending:null,dig:0,action:0,found:new Set(),visited:new Set(),last:null,overlay:null,buttons:[],focus:0,tab:false,enter:false,settings:{reduced:false,effects:true,narration:false,volume:.3}};",
+            " runtimeScene.__jacc={zone:'hq',journey:null,pip:standardPip(),pipTab:'travel',pipPage:0,crew:0,started:false,paused:false,path:[],pending:null,dig:0,action:0,found:new Set(),visited:new Set(),last:null,overlay:null,buttons:[],focus:0,tab:false,enter:false,settings:{reduced:false,effects:true,narration:false,volume:.3}};",
             "}",
             "const s=runtimeScene.__jacc,actor=obj('Alex');",
             "const say=message=>{text('Status',message);if(s.settings.narration&&typeof speechSynthesis!=='undefined'){speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(message);u.volume=s.settings.volume;speechSynthesis.speak(u)}};",
@@ -8239,16 +9333,19 @@
             "const ui=[...pipWorkshopUI,...crewUI,'Panel','CardTitle','CardBody','CardVisual','Close','CloseLabel',...Array.from({length:6},(_,i)=>['Option'+i,'OptionLabel'+i]).flat()];",
             "function close(){s.overlay=null;for(const n of ui)obj(n).hide();}",
             "function open(title,body,visual,options=[]){s.overlay=title;s.buttons=[];obj('WorkshopNote').setPosition(125,435);for(const n of ui)obj(n).hide();for(const n of ['Panel','CardTitle','CardBody','CardVisual','Close','CloseLabel'])obj(n).hide(false);text('CardTitle',title);text('CardBody',body.replace(/(.{1,64})(?:\\s|$)/g,'$1\\n').trim());text('CardVisual',visual);options.slice(0,6).forEach(([label,fn],i)=>{obj('Option'+i).hide(false);obj('OptionLabel'+i).hide(false);text('OptionLabel'+i,label);s.buttons.push({name:'Option'+i,fn})});say(title+'. '+body);}",
-            "function select(o){s.started=true;s.path=pathfind([actor.getX()+20,actor.getY()+45],[o.x-65,o.y+55]);s.pending=o;s.action=0;say('Going to '+o.name);if(!s.path.length){s.pending=null;arrive(o)}}",
-            "function card(o){open(o.name,o.text,o.icon+'   '+o.diagram,[['Listen / replay',()=>{say(o.text);if(typeof speechSynthesis!=='undefined'){speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(o.text);u.volume=s.settings.volume;speechSynthesis.speak(u)}}],['Revisit',()=>{close();select(objects.find(x=>x.id===o.id)||objects.find(x=>x.id==='dig'))}],...(materials.some(m=>m.id===o.id)?[['Ask PIP',()=>nativePipAnalysis(o.id)]]:[])]);}",
-            "function arrive(o){s.last=o.id;if(o.kind!=='dig')s.visited.add(o.id);if(o.kind==='home'){say('Back at the start. Choose a picture.');return}if(o.kind==='dig'){s.action=s.settings.reduced?.2:1.2;say('Digging through the soil...');return}s.found.add(o.id);card(o)}",
+            "function nativeActiveObjects(){return objects.filter(o=>o.zone===s.zone)}",
+            "function nativeZone(id){s.zone=id;s.journey=null;s.pending=null;s.path=[];s.action=0;const [x,y]=zones[id].spawn;actor.setPosition(x-20,y-45);for(const name of ['Ground','Hill','Path','Trail','TopTrail','Pond','Platform','Ramp'])obj(name).hide(id==='hq');obj('HQBackdrop').hide(id!=='hq');for(const o of objects){obj('Target_'+o.id).hide(o.zone!==id);obj('Label_'+o.id).hide(o.zone!==id)}text('Title','J.A.C.C. | '+(id==='hq'?'GSEI HQ':'Training Grounds'));say('Welcome to '+zones[id].name+'.');}",
+            "function select(o){if(!o||s.paused)return;s.started=true;s.journey=null;if(o.zone!==s.zone){s.journey=o.id;o=objects.find(x=>x.id===zones[s.zone].exit)}s.path=pathfind([actor.getX()+20,actor.getY()+45],[o.x-65,o.y+55],s.zone);s.pending=o;s.action=0;say('Going to '+o.name);if(!s.path.length){s.pending=null;const here=cellAt(actor.getX()+20,actor.getY()+45),goal=cellAt(o.x-65,o.y+55);if(here.join()===goal.join()&&!blocked(...goal,s.zone))arrive(o);else{s.journey=null;say('Choose a clear path to explore.');}}}",
+            "",
+            "function card(o){open(o.name,o.text,o.icon+'   '+o.diagram,[['Listen / replay',()=>{say(o.text);if(typeof speechSynthesis!=='undefined'){speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(o.text);u.volume=s.settings.volume;speechSynthesis.speak(u)}}],['Revisit',()=>{close();select(objects.find(x=>x.id===o.id)||objects.find(x=>x.id==='dig'))}],...(o.id==='hq-map'?[['Go exploring',()=>{close();select(objects.find(x=>x.id==='hq-exit'))}]]:[]),...(o.id==='hq-lab'?[['Find a sample',()=>{close();select(objects.find(x=>x.id==='dig'))}]]:[]),...(o.id==='hq-bunks'?[['Rest here',()=>{close();s.paused=true;text('PauseLabel','Resume');say('Resting. Resume whenever you are ready.')}]]:[]),...(materials.some(m=>m.id===o.id)?[['Ask PIP',()=>nativePipAnalysis(o.id)]]:[])]);}",
+            "function arrive(o){s.last=o.id;if(o.kind!=='dig')s.visited.add(o.id);if(o.kind==='portal'){const next=s.journey;nativeZone(o.to);if(next)select(objects.find(x=>x.id===next));return}if(o.kind==='workshop'){nativePipWorkshop();return}if(o.kind==='crew'){crewMenu();return}if(o.kind==='home'){say('Back at the start. Choose a picture.');return}if(o.kind==='dig'){s.action=s.settings.reduced?.2:1.2;say('Digging through the soil...');return}s.found.add(o.id);card(o)}",
             "function crewMenu(){open('J.A.C.C. Crew','Tap an astronaut. Everyone can explore every activity.','');for(let i=0;i<roster.length;i++){const r=roster[i];for(const name of ['CrewCard','CrewPortrait','CrewName','CrewDetail'])obj(name+i).hide(false);text('CrewName'+i,(s.crew===i?'[Selected] ':'')+r[0]);text('CrewDetail'+i,(r[1]+' suit | '+r[2]).replace(/(.{1,29})(?:\\s|$)/g,'$1\\n').trim());s.buttons.push({name:'CrewCard'+i,fn:()=>{s.crew=i;actor.setAnimation(i);text('ActiveCrew',r[0]+' | '+r[1]+' | '+r[2]);close();say(r[0]+' selected. '+r[2])}});}}",
             "function pip(){open('PIP','Choose a picture. Your astronaut will walk there and explore.','PIP  >  TAP  >  DISCOVER',[",
-            " ['Show places',()=>{close();s.settings.effects=true;objects.forEach(o=>obj('Target_'+o.id).setOpacity(190));say('The cream pictures are places to explore.')}],",
+            " ['Show places',()=>{close();s.settings.effects=true;nativeActiveObjects().forEach(o=>obj('Target_'+o.id).setOpacity(190));say('The cream pictures are places to explore.')}],",
             " ['Show me a dig',()=>{close();select(objects.find(o=>o.id==='dig'))}],",
-            " ['Previous activity',()=>{close();select(objects.find(o=>o.id===s.last)||objects[0])}],",
+            " ['Previous activity',()=>{close();select(objects.find(o=>o.id===s.last)||objects.find(o=>o.id===zones[s.zone].home))}],",
             " ['Repeat guidance',()=>say('Tap a picture to explore. Tap the pickaxe to dig. Nothing needs holding or dragging.')],",
-            " ['Return home',()=>{close();select(objects[0])}],",
+            " ['Return home',()=>{close();select(objects.find(o=>o.id===zones[s.zone].home))}],",
             " ['Build PIP',()=>nativePipWorkshop()]",
             " ]);}",
             "function listenJournal(message){if(typeof speechSynthesis!=='undefined'){speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(message);u.volume=s.settings.volume;u.rate=.85;speechSynthesis.speak(u)}}",
@@ -8265,12 +9362,12 @@
             " ['Reduced animation '+(v.reduced?'ON':'OFF'),()=>{v.reduced=!v.reduced;settings()}],",
             " ['Visual effects '+(v.effects?'ON':'OFF'),()=>{v.effects=!v.effects;obj('Marker').hide(!v.effects);settings()}]",
             " ]);}",
-            "if(!s.initialized){s.initialized=true;close();say('Tap a picture or the ground to explore. PIP can help.');gdjs.evtTools.input.touchSimulateMouse(runtimeScene,true);}",
+            "if(!s.initialized){s.initialized=true;close();nativeZone('hq');say('Tap a picture or the ground to explore. PIP can help.');gdjs.evtTools.input.touchSimulateMouse(runtimeScene,true);}",
             "const actions=s.overlay?[{name:'Close',fn:close},...s.buttons]:[",
             " {name:'PipButton',fn:pip},{name:'JournalButton',fn:journal},{name:'SettingsButton',fn:settings},",
             " {name:'PauseButton',fn:()=>{s.paused=!s.paused;text('PauseLabel',s.paused?'Resume':'Pause');say(s.paused?'Paused. Take your time.':'Ready to explore.')}},",
             " {name:'CrewButton',fn:crewMenu},",
-            " ...objects.map(o=>({name:'Target_'+o.id,fn:()=>{if(!s.paused)select(o)}}))];",
+            " ...nativeActiveObjects().map(o=>({name:'Target_'+o.id,fn:()=>{if(!s.paused)select(o)}}))];",
             "const key=k=>gdjs.evtTools.input.isKeyPressed(runtimeScene,k);",
             "if(key('Escape')&&s.overlay)close();",
             "if(key('Tab')&&!s.tab)s.focus=(s.focus+1)%actions.length;",
@@ -8286,7 +9383,7 @@
             "s.pipHeld=held;",
             "if(released&&!dropped){",
             " const hit=actions.find(a=>{const o=obj(a.name);return x>=o.getX()&&x<=o.getX()+o.getWidth()&&y>=o.getY()&&y<=o.getY()+o.getHeight()});",
-            " if(hit)hit.fn();else if(!s.overlay&&!s.paused&&y>95){s.started=true;s.pending=null;s.action=0;s.path=pathfind([actor.getX()+20,actor.getY()+45],[x,y]);obj('Marker').setPosition(x-12,y-12);obj('Marker').hide(!s.settings.effects);say(s.path.length?'Walking to your marker.':'Choose the path around the pond.');}",
+            " if(hit)hit.fn();else if(!s.overlay&&!s.paused&&y>95&&y<520){s.started=true;s.pending=null;s.action=0;s.journey=null;s.path=pathfind([actor.getX()+20,actor.getY()+45],[x,y],s.zone);obj('Marker').setPosition(x-12,y-12);obj('Marker').hide(!s.settings.effects);say(s.path.length?'Walking to your marker.':'Choose the path around the pond.');}",
             "}",
             "const dt=Math.min(gdjs.evtTools.runtimeScene.getElapsedTimeInSeconds(runtimeScene),.05);",
             "if(!s.paused&&!s.overlay){",

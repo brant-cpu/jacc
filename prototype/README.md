@@ -50,7 +50,7 @@ Open Crew and tap one of the six astronauts to switch immediately. Cards show th
 
 Journal opens a simple home page with five large pictorial choices: **What I Did**, **What I Discovered**, **My Adventures**, **My Experiments**, and **My Minerals**. Completed visits and digging populate short first-person entries. Each entry offers a short fact, Listen, and Do It Again, plus a back button. Lists have large page buttons rather than requiring precision scrolling. Close is always available. Fossils belong to discoveries, not minerals. Experiment activities remain planned; visiting a station does not count as completing an experiment. Empty pages offer an Explore button. Browser history is saved locally when storage is available; native history currently lasts for the preview session.
 
-`prototype/src/journal.js` shares configurable journal sections, activity wording and entry filtering between both builds. Native regeneration reads this source. Nine Node tests cover navigation, journal content and PIP configuration; the browser and native event checks also exercise journal navigation and repeat activities. GDevelop desktop rendering, actual file opening, physical iPad testing and reading-free comprehension still require validation.
+`prototype/src/journal.js` shares configurable journal sections, activity wording and entry filtering between both builds. Native regeneration reads this source. Twelve Node tests cover navigation, journal content, zones and PIP configuration; the browser and native event checks also exercise journal navigation and repeat activities. GDevelop desktop rendering, actual file opening, physical iPad testing and reading-free comprehension still require validation.
 
 ## PIP workshop and science buddy
 
@@ -61,3 +61,13 @@ Journal opens a simple home page with five large pictorial choices: **What I Did
 Travel attachments are configurable visual prototypes. The buddy automatically follows the astronaut in the current grounds; wheels do not yet simulate driving, arms do not climb terrain, and swim gear does not enable an ocean scene. Future environment capabilities are not gated behind attachments. All designs are original provisional schematics, not approved production PIP art or licensed character artwork. There is no printing/crafting animation yet. `src/pip.js` shares part configuration, validation, SVG presentation and science data with the native build; `src/pip-workshop.js` contains the browser UI and optional pointer drag behavior.
 
 `node tests/pip-browser.cjs` checks mouse and emulated-touch fitting/dragging, keyboard eyes, suit matching, reset, formula analysis, retained loadout, and target sizes. Native editor rendering and real-iPad gestures remain unverified.
+
+## GSEI HQ starting zone
+
+The browser now starts at **GSEI HQ** with three rooms and a common walkway. The star-base area has a star map and arrival bay. The science lab has an observation bench and a PIP workbench that opens customization. The dormitory has cozy bunks with an optional Rest/pause action and crew lockers that open character selection. Resume is always available. There are no sleep meters, schedules, costs or penalties.
+
+Tap the green Training grounds doorway to walk outside; tap HQ entrance in the grounds to return. Journal revisits and Find a sample in the lab automatically route through the doorway when necessary. Travel preserves crew selection, discoveries, PIP fittings and accessibility settings. Reload begins at HQ while saved browser discoveries and customization remain available.
+
+`src/zones.js` contains zone metadata, HQ destinations, wall/furniture collision masks and shared backdrop primitives. The Canvas draws the primitives; GDevelop uses a PNG generated from the same source. Doors are actual openings in the navigation grid. Actors approach clear positions and cannot activate an unreachable object remotely. `tests/zones.test.js` checks routes between every HQ interaction point, doorway crossings, blocked furniture, reciprocal exits and journal destinations. `node tests/hq-browser.cjs` checks all rooms, menus, rest/resume, journal entries, round-trip travel and automatic cross-zone revisits with mouse and emulated touch.
+
+HQ is a provisional environment base. The lab is an observation space, not yet an interactive experiment simulator. The dormitory does not introduce survival mechanics. No additional ocean/space zones, NPC schedules, production interiors or real-device accessibility certification are included.

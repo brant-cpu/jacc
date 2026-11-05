@@ -1,11 +1,12 @@
+import {hqObjects} from './zones.js';
 // Canonical names and specializations; visuals are temporary geometric placeholders.
 export const roster=[['Alex Thompson','Red','Fleming Model — Electromagnetism'],['Malik Adeyemi','Green','Townes Model — Laser optics and computing'],['Maya Rodriguez','Pink','Allwood Model — Geology and chemistry'],['Aiden Williams','Yellow','Engineering Model — Construction and heavy engineering'],['Kaito Tanaka','White','Aeronautics Model — Flight and speed'],['Lucas Turner','Black','Generation-1 J.A.C.C.']];
 export const materials=[
 {id:'quartz',name:'Quartz',icon:'💎',diagram:'☀️ → 💎 → ✨',text:'Quartz is a mineral. Look at its crystal faces! Light can pass through some quartz.'},
 {id:'iron',name:'Iron-bearing mineral',icon:'🪨',diagram:'🧲 → 🪨',text:'Some iron-bearing minerals, such as magnetite, are attracted to a magnet. Not all iron minerals are magnetic.'},
 {id:'fossil',name:'Fossil',icon:'🐚',diagram:'🐚 → 🟫 → 🪨',text:'A fossil is a preserved trace or remain of ancient life. Layers of sediment can bury and preserve shells.'}];
-export const objects=[
-{id:'home',x:130,y:460,icon:'🏠',name:'Start',kind:'home'},
+export const trainingObjects=[
+{id:'home',x:130,y:460,icon:'🏠',name:'HQ entrance',kind:'portal',to:'hq'},
 {id:'plant',x:220,y:245,icon:'🌱',name:'Living plant',text:'Plants are living things. They need water and light to grow.',diagram:'☀️ + 💧 → 🌱'},
 {id:'rock',x:380,y:175,icon:'🪨',name:'Hill rock',text:'This rock is nonliving. Look at its shape and compare it with the plant.',diagram:'🌱 ≠ 🪨'},
 {id:'dig',x:455,y:420,icon:'⛏️',name:'Dig site',kind:'dig'},
@@ -16,3 +17,5 @@ export const modes={exploration:{phase:1,status:'playable'},geology:{phase:1,sta
 
 // Temporary suit-color placeholders; not production character designs.
 export const suitColors={Red:'#cf4348',Green:'#38864a',Pink:'#d76a9d',Yellow:'#edc74d',White:'#f2f2e8',Black:'#303842'};
+
+export const objects=[...trainingObjects.map(o=>({...o,zone:'grounds'})),...hqObjects];
