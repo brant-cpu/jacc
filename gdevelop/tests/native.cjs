@@ -5,8 +5,8 @@ const names=new Set(scene.objects.map(o=>o.name));assert.equal(names.size,scene.
 for(const i of scene.instances)assert.ok(names.has(i.name));
 for(const r of p.resources.resources)assert.ok(fs.existsSync(path.join(__dirname,'..',r.file)),r.file);
 const map=new Map(scene.instances.map(i=>[i.name,{...i,hidden:false,getX(){return this.x},getY(){return this.y},getWidth(){return this.width},getHeight(){return this.height},setPosition(x,y){this.x=x;this.y=y},setWidth(w){this.width=w},setHeight(h){this.height=h},hide(v=true){this.hidden=v},setOpacity(v){this.opacity=v},setString(v){this.string=v},setAnimation(v){this.animation=v},setZOrder(v){this.zOrder=v}}]));
-const runtimeScene={getObjects:n=>[map.get(n)]};let cursor={x:0,y:0},release=false,keys=new Set();
-const gdjs={evtTools:{input:{touchSimulateMouse(){},isKeyPressed:(s,k)=>keys.has(k),getCursorX:()=>cursor.x,getCursorY:()=>cursor.y,isMouseButtonReleased:()=>release},runtimeScene:{getElapsedTimeInSeconds:()=>.05}}};
+const runtimeScene={getObjects:n=>[map.get(n)]};let cursor={x:0,y:0},release=false,held=false,keys=new Set();
+const gdjs={evtTools:{input:{touchSimulateMouse(){},isKeyPressed:(s,k)=>keys.has(k),getCursorX:()=>cursor.x,getCursorY:()=>cursor.y,isMouseButtonReleased:()=>release,isMouseButtonPressed:()=>held},runtimeScene:{getElapsedTimeInSeconds:()=>.05}}};
 const run=Function('runtimeScene','gdjs',scene.events.find(e=>e.inlineCode).inlineCode.join('\n'));const frame=()=>run(runtimeScene,gdjs);
 const tick=n=>{for(let i=0;i<n;i++)frame()};
 const click=name=>{const o=map.get(name);cursor={x:o.x+10,y:o.y+10};release=true;frame();release=false};
@@ -33,3 +33,11 @@ console.log('PASS: all six native selections, selected state, discovery retentio
 for(const target of ['plant','rock','magnet','bridge']){click('Target_'+target);tick(300);click('Close')}
 click('JournalButton');option('What I Discovered');option('Next page');assert.equal(runtimeScene.__jacc.overlay,'What I Discovered');option('Next page');option('Previous page');option('My Journal');option('What I Did');option('I looked at a plant.');option('Do It Again');tick(300);assert.equal(runtimeScene.__jacc.overlay,'Living plant');click('Close');
 console.log('PASS: journal empty states, five categories, fossil/mineral separation, pagination, back navigation and repeat activity');
+
+click('PipButton');option('Build PIP');assert.equal(runtimeScene.__jacc.overlay,'PIP Workshop');assert.equal(map.get('Workshopbody').hidden,false);click('PipPart1');assert.equal(runtimeScene.__jacc.pip.travel,'wheels');click('PipPart2');assert.equal(runtimeScene.__jacc.pip.travel,'climber');click('PipPart3');assert.equal(runtimeScene.__jacc.pip.travel,'swim');click('PipTab2');click('PipPart1');assert.equal(runtimeScene.__jacc.pip.eyes,'binocular');click('PipTab3');click('PipPart1');assert.equal(runtimeScene.__jacc.pip.trim,'wings');click('PipAction1');assert.equal(runtimeScene.__jacc.pip.color,'black');click('PipAction0');assert.equal(runtimeScene.__jacc.pip.travel,'hover');assert.equal(runtimeScene.__jacc.pip.color,'standard');
+// Optional native drag attaches exactly the same part as a tap.
+const dragPart=map.get('PipPart1');cursor={x:dragPart.x+20,y:dragPart.y+20};held=true;frame();cursor={x:280,y:300};frame();held=false;release=true;frame();release=false;assert.equal(runtimeScene.__jacc.pip.travel,'wheels');
+// Dropping outside the schematic keeps the current loadout.
+cursor={x:map.get('PipPart2').x+20,y:map.get('PipPart2').y+20};held=true;frame();cursor={x:950,y:580};frame();held=false;release=true;frame();release=false;assert.equal(runtimeScene.__jacc.pip.travel,'wheels');
+click('PipTab1');click('PipPart1');click('PipAction2');option('Quartz');assert.equal(runtimeScene.__jacc.overlay,'PIP: Quartz');assert.equal(map.get('ScienceModel').animation,0);assert.match(map.get('CardBody').string,/crystal faces/);click('PipAction2');click('PipAction4');assert.equal(runtimeScene.__jacc.overlay,null);tick(2);assert.equal(map.get('Piptravel').animation,1);assert.equal(map.get('Piptool').animation,1);
+console.log('PASS: native workshop slots, crew colors, standard reset, optional drag/drop, cancel drop, sample analysis and companion loadout');

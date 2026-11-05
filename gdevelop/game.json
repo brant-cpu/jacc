@@ -180,6 +180,198 @@
         "metadata": "",
         "userAdded": true,
         "smoothed": false
+      },
+      {
+        "name": "pip-blueprint",
+        "kind": "image",
+        "file": "assets/pip-blueprint.png",
+        "metadata": "",
+        "userAdded": true,
+        "smoothed": true
+      },
+      {
+        "name": "pip-science-quartz",
+        "kind": "image",
+        "file": "assets/pip-science-quartz.png",
+        "metadata": "",
+        "userAdded": true,
+        "smoothed": true
+      },
+      {
+        "name": "pip-science-iron",
+        "kind": "image",
+        "file": "assets/pip-science-iron.png",
+        "metadata": "",
+        "userAdded": true,
+        "smoothed": true
+      },
+      {
+        "name": "pip-science-fossil",
+        "kind": "image",
+        "file": "assets/pip-science-fossil.png",
+        "metadata": "",
+        "userAdded": true,
+        "smoothed": true
+      },
+      {
+        "name": "pip-body-standard",
+        "kind": "image",
+        "file": "assets/pip-body-standard.png",
+        "metadata": "",
+        "userAdded": true,
+        "smoothed": true
+      },
+      {
+        "name": "pip-body-red",
+        "kind": "image",
+        "file": "assets/pip-body-red.png",
+        "metadata": "",
+        "userAdded": true,
+        "smoothed": true
+      },
+      {
+        "name": "pip-body-green",
+        "kind": "image",
+        "file": "assets/pip-body-green.png",
+        "metadata": "",
+        "userAdded": true,
+        "smoothed": true
+      },
+      {
+        "name": "pip-body-pink",
+        "kind": "image",
+        "file": "assets/pip-body-pink.png",
+        "metadata": "",
+        "userAdded": true,
+        "smoothed": true
+      },
+      {
+        "name": "pip-body-yellow",
+        "kind": "image",
+        "file": "assets/pip-body-yellow.png",
+        "metadata": "",
+        "userAdded": true,
+        "smoothed": true
+      },
+      {
+        "name": "pip-body-white",
+        "kind": "image",
+        "file": "assets/pip-body-white.png",
+        "metadata": "",
+        "userAdded": true,
+        "smoothed": true
+      },
+      {
+        "name": "pip-body-black",
+        "kind": "image",
+        "file": "assets/pip-body-black.png",
+        "metadata": "",
+        "userAdded": true,
+        "smoothed": true
+      },
+      {
+        "name": "pip-travel-hover",
+        "kind": "image",
+        "file": "assets/pip-travel-hover.png",
+        "metadata": "",
+        "userAdded": true,
+        "smoothed": true
+      },
+      {
+        "name": "pip-travel-wheels",
+        "kind": "image",
+        "file": "assets/pip-travel-wheels.png",
+        "metadata": "",
+        "userAdded": true,
+        "smoothed": true
+      },
+      {
+        "name": "pip-travel-climber",
+        "kind": "image",
+        "file": "assets/pip-travel-climber.png",
+        "metadata": "",
+        "userAdded": true,
+        "smoothed": true
+      },
+      {
+        "name": "pip-travel-swim",
+        "kind": "image",
+        "file": "assets/pip-travel-swim.png",
+        "metadata": "",
+        "userAdded": true,
+        "smoothed": true
+      },
+      {
+        "name": "pip-tool-scanner",
+        "kind": "image",
+        "file": "assets/pip-tool-scanner.png",
+        "metadata": "",
+        "userAdded": true,
+        "smoothed": true
+      },
+      {
+        "name": "pip-tool-lens",
+        "kind": "image",
+        "file": "assets/pip-tool-lens.png",
+        "metadata": "",
+        "userAdded": true,
+        "smoothed": true
+      },
+      {
+        "name": "pip-tool-sampler",
+        "kind": "image",
+        "file": "assets/pip-tool-sampler.png",
+        "metadata": "",
+        "userAdded": true,
+        "smoothed": true
+      },
+      {
+        "name": "pip-eyes-visor",
+        "kind": "image",
+        "file": "assets/pip-eyes-visor.png",
+        "metadata": "",
+        "userAdded": true,
+        "smoothed": true
+      },
+      {
+        "name": "pip-eyes-binocular",
+        "kind": "image",
+        "file": "assets/pip-eyes-binocular.png",
+        "metadata": "",
+        "userAdded": true,
+        "smoothed": true
+      },
+      {
+        "name": "pip-eyes-round",
+        "kind": "image",
+        "file": "assets/pip-eyes-round.png",
+        "metadata": "",
+        "userAdded": true,
+        "smoothed": true
+      },
+      {
+        "name": "pip-trim-none",
+        "kind": "image",
+        "file": "assets/pip-trim-none.png",
+        "metadata": "",
+        "userAdded": true,
+        "smoothed": true
+      },
+      {
+        "name": "pip-trim-wings",
+        "kind": "image",
+        "file": "assets/pip-trim-wings.png",
+        "metadata": "",
+        "userAdded": true,
+        "smoothed": true
+      },
+      {
+        "name": "pip-trim-fins",
+        "kind": "image",
+        "file": "assets/pip-trim-fins.png",
+        "metadata": "",
+        "userAdded": true,
+        "smoothed": true
       }
     ],
     "resourceFolders": []
@@ -762,44 +954,6 @@
                   "sprites": [
                     {
                       "image": "crew5",
-                      "hasCustomCollisionMask": false,
-                      "points": [],
-                      "originPoint": {
-                        "name": "origin",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "center",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "PipRobot",
-          "type": "Sprite",
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 1,
-                  "sprites": [
-                    {
-                      "image": "pip",
                       "hasCustomCollisionMask": false,
                       "points": [],
                       "originPoint": {
@@ -3516,6 +3670,2600 @@
             "isOutlineEnabled": false,
             "isShadowEnabled": false
           }
+        },
+        {
+          "name": "Piptravel",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "hover",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "pip-travel-hover",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "wheels",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "pip-travel-wheels",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "climber",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "pip-travel-climber",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "swim",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "pip-travel-swim",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Workshoptravel",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "hover",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "pip-travel-hover",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "wheels",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "pip-travel-wheels",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "climber",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "pip-travel-climber",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "swim",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "pip-travel-swim",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Piptrim",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "none",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "pip-trim-none",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "wings",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "pip-trim-wings",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "fins",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "pip-trim-fins",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Workshoptrim",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "none",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "pip-trim-none",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "wings",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "pip-trim-wings",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "fins",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "pip-trim-fins",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "PipRobot",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "standard",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "pip-body-standard",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "red",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "pip-body-red",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "green",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "pip-body-green",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "pink",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "pip-body-pink",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "yellow",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "pip-body-yellow",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "white",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "pip-body-white",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "black",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "pip-body-black",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Workshopbody",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "standard",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "pip-body-standard",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "red",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "pip-body-red",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "green",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "pip-body-green",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "pink",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "pip-body-pink",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "yellow",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "pip-body-yellow",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "white",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "pip-body-white",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "black",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "pip-body-black",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Pipeyes",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "visor",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "pip-eyes-visor",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "binocular",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "pip-eyes-binocular",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "round",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "pip-eyes-round",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Workshopeyes",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "visor",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "pip-eyes-visor",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "binocular",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "pip-eyes-binocular",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "round",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "pip-eyes-round",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Piptool",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "scanner",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "pip-tool-scanner",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "lens",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "pip-tool-lens",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "sampler",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "pip-tool-sampler",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Workshoptool",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "scanner",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "pip-tool-scanner",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "lens",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "pip-tool-lens",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "sampler",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "pip-tool-sampler",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "PipBlueprint",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "pip-blueprint",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "PipBlueprintLabel",
+          "type": "TextObject::Text",
+          "variables": [],
+          "behaviors": [],
+          "effects": [],
+          "bold": true,
+          "italic": false,
+          "underlined": false,
+          "smoothed": true,
+          "text": "PIP // MY EXPLORATION BUDDY",
+          "font": "",
+          "characterSize": 16,
+          "color": {
+            "r": 23,
+            "g": 56,
+            "b": 74
+          },
+          "textAlignment": "left",
+          "verticalTextAlignment": "top",
+          "lineHeight": 0,
+          "isOutlineEnabled": false,
+          "isShadowEnabled": false,
+          "string": "PIP // MY EXPLORATION BUDDY",
+          "content": {
+            "bold": true,
+            "italic": false,
+            "underlined": false,
+            "smoothed": true,
+            "text": "PIP // MY EXPLORATION BUDDY",
+            "font": "",
+            "characterSize": 16,
+            "color": "23;56;74",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "lineHeight": 0,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false
+          }
+        },
+        {
+          "name": "WorkshopNote",
+          "type": "TextObject::Text",
+          "variables": [],
+          "behaviors": [],
+          "effects": [],
+          "bold": true,
+          "italic": false,
+          "underlined": false,
+          "smoothed": true,
+          "text": "",
+          "font": "",
+          "characterSize": 16,
+          "color": {
+            "r": 23,
+            "g": 56,
+            "b": 74
+          },
+          "textAlignment": "left",
+          "verticalTextAlignment": "top",
+          "lineHeight": 0,
+          "isOutlineEnabled": false,
+          "isShadowEnabled": false,
+          "string": "",
+          "content": {
+            "bold": true,
+            "italic": false,
+            "underlined": false,
+            "smoothed": true,
+            "text": "",
+            "font": "",
+            "characterSize": 16,
+            "color": "23;56;74",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "lineHeight": 0,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false
+          }
+        },
+        {
+          "name": "PipTab0",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "PipTabLabel0",
+          "type": "TextObject::Text",
+          "variables": [],
+          "behaviors": [],
+          "effects": [],
+          "bold": true,
+          "italic": false,
+          "underlined": false,
+          "smoothed": true,
+          "text": "",
+          "font": "",
+          "characterSize": 16,
+          "color": {
+            "r": 23,
+            "g": 56,
+            "b": 74
+          },
+          "textAlignment": "left",
+          "verticalTextAlignment": "top",
+          "lineHeight": 0,
+          "isOutlineEnabled": false,
+          "isShadowEnabled": false,
+          "string": "",
+          "content": {
+            "bold": true,
+            "italic": false,
+            "underlined": false,
+            "smoothed": true,
+            "text": "",
+            "font": "",
+            "characterSize": 16,
+            "color": "23;56;74",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "lineHeight": 0,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false
+          }
+        },
+        {
+          "name": "PipTab1",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "PipTabLabel1",
+          "type": "TextObject::Text",
+          "variables": [],
+          "behaviors": [],
+          "effects": [],
+          "bold": true,
+          "italic": false,
+          "underlined": false,
+          "smoothed": true,
+          "text": "",
+          "font": "",
+          "characterSize": 16,
+          "color": {
+            "r": 23,
+            "g": 56,
+            "b": 74
+          },
+          "textAlignment": "left",
+          "verticalTextAlignment": "top",
+          "lineHeight": 0,
+          "isOutlineEnabled": false,
+          "isShadowEnabled": false,
+          "string": "",
+          "content": {
+            "bold": true,
+            "italic": false,
+            "underlined": false,
+            "smoothed": true,
+            "text": "",
+            "font": "",
+            "characterSize": 16,
+            "color": "23;56;74",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "lineHeight": 0,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false
+          }
+        },
+        {
+          "name": "PipTab2",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "PipTabLabel2",
+          "type": "TextObject::Text",
+          "variables": [],
+          "behaviors": [],
+          "effects": [],
+          "bold": true,
+          "italic": false,
+          "underlined": false,
+          "smoothed": true,
+          "text": "",
+          "font": "",
+          "characterSize": 16,
+          "color": {
+            "r": 23,
+            "g": 56,
+            "b": 74
+          },
+          "textAlignment": "left",
+          "verticalTextAlignment": "top",
+          "lineHeight": 0,
+          "isOutlineEnabled": false,
+          "isShadowEnabled": false,
+          "string": "",
+          "content": {
+            "bold": true,
+            "italic": false,
+            "underlined": false,
+            "smoothed": true,
+            "text": "",
+            "font": "",
+            "characterSize": 16,
+            "color": "23;56;74",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "lineHeight": 0,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false
+          }
+        },
+        {
+          "name": "PipTab3",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "PipTabLabel3",
+          "type": "TextObject::Text",
+          "variables": [],
+          "behaviors": [],
+          "effects": [],
+          "bold": true,
+          "italic": false,
+          "underlined": false,
+          "smoothed": true,
+          "text": "",
+          "font": "",
+          "characterSize": 16,
+          "color": {
+            "r": 23,
+            "g": 56,
+            "b": 74
+          },
+          "textAlignment": "left",
+          "verticalTextAlignment": "top",
+          "lineHeight": 0,
+          "isOutlineEnabled": false,
+          "isShadowEnabled": false,
+          "string": "",
+          "content": {
+            "bold": true,
+            "italic": false,
+            "underlined": false,
+            "smoothed": true,
+            "text": "",
+            "font": "",
+            "characterSize": 16,
+            "color": "23;56;74",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "lineHeight": 0,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false
+          }
+        },
+        {
+          "name": "PipTab4",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "PipTabLabel4",
+          "type": "TextObject::Text",
+          "variables": [],
+          "behaviors": [],
+          "effects": [],
+          "bold": true,
+          "italic": false,
+          "underlined": false,
+          "smoothed": true,
+          "text": "",
+          "font": "",
+          "characterSize": 16,
+          "color": {
+            "r": 23,
+            "g": 56,
+            "b": 74
+          },
+          "textAlignment": "left",
+          "verticalTextAlignment": "top",
+          "lineHeight": 0,
+          "isOutlineEnabled": false,
+          "isShadowEnabled": false,
+          "string": "",
+          "content": {
+            "bold": true,
+            "italic": false,
+            "underlined": false,
+            "smoothed": true,
+            "text": "",
+            "font": "",
+            "characterSize": 16,
+            "color": "23;56;74",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "lineHeight": 0,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false
+          }
+        },
+        {
+          "name": "PipPart0",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "PipPartLabel0",
+          "type": "TextObject::Text",
+          "variables": [],
+          "behaviors": [],
+          "effects": [],
+          "bold": true,
+          "italic": false,
+          "underlined": false,
+          "smoothed": true,
+          "text": "",
+          "font": "",
+          "characterSize": 17,
+          "color": {
+            "r": 23,
+            "g": 56,
+            "b": 74
+          },
+          "textAlignment": "left",
+          "verticalTextAlignment": "top",
+          "lineHeight": 0,
+          "isOutlineEnabled": false,
+          "isShadowEnabled": false,
+          "string": "",
+          "content": {
+            "bold": true,
+            "italic": false,
+            "underlined": false,
+            "smoothed": true,
+            "text": "",
+            "font": "",
+            "characterSize": 17,
+            "color": "23;56;74",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "lineHeight": 0,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false
+          }
+        },
+        {
+          "name": "PipPart1",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "PipPartLabel1",
+          "type": "TextObject::Text",
+          "variables": [],
+          "behaviors": [],
+          "effects": [],
+          "bold": true,
+          "italic": false,
+          "underlined": false,
+          "smoothed": true,
+          "text": "",
+          "font": "",
+          "characterSize": 17,
+          "color": {
+            "r": 23,
+            "g": 56,
+            "b": 74
+          },
+          "textAlignment": "left",
+          "verticalTextAlignment": "top",
+          "lineHeight": 0,
+          "isOutlineEnabled": false,
+          "isShadowEnabled": false,
+          "string": "",
+          "content": {
+            "bold": true,
+            "italic": false,
+            "underlined": false,
+            "smoothed": true,
+            "text": "",
+            "font": "",
+            "characterSize": 17,
+            "color": "23;56;74",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "lineHeight": 0,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false
+          }
+        },
+        {
+          "name": "PipPart2",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "PipPartLabel2",
+          "type": "TextObject::Text",
+          "variables": [],
+          "behaviors": [],
+          "effects": [],
+          "bold": true,
+          "italic": false,
+          "underlined": false,
+          "smoothed": true,
+          "text": "",
+          "font": "",
+          "characterSize": 17,
+          "color": {
+            "r": 23,
+            "g": 56,
+            "b": 74
+          },
+          "textAlignment": "left",
+          "verticalTextAlignment": "top",
+          "lineHeight": 0,
+          "isOutlineEnabled": false,
+          "isShadowEnabled": false,
+          "string": "",
+          "content": {
+            "bold": true,
+            "italic": false,
+            "underlined": false,
+            "smoothed": true,
+            "text": "",
+            "font": "",
+            "characterSize": 17,
+            "color": "23;56;74",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "lineHeight": 0,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false
+          }
+        },
+        {
+          "name": "PipPart3",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "PipPartLabel3",
+          "type": "TextObject::Text",
+          "variables": [],
+          "behaviors": [],
+          "effects": [],
+          "bold": true,
+          "italic": false,
+          "underlined": false,
+          "smoothed": true,
+          "text": "",
+          "font": "",
+          "characterSize": 17,
+          "color": {
+            "r": 23,
+            "g": 56,
+            "b": 74
+          },
+          "textAlignment": "left",
+          "verticalTextAlignment": "top",
+          "lineHeight": 0,
+          "isOutlineEnabled": false,
+          "isShadowEnabled": false,
+          "string": "",
+          "content": {
+            "bold": true,
+            "italic": false,
+            "underlined": false,
+            "smoothed": true,
+            "text": "",
+            "font": "",
+            "characterSize": 17,
+            "color": "23;56;74",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "lineHeight": 0,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false
+          }
+        },
+        {
+          "name": "PipAction0",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "PipActionLabel0",
+          "type": "TextObject::Text",
+          "variables": [],
+          "behaviors": [],
+          "effects": [],
+          "bold": true,
+          "italic": false,
+          "underlined": false,
+          "smoothed": true,
+          "text": "",
+          "font": "",
+          "characterSize": 16,
+          "color": {
+            "r": 23,
+            "g": 56,
+            "b": 74
+          },
+          "textAlignment": "left",
+          "verticalTextAlignment": "top",
+          "lineHeight": 0,
+          "isOutlineEnabled": false,
+          "isShadowEnabled": false,
+          "string": "",
+          "content": {
+            "bold": true,
+            "italic": false,
+            "underlined": false,
+            "smoothed": true,
+            "text": "",
+            "font": "",
+            "characterSize": 16,
+            "color": "23;56;74",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "lineHeight": 0,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false
+          }
+        },
+        {
+          "name": "PipAction1",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "PipActionLabel1",
+          "type": "TextObject::Text",
+          "variables": [],
+          "behaviors": [],
+          "effects": [],
+          "bold": true,
+          "italic": false,
+          "underlined": false,
+          "smoothed": true,
+          "text": "",
+          "font": "",
+          "characterSize": 16,
+          "color": {
+            "r": 23,
+            "g": 56,
+            "b": 74
+          },
+          "textAlignment": "left",
+          "verticalTextAlignment": "top",
+          "lineHeight": 0,
+          "isOutlineEnabled": false,
+          "isShadowEnabled": false,
+          "string": "",
+          "content": {
+            "bold": true,
+            "italic": false,
+            "underlined": false,
+            "smoothed": true,
+            "text": "",
+            "font": "",
+            "characterSize": 16,
+            "color": "23;56;74",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "lineHeight": 0,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false
+          }
+        },
+        {
+          "name": "PipAction2",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "PipActionLabel2",
+          "type": "TextObject::Text",
+          "variables": [],
+          "behaviors": [],
+          "effects": [],
+          "bold": true,
+          "italic": false,
+          "underlined": false,
+          "smoothed": true,
+          "text": "",
+          "font": "",
+          "characterSize": 16,
+          "color": {
+            "r": 23,
+            "g": 56,
+            "b": 74
+          },
+          "textAlignment": "left",
+          "verticalTextAlignment": "top",
+          "lineHeight": 0,
+          "isOutlineEnabled": false,
+          "isShadowEnabled": false,
+          "string": "",
+          "content": {
+            "bold": true,
+            "italic": false,
+            "underlined": false,
+            "smoothed": true,
+            "text": "",
+            "font": "",
+            "characterSize": 16,
+            "color": "23;56;74",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "lineHeight": 0,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false
+          }
+        },
+        {
+          "name": "PipAction3",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "PipActionLabel3",
+          "type": "TextObject::Text",
+          "variables": [],
+          "behaviors": [],
+          "effects": [],
+          "bold": true,
+          "italic": false,
+          "underlined": false,
+          "smoothed": true,
+          "text": "",
+          "font": "",
+          "characterSize": 16,
+          "color": {
+            "r": 23,
+            "g": 56,
+            "b": 74
+          },
+          "textAlignment": "left",
+          "verticalTextAlignment": "top",
+          "lineHeight": 0,
+          "isOutlineEnabled": false,
+          "isShadowEnabled": false,
+          "string": "",
+          "content": {
+            "bold": true,
+            "italic": false,
+            "underlined": false,
+            "smoothed": true,
+            "text": "",
+            "font": "",
+            "characterSize": 16,
+            "color": "23;56;74",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "lineHeight": 0,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false
+          }
+        },
+        {
+          "name": "PipAction4",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "PipActionLabel4",
+          "type": "TextObject::Text",
+          "variables": [],
+          "behaviors": [],
+          "effects": [],
+          "bold": true,
+          "italic": false,
+          "underlined": false,
+          "smoothed": true,
+          "text": "",
+          "font": "",
+          "characterSize": 16,
+          "color": {
+            "r": 23,
+            "g": 56,
+            "b": 74
+          },
+          "textAlignment": "left",
+          "verticalTextAlignment": "top",
+          "lineHeight": 0,
+          "isOutlineEnabled": false,
+          "isShadowEnabled": false,
+          "string": "",
+          "content": {
+            "bold": true,
+            "italic": false,
+            "underlined": false,
+            "smoothed": true,
+            "text": "",
+            "font": "",
+            "characterSize": 16,
+            "color": "23;56;74",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "lineHeight": 0,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false
+          }
+        },
+        {
+          "name": "PipGhost",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "marker",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "ScienceModel",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "quartz",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "pip-science-quartz",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "iron",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "pip-science-iron",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "fossil",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "pip-science-fossil",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "instances": [
@@ -3675,21 +6423,6 @@
           "y": 415,
           "width": 40,
           "height": 56,
-          "customSize": true,
-          "angle": 0,
-          "zOrder": 10,
-          "layer": "",
-          "locked": false,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "name": "PipRobot",
-          "x": 155,
-          "y": 400,
-          "width": 40,
-          "height": 40,
           "customSize": true,
           "angle": 0,
           "zOrder": 10,
@@ -4733,6 +7466,651 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "name": "Piptravel",
+          "x": 155,
+          "y": 380,
+          "width": 70,
+          "height": 70,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 11,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "Workshoptravel",
+          "x": 140,
+          "y": 180,
+          "width": 270,
+          "height": 270,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 53,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "Piptrim",
+          "x": 155,
+          "y": 380,
+          "width": 70,
+          "height": 70,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 12,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "Workshoptrim",
+          "x": 140,
+          "y": 180,
+          "width": 270,
+          "height": 270,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 54,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "PipRobot",
+          "x": 155,
+          "y": 380,
+          "width": 70,
+          "height": 70,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 13,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "Workshopbody",
+          "x": 140,
+          "y": 180,
+          "width": 270,
+          "height": 270,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 55,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "Pipeyes",
+          "x": 155,
+          "y": 380,
+          "width": 70,
+          "height": 70,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 14,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "Workshopeyes",
+          "x": 140,
+          "y": 180,
+          "width": 270,
+          "height": 270,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 56,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "Piptool",
+          "x": 155,
+          "y": 380,
+          "width": 70,
+          "height": 70,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 15,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "Workshoptool",
+          "x": 140,
+          "y": 180,
+          "width": 270,
+          "height": 270,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 57,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "PipBlueprint",
+          "x": 115,
+          "y": 180,
+          "width": 340,
+          "height": 260,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 52,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "PipBlueprintLabel",
+          "x": 130,
+          "y": 190,
+          "width": 0,
+          "height": 0,
+          "customSize": false,
+          "angle": 0,
+          "zOrder": 58,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "WorkshopNote",
+          "x": 125,
+          "y": 435,
+          "width": 0,
+          "height": 0,
+          "customSize": false,
+          "angle": 0,
+          "zOrder": 58,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "PipTab0",
+          "x": 120,
+          "y": 145,
+          "width": 132,
+          "height": 64,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 58,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "PipTabLabel0",
+          "x": 127,
+          "y": 163,
+          "width": 0,
+          "height": 0,
+          "customSize": false,
+          "angle": 0,
+          "zOrder": 59,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "PipTab1",
+          "x": 260,
+          "y": 145,
+          "width": 132,
+          "height": 64,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 58,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "PipTabLabel1",
+          "x": 267,
+          "y": 163,
+          "width": 0,
+          "height": 0,
+          "customSize": false,
+          "angle": 0,
+          "zOrder": 59,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "PipTab2",
+          "x": 400,
+          "y": 145,
+          "width": 132,
+          "height": 64,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 58,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "PipTabLabel2",
+          "x": 407,
+          "y": 163,
+          "width": 0,
+          "height": 0,
+          "customSize": false,
+          "angle": 0,
+          "zOrder": 59,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "PipTab3",
+          "x": 540,
+          "y": 145,
+          "width": 132,
+          "height": 64,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 58,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "PipTabLabel3",
+          "x": 547,
+          "y": 163,
+          "width": 0,
+          "height": 0,
+          "customSize": false,
+          "angle": 0,
+          "zOrder": 59,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "PipTab4",
+          "x": 680,
+          "y": 145,
+          "width": 132,
+          "height": 64,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 58,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "PipTabLabel4",
+          "x": 687,
+          "y": 163,
+          "width": 0,
+          "height": 0,
+          "customSize": false,
+          "angle": 0,
+          "zOrder": 59,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "PipPart0",
+          "x": 470,
+          "y": 225,
+          "width": 190,
+          "height": 85,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 58,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "PipPartLabel0",
+          "x": 478,
+          "y": 237,
+          "width": 0,
+          "height": 0,
+          "customSize": false,
+          "angle": 0,
+          "zOrder": 59,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "PipPart1",
+          "x": 670,
+          "y": 225,
+          "width": 190,
+          "height": 85,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 58,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "PipPartLabel1",
+          "x": 678,
+          "y": 237,
+          "width": 0,
+          "height": 0,
+          "customSize": false,
+          "angle": 0,
+          "zOrder": 59,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "PipPart2",
+          "x": 470,
+          "y": 320,
+          "width": 190,
+          "height": 85,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 58,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "PipPartLabel2",
+          "x": 478,
+          "y": 332,
+          "width": 0,
+          "height": 0,
+          "customSize": false,
+          "angle": 0,
+          "zOrder": 59,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "PipPart3",
+          "x": 670,
+          "y": 320,
+          "width": 190,
+          "height": 85,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 58,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "PipPartLabel3",
+          "x": 678,
+          "y": 332,
+          "width": 0,
+          "height": 0,
+          "customSize": false,
+          "angle": 0,
+          "zOrder": 59,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "PipAction0",
+          "x": 120,
+          "y": 470,
+          "width": 140,
+          "height": 64,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 58,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "PipActionLabel0",
+          "x": 126,
+          "y": 488,
+          "width": 0,
+          "height": 0,
+          "customSize": false,
+          "angle": 0,
+          "zOrder": 59,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "PipAction1",
+          "x": 268,
+          "y": 470,
+          "width": 140,
+          "height": 64,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 58,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "PipActionLabel1",
+          "x": 274,
+          "y": 488,
+          "width": 0,
+          "height": 0,
+          "customSize": false,
+          "angle": 0,
+          "zOrder": 59,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "PipAction2",
+          "x": 416,
+          "y": 470,
+          "width": 140,
+          "height": 64,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 58,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "PipActionLabel2",
+          "x": 422,
+          "y": 488,
+          "width": 0,
+          "height": 0,
+          "customSize": false,
+          "angle": 0,
+          "zOrder": 59,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "PipAction3",
+          "x": 564,
+          "y": 470,
+          "width": 140,
+          "height": 64,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 58,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "PipActionLabel3",
+          "x": 570,
+          "y": 488,
+          "width": 0,
+          "height": 0,
+          "customSize": false,
+          "angle": 0,
+          "zOrder": 59,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "PipAction4",
+          "x": 712,
+          "y": 470,
+          "width": 140,
+          "height": 64,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 58,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "PipActionLabel4",
+          "x": 718,
+          "y": 488,
+          "width": 0,
+          "height": 0,
+          "customSize": false,
+          "angle": 0,
+          "zOrder": 59,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "PipGhost",
+          "x": 100,
+          "y": 100,
+          "width": 60,
+          "height": 60,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 70,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "ScienceModel",
+          "x": 125,
+          "y": 235,
+          "width": 750,
+          "height": 135,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 52,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "events": [
@@ -4803,20 +8181,66 @@
             " return objects.filter(o=>seen.has(o.id)&&(section!=='adventures'||['home','plant','rock','crystal','bridge'].includes(o.id))).map(o=>({id:o.id,title:journalActivities[o.id][0],icon:o.icon,summary:journalActivities[o.id][0],fact:journalActivities[o.id][1],target:o.id}));",
             "}",
             "",
+            "// Original schematic placeholders. No licensed character artwork or permanent PIP design.",
+            "const pipPalette=[{id:'standard',name:'Standard cream',color:'#fff1b8'},{id:'red',name:'Alex red',color:'#cf4348'},{id:'green',name:'Malik green',color:'#38864a'},{id:'pink',name:'Maya pink',color:'#d76a9d'},{id:'yellow',name:'Aiden yellow',color:'#edc74d'},{id:'white',name:'Kaito white',color:'#f2f2e8'},{id:'black',name:'Lucas black',color:'#303842'}];",
+            "const pipGroups=[",
+            " {id:'travel',title:'Move',icon:'🛞',parts:[{id:'hover',name:'Hover',icon:'☁️',note:'PIP floats beside me.'},{id:'wheels',name:'Rover wheels',icon:'🛞',note:'A rolling look for ground exploring.'},{id:'climber',name:'Four climbing arms',icon:'🕷️',note:'Four arms fitted. Climbing terrain comes later.'},{id:'swim',name:'Swim kit',icon:'🌊',note:'Swim gear fitted. Ocean exploring comes later.'}]},",
+            " {id:'tool',title:'Science',icon:'🔬',parts:[{id:'scanner',name:'Scanner',icon:'📡',note:'Ask PIP about a discovery.'},{id:'lens',name:'Zoom lens',icon:'🔬',note:'Look at a discovery more closely.'},{id:'sampler',name:'Sample arm',icon:'🦾',note:'Find out what a sample can tell us.'}]},",
+            " {id:'eyes',title:'Eyes',icon:'👀',parts:[{id:'visor',name:'Visor',icon:'▰',note:'A friendly glowing visor.'},{id:'binocular',name:'Explorer eyes',icon:'👀',note:'Two curious lenses.'},{id:'round',name:'Round eyes',icon:'◎',note:'Two round bright eyes.'}]},",
+            " {id:'trim',title:'Fins & wings',icon:'🪽',parts:[{id:'none',name:'No extra fins',icon:'◻',note:'Keep PIP simple.'},{id:'wings',name:'Wings',icon:'🪽',note:'Little wings for a flying buddy.'},{id:'fins',name:'Fins',icon:'🐟',note:'Streamlined fins for a rover look.'}]}",
+            "];",
+            "function standardPip(){return {color:'standard',travel:'hover',tool:'scanner',eyes:'visor',trim:'none'}}",
+            "function normalizePip(value={}){const c=standardPip();if(pipPalette.some(x=>x.id===value?.color))c.color=value.color;for(const g of pipGroups)if(g.parts.some(p=>p.id===value?.[g.id]))c[g.id]=value[g.id];return c}",
+            "function attachPip(config,slot,part){const next=normalizePip(config);if(slot==='color'?pipPalette.some(p=>p.id===part):pipGroups.some(g=>g.id===slot&&g.parts.some(p=>p.id===part)))next[slot]=part;return next}",
+            "function matchPipCrew(config,index){return attachPip(config,'color',pipPalette[index+1]?.id||'standard')}",
+            "const pipScience={",
+            " quartz:{title:'Quartz',formula:'SiO₂',atoms:[['Si','Silicon',1],['O','Oxygen',2]],fact:'Quartz is made of silicon and oxygen. Its atoms form a repeating crystal network.',zoom:'Look for flat crystal faces. The same tiny pattern repeats through the crystal.',sample:'Quartz can let light through. Observe its shape without scratching it.',note:'One silicon for two oxygen atoms. This is a ratio in a crystal, not a separate quartz molecule.'},",
+            " iron:{title:'Iron-bearing mineral',formula:'Fe₃O₄',atoms:[['Fe','Iron',3],['O','Oxygen',4]],fact:'Magnetite is one example of an iron-bearing mineral. It contains iron and oxygen.',zoom:'Some iron-bearing minerals, like magnetite, are attracted to a magnet.',sample:'Try comparing materials with a magnet when the magnet experiment is available.',note:'Example: magnetite. Not every iron-bearing mineral has this formula or is magnetic.'},",
+            " fossil:{title:'Fossil',formula:'CaCO₃',atoms:[['Ca','Calcium',1],['C','Carbon',1],['O','Oxygen',3]],fact:'A fossil is a trace or remain of ancient life. It does not have one chemical formula.',zoom:'Look for shell shapes or patterns left by something that lived long ago.',sample:'Fossils can contain different minerals. Observe gently and leave the fossil safe.',note:'Example: many shells began as calcium carbonate, CaCO₃. Fossil material can change during preservation.'}",
+            "};",
+            "function pipAnalysis(id,tool='scanner'){const item=pipScience[id];if(!item)return null;return {...item,detail:tool==='lens'?item.zoom:tool==='sampler'?item.sample:item.fact}}",
+            "function pipSvg(config={},layer='all'){",
+            " const c=normalizePip(config),color=pipPalette.find(p=>p.id===c.color).color;",
+            " const shapes={",
+            " travel:{hover:'<ellipse cx=\"100\" cy=\"155\" rx=\"38\" ry=\"9\" fill=\"#8adce8\"/><path d=\"M82 171h36\"/>',wheels:'<path d=\"M45 142h110\"/><rect x=\"36\" y=\"131\" width=\"30\" height=\"35\" rx=\"8\" fill=\"#29495d\"/><rect x=\"134\" y=\"131\" width=\"30\" height=\"35\" rx=\"8\" fill=\"#29495d\"/><path stroke=\"#d0e4e6\" d=\"M45 138v20m11-20v20m87-20v20m11-20v20\"/>',climber:'<path fill=\"none\" stroke-width=\"9\" d=\"M64 72L35 45 18 73M136 72l29-27 17 28M62 126l-30 16-12 30M138 126l30 16 12 30\"/>',swim:'<path fill=\"#65cbdc\" d=\"M68 136l-32 30 40-8M132 136l32 30-40-8\"/><ellipse cx=\"100\" cy=\"154\" rx=\"14\" ry=\"17\" fill=\"#9be8eb\"/>'}[c.travel],",
+            " trim:{none:'',wings:'<path fill=\"#c8edf2\" d=\"M62 80L15 61l9 35 38 15M138 80l47-19-9 35-38 15\"/>',fins:'<path fill=\"#65cbdc\" d=\"M65 70L38 44l8 70M135 70l27-26-8 70\"/>'}[c.trim],",
+            " body:`<rect x=\"56\" y=\"57\" width=\"88\" height=\"81\" rx=\"22\" fill=\"${color}\"/><path d=\"M100 57V37\"/><circle cx=\"100\" cy=\"31\" r=\"7\" fill=\"#f7ca60\"/><rect x=\"75\" y=\"116\" width=\"50\" height=\"9\" rx=\"4\" fill=\"#a8dae3\"/>`,",
+            " eyes:{visor:'<rect x=\"69\" y=\"78\" width=\"62\" height=\"27\" rx=\"10\" fill=\"#234d61\"/><path stroke=\"#9ae9ef\" stroke-width=\"4\" d=\"M79 88h11m20 0h11\"/>',binocular:'<path d=\"M87 89h26\"/><rect x=\"61\" y=\"73\" width=\"35\" height=\"34\" rx=\"12\" fill=\"#f7fbeb\"/><rect x=\"104\" y=\"73\" width=\"35\" height=\"34\" rx=\"12\" fill=\"#f7fbeb\"/><circle cx=\"80\" cy=\"89\" r=\"9\" fill=\"#3d92ad\"/><circle cx=\"120\" cy=\"89\" r=\"9\" fill=\"#3d92ad\"/>',round:'<circle cx=\"80\" cy=\"91\" r=\"15\" fill=\"#fffbed\"/><circle cx=\"120\" cy=\"91\" r=\"15\" fill=\"#fffbed\"/><circle cx=\"80\" cy=\"91\" r=\"6\" fill=\"#3d92ad\"/><circle cx=\"120\" cy=\"91\" r=\"6\" fill=\"#3d92ad\"/>'}[c.eyes],",
+            " tool:{scanner:'<path fill=\"#b8e6ee\" d=\"M145 115l14-21 13 21z\"/><circle cx=\"161\" cy=\"89\" r=\"8\" fill=\"#ffd367\"/>',lens:'<path stroke-width=\"8\" d=\"M142 124l15-16\"/><circle cx=\"166\" cy=\"99\" r=\"17\" fill=\"#b8e6ee\"/><circle cx=\"166\" cy=\"99\" r=\"7\" fill=\"#3d92ad\"/>',sampler:'<path fill=\"none\" stroke-width=\"7\" d=\"M143 115l19 12 10-13m0 0-5-14m5 14 13-7\"/>'}[c.tool]};",
+            " return '<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 200\" width=\"200\" height=\"200\"><g stroke=\"#234d61\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\">'+(layer==='all'?['travel','trim','body','eyes','tool'].map(k=>shapes[k]).join(''):shapes[layer]||'')+'</g></svg>';",
+            "}",
+            "",
+            "// Native GDevelop workshop: no embedded web view or runtime dependencies.",
+            "const pipWorkshopUI=['PipBlueprint','PipBlueprintLabel','WorkshopNote','PipGhost','ScienceModel',...['travel','trim','body','eyes','tool'].map(n=>'Workshop'+n),...Array.from({length:5},(_,i)=>['PipTab'+i,'PipTabLabel'+i,'PipAction'+i,'PipActionLabel'+i]).flat(),...Array.from({length:4},(_,i)=>['PipPart'+i,'PipPartLabel'+i]).flat()];",
+            "function nativePipLayer(name,slot,config){const options=slot==='body'?pipPalette:pipGroups.find(g=>g.id===slot).parts;obj(name).setAnimation(options.findIndex(p=>p.id===config[slot==='body'?'color':slot]));}",
+            "function nativePipUpdate(){for(const slot of ['travel','trim','body','eyes','tool']){const name=slot==='body'?'PipRobot':'Pip'+slot;obj(name).setPosition(actor.getX()+28,actor.getY()-36);nativePipLayer(name,slot,s.pip);if(s.overlay==='PIP Workshop')nativePipLayer('Workshop'+slot,slot,s.pip);}}",
+            "function nativePipFit(slot,id){s.pip=attachPip(s.pip,slot,id);const part=slot==='color'?pipPalette.find(p=>p.id===id):pipGroups.find(g=>g.id===slot).parts.find(p=>p.id===id);nativePipWorkshop(s.pipTab,s.pipPage);text('WorkshopNote','Fitted: '+part.name+'. '+(part.note||'My buddy has a new color.'));say('PIP fitted: '+part.name);}",
+            "function nativePipWorkshop(tab='travel',page=0){s.pipTab=tab;s.pipPage=page;open('PIP Workshop','Tap a part. Or drag it onto PIP.','');obj('CardBody').hide();obj('CardVisual').hide();for(const n of ['PipBlueprint','PipBlueprintLabel','WorkshopNote',...['travel','trim','body','eyes','tool'].map(n=>'Workshop'+n)])obj(n).hide(false);text('WorkshopNote','Tap to attach. Dragging is optional. PIP is always safe.');",
+            " const groups=[...pipGroups,{id:'color',title:'Colors',icon:'🎨'}];for(let i=0;i<groups.length;i++){const g=groups[i];obj('PipTab'+i).hide(false);obj('PipTabLabel'+i).hide(false);text('PipTabLabel'+i,(g.id===tab?'✓ ':'')+g.title);s.buttons.push({name:'PipTab'+i,fn:()=>nativePipWorkshop(g.id,0)});}",
+            " const group=pipGroups.find(g=>g.id===tab),items=tab==='color'?pipPalette:group.parts;s.pipParts=items.slice(page*4,page*4+4);",
+            " s.pipParts.forEach((part,i)=>{obj('PipPart'+i).hide(false);obj('PipPartLabel'+i).hide(false);text('PipPartLabel'+i,(s.pip[tab]===part.id?'✓ ':'')+(part.icon||'🎨')+'\\n'+part.name);s.buttons.push({name:'PipPart'+i,fn:()=>nativePipFit(tab,part.id)});});",
+            " const actions=[['Standard',()=>{s.pip=standardPip();nativePipWorkshop();text('WorkshopNote','Standard PIP restored.')}],['Match crew',()=>{s.pip=matchPipCrew(s.pip,s.crew);nativePipWorkshop(tab,page);text('WorkshopNote','PIP matches my astronaut suit.')}],['Analyze',nativePipSamples],tab==='color'?['More colors',()=>nativePipWorkshop('color',page?0:1)]:['Help',pip],['Explore',()=>{close();say('PIP is ready to explore with me.')}]];",
+            " actions.forEach(([label,fn],i)=>{obj('PipAction'+i).hide(false);obj('PipActionLabel'+i).hide(false);text('PipActionLabel'+i,label);s.buttons.push({name:'PipAction'+i,fn});});",
+            "}",
+            "function nativePipSamples(){const found=materials.filter(m=>s.found.has(m.id));open('Ask PIP',found.length?'Choose a sample I discovered.':'Dig to find our first sample.','',[",
+            " ...found.map(m=>[m.icon+' '+m.name,()=>nativePipAnalysis(m.id)]),...(found.length?[]:[['Go digging',()=>{close();select(objects.find(o=>o.id==='dig'))}]]),['PIP Workshop',()=>nativePipWorkshop()]",
+            " ]);}",
+            "function nativePipAnalysis(id){const a=pipAnalysis(id,s.pip.tool);if(!a)return;open('PIP: '+a.title,a.detail,'',[]);obj('ScienceModel').hide(false);obj('ScienceModel').setAnimation(materials.findIndex(m=>m.id===id));obj('WorkshopNote').hide(false);text('WorkshopNote',a.note.replace(/(.{1,88})(?:\\s|$)/g,'$1\\n').trim());obj('WorkshopNote').setPosition(125,380);const options=[['Listen',()=>listenJournal(a.detail+' '+a.note)],['My samples',nativePipSamples],['Workshop',()=>nativePipWorkshop()]];options.forEach(([label,fn],i)=>{obj('PipAction'+i).hide(false);obj('PipActionLabel'+i).hide(false);text('PipActionLabel'+i,label);s.buttons.push({name:'PipAction'+i,fn});});say('PIP uses our science guide. '+a.formula);}",
+            "",
             "// Runs once per frame as a native GDevelop JavaScript event.",
             "const obj=name=>runtimeScene.getObjects(name)[0];",
             "const text=(name,value)=>obj(name).setString(value);",
             "if(!runtimeScene.__jacc){",
-            " runtimeScene.__jacc={crew:0,started:false,paused:false,path:[],pending:null,dig:0,action:0,found:new Set(),visited:new Set(),last:null,overlay:null,buttons:[],focus:0,tab:false,enter:false,settings:{reduced:false,effects:true,narration:false,volume:.3}};",
+            " runtimeScene.__jacc={pip:standardPip(),pipTab:'travel',pipPage:0,crew:0,started:false,paused:false,path:[],pending:null,dig:0,action:0,found:new Set(),visited:new Set(),last:null,overlay:null,buttons:[],focus:0,tab:false,enter:false,settings:{reduced:false,effects:true,narration:false,volume:.3}};",
             "}",
             "const s=runtimeScene.__jacc,actor=obj('Alex');",
             "const say=message=>{text('Status',message);if(s.settings.narration&&typeof speechSynthesis!=='undefined'){speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(message);u.volume=s.settings.volume;speechSynthesis.speak(u)}};",
             "const crewUI=Array.from({length:6},(_,i)=>['CrewCard'+i,'CrewPortrait'+i,'CrewName'+i,'CrewDetail'+i]).flat();",
-            "const ui=[...crewUI,'Panel','CardTitle','CardBody','CardVisual','Close','CloseLabel',...Array.from({length:6},(_,i)=>['Option'+i,'OptionLabel'+i]).flat()];",
+            "const ui=[...pipWorkshopUI,...crewUI,'Panel','CardTitle','CardBody','CardVisual','Close','CloseLabel',...Array.from({length:6},(_,i)=>['Option'+i,'OptionLabel'+i]).flat()];",
             "function close(){s.overlay=null;for(const n of ui)obj(n).hide();}",
-            "function open(title,body,visual,options=[]){s.overlay=title;s.buttons=[];for(const n of ui)obj(n).hide();for(const n of ['Panel','CardTitle','CardBody','CardVisual','Close','CloseLabel'])obj(n).hide(false);text('CardTitle',title);text('CardBody',body.replace(/(.{1,64})(?:\\s|$)/g,'$1\\n').trim());text('CardVisual',visual);options.slice(0,6).forEach(([label,fn],i)=>{obj('Option'+i).hide(false);obj('OptionLabel'+i).hide(false);text('OptionLabel'+i,label);s.buttons.push({name:'Option'+i,fn})});say(title+'. '+body);}",
+            "function open(title,body,visual,options=[]){s.overlay=title;s.buttons=[];obj('WorkshopNote').setPosition(125,435);for(const n of ui)obj(n).hide();for(const n of ['Panel','CardTitle','CardBody','CardVisual','Close','CloseLabel'])obj(n).hide(false);text('CardTitle',title);text('CardBody',body.replace(/(.{1,64})(?:\\s|$)/g,'$1\\n').trim());text('CardVisual',visual);options.slice(0,6).forEach(([label,fn],i)=>{obj('Option'+i).hide(false);obj('OptionLabel'+i).hide(false);text('OptionLabel'+i,label);s.buttons.push({name:'Option'+i,fn})});say(title+'. '+body);}",
             "function select(o){s.started=true;s.path=pathfind([actor.getX()+20,actor.getY()+45],[o.x-65,o.y+55]);s.pending=o;s.action=0;say('Going to '+o.name);if(!s.path.length){s.pending=null;arrive(o)}}",
-            "function card(o){open(o.name,o.text,o.icon+'   '+o.diagram,[['Listen / replay',()=>{say(o.text);if(typeof speechSynthesis!=='undefined'){speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(o.text);u.volume=s.settings.volume;speechSynthesis.speak(u)}}],['Revisit',()=>{close();select(objects.find(x=>x.id===o.id)||objects.find(x=>x.id==='dig'))}]]);}",
+            "function card(o){open(o.name,o.text,o.icon+'   '+o.diagram,[['Listen / replay',()=>{say(o.text);if(typeof speechSynthesis!=='undefined'){speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(o.text);u.volume=s.settings.volume;speechSynthesis.speak(u)}}],['Revisit',()=>{close();select(objects.find(x=>x.id===o.id)||objects.find(x=>x.id==='dig'))}],...(materials.some(m=>m.id===o.id)?[['Ask PIP',()=>nativePipAnalysis(o.id)]]:[])]);}",
             "function arrive(o){s.last=o.id;if(o.kind!=='dig')s.visited.add(o.id);if(o.kind==='home'){say('Back at the start. Choose a picture.');return}if(o.kind==='dig'){s.action=s.settings.reduced?.2:1.2;say('Digging through the soil...');return}s.found.add(o.id);card(o)}",
             "function crewMenu(){open('J.A.C.C. Crew','Tap an astronaut. Everyone can explore every activity.','');for(let i=0;i<roster.length;i++){const r=roster[i];for(const name of ['CrewCard','CrewPortrait','CrewName','CrewDetail'])obj(name+i).hide(false);text('CrewName'+i,(s.crew===i?'[Selected] ':'')+r[0]);text('CrewDetail'+i,(r[1]+' suit | '+r[2]).replace(/(.{1,29})(?:\\s|$)/g,'$1\\n').trim());s.buttons.push({name:'CrewCard'+i,fn:()=>{s.crew=i;actor.setAnimation(i);text('ActiveCrew',r[0]+' | '+r[1]+' | '+r[2]);close();say(r[0]+' selected. '+r[2])}});}}",
             "function pip(){open('PIP','Choose a picture. Your astronaut will walk there and explore.','PIP  >  TAP  >  DISCOVER',[",
@@ -4824,7 +8248,8 @@
             " ['Show me a dig',()=>{close();select(objects.find(o=>o.id==='dig'))}],",
             " ['Previous activity',()=>{close();select(objects.find(o=>o.id===s.last)||objects[0])}],",
             " ['Repeat guidance',()=>say('Tap a picture to explore. Tap the pickaxe to dig. Nothing needs holding or dragging.')],",
-            " ['Return home',()=>{close();select(objects[0])}]",
+            " ['Return home',()=>{close();select(objects[0])}],",
+            " ['Build PIP',()=>nativePipWorkshop()]",
             " ]);}",
             "function listenJournal(message){if(typeof speechSynthesis!=='undefined'){speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(message);u.volume=s.settings.volume;u.rate=.85;speechSynthesis.speak(u)}}",
             "function journal(){open('My Journal','My stories. My discoveries. My adventures.','',[",
@@ -4852,7 +8277,14 @@
             "s.tab=key('Tab');s.focus%=actions.length;",
             "if(key('Return')&&!s.enter)actions[s.focus].fn();s.enter=key('Return');",
             "const x=gdjs.evtTools.input.getCursorX(runtimeScene,'',0),y=gdjs.evtTools.input.getCursorY(runtimeScene,'',0);",
-            "if(gdjs.evtTools.input.isMouseButtonReleased(runtimeScene,'Left')){",
+            "const released=gdjs.evtTools.input.isMouseButtonReleased(runtimeScene,'Left'),held=gdjs.evtTools.input.isMouseButtonPressed(runtimeScene,'Left');",
+            "let dropped=false;",
+            "if(s.overlay==='PIP Workshop'){",
+            " if(held&&!s.pipHeld){const i=(s.pipParts||[]).findIndex((p,i)=>{const b=obj('PipPart'+i);return x>=b.getX()&&x<=b.getX()+b.getWidth()&&y>=b.getY()&&y<=b.getY()+b.getHeight()});if(i>=0)s.pipDrag={x,y,index:i,active:false};}",
+            " if(s.pipDrag){if(held&&Math.hypot(x-s.pipDrag.x,y-s.pipDrag.y)>12)s.pipDrag.active=true;if(s.pipDrag.active&&held){obj('PipGhost').hide(false);obj('PipGhost').setPosition(x-30,y-30);}if(released){const d=s.pipDrag;s.pipDrag=null;obj('PipGhost').hide();if(d.active){dropped=true;if(x>=115&&x<=455&&y>=180&&y<=440)nativePipFit(s.pipTab,s.pipParts[d.index].id);else text('WorkshopNote','Part put back. Tap it any time to attach it.');}}else if(!held){s.pipDrag=null;obj('PipGhost').hide();}}",
+            "}else{s.pipDrag=null;obj('PipGhost').hide();}",
+            "s.pipHeld=held;",
+            "if(released&&!dropped){",
             " const hit=actions.find(a=>{const o=obj(a.name);return x>=o.getX()&&x<=o.getX()+o.getWidth()&&y>=o.getY()&&y<=o.getY()+o.getHeight()});",
             " if(hit)hit.fn();else if(!s.overlay&&!s.paused&&y>95){s.started=true;s.pending=null;s.action=0;s.path=pathfind([actor.getX()+20,actor.getY()+45],[x,y]);obj('Marker').setPosition(x-12,y-12);obj('Marker').hide(!s.settings.effects);say(s.path.length?'Walking to your marker.':'Choose the path around the pond.');}",
             "}",
@@ -4861,7 +8293,7 @@
             " if(s.path.length){const [x,y]=s.path[0],ax=actor.getX()+20,ay=actor.getY()+45,dx=x-ax,dy=y-ay,d=Math.hypot(dx,dy),step=150*dt;if(d<=step){actor.setPosition(x-20,y-45);s.path.shift();if(!s.path.length&&s.pending){const o=s.pending;s.pending=null;arrive(o)}}else actor.setPosition(actor.getX()+dx/d*step,actor.getY()+dy/d*step);}",
             " if(s.action>0){s.action-=dt;if(s.action<=0){const m=materials[s.dig++%materials.length];s.visited.add('dig');s.found.add(m.id);card(m)}}",
             "}",
-            "obj('PipRobot').setPosition(actor.getX()+43,actor.getY()-10);",
+            "nativePipUpdate();",
             "obj('Focus').setZOrder(s.overlay?51:3);",
             "obj('Focus').setPosition(obj(actions[s.focus].name).getX()-5,obj(actions[s.focus].name).getY()-5);obj('Focus').setWidth(obj(actions[s.focus].name).getWidth()+10);obj('Focus').setHeight(obj(actions[s.focus].name).getHeight()+10);",
             ""
