@@ -32,4 +32,10 @@ These are offline, repeatable science models. See [farm science references and v
 
 From the training grounds choose **Dig site**. Tap ground to excavate automatically, or ask PIP to Show places for large find targets. Tools include a drill, scoop and power arms; Aiden's yellow engineering rig digs faster while PIP assists the other crew. Explore the upper layers and Deep caverns, collect samples, and inspect cave life, echolocation, formations, groundwater and protected magma/mantle models. The original three-material activity remains at **Sample tray**.
 
-The engineering portal leads to starter sample-guided workbenches. Select a reusable sample, then Install on farm to fit a raised support, water-channel or greenhouse/habitat model. Full engineering/construction is next; see [roadmap](docs/ROADMAP.md) for the later worlds, colonies, solar-system and Adventure Mode plans. See [dig science review notes](docs/DIG_SCIENCE.md) for limits and pending verification.
+The engineering portal leads to starter sample-guided workbenches. Select a reusable sample, then Install on farm to fit a raised support, water-channel or greenhouse/habitat model. The expanded construction yard is now available; see [roadmap](docs/ROADMAP.md) for the later worlds, colonies, solar-system and Adventure Mode plans. See [dig science review notes](docs/DIG_SCIENCE.md) for limits and pending verification.
+
+## Engineering & construction yard
+
+From the home hub, choose **Engineering zone**. Visit the **3D printer**, **Crane bay**, **Builder robots**, **Pipe workshop**, **Power workshop**, **Construction challenges**, or **Free-build sandbox**. Tap prefabs into the side-view board, then Test model. Undo, Reset, Plan and Robot build are always available; no resources are spent.
+
+Complete the six challenges and three machine demonstrations to keep nine reusable kits. **My parts** fits kits at the farm. **Space elevator project** at Home Base assembles a training foundation/tower/dock and unlocks an animated orbital preview. The giant elevator and generated My Solar System are future systems, not completed real-scale simulations. See [construction model details and validation limits](docs/CONSTRUCTION_MODELS.md).
