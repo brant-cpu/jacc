@@ -5,7 +5,7 @@
 1. Download the repository ZIP from GitHub and extract the complete folder.
 2. In GDevelop 5, choose **Open a project** / **Open from your computer**.
 3. Select **gdevelop/game.json**. Do not select an HTML file, ZIP, source JS file, or package.json.
-4. Open the **GSEI_HQ** scene, then choose **Preview**.
+4. Open the **TrainingGrounds** scene, then choose **Preview**.
 
 No Python, web server, package installation, or external assets are required. Keep the assets folder beside game.json.
 
@@ -15,7 +15,7 @@ This is a native GDevelop scene: editable Sprite and Text objects, PNG resources
 
 ## Edit
 
-Open **GSEI_HQ → Events** to inspect the gameplay event. For source-based editing, change `src/gameplay.js`, then run `node build.mjs` from this folder to regenerate game.json. The build also reads the shared configurable data/navigation in `../prototype/src/` and `project-template.json`. It has no external package dependency. Rebuilding replaces game.json: preserve editor edits before regenerating. Editing in GDevelop does not require Node.
+Open **TrainingGrounds → Events** to inspect the gameplay event. For source-based editing, change `src/gameplay.js`, then run `node build.mjs` from this folder to regenerate game.json. The build also reads the shared configurable data/navigation in `../prototype/src/` and `project-template.json`. It has no external package dependency. Rebuilding replaces game.json: preserve editor edits before regenerating. Editing in GDevelop does not require Node.
 
 ## Validation and limits
 
@@ -31,7 +31,7 @@ Open Crew and tap one of the six astronauts to switch immediately. Cards show th
 
 Journal opens a simple home page with five large pictorial choices: **What I Did**, **What I Discovered**, **My Adventures**, **My Experiments**, and **My Minerals**. Completed visits and digging populate short first-person entries. Each entry offers a short fact, Listen, and Do It Again, plus a back button. Lists have large page buttons rather than requiring precision scrolling. Close is always available. Fossils belong to discoveries, not minerals. Experiment activities remain planned; visiting a station does not count as completing an experiment. Empty pages offer an Explore button. Browser history is saved locally when storage is available; native history currently lasts for the preview session.
 
-`prototype/src/journal.js` shares configurable journal sections, activity wording and entry filtering between both builds. Native regeneration reads this source. Sixteen Node tests cover navigation, journal content, zones, farm models and PIP configuration; the browser and native event checks also exercise journal navigation and repeat activities. GDevelop desktop rendering, actual file opening, physical iPad testing and reading-free comprehension still require validation.
+`prototype/src/journal.js` shares configurable journal sections, activity wording and entry filtering between both builds. Native regeneration reads this source. Seventeen Node tests cover navigation, journal content, zones, farm models and PIP configuration; the browser and native event checks also exercise journal navigation and repeat activities. GDevelop desktop rendering, actual file opening, physical iPad testing and reading-free comprehension still require validation.
 
 ## PIP workshop
 
@@ -43,18 +43,22 @@ Analyze lists discovered samples; Ask PIP on a discovery card opens the same sci
 
 `src/pip-workshop.js` implements native UI/events. Shared configuration, schematic geometry and science content live in `../prototype/src/pip.js`. `node build.mjs` consumes checked-in native PNG layers. Regenerating the original schematic artwork is optional and uses `scripts/pip-assets.mjs` with Sharp available in Node (or a `JACC_SHARP_PATH` selector); players do not need it. All visuals are temporary original schematics, not canonical production art. The native event harness covers all slot types, crew matching, reset, tap and drag fitting, canceled drops and sample analysis. This still does not establish successful GDevelop editor rendering or physical-iPad behavior.
 
-## GSEI HQ starting zone
+## HQ interior
 
-Open **GSEI_HQ** and Preview. The project starts at HQ: star-base arrival bay and map, science lab and PIP workbench, dormitory bunks and crew lockers, joined by a common walkway. Workbench opens Build PIP; lockers open Crew; Rest here pauses until Resume. The green Training grounds doorway opens the existing outdoor zone, and HQ entrance returns home.
+Open **TrainingGrounds** and Preview. The project starts at the training grounds home hub. Visit HQ for its star-base arrival bay and map, science lab and PIP workbench, dormitory bunks and crew lockers, joined by a common walkway. Workbench opens Build PIP; lockers open Crew; Rest here pauses until Resume. HQ entrance in the home hub leads to the base; the Training grounds doorway brings the crew back home.
 
-Zone switching uses native objects in the existing scene, preserving the session's crew, PIP configuration, discoveries and settings. Inactive scenery and interaction targets are hidden and excluded from input. The two zones share configurable metadata, destinations, collision masks and journal records from `../prototype/src/zones.js`. The backdrop PNG is generated from that shared source by the optional Sharp-based `scripts/hq-assets.mjs`; no image-authoring dependency is needed to open or preview the checked-in project. `node build.mjs` regenerates game.json with the GSEI_HQ layout name.
+Zone switching uses native objects in the existing scene, preserving the session's crew, PIP configuration, discoveries and settings. Inactive scenery and interaction targets are hidden and excluded from input. The zones share configurable metadata, destinations, collision masks and journal records from `../prototype/src/zones.js`. The backdrop PNG is generated from that shared source by the optional Sharp-based `scripts/hq-assets.mjs`; no image-authoring dependency is needed to open or preview the checked-in project. `node build.mjs` regenerates game.json with the TrainingGrounds layout name.
 
 The native event harness verifies startup at HQ, all room destinations, reciprocal portals, menu stations and retained session state. This is not a GDevelop desktop rendering test. Physical-iPad behavior remains unverified. Art is a provisional schematic environment foundation; the lab is observational and the dormitory has no survival or sleep-meter systems.
 
 ## Planet Farm
 
-In **GSEI_HQ → Preview**, tap **Planet farm**. All 12 farm stations use native GDevelop menu objects and the shared `../prototype/src/farm.js` view/action model. Generated diagrams/backdrop are checked in; the optional `scripts/farm-assets.mjs` authoring step uses Sharp. No backend, package installation or live internet is needed to play.
+In **TrainingGrounds → Preview**, tap **Planet farm**. All 12 farm stations use native GDevelop menu objects and the shared `../prototype/src/farm.js` view/action model. Generated diagrams/backdrop are checked in; the optional `scripts/farm-assets.mjs` authoring step uses Sharp. No backend, package installation or live internet is needed to play.
 
 Try the pump, greenhouse shade/vent, growth stages, pollination, water cycle/reuse, energy inputs, robot helper and leaf microscope. The plant computer covers 15 familiar plants in overlapping categories, with paging for small lists. Sample trays in five growing areas supply collectable seeds; the seed bank preserves one entry per species. Seed samples and completed model activities also enter the journal. No timer, grading, death, resource penalty or compulsory quiz is added. State lasts for this native preview session; native disk persistence is still unimplemented.
 
 The native event harness verifies every station, all nine models, sample collection, bank/library menus, experiment journaling and return travel. Desktop GDevelop rendering and physical-iPad testing remain unverified. This is a schematic educational prototype, not a real crop-control system. Live verification against authoritative sources is blocked by network policy; see `../docs/FARM_SCIENCE.md`. No institution has approved this game's science content.
+
+## Home hub routing
+
+The layout is now **TrainingGrounds**, and Preview starts in the training grounds home hub. Native zone switching retains the HQ and farm interiors in this layout. Both exit paths and PIP Return home lead back to the hub; cross-zone revisits use its connecting routes. Collected seeds, experiments, crew and PIP state remain in the preview session. The native event harness explicitly checks hub startup and return-home from both farm and HQ.

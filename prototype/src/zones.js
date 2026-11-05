@@ -1,15 +1,13 @@
-import {farmObjects} from './farm.js';
 // Provisional HQ environment, shared by both builds. Ground coordinates are 1000 × 600.
-export const zones={hq:{id:'hq',name:'GSEI HQ',spawn:[420,460],exit:'hq-exit',home:'hq-home'},farm:{id:'farm',name:'Planet Farm',spawn:[100,480],exit:'farm-exit',home:'farm-exit'},grounds:{id:'grounds',name:'GSEI Discovery Training Grounds',spawn:[200,500],exit:'home',home:'home'}};
+export const zones={hq:{id:'hq',name:'GSEI HQ',spawn:[420,460],exit:'hq-exit',home:'grounds-home'},farm:{id:'farm',name:'Planet Farm',spawn:[100,480],exit:'farm-exit',home:'grounds-home'},grounds:{id:'grounds',name:'GSEI Discovery Training Grounds',spawn:[200,500],exit:'home',home:'grounds-home'}};
 export const hqObjects=[
  {id:'hq-map',zone:'hq',x:180,y:180,icon:'🪐',name:'Star map',kind:'inspect',text:'Our star base is a place to begin an adventure. Look at Earth, the Moon and the stars.',diagram:'🌍 → 🌙 → ✨'},
- {id:'hq-bay',zone:'hq',x:240,y:255,icon:'🚀',name:'Arrival bay',kind:'inspect',text:'Welcome to HQ! A landing bay gives a craft a clear place to arrive. Our adventures start here.',diagram:'🚀 → 🛬 → 🏠'},
+ {id:'hq-bay',zone:'hq',x:240,y:255,icon:'🚀',name:'Arrival bay',kind:'inspect',text:'Welcome to HQ! A landing bay gives a craft a clear place to arrive. HQ supports our adventures. The training grounds are our home hub.',diagram:'🚀 → 🛬 → 🏠'},
  {id:'hq-lab',zone:'hq',x:500,y:180,icon:'🔬',name:'Science lab',kind:'inspect',text:'Look closely. Compare shapes. Ask a question. This lab is our place to investigate discoveries.',diagram:'👀 → 🔎 → 💡'},
  {id:'hq-pip',zone:'hq',x:600,y:255,icon:'🤖',name:'PIP workbench',kind:'workshop'},
  {id:'hq-bunks',zone:'hq',x:820,y:180,icon:'🛏️',name:'Cozy bunks',kind:'inspect',text:'This is a quiet place to rest. There is no hurry. I can take a break whenever I want.',diagram:'🧑‍🚀 → 🛏️ → 💛'},
  {id:'hq-locker',zone:'hq',x:900,y:255,icon:'🧑‍🚀',name:'Crew lockers',kind:'crew'},
- {id:'hq-home',zone:'hq',x:500,y:450,icon:'🏠',name:'Welcome hub',kind:'home'},
- {id:'hq-farm',zone:'hq',x:700,y:450,icon:'🌾',name:'Planet farm',kind:'portal',to:'farm'},
+ {id:'hq-home',zone:'hq',x:500,y:450,icon:'🏢',name:'Welcome desk',kind:'inspect',text:'HQ has our science lab, arrival bay and dormitory. The training grounds are our home hub.',diagram:'🏢 ↔ 🌱'},
  {id:'hq-exit',zone:'hq',x:850,y:450,icon:'🌱',name:'Training grounds',kind:'portal',to:'grounds'}
 ];
 export function hqBlocked(x,y){return x===0||x===24||y<=2||y>=13||((x===8||x===16)&&y>=3&&y<=7)||(y===8&&![4,12,20].includes(x))||(y===4&&((x>=3&&x<=5)||(x>=11&&x<=13)||(x>=19&&x<=21)));}
@@ -47,11 +45,11 @@ export const hqPlan=[
  {kind:'text',x:60,y:145,text:'01 / STAR BASE',color:'#17384a',size:18},
  {kind:'text',x:380,y:145,text:'02 / SCIENCE LAB',color:'#17384a',size:18},
  {kind:'text',x:700,y:145,text:'03 / DORMITORY',color:'#17384a',size:18},
- {kind:'text',x:65,y:390,text:'WELCOME HOME',color:'#315e72',size:17},
+ {kind:'text',x:65,y:390,text:'WELCOME TO HQ',color:'#315e72',size:17},
  {kind:'text',x:690,y:512,text:'TRAINING GROUNDS →',color:'#315e72',size:16},
  {kind:'text',x:60,y:555,text:'Explore • Discover • Rest • Repeat',color:'#dfefed',size:16}
 ];
 export function hqSvg(){return '<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="600">'+hqPlan.map(p=>p.kind==='rect'?`<rect x="${p.x}" y="${p.y}" width="${p.w}" height="${p.h}" rx="3" fill="${p.color}"/>`:p.kind==='ellipse'?`<ellipse cx="${p.x}" cy="${p.y}" rx="${p.w}" ry="${p.h}" fill="${p.color}"/>`:`<text x="${p.x}" y="${p.y}" fill="${p.color}" font-size="${p.size}" font-family="sans-serif" font-weight="bold">${p.text}</text>`).join('')+'</svg>';}
 
-// Choose the next connecting doorway. HQ is the shared hub.
-export function zoneExit(from,to){return from==='hq'?(to==='farm'?'hq-farm':'hq-exit'):zones[from].exit;}
+// The training grounds connect every destination.
+export function zoneExit(from,to){return from==='grounds'?(to==='farm'?'grounds-farm':'home'):zones[from].exit;}

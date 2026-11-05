@@ -7,6 +7,8 @@ export const materials=[
 {id:'iron',name:'Iron-bearing mineral',icon:'🪨',diagram:'🧲 → 🪨',text:'Some iron-bearing minerals, such as magnetite, are attracted to a magnet. Not all iron minerals are magnetic.'},
 {id:'fossil',name:'Fossil',icon:'🐚',diagram:'🐚 → 🟫 → 🪨',text:'A fossil is a preserved trace or remain of ancient life. Layers of sediment can bury and preserve shells.'}];
 export const trainingObjects=[
+{id:'grounds-home',x:120,y:150,icon:'🏠',name:'Home hub',kind:'home'},
+{id:'grounds-farm',x:900,y:300,icon:'🌾',name:'Planet farm',kind:'portal',to:'farm'},
 {id:'home',x:130,y:460,icon:'🏠',name:'HQ entrance',kind:'portal',to:'hq'},
 {id:'plant',x:220,y:245,icon:'🌱',name:'Living plant',text:'Plants are living things. They need water and light to grow.',diagram:'☀️ + 💧 → 🌱'},
 {id:'rock',x:380,y:175,icon:'🪨',name:'Hill rock',text:'This rock is nonliving. Look at its shape and compare it with the plant.',diagram:'🌱 ≠ 🪨'},

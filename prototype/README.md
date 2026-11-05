@@ -50,7 +50,7 @@ Open Crew and tap one of the six astronauts to switch immediately. Cards show th
 
 Journal opens a simple home page with five large pictorial choices: **What I Did**, **What I Discovered**, **My Adventures**, **My Experiments**, and **My Minerals**. Completed visits and digging populate short first-person entries. Each entry offers a short fact, Listen, and Do It Again, plus a back button. Lists have large page buttons rather than requiring precision scrolling. Close is always available. Fossils belong to discoveries, not minerals. Experiment activities remain planned; visiting a station does not count as completing an experiment. Empty pages offer an Explore button. Browser history is saved locally when storage is available; native history currently lasts for the preview session.
 
-`prototype/src/journal.js` shares configurable journal sections, activity wording and entry filtering between both builds. Native regeneration reads this source. Sixteen Node tests cover navigation, journal content, zones, farm models and PIP configuration; the browser and native event checks also exercise journal navigation and repeat activities. GDevelop desktop rendering, actual file opening, physical iPad testing and reading-free comprehension still require validation.
+`prototype/src/journal.js` shares configurable journal sections, activity wording and entry filtering between both builds. Native regeneration reads this source. Seventeen Node tests cover navigation, journal content, zones, farm models and PIP configuration; the browser and native event checks also exercise journal navigation and repeat activities. GDevelop desktop rendering, actual file opening, physical iPad testing and reading-free comprehension still require validation.
 
 ## PIP workshop and science buddy
 
@@ -62,11 +62,11 @@ Travel attachments are configurable visual prototypes. The buddy automatically f
 
 `node tests/pip-browser.cjs` checks mouse and emulated-touch fitting/dragging, keyboard eyes, suit matching, reset, formula analysis, retained loadout, and target sizes. Native editor rendering and real-iPad gestures remain unverified.
 
-## GSEI HQ starting zone
+## HQ interior
 
-The browser now starts at **GSEI HQ** with three rooms and a common walkway. The star-base area has a star map and arrival bay. The science lab has an observation bench and a PIP workbench that opens customization. The dormitory has cozy bunks with an optional Rest/pause action and crew lockers that open character selection. Resume is always available. There are no sleep meters, schedules, costs or penalties.
+The browser starts at the training grounds home hub. HQ remains a connected interior with three rooms and a common walkway. The star-base area has a star map and arrival bay. The science lab has an observation bench and a PIP workbench that opens customization. The dormitory has cozy bunks with an optional Rest/pause action and crew lockers that open character selection. Resume is always available. There are no sleep meters, schedules, costs or penalties.
 
-Tap the green Training grounds doorway to walk outside; tap HQ entrance in the grounds to return. Journal revisits and Find a sample in the lab automatically route through the doorway when necessary. Travel preserves crew selection, discoveries, PIP fittings and accessibility settings. Reload begins at HQ while saved browser discoveries and customization remain available.
+Tap the green Training grounds doorway to walk outside; tap HQ entrance in the grounds to return. Journal revisits and Find a sample in the lab automatically route through the doorway when necessary. Travel preserves crew selection, discoveries, PIP fittings and accessibility settings. Reload begins at the training grounds home hub while saved browser discoveries and customization remain available.
 
 `src/zones.js` contains zone metadata, HQ destinations, wall/furniture collision masks and shared backdrop primitives. The Canvas draws the primitives; GDevelop uses a PNG generated from the same source. Doors are actual openings in the navigation grid. Actors approach clear positions and cannot activate an unreachable object remotely. `tests/zones.test.js` checks routes between every HQ interaction point, doorway crossings, blocked furniture, reciprocal exits and journal destinations. `node tests/hq-browser.cjs` checks all rooms, menus, rest/resume, journal entries, round-trip travel and automatic cross-zone revisits with mouse and emulated touch.
 
@@ -74,12 +74,16 @@ HQ is a provisional environment base. The lab is an observation space, not yet a
 
 ## Planet Farm
 
-Tap **Planet farm** in HQ. The zone has 12 stations and a return-to-HQ door. It includes hydroponics with a pump model, greenhouse shade/ventilation, a six-stage flowering-plant model, a pollination sequence, vertical gardening, solar/wind/hydropower choices, water-cycle and water-reuse sequences, a leaf/cell/chloroplast/chlorophyll zoom, and a scripted robot helper. Activities use single taps, do not run against a clock, and do not kill plants or consume resources.
+Tap **Planet farm** in the training grounds home hub. The zone has 12 stations and a return-to-home-hub door. It includes hydroponics with a pump model, greenhouse shade/ventilation, a six-stage flowering-plant model, a pollination sequence, vertical gardening, solar/wind/hydropower choices, water-cycle and water-reuse sequences, a leaf/cell/chloroplast/chlorophyll zoom, and a scripted robot helper. Activities use single taps, do not run against a clock, and do not kill plants or consume resources.
 
 The plant computer has 15 familiar examples, searchable by category buttons and large Next/Previous controls (not a ranked abundance list). Visit sample trays in the garden, orchard, biodome, hydro farm and vertical garden to save seeds. Duplicate collection retains one sample. Seed bank cards link back to each plant's sample tray. Saved seeds and completed activities appear in the discovery/experiment journal and survive reload when browser local storage works. Existing browser saves migrate with an empty farm profile.
 
-Shared content, view/action logic, validated saves, science illustrations and the farm backdrop are in `src/farm.js`. Native and browser menus project the same models. `tests/farm.test.js` checks every route, category and sample location, duplicate rules, all nine model completions, journal destinations and all navigation approaches. `node tests/farm-browser.cjs` exercises every station with mouse and emulated touch, the plant catalog, collecting, saved progress and travel. There are now 16 shared Node tests.
+Shared content, view/action logic, validated saves, science illustrations and the farm backdrop are in `src/farm.js`. Native and browser menus project the same models. `tests/farm.test.js` checks every route, category and sample location, duplicate rules, all nine model completions, journal destinations and all navigation approaches. `node tests/farm-browser.cjs` exercises every station with mouse and emulated touch, the plant catalog, collecting, saved progress and travel. There are now 17 shared Node tests.
 
 This is a protected fictional training farm using Earth plant examples, not a real planetary crop-production simulator. Hydroponics does not mean water without nutrients or oxygen. Filtering does not automatically make water safe to drink. A leaf makes sugars rather than electricity. Species differ in growth and seed-storage requirements. Art is schematic and not a plant-identification guide.
 
 Reference verification and external scientific approval remain outstanding: see `../docs/FARM_SCIENCE.md`. The research-domain draft must be reviewed/saved and the environment published before the blocked reference sites can be checked. Real iPad gestures, narration availability, reading-free comprehension and native editor rendering remain unverified.
+
+## Home hub routing
+
+Training grounds are the starting and home zone. HQ entrance and Planet farm are separate destinations from that hub. HQ has a welcome desk rather than a second home hub; the farm and HQ exits both return to the training grounds. PIP Return home always navigates to the Home hub marker, including automatically crossing the connecting doorway. Cross-zone journal revisits pass through the training grounds when needed. `node tests/hub-browser.cjs` verifies mouse/touch startup, return-home from both destinations, retained mineral/seed discoveries, and reload at the hub.

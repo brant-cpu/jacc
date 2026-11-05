@@ -8,15 +8,17 @@ export const journalSections=[
  {id:'minerals',title:'My Minerals',icon:'💎',intro:'Minerals I found in the soil.',empty:'I can dig to find a mineral.',target:'dig'}
 ];
 export const journalActivities={
+ 'grounds-home':['I returned to our home hub.','The training grounds connect our adventures.'],
+ 'grounds-farm':['I explored the planet farm.','The training grounds lead to the farm.'],
  'hq-farm':['I visited the planet farm.','We can grow, observe and collect.'],
- 'farm-exit':['I returned from the farm.','HQ connects our adventures.'],
+ 'farm-exit':['I returned from the farm.','The training grounds connect our adventures.'],
  'hq-map':['I looked at the star map.','A map helps me choose where to explore.'],
  'hq-bay':['I visited the arrival bay.','A clear landing area gives a craft room to arrive.'],
  'hq-lab':['I visited the science lab.','I can observe, compare and ask questions.'],
  'hq-pip':['I visited the PIP workbench.','Tools help us investigate.'],
  'hq-bunks':['I found a cozy place to rest.','I can take a break whenever I want.'],
  'hq-locker':['I visited the crew lockers.','Every crew member can explore.'],
- 'hq-home':['I explored our welcome hub.','This is our home base.'],
+ 'hq-home':['I explored our welcome hub.','The training grounds are our home hub.'],
  'hq-exit':['I went to the training grounds.','The path leads back to HQ.'],
  home:['I went back to HQ.','I can follow the path home.'],
  plant:['I looked at a plant.','Plants are living things.'],
