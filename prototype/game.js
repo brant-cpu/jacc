@@ -41,31 +41,63 @@ class CharacterRegistry {
   select(name){if(!this.visuals.has(name))return false;this.active=this.roster.find(r=>r[0]===name);return true;}
 }
 
+// Shared, first-person journal content for the browser and native GDevelop build.
+const journalSections=[
+ {id:'did',title:'What I Did',icon:'👣',intro:'Things I tried.',empty:'Tap a picture to try an activity.',target:'plant'},
+ {id:'found',title:'What I Discovered',icon:'🔎',intro:'Things I noticed and found.',empty:'My discoveries will go here. I can dig for a discovery.',target:'dig'},
+ {id:'adventures',title:'My Adventures',icon:'🗺️',intro:'Places I explored.',empty:'My adventure starts with one tap.',target:'rock'},
+ {id:'experiments',title:'My Experiments',icon:'🧲',intro:'Observe. Try. Discover.',empty:'Experiments are coming later. For now, I can look at the science stations.',target:'magnet'},
+ {id:'minerals',title:'My Minerals',icon:'💎',intro:'Minerals I found in the soil.',empty:'I can dig to find a mineral.',target:'dig'}
+];
+const journalActivities={
+ home:['I went back to the start.','I can follow the path home.'],
+ plant:['I looked at a plant.','Plants are living things.'],
+ rock:['I explored the hill.','Rocks are nonliving things.'],
+ dig:['I dug in the soil.','The soil has layers.'],
+ magnet:['I visited the magnet station.','Some materials are attracted to magnets.'],
+ crystal:['I climbed to the crystal lookout.','Crystals have repeating shapes.'],
+ bridge:['I looked at a bridge.','A bridge supports a path across a gap.']
+};
+function getJournalEntries(section,found,visited,objects,materials){
+ const seen=new Set(visited);
+ // Older browser saves only recorded discoveries. Preserve that history.
+ for(const id of found)if(objects.some(o=>o.id===id))seen.add(id);
+ if(materials.some(m=>found.has(m.id)))seen.add('dig');
+ if(section==='experiments')return []; // Observation visits are not completed experiments.
+ if(section==='found'||section==='minerals')return [...objects,...materials].filter(o=>found.has(o.id)&&(section!=='minerals'||['quartz','iron'].includes(o.id))).map(o=>({id:o.id,title:o.name,icon:o.icon,summary:section==='minerals'?'I found '+o.name.toLowerCase()+'.':'I discovered '+o.name.toLowerCase()+'.',fact:({quartz:'Quartz is a mineral with crystal faces.',iron:'Some iron-bearing minerals are attracted to magnets.',fossil:'A fossil is a trace or remain of ancient life.'})[o.id]||journalActivities[o.id]?.[1]||o.text,target:materials.includes(o)?'dig':o.id}));
+ return objects.filter(o=>seen.has(o.id)&&(section!=='adventures'||['home','plant','rock','crystal','bridge'].includes(o.id))).map(o=>({id:o.id,title:journalActivities[o.id][0],icon:o.icon,summary:journalActivities[o.id][0],fact:journalActivities[o.id][1],target:o.id}));
+}
+
 const assets=await new AssetLoader().load({pip:'assets/pip.svg'}),scenes=new SceneManager(),characters=new CharacterRegistry(roster);
 roster.forEach(r=>characters.register(r[0],{suit:suitColors[r[1]]}));
 const $=s=>document.querySelector(s),canvas=$('canvas'),ctx=canvas.getContext('2d'),panel=$('#panel'),content=$('#content');
 let saved={};try{saved=JSON.parse(localStorage.getItem('jacc-v1')||'{}')}catch{}
 if(saved.character)characters.select(saved.character);
-const state={x:130,y:460,path:[],pending:null,started:false,paused:false,action:null,timer:0,dug:0,last:null,ring:null,discoveries:new Set(saved.discoveries||[]),settings:{volume:.3,narration:false,reduced:matchMedia('(prefers-reduced-motion: reduce)').matches,effects:true,...saved.settings}};
-function persist(){try{localStorage.setItem('jacc-v1',JSON.stringify({character:characters.active[0],settings:state.settings,discoveries:[...state.discoveries]}))}catch{}}
+const state={x:130,y:460,path:[],pending:null,started:false,paused:false,action:null,timer:0,dug:0,last:null,ring:null,discoveries:new Set(saved.discoveries||[]),visited:new Set(saved.visited||[]),settings:{volume:.3,narration:false,reduced:matchMedia('(prefers-reduced-motion: reduce)').matches,effects:true,...saved.settings}};
+function persist(){try{localStorage.setItem('jacc-v1',JSON.stringify({visited:[...state.visited],character:characters.active[0],settings:state.settings,discoveries:[...state.discoveries]}))}catch{}}
 function announce(text){$('#status').textContent=text;}
 function speak(text){if(state.settings.narration&&'speechSynthesis'in window){speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(text);u.volume=state.settings.volume;u.rate=.85;speechSynthesis.speak(u)}}
 let audio;function chime(){if(!state.settings.volume)return;try{audio??=new(window.AudioContext||window.webkitAudioContext)();audio.resume();const o=audio.createOscillator(),g=audio.createGain();o.connect(g);g.connect(audio.destination);o.frequency.value=660;g.gain.setValueAtTime(state.settings.volume*.15,audio.currentTime);g.gain.exponentialRampToValueAtTime(.001,audio.currentTime+.25);o.start();o.stop(audio.currentTime+.25)}catch{}}
-function open(title){panel.classList.remove('crew-panel');if('speechSynthesis'in window)speechSynthesis.cancel();content.replaceChildren();const h=document.createElement('h2');h.textContent=title;content.append(h);if(!panel.open)panel.showModal();}
+function open(title){panel.classList.remove('crew-panel','journal-panel');if('speechSynthesis'in window)speechSynthesis.cancel();content.replaceChildren();const h=document.createElement('h2');h.textContent=title;content.append(h);if(!panel.open)panel.showModal();}
 function button(label,fn,parent=content){const b=document.createElement('button');b.textContent=label;b.onclick=fn;parent.append(b);return b;}
 function paragraph(text,cls){const p=document.createElement('p');p.textContent=text;if(cls)p.className=cls;content.append(p);}
 function close(){panel.close();if('speechSynthesis'in window)speechSynthesis.cancel()}
 $('#close').onclick=close;panel.addEventListener('close',()=>{if('speechSynthesis'in window)speechSynthesis.cancel()});
 function card(item){open(item.name);paragraph(item.icon,'illustration');paragraph(item.diagram,'diagram');paragraph(item.text);button('🔊 Listen',()=>{if('speechSynthesis'in window){const u=new SpeechSynthesisUtterance(item.text);u.volume=state.settings.volume;speechSynthesis.cancel();speechSynthesis.speak(u)}});button('↻ Replay',()=>{chime();speak(item.text);const d=content.querySelector('.diagram');d.textContent=item.diagram;d.style.background='#fff0b8'});button('📍 Revisit',()=>{close();select(objects.find(o=>o.id===item.id)||objects.find(o=>o.id==='dig'))});speak(item.text);}
-function discover(item){state.discoveries.add(item.id);persist();chime();announce('Discovered: '+item.name);card(item)}
-function interact(o){state.last=o.id;if(o.kind==='home'){announce('Back at the starting point. Choose any discovery.');return}if(o.kind==='dig'){state.action='dig';state.timer=state.settings.reduced?.25:1.3;announce('Digging through the soil…');return}discover(o)}
+function discover(item){if(materials.some(m=>m.id===item.id))state.visited.add('dig');state.discoveries.add(item.id);persist();chime();announce('Discovered: '+item.name);card(item)}
+function interact(o){state.last=o.id;if(o.kind!=='dig')state.visited.add(o.id);persist();if(o.kind==='home'){announce('Back at the starting point. Choose any discovery.');return}if(o.kind==='dig'){state.action='dig';state.timer=state.settings.reduced?.25:1.3;announce('Digging through the soil…');return}discover(o)}
 function start(){if(state.started)return;state.started=true;scenes.enter('grounds');$('#begin').hidden=true;announce('Tap a place or a picture to explore. PIP can show you how.');chime();}
 function select(o){start();if(state.paused){announce('Tap Resume to keep exploring.');return}state.action=null;state.ring={x:o.x,y:o.y};state.pending=o;state.path=pathfind([state.x,state.y],[o.x-65,o.y+55]);announce('Going to '+o.name);if(!state.path.length)interact(o);}
 for(const o of objects){const b=button(o.icon+' ',()=>select(o),$('#targets'));b.className='target';b.dataset.id=o.id;b.style.left=o.x/10+'%';b.style.top=o.y/6+'%';b.setAttribute('aria-label',o.name);const label=document.createElement('small');label.textContent=o.name;b.append(label)}
 $('#begin').onclick=start;
 canvas.addEventListener('pointerdown',e=>{if(panel.open||state.paused)return;start();const r=canvas.getBoundingClientRect(),x=(e.clientX-r.left)*1000/r.width,y=(e.clientY-r.top)*600/r.height;if(blocked(...cellAt(x,y))){announce('The pond is water. Tap the path around it.');state.ring={x,y};return}state.path=pathfind([state.x,state.y],[x,y]);state.pending=null;state.action=null;state.ring={x,y};announce('Walking to your marker.');});
 $('#pause').onclick=()=>{state.paused=!state.paused;$('#pause').innerHTML=state.paused?'▶ <span>Resume</span>':'Ⅱ <span>Pause</span>';announce(state.paused?'Paused. Take your time.':'Ready to explore.');if(state.paused&&'speechSynthesis'in window)speechSynthesis.cancel()};
-$('#journal').onclick=()=>{open('Discovery journal');const found=[...objects,...materials].filter(o=>state.discoveries.has(o.id));if(!found.length)paragraph('⛏️ → 💎  Explore a picture or dig to find your first discovery.');const div=document.createElement('div');div.className='cards';content.append(div);found.forEach(o=>button(o.icon+' '+o.name,()=>card(o),div))};
+function journalEntries(section){return getJournalEntries(section,state.discoveries,state.visited,objects,materials)}
+function readJournal(message){if('speechSynthesis'in window){speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(message);u.volume=state.settings.volume;u.rate=.85;speechSynthesis.speak(u)}}
+function journalHome(){open('My Journal');panel.classList.add('journal-panel');paragraph('My stories. My discoveries. My adventures.','journal-intro');const grid=document.createElement('div');grid.className='journal-grid';content.append(grid);for(const section of journalSections){const b=button('',()=>journalPage(section.id),grid);b.dataset.section=section.id;const picture=document.createElement('span');picture.className='journal-icon';picture.textContent=section.icon;picture.setAttribute('aria-hidden','true');const title=document.createElement('span');title.textContent=section.title;b.append(picture,title);}button('🔊 Listen',()=>readJournal('My journal. Choose what I did, what I discovered, my adventures, my experiments, or my minerals.'));}
+function journalPage(id,page=0){const section=journalSections.find(s=>s.id===id),entries=journalEntries(id);open(section.title);panel.classList.add('journal-panel');paragraph(section.intro,'journal-intro');const chunk=entries.slice(page*4,page*4+4);if(!entries.length){paragraph(section.icon,'illustration');paragraph(section.empty,'journal-empty');button('📍 Explore',()=>{close();select(objects.find(o=>o.id===section.target))});}const grid=document.createElement('div');grid.className='journal-grid journal-entries';content.append(grid);for(const entry of chunk){const b=button(entry.icon+' '+entry.title,()=>journalDetail(entry,id,page),grid);b.dataset.entry=entry.id;}const controls=document.createElement('div');controls.className='journal-controls';content.append(controls);button('← My Journal',journalHome,controls);if(page>0)button('← Previous',()=>journalPage(id,page-1),controls);if(entries.length>(page+1)*4)button('Next →',()=>journalPage(id,page+1),controls);button('🔊 Listen',()=>readJournal(section.title+'. '+(entries.length?chunk.map(e=>e.summary).join(' '):section.empty)),controls);}
+function journalDetail(entry,section,page){open(entry.title);panel.classList.add('journal-panel');paragraph(entry.icon,'illustration');paragraph(entry.summary,'journal-intro');paragraph(entry.fact,'journal-fact');const controls=document.createElement('div');controls.className='journal-controls';content.append(controls);button('🔊 Listen',()=>readJournal(entry.summary+' '+entry.fact),controls);button('↻ Do It Again',()=>{close();select(objects.find(o=>o.id===entry.target))},controls);button('← '+journalSections.find(s=>s.id===section).title,()=>journalPage(section,page),controls);}
+$('#journal').onclick=journalHome;
 function crewMenu(){open('Choose your J.A.C.C. crew');panel.classList.add('crew-panel');paragraph('One tap selects your astronaut. Everyone can explore every activity.');const grid=document.createElement('div');grid.className='crew-grid';content.append(grid);for(const r of roster){const selected=characters.active[0]===r[0];const b=button('',()=>{characters.select(r[0]);persist();updateCrew();close();announce(r[0]+' selected. '+r[2]);speak(r[0]+'. '+r[2])},grid);b.className='crew-card';b.setAttribute('aria-label',r[0]+', '+r[1]+' suit. '+r[2]);b.setAttribute('aria-pressed',String(selected));const icon=document.createElement('span');icon.className='crew-portrait';icon.style.setProperty('--suit',suitColors[r[1]]);icon.setAttribute('aria-hidden','true');const name=document.createElement('strong');name.textContent=r[0];const detail=document.createElement('small');detail.textContent=r[1]+' • '+r[2];const badge=document.createElement('span');badge.textContent=selected?'✓ Selected':'Select';b.append(icon,name,detail,badge);}paragraph('Temporary suit-color placeholders. Approved character artwork will replace these.');}
 function updateCrew(){document.querySelector('#active-crew').textContent=characters.active[0]+' • '+characters.active[1]+' suit';$('#crew').setAttribute('aria-label','Choose astronaut. Current: '+characters.active[0]);}
 $('#crew').onclick=crewMenu;updateCrew();

@@ -45,3 +45,9 @@ Browser regression tests now default to intercepted static files on an opaque-or
 ## Crew selection
 
 Open Crew and tap one of the six astronauts to switch immediately. Cards show the canonical name, suit color, and scientific specialization. A selected badge identifies the current astronaut; the play screen also displays their name. Switching preserves location, movement, discoveries and pause state, and all astronauts can explore every activity. There are no new character powers or biographies. All character visuals are temporary suit-color placeholders. Keyboard users can select cards with Tab and Enter. Browser selection is saved when local storage is available; native preview selection lasts for that preview session.
+
+## My Journal
+
+Journal opens a simple home page with five large pictorial choices: **What I Did**, **What I Discovered**, **My Adventures**, **My Experiments**, and **My Minerals**. Completed visits and digging populate short first-person entries. Each entry offers a short fact, Listen, and Do It Again, plus a back button. Lists have large page buttons rather than requiring precision scrolling. Close is always available. Fossils belong to discoveries, not minerals. Experiment activities remain planned; visiting a station does not count as completing an experiment. Empty pages offer an Explore button. Browser history is saved locally when storage is available; native history currently lasts for the preview session.
+
+`prototype/src/journal.js` shares configurable journal sections, activity wording and entry filtering between both builds. Native regeneration reads this source. Six Node tests cover navigation and journal content; the browser and native event checks also exercise journal navigation and repeat activities. GDevelop desktop rendering, actual file opening, physical iPad testing and reading-free comprehension still require validation.

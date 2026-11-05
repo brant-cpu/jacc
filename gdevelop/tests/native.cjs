@@ -11,9 +11,11 @@ const run=Function('runtimeScene','gdjs',scene.events.find(e=>e.inlineCode).inli
 const tick=n=>{for(let i=0;i<n;i++)frame()};
 const click=name=>{const o=map.get(name);cursor={x:o.x+10,y:o.y+10};release=true;frame();release=false};
 frame();assert.equal(map.get('Panel').hidden,true);
+const option=label=>{const b=runtimeScene.__jacc.buttons.find(b=>map.get(b.name.replace('Option','OptionLabel'))?.string.includes(label));assert.ok(b,label);click(b.name)};
+click('JournalButton');assert.equal(runtimeScene.__jacc.overlay,'My Journal');assert.equal(runtimeScene.__jacc.buttons.length,6);option('My Experiments');assert.match(map.get('CardBody').string,/coming later/);option('My Journal');option('What I Did');assert.match(map.get('CardBody').string,/Tap a picture/);click('Close');
 click('Target_dig');tick(200);assert.equal(runtimeScene.__jacc.overlay,'Quartz');click('Close');
 for(const name of ['Iron-bearing mineral','Fossil','Quartz']){click('Target_dig');tick(50);assert.equal(runtimeScene.__jacc.overlay,name);click('Close')}
-click('JournalButton');assert.equal(runtimeScene.__jacc.buttons.length,3);click('Close');
+click('JournalButton');option('What I Discovered');assert.equal(runtimeScene.__jacc.buttons.length,5);option('Fossil');assert.match(map.get('CardBody').string,/ancient life/);option('Back to');option('My Journal');option('My Minerals');assert.equal(runtimeScene.__jacc.buttons.length,4);assert.ok(!runtimeScene.__jacc.buttons.some(b=>map.get(b.name.replace('Option','OptionLabel')).string.includes('Fossil')));click('Close');
 click('PipButton');click('Option1');tick(100);assert.equal(runtimeScene.__jacc.overlay,'Iron-bearing mineral');click('Close');
 click('PauseButton');const x=map.get('Alex').x;click('Target_rock');tick(100);assert.equal(map.get('Alex').x,x);click('PauseButton');
 click('Target_crystal');tick(300);assert.equal(runtimeScene.__jacc.overlay,'Crystal lookout');click('Close');
@@ -27,3 +29,7 @@ const foundBefore=[...runtimeScene.__jacc.found];
 for(let i=0;i<6;i++){click('CrewButton');assert.equal(runtimeScene.__jacc.buttons.length,6);assert.ok(map.get('CrewName'+i).string.includes(roster[i]));click('CrewCard'+i);assert.equal(runtimeScene.__jacc.crew,i);assert.equal(map.get('Alex').animation,i);assert.ok(map.get('ActiveCrew').string.includes(roster[i]));assert.equal(runtimeScene.__jacc.overlay,null);assert.deepEqual([...runtimeScene.__jacc.found],foundBefore);click('CrewButton');assert.ok(map.get('CrewName'+i).string.startsWith('[Selected]'));click('Close');}
 click('Target_dig');tick(250);assert.equal(runtimeScene.__jacc.overlay,'Fossil');assert.equal(runtimeScene.__jacc.crew,5);click('Close');
 console.log('PASS: all six native selections, selected state, discovery retention and digging after switching');
+
+for(const target of ['plant','rock','magnet','bridge']){click('Target_'+target);tick(300);click('Close')}
+click('JournalButton');option('What I Discovered');option('Next page');assert.equal(runtimeScene.__jacc.overlay,'What I Discovered');option('Next page');option('Previous page');option('My Journal');option('What I Did');option('I looked at a plant.');option('Do It Again');tick(300);assert.equal(runtimeScene.__jacc.overlay,'Living plant');click('Close');
+console.log('PASS: journal empty states, five categories, fossil/mineral separation, pagination, back navigation and repeat activity');
