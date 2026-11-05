@@ -1,3 +1,4 @@
+import {farmObjects} from './farm.js';
 import {hqObjects} from './zones.js';
 // Canonical names and specializations; visuals are temporary geometric placeholders.
 export const roster=[['Alex Thompson','Red','Fleming Model — Electromagnetism'],['Malik Adeyemi','Green','Townes Model — Laser optics and computing'],['Maya Rodriguez','Pink','Allwood Model — Geology and chemistry'],['Aiden Williams','Yellow','Engineering Model — Construction and heavy engineering'],['Kaito Tanaka','White','Aeronautics Model — Flight and speed'],['Lucas Turner','Black','Generation-1 J.A.C.C.']];
@@ -18,4 +19,4 @@ export const modes={exploration:{phase:1,status:'playable'},geology:{phase:1,sta
 // Temporary suit-color placeholders; not production character designs.
 export const suitColors={Red:'#cf4348',Green:'#38864a',Pink:'#d76a9d',Yellow:'#edc74d',White:'#f2f2e8',Black:'#303842'};
 
-export const objects=[...trainingObjects.map(o=>({...o,zone:'grounds'})),...hqObjects];
+export const objects=[...trainingObjects.map(o=>({...o,zone:'grounds'})),...hqObjects,...farmObjects];

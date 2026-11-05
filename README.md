@@ -19,3 +19,9 @@ Open **PIP → Build PIP** for the schematic workshop. Tap parts or optionally d
 ## Starting zone: GSEI HQ
 
 New games begin at HQ: star-base arrival bay, science lab and dormitory. Tap pictures to visit rooms, open PIP's workbench, choose crew at the lockers, or rest at the bunks. The green Training grounds door leads to the outdoor discoveries; the HQ entrance brings you home. Existing discoveries and customization are retained. This is an environment foundation with provisional schematic art.
+
+## Planet Farm
+
+From HQ, tap **Planet farm**. Explore the hydro farm, biodome, garden, orchard, vertical garden, solar panels, water lab, energy lab, seed bank, plant computer, leaf lab and robot helper. Collect sample seeds and revisit completed activities in My Journal. The plant computer contains 15 curated examples with overlapping flower/tree/fruit/vegetable/nut/seed categories.
+
+These are offline, repeatable science models. See [farm science references and verification status](docs/FARM_SCIENCE.md): live source verification is pending because the managed network blocks the reference sites. The game has not received external scientific approval.
