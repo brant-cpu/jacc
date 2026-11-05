@@ -11,3 +11,5 @@ dialog.pip-panel{width:min(1050px,96vw);background:#eff8f5}.pip-note{font-size:1
 .pip-parts.pip-colors{grid-template-columns:repeat(3,minmax(0,1fr))}.pip-parts.pip-colors button{min-height:84px;font-size:14px;padding:7px}.pip-parts.pip-colors .pip-swatch{height:21px}
 
 dialog.farm-panel{width:min(900px,94vw)}.farm-info{display:grid;grid-template-columns:minmax(200px,.8fr) minmax(250px,1.2fr);gap:20px;align-items:center;margin:15px 0}.farm-art svg{width:100%;height:auto;max-height:190px;display:block}.farm-info p{font-size:20px;line-height:1.5;margin:0}.farm-choices{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.farm-choices button{font-size:19px;min-height:66px}.farm-message{min-height:24px;margin-bottom:0;font-size:15px}@media(max-width:650px){.farm-info{grid-template-columns:1fr;gap:8px}.farm-art svg{max-height:120px}.farm-info p{font-size:18px}.farm-choices button{font-size:17px}}
+
+canvas.actor-layer{position:absolute;inset:0;z-index:2;pointer-events:none}#begin{z-index:3}

@@ -27,3 +27,9 @@ From the training grounds home hub, tap **Planet farm**. Explore the hydro farm,
 These are offline, repeatable science models. See [farm science references and verification status](docs/FARM_SCIENCE.md): live source verification is pending because the managed network blocks the reference sites. The game has not received external scientific approval.
 
 **Home hub:** both builds start at the training grounds. **HQ entrance** leads to the base, **Planet farm** leads to farming, and both return paths lead home. **PIP → Return home** routes back to the training grounds from anywhere. Travel retains crew, PIP fittings, discoveries, seeds and experiment history. Open `gdevelop/game.json`, select **TrainingGrounds**, then Preview.
+
+## Side-view dig site
+
+From the training grounds choose **Dig site**. Tap ground to excavate automatically, or ask PIP to Show places for large find targets. Tools include a drill, scoop and power arms; Aiden's yellow engineering rig digs faster while PIP assists the other crew. Explore the upper layers and Deep caverns, collect samples, and inspect cave life, echolocation, formations, groundwater and protected magma/mantle models. The original three-material activity remains at **Sample tray**.
+
+The engineering portal leads to starter sample-guided workbenches. Select a reusable sample, then Install on farm to fit a raised support, water-channel or greenhouse/habitat model. Full engineering/construction is next; see [roadmap](docs/ROADMAP.md) for the later worlds, colonies, solar-system and Adventure Mode plans. See [dig science review notes](docs/DIG_SCIENCE.md) for limits and pending verification.
