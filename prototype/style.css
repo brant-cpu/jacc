@@ -32,3 +32,5 @@ nav{flex-wrap:wrap}#aac,#access{font-size:15px;max-width:100px}#panel-aac{margin
 
 .target.swim-target{background:transparent;border-color:transparent;width:10%;height:16%;min-width:80px;min-height:80px}.target.swim-target small{display:block;position:absolute;top:86%;left:50%;transform:translateX(-50%);width:max-content;max-width:145px;background:#fffbed;color:#17384a;padding:3px 6px;border-radius:7px;font-size:12px}.target.swim-target:hover,.target.swim-target:focus-visible{border-color:#fffbed;background:#ffffff18}.high-contrast .target.swim-target{border:4px solid #fff}.color-blind .target.swim-target{border-color:#fff;border-style:dashed}.target.swim-target{font-size:0}
 header nav{gap:4px}#places,#aac,#access,#visit{font-size:14px;max-width:80px;padding:6px}
+
+.chapter-reaction svg{animation:jacc-buzz .55s ease-out;transform-origin:center}@keyframes jacc-buzz{20%{transform:translateX(5px) rotate(-8deg)}50%{transform:translateX(12px) rotate(10deg)}80%{transform:translateX(5px) rotate(-4deg)}}

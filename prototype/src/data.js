@@ -1,3 +1,4 @@
+import {chapterExtras} from './adventures.js';
 import {openSpaceObjects,openSpacePortals} from './open-spaces.js';
 import {aquaticObjects} from './aquatic.js';
 import {constructionStations,elevatorObject} from './construction.js';
@@ -28,4 +29,4 @@ export const modes={exploration:{phase:1,status:'playable'},geology:{phase:1,sta
 export const suitFinish={metal:{name:'Silver',color:'#c4ced8'},energy:{name:'Teal',color:'#35d3c9'}};
 export const suitColors={Red:'#cf4348',Green:'#38864a',Pink:'#d76a9d',Yellow:'#edc74d',White:'#f2f2e8',Black:'#303842',Orange:'#d96b24',Purple:'#8653b6',Blue:'#347ec5'};
 
-export const objects=[...openSpaceObjects,...openSpacePortals,...trainingObjects.map(o=>({...o,zone:'grounds'})),...hqObjects,...farmObjects,...digObjects,...engineeringObjects,...constructionStations,elevatorObject,...aquaticObjects,{id:'grounds-aquatic',zone:'grounds',x:680,y:280,icon:'🌊',name:'Aquatic Learning Center',kind:'portal',to:'aquatic'}];
+export const objects=[...chapterExtras.filter(o=>!['chapterEarth','chapterMoon'].includes(o.zone)),...openSpaceObjects,...openSpacePortals,...trainingObjects.map(o=>({...o,zone:'grounds'})),...hqObjects,...farmObjects,...digObjects,...engineeringObjects,...constructionStations,elevatorObject,...aquaticObjects,{id:'grounds-aquatic',zone:'grounds',x:680,y:280,icon:'🌊',name:'Aquatic Learning Center',kind:'portal',to:'aquatic'}];

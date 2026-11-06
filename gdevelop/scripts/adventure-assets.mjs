@@ -1,0 +1,1 @@
+import {createRequire} from 'node:module';import {chapterArtKeys,chapterArt} from '../../prototype/src/adventures.js';const require=createRequire(import.meta.url),sharp=require(process.env.JACC_SHARP_PATH||'sharp');for(const key of chapterArtKeys)await sharp(Buffer.from(chapterArt(key))).png().toFile(new URL('../assets/chapter-art-'+key+'.png',import.meta.url).pathname);

@@ -83,3 +83,5 @@ The [activity and reference catalog](docs/ACTIVITY_IDEAS.md) records the request
 The home hub now links to **Flight range**, **Forest**, and **Open dig landscape**. Each extends beyond one screen with a following view, automatic travel and discoveries. **Places / PLACES** selects spaces and distant landmarks; PIP → Return home is immediate from these areas. Forest seeds and dug samples save locally, along with excavated tunnels. See [features, files, tests and limitations](docs/OPEN_SPACES.md).
 
 Magnetism Lab: tap its home-hub magnet entrance or **Places → Magnetism Lab**. Try polarity, material attraction, a switchable electromagnet and magnet/coil generation; replay them through My Experiments. See [the lab report](docs/MAGNETISM_LAB.md).
+
+First story chapter: **Moonbase Dig**. Choose **Adventures** at home, the **Adventure desk** at HQ, or **Places → Adventure chapters**. Dig on Earth and the Moon, build a field station, clear hostile Nymion guards with one-tap cartoon bolts, and stop their crystal machines. Explore/Adaptive offer immediate access; Guided requires digging and rocket-pad readiness. See [chapter report](docs/MOONBASE_DIG.md).
