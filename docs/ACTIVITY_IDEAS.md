@@ -137,3 +137,7 @@ Paper aircraft require an atmosphere for aerodynamic lift. An ordinary air-cushi
 ### Suggested build order
 
 First extend the existing Bridge and Pipeline models; then add Balloon Rover and Hovercraft comparisons; then Paper Airplane, model Rocket/Catapult trajectories, and finally the more involved Roller Coaster track simulation. This is a proposed implementation order, not a claim that the new activities have been built.
+
+## Uploaded EAA aviation course
+
+The owner uploaded the 81-page **Aviation For Kids: A Mini Course For Students in Grades 2–5** (EAA/AvKids, revised December 2015). Its activity sections are now reviewed directly. See [source-specific station mapping and science notes](EAA_AVIATION_ADAPTATIONS.md) for thrust, parachutes, drag chutes, paper rotors, wind-tunnel lift, paper/loop/tube aircraft, airplane parts and optional route/glossary projects. Proposed placement is the engineering Flight Test Bay, with Kaito and Aiden introducing activities. This is a reviewed reference and implementation plan, not newly playable content.
