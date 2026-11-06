@@ -127,3 +127,7 @@ Open Access for one/two-switch controls, key binding, standard gamepad input, ga
 ## First Visit: GSEINHQ
 
 The starting screen/header offers First visit; Explore still skips setup. The optional story supports play-style choice, comfort settings, changeable crew and a visit to GSEINHQ. Guided suggests one optional nearby point; Explore stays quiet until invited or an object is tapped. See [approved script and behavior](../docs/FIRST_VISIT.md).
+
+## Swimming exploration
+
+Choose Aquatic Learning Center → Swim trail → habitat. Tap water or labeled wildlife/finds to swim; PIP → Show me a swim demonstrates. Six repeatable findings save automatically to the aquatic/global journal. The dock retains submarine travel and existing science activities. See [features, files, tests and limitations](../docs/SWIMMING_EXPLORATION.md).

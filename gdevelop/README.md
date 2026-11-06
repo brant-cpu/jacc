@@ -98,3 +98,7 @@ WORDS opens the communication board; ACCESS opens scanning, captions, notices, h
 ## First Visit: GSEINHQ
 
 VISIT opens the optional story without blocking normal startup. Choose Explore, Guided Adventure or Adaptive Play, optionally adjust supports/select crew, then enter GSEINHQ. Skip setup bypasses questions. The existing HQ entrance and home hub remain usable. See [approved script, behavior and test limits](../docs/FIRST_VISIT.md).
+
+## Swimming exploration
+
+Preview TrainingGrounds → Aquatic Learning Center → Swim trail. Choose a habitat to enter swimming directly. New native swimmer/wildlife/find sprites retain large stable targets, habitat filtering and saved journal records. PIP offers Show me a swim; pause/reduced motion stop the new animation. Existing submarine/science tools remain. See [build report and native-renderer testing limits](../docs/SWIMMING_EXPLORATION.md).

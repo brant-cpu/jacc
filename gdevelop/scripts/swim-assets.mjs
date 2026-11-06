@@ -1,0 +1,10 @@
+import {createRequire} from 'node:module';
+import {aquaticLife,aquaticFinds} from '../../prototype/src/aquatic.js';
+import {roster,suitColors} from '../../prototype/src/data.js';
+import {swimmerSvg,swimLifeSvg,swimFindSvg} from '../../prototype/src/swimming.js';
+const require=createRequire(import.meta.url),sharp=require(process.env.JACC_SHARP_PATH||'sharp'),out=new URL('../assets/',import.meta.url);
+for(const [i,r]of roster.entries())for(const frame of [0,1])await sharp(Buffer.from(swimmerSvg(suitColors[r[1]],frame))).png().toFile(new URL('swim-crew'+i+'-'+frame+'.png',out).pathname);
+for(const life of aquaticLife)await sharp(Buffer.from(swimLifeSvg(life.id))).png().toFile(new URL('swim-life-'+life.id+'.png',out).pathname);
+for(const f of aquaticFinds)await sharp(Buffer.from(swimFindSvg(f.id))).png().toFile(new URL('swim-find-'+f.id+'.png',out).pathname);
+await sharp(Buffer.from('<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"><circle cx="10" cy="10" r="7" fill="none" stroke="#a6e0df" stroke-width="2" opacity=".6"/></svg>')).png().toFile(new URL('swim-bubble.png',out).pathname);
+console.log('Original swimming astronaut, wildlife and find schematics generated.');

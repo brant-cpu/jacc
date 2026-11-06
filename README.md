@@ -73,3 +73,7 @@ Choose **First visit** (browser) or **VISIT** (GDevelop) for the optional onboar
 ## Activity ideas
 
 The [activity and reference catalog](docs/ACTIVITY_IDEAS.md) records the requested puzzle activities and NASA Kids/Mission Biomes references. Biome exploration is proposed for the farm biodome and future world planning; these entries are plans, not newly playable activities. NASA page review remains blocked by network policy.
+
+## Swimming exploration
+
+**Home hub lake → Aquatic Learning Center → Swim trail** now opens free swimming in the freshwater lake, reef/open-ocean or deep-ocean simulation. All eight crew have a swimming pose; PIP follows with swim gear. Observe world wildlife and find six new sample/observation records saved in the journal. Tap open water or a large labeled target; pause and reduced-animation settings are supported. See [the swimming build report and validation limits](docs/SWIMMING_EXPLORATION.md).

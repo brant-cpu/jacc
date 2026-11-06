@@ -4,7 +4,7 @@ The home training-grounds lake is the entrance. The freshwater lake, reef/open-o
 
 ## Working framework
 
-Both browser and GDevelop builds support interruptible one-tap swimming and J.A.C.C. submersible navigation, automatic temporary PIP aquatic gear, ten wildlife/plant observation cards, five nonliving sample/data records, a local aquatic journal, and global discovery-journal entries. No animals are captured. There are no oxygen timers, damage, scores or required dragging. Existing construction kits can be fitted repeatedly to a protected habitat model without being consumed. This records fitted kits; it is not an underwater building/pressure simulation.
+Both browser and GDevelop builds support interruptible one-tap swimming and J.A.C.C. submersible navigation, automatic temporary PIP aquatic gear, ten wildlife/plant observation cards, eleven nonliving sample/data records (including six swimming-exploration finds), a local aquatic journal, and global discovery-journal entries. No animals are captured. There are no oxygen timers, damage, scores or required dragging. Existing construction kits can be fitted repeatedly to a protected habitat model without being consumed. This records fitted kits; it is not an underwater building/pressure simulation.
 
 Repeatable tools cover pressure, five depth bands, ballast/buoyancy, fresh versus salty water, seafloor volcanism/vents, sonar, coral reefs and deep-sea gigantism. Wildlife is represented by large selectable icons and original illustrated cards; swimming has simple placeholder astronaut/sub art, not finished swimming animation or autonomous animal ecology.
 
@@ -39,3 +39,5 @@ Next milestone: test this framework in the GDevelop editor and on an iPad with c
 - Aquatic unit/browser tests, extended native/core-browser tests, launch documentation and roadmap.
 
 Validation completed: 32 shared tests pass; native runtime harness including aquatic profile reload passes; aquatic and existing core browser flows pass with both mouse and touch. Browser landscape viewport: 1024×768. No real-device or native editor-renderer validation was performed.
+
+The swimming exploration expansion adds original in-world wildlife, a horizontal swimmer, direct habitat trails and six repeatable findings. See [the current swimming build report](SWIMMING_EXPLORATION.md) for files and expanded validation.

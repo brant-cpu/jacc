@@ -13,7 +13,15 @@ export const aquaticLife=[
  {id:'angler',name:'Deep-sea anglerfish',icon:'🐟',habitat:'deep',x:600,y:260,text:'Some deep-sea anglerfish use a glowing lure to attract prey. Deep-sea animals have many different ways to find food in darkness.'},
  {id:'brittle',name:'Brittle star',icon:'✳️',habitat:'deep',x:800,y:380,text:'Brittle stars are relatives of sea stars. Some species live very deep. Their flexible arms help them move and handle food.'}
 ];
-export const aquaticSamples=[{id:'water',name:'Water observation',icon:'💧',fact:'I compared a virtual water sample. Real water quality needs suitable tests.'},{id:'sediment',name:'Sediment sample',icon:'🪨',fact:'Sediment can contain fragments of rocks and remains of organisms.'},{id:'cleanup',name:'Cleanup sample',icon:'♻️',fact:'I removed simulated litter and kept a record. Marine animals stay in their habitat.'},{id:'basalt',name:'Volcanic basalt model',icon:'🌋',fact:'Basalt often forms when lava cools. This sample comes from a protected model, not a real hot vent.'},{id:'sonar',name:'Sonar map',icon:'📡',fact:'Sound echoes can help map underwater features. A sonar map is data, not a captured animal.'}];
+export const aquaticFinds=[
+ {id:'pebbles',name:'Rounded pebbles',icon:'🪨',habitat:'lake',x:220,y:420,fact:'Moving water and contact with other sediment can wear rock fragments into rounder shapes.'},
+ {id:'leaf-litter',name:'Leaf litter',icon:'🍂',habitat:'lake',x:800,y:420,fact:'Fallen leaves can become food for decomposers and part of lake food webs. This is an observation record.'},
+ {id:'empty-shell',name:'Empty shell',icon:'🐚',habitat:'reef',x:220,y:420,fact:'A shell can remain after a mollusk has died. We record the empty shell and leave living animals in place.'},
+ {id:'reef-sand',name:'Reef sand',icon:'⌛',habitat:'reef',x:800,y:440,fact:'Reef sand can include fragments of shells and other carbonate material. Sand composition varies between places.'},
+ {id:'rock-arch',name:'Rock arch',icon:'🪨',habitat:'deep',x:220,y:260,fact:'Underwater rock shapes offer clues to geological processes. This arch is a protected model observation, not a route into a real cave.'},
+ {id:'seafloor-core',name:'Seafloor sediment',icon:'🧪',habitat:'deep',x:700,y:450,fact:'Layers of seafloor sediment can preserve clues about past conditions. Scientists study samples carefully; this is a virtual record.'}
+];
+export const aquaticSamples=[{id:'water',name:'Water observation',icon:'💧',fact:'I compared a virtual water sample. Real water quality needs suitable tests.'},{id:'sediment',name:'Sediment sample',icon:'🪨',fact:'Sediment can contain fragments of rocks and remains of organisms.'},{id:'cleanup',name:'Cleanup sample',icon:'♻️',fact:'I removed simulated litter and kept a record. Marine animals stay in their habitat.'},{id:'basalt',name:'Volcanic basalt model',icon:'🌋',fact:'Basalt often forms when lava cools. This sample comes from a protected model, not a real hot vent.'},{id:'sonar',name:'Sonar map',icon:'📡',fact:'Sound echoes can help map underwater features. A sonar map is data, not a captured animal.'},...aquaticFinds.map(f=>({id:f.id,name:f.name,icon:f.icon,fact:f.fact}))];
 export const aquaticObjects=[
  {id:'aqua-exit',x:140,y:460,icon:'🏠',name:'Lake shore',kind:'portal',to:'grounds'},
  {id:'aqua-center',x:180,y:160,icon:'🌊',name:'Learning center',page:'center'},
@@ -22,6 +30,8 @@ export const aquaticObjects=[
  {id:'aqua-habitat',x:900,y:440,icon:'🫧',name:'Habitat workshop',page:'habitat'},
  {id:'aqua-water',x:500,y:440,icon:'💧',name:'Sample lab',page:'samples'},
  {id:'aqua-cleanup',x:940,y:280,icon:'♻️',name:'Lake / ocean cleanup',page:'cleanup'},
+ {id:'aqua-route',x:920,y:160,icon:'🧭',name:'Swim trail',page:'trail'},
+ ...aquaticFinds.map(f=>({...f,id:'aqua-find-'+f.id,find:f.id,page:'find:'+f.id})),
  {id:'aqua-volcano',x:500,y:340,icon:'🌋',name:'Volcano model',page:'volcano',habitat:'deep'},
  ...aquaticLife.map(a=>({...a,id:'aqua-'+a.id,life:a.id,page:'life:'+a.id}))
 ].map(o=>({...o,zone:'aquatic',kind:o.kind||'aquatic'}));
@@ -31,6 +41,7 @@ export function aquaticVisible(s,o){return !o.habitat||o.habitat===s.habitat;}
 export function aquaticBlocked(x,y){return x<1||x>23||y<3||y>12;}
 export function aquaticAction(input,a,kits=[]){const s=normalizeAquatic(input);let route=a.route||'center',travel=null,reset=false,message='';const done=id=>{if(!s.completed.includes(id))s.completed.push(id)};
  if(a.type==='habitat'&&aquaticHabitats[a.value]){s.habitat=a.value;reset=true;message=aquaticHabitats[a.value].note;route='center';}
+ if(a.type==='explore'&&aquaticHabitats[a.value]){s.habitat=a.value;s.vehicle='swim';reset=true;route='trail';message='Ready to swim in '+aquaticHabitats[a.value].name+'.';}
  if(a.type==='vehicle'&&['swim','sub'].includes(a.value)){s.vehicle=a.value;route='dock';message=a.value==='sub'?'Submersible ready. Tap a destination to travel.':'Ready to swim. Tap a destination.';}
  if(a.type==='observe'&&aquaticLife.some(l=>l.id===a.value)){if(!s.observed.includes(a.value))s.observed.push(a.value);route='life:'+a.value;message='Observation saved. The animal stays free.';}
  if(a.type==='sample'&&aquaticSamples.some(l=>l.id===a.value)){if(!s.samples.includes(a.value))s.samples.push(a.value);route='collection';message='Sample record saved. I can explore again.';}
@@ -39,10 +50,12 @@ export function aquaticAction(input,a,kits=[]){const s=normalizeAquatic(input);l
  if(a.type==='ping'){s.ping=1-s.ping;done('sonar');if(!s.samples.includes('sonar'))s.samples.push('sonar');}
  if(a.type==='fit'&&kits.includes(a.value)){if(!s.modules.includes(a.value))s.modules.push(a.value);done('habitat');route='habitat';message='Reusable habitat model fitted.';}
  if(a.type==='travel')travel=a.value;
- return {aquatic:s,route,travel,reset,message};
+ return {aquatic:s,route,travel,reset,message,resume:a.type==='explore'&&!!aquaticHabitats[a.value]};
 }
 export function aquaticView(s,route='center',kits=[]){const [page,id='0']=route.split(':'),n=Math.max(0,Number.parseInt(id)||0),go=(label,to)=>({label,type:'page',route:to}),act=(label,type,value,key)=>({label,type,value,key,route}),step=(label,key)=>act(label,'step',null,key),back=go('← Learning center','center'),v=(title,text,art,actions)=>({title,text,art,actions});
- if(page==='center')return v('Aquatic Learning Center',aquaticHabitats[s.habitat].note+' Swim or ride a J.A.C.C. submersible. PIP uses aquatic gear here.','center',[go('🌊 Choose habitat','habitats'),go('🚤 Swim / sub dock','dock'),go('🔬 Science labs','science'),go('📒 My aquatic journal','collection'),go('🫧 Build a habitat','habitat')]);
+ if(page==='center')return v('Aquatic Learning Center',aquaticHabitats[s.habitat].note+' Swim or ride a J.A.C.C. submersible. PIP uses aquatic gear here.','center',[go('🌊 Choose habitat','habitats'),go('🚤 Swim / sub dock','dock'),go('🔬 Science labs','science'),go('📒 My aquatic journal','collection'),go('🫧 Build a habitat','habitat'),go('🧭 Free swim trail','trail')]);
+ if(page==='trail')return v('Swimming exploration','Choose a habitat, then tap open water or a picture to swim. PIP follows automatically. Observe wildlife and find sample records. All paths remain open.','sub',[...Object.entries(aquaticHabitats).map(([value,h])=>act('🏊 '+h.name,'explore',value)),go('📒 My aquatic journal','collection'),back]);
+ if(page==='find'){const f=aquaticFinds.find(f=>f.id===id);return f?v(f.name,'Observation saved. '+f.fact,'collection',[go('📒 My samples','records:0'),act('📍 Visit again','travel','aqua-find-'+f.id),go('🧭 Swim trail','trail'),back]):aquaticView(s);}
  if(page==='habitats')return v('Choose a training habitat','Our home lake is freshwater. The reef and deep ocean are learning simulations, not marine wildlife living in the lake.','depth-0',[...Object.entries(aquaticHabitats).map(([value,h])=>act((s.habitat===value?'✓ ':'')+h.name,'habitat',value)),back]);
  if(page==='dock')return v('J.A.C.C. sub dock','One tap chooses swimming or the training submersible. Both reach every activity. No oxygen timer or damage. Your saved PIP look is kept; the swim kit is used here.','sub',[act((s.vehicle==='swim'?'✓ ':'')+'Swim','vehicle','swim'),act((s.vehicle==='sub'?'✓ ':'')+'J.A.C.C. submersible','vehicle','sub'),back]);
  if(page==='science')return v('PIP aquatic science','Try a model, change a setting and repeat. The science tools do not diagnose a real dive.','science',[go('💧 Pressure','pressure'),go('⬇️ Ocean depth zones','depth'),go('🫧 Buoyancy','buoyancy'),go('🧂 Fresh / salt water','salinity'),go('🌋 Underwater volcanism','volcano'),go('More science →','more')]);
@@ -87,4 +100,11 @@ else if(key.includes('reeds'))a='<path d="M100 150q-40-60 10-110m40 110q-20-60 1
 else if(key.startsWith('life'))a=fish(150,85);
 else a='<path d="M95 30c-80 90 80 90 0 0m130 30c-80 90 80 90 0 0" fill="#8bc1d5"/>';
 return '<svg xmlns="http://www.w3.org/2000/svg" width="320" height="180"><rect width="320" height="180" rx="18" fill="#153f5a"/>'+a+'</svg>';}
-export function aquaticBackdrop(habitat='lake'){const deep=habitat==='deep';let s='<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="600"><rect width="1000" height="600" fill="'+(deep?'#132d48':habitat==='reef'?'#277fa1':'#4e919a')+'"/><path d="M0 110q100-20 200 0t200 0t200 0t200 0t200 0" stroke="#b8e3df" stroke-width="5" fill="none"/><path d="M0 490q100-50 240 0t250-15t240 0t270 0v125H0z" fill="'+(deep?'#43586c':'#a8b7a0')+'"/>';if(habitat==='reef')for(const x of [70,250,600,780])s+=`<path d="M${x} 500v-65m0 35-25-20m25 5 25-20" stroke="#c7a7b5" stroke-width="15"/>`;if(habitat==='lake')for(const x of [60,240,650,800])s+=`<path d="M${x} 500q-25-60 0-90m0 90q30-65 20-100" stroke="#8fb78c" stroke-width="9" fill="none"/>`;if(deep)s+='<path d="M430 510l70-100 70 100z" fill="#677888"/><path d="M500 470v-35" stroke="#d6a078" stroke-width="12"/>';return s+'</svg>';}
+export function aquaticBackdrop(habitat='lake'){const deep=habitat==='deep';let s='<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="600"><defs><linearGradient id="water" x2="0" y2="1"><stop stop-color="'+(deep?'#193c5c':habitat==='reef'?'#348fae':'#66acb2')+'"/><stop offset="1" stop-color="'+(deep?'#10263e':habitat==='reef'?'#195577':'#285d72')+'"/></linearGradient></defs><rect width="1000" height="600" fill="url(#water)"/>';
+if(!deep){s+='<rect width="1000" height="104" fill="#b2dce0"/><path d="M0 110q100-20 200 0t200 0t200 0t200 0t200 0" stroke="#d0eeea" stroke-width="5" fill="none"/>';for(const x of [160,450,760])s+=`<path d="M${x} 112l-90 360h140z" fill="#d9eece" opacity=".05"/>`;}
+s+='<path d="M0 490q100-50 240 0t250-15t240 0t270 0v125H0z" fill="'+(deep?'#43586c':'#9dac96')+'"/><path d="M0 550q150-45 320 0t350 0t330-10v60H0z" fill="'+(deep?'#344657':'#849a8d')+'"/>';
+for(let i=0;i<15;i++)s+=`<ellipse cx="${30+i*67}" cy="${511+i%3*14}" rx="${8+i%4*4}" ry="${4+i%3*2}" fill="${deep?'#63778a':'#b8c5b4'}"/>`;
+if(habitat==='reef')for(const x of [60,230,590,830])s+=`<path d="M${x} 505v-65m0 35-25-20m25 5 25-20" stroke="#c7a7b5" stroke-width="13" stroke-linecap="round" fill="none"/><path d="M${x+35} 510v-36m0 12-15-20m15 9 18-20" stroke="#c7bd85" stroke-width="9" stroke-linecap="round" fill="none"/>`;
+if(habitat==='lake')for(const x of [60,240,650,850])s+=`<path d="M${x} 500q-25-60 0-90m0 90q30-65 20-100" stroke="#8fb78c" stroke-width="9" fill="none"/>`;
+if(deep)s+='<path d="M430 510l70-100 70 100z" fill="#677888"/><path d="M500 470v-35" stroke="#d6a078" stroke-width="12"/><path d="M20 510v-80l55-50 60 50v80h-32v-60q-25-35-50 0v60z" fill="#617584"/>';
+return s+'</svg>';}

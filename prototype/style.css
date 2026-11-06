@@ -29,3 +29,5 @@ nav{flex-wrap:wrap}#aac,#access{font-size:15px;max-width:100px}#panel-aac{margin
 #access-feedback{position:absolute;top:8px;bottom:auto}#access-feedback p{max-height:76px}
 
 #first-visit-start{position:absolute;left:34%;top:66%;width:32%;min-height:64px;z-index:3;font-size:18px}#visit{font-size:15px;max-width:100px}
+
+.target.swim-target{background:transparent;border-color:transparent;width:10%;height:16%;min-width:80px;min-height:80px}.target.swim-target small{display:block;position:absolute;top:86%;left:50%;transform:translateX(-50%);width:max-content;max-width:145px;background:#fffbed;color:#17384a;padding:3px 6px;border-radius:7px;font-size:12px}.target.swim-target:hover,.target.swim-target:focus-visible{border-color:#fffbed;background:#ffffff18}.high-contrast .target.swim-target{border:4px solid #fff}.color-blind .target.swim-target{border-color:#fff;border-style:dashed}.target.swim-target{font-size:0}

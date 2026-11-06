@@ -198,6 +198,270 @@
         "smoothed": false
       },
       {
+        "name": "swim-crew0-0",
+        "kind": "image",
+        "file": "assets/swim-crew0-0.png",
+        "metadata": "",
+        "userAdded": true,
+        "smoothed": true
+      },
+      {
+        "name": "swim-crew0-1",
+        "kind": "image",
+        "file": "assets/swim-crew0-1.png",
+        "metadata": "",
+        "userAdded": true,
+        "smoothed": true
+      },
+      {
+        "name": "swim-crew1-0",
+        "kind": "image",
+        "file": "assets/swim-crew1-0.png",
+        "metadata": "",
+        "userAdded": true,
+        "smoothed": true
+      },
+      {
+        "name": "swim-crew1-1",
+        "kind": "image",
+        "file": "assets/swim-crew1-1.png",
+        "metadata": "",
+        "userAdded": true,
+        "smoothed": true
+      },
+      {
+        "name": "swim-crew2-0",
+        "kind": "image",
+        "file": "assets/swim-crew2-0.png",
+        "metadata": "",
+        "userAdded": true,
+        "smoothed": true
+      },
+      {
+        "name": "swim-crew2-1",
+        "kind": "image",
+        "file": "assets/swim-crew2-1.png",
+        "metadata": "",
+        "userAdded": true,
+        "smoothed": true
+      },
+      {
+        "name": "swim-crew3-0",
+        "kind": "image",
+        "file": "assets/swim-crew3-0.png",
+        "metadata": "",
+        "userAdded": true,
+        "smoothed": true
+      },
+      {
+        "name": "swim-crew3-1",
+        "kind": "image",
+        "file": "assets/swim-crew3-1.png",
+        "metadata": "",
+        "userAdded": true,
+        "smoothed": true
+      },
+      {
+        "name": "swim-crew4-0",
+        "kind": "image",
+        "file": "assets/swim-crew4-0.png",
+        "metadata": "",
+        "userAdded": true,
+        "smoothed": true
+      },
+      {
+        "name": "swim-crew4-1",
+        "kind": "image",
+        "file": "assets/swim-crew4-1.png",
+        "metadata": "",
+        "userAdded": true,
+        "smoothed": true
+      },
+      {
+        "name": "swim-crew5-0",
+        "kind": "image",
+        "file": "assets/swim-crew5-0.png",
+        "metadata": "",
+        "userAdded": true,
+        "smoothed": true
+      },
+      {
+        "name": "swim-crew5-1",
+        "kind": "image",
+        "file": "assets/swim-crew5-1.png",
+        "metadata": "",
+        "userAdded": true,
+        "smoothed": true
+      },
+      {
+        "name": "swim-crew6-0",
+        "kind": "image",
+        "file": "assets/swim-crew6-0.png",
+        "metadata": "",
+        "userAdded": true,
+        "smoothed": true
+      },
+      {
+        "name": "swim-crew6-1",
+        "kind": "image",
+        "file": "assets/swim-crew6-1.png",
+        "metadata": "",
+        "userAdded": true,
+        "smoothed": true
+      },
+      {
+        "name": "swim-crew7-0",
+        "kind": "image",
+        "file": "assets/swim-crew7-0.png",
+        "metadata": "",
+        "userAdded": true,
+        "smoothed": true
+      },
+      {
+        "name": "swim-crew7-1",
+        "kind": "image",
+        "file": "assets/swim-crew7-1.png",
+        "metadata": "",
+        "userAdded": true,
+        "smoothed": true
+      },
+      {
+        "name": "swim-life-perch",
+        "kind": "image",
+        "file": "assets/swim-life-perch.png",
+        "metadata": "",
+        "userAdded": true,
+        "smoothed": true
+      },
+      {
+        "name": "swim-life-reeds",
+        "kind": "image",
+        "file": "assets/swim-life-reeds.png",
+        "metadata": "",
+        "userAdded": true,
+        "smoothed": true
+      },
+      {
+        "name": "swim-life-reef-fish",
+        "kind": "image",
+        "file": "assets/swim-life-reef-fish.png",
+        "metadata": "",
+        "userAdded": true,
+        "smoothed": true
+      },
+      {
+        "name": "swim-life-dolphin",
+        "kind": "image",
+        "file": "assets/swim-life-dolphin.png",
+        "metadata": "",
+        "userAdded": true,
+        "smoothed": true
+      },
+      {
+        "name": "swim-life-whale",
+        "kind": "image",
+        "file": "assets/swim-life-whale.png",
+        "metadata": "",
+        "userAdded": true,
+        "smoothed": true
+      },
+      {
+        "name": "swim-life-shark",
+        "kind": "image",
+        "file": "assets/swim-life-shark.png",
+        "metadata": "",
+        "userAdded": true,
+        "smoothed": true
+      },
+      {
+        "name": "swim-life-octopus",
+        "kind": "image",
+        "file": "assets/swim-life-octopus.png",
+        "metadata": "",
+        "userAdded": true,
+        "smoothed": true
+      },
+      {
+        "name": "swim-life-isopod",
+        "kind": "image",
+        "file": "assets/swim-life-isopod.png",
+        "metadata": "",
+        "userAdded": true,
+        "smoothed": true
+      },
+      {
+        "name": "swim-life-angler",
+        "kind": "image",
+        "file": "assets/swim-life-angler.png",
+        "metadata": "",
+        "userAdded": true,
+        "smoothed": true
+      },
+      {
+        "name": "swim-life-brittle",
+        "kind": "image",
+        "file": "assets/swim-life-brittle.png",
+        "metadata": "",
+        "userAdded": true,
+        "smoothed": true
+      },
+      {
+        "name": "swim-find-pebbles",
+        "kind": "image",
+        "file": "assets/swim-find-pebbles.png",
+        "metadata": "",
+        "userAdded": true,
+        "smoothed": true
+      },
+      {
+        "name": "swim-find-leaf-litter",
+        "kind": "image",
+        "file": "assets/swim-find-leaf-litter.png",
+        "metadata": "",
+        "userAdded": true,
+        "smoothed": true
+      },
+      {
+        "name": "swim-find-empty-shell",
+        "kind": "image",
+        "file": "assets/swim-find-empty-shell.png",
+        "metadata": "",
+        "userAdded": true,
+        "smoothed": true
+      },
+      {
+        "name": "swim-find-reef-sand",
+        "kind": "image",
+        "file": "assets/swim-find-reef-sand.png",
+        "metadata": "",
+        "userAdded": true,
+        "smoothed": true
+      },
+      {
+        "name": "swim-find-rock-arch",
+        "kind": "image",
+        "file": "assets/swim-find-rock-arch.png",
+        "metadata": "",
+        "userAdded": true,
+        "smoothed": true
+      },
+      {
+        "name": "swim-find-seafloor-core",
+        "kind": "image",
+        "file": "assets/swim-find-seafloor-core.png",
+        "metadata": "",
+        "userAdded": true,
+        "smoothed": true
+      },
+      {
+        "name": "swim-bubble",
+        "kind": "image",
+        "file": "assets/swim-bubble.png",
+        "metadata": "",
+        "userAdded": true,
+        "smoothed": true
+      },
+      {
         "name": "dim-scenery",
         "kind": "image",
         "file": "assets/dim-scenery.png",
@@ -11382,6 +11646,755 @@
             "underlined": false,
             "smoothed": true,
             "text": "♻️\nLake\n/ ocean cleanup",
+            "font": "",
+            "characterSize": 16,
+            "color": "23;56;74",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "lineHeight": 0,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false
+          }
+        },
+        {
+          "name": "Target_aqua-route",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "High contrast",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button-hc",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Label_aqua-route",
+          "type": "TextObject::Text",
+          "variables": [],
+          "behaviors": [],
+          "effects": [],
+          "bold": true,
+          "italic": false,
+          "underlined": false,
+          "smoothed": true,
+          "text": "🧭\nSwim\ntrail",
+          "font": "",
+          "characterSize": 16,
+          "color": {
+            "r": 23,
+            "g": 56,
+            "b": 74
+          },
+          "textAlignment": "left",
+          "verticalTextAlignment": "top",
+          "lineHeight": 0,
+          "isOutlineEnabled": false,
+          "isShadowEnabled": false,
+          "string": "🧭\nSwim\ntrail",
+          "content": {
+            "bold": true,
+            "italic": false,
+            "underlined": false,
+            "smoothed": true,
+            "text": "🧭\nSwim\ntrail",
+            "font": "",
+            "characterSize": 16,
+            "color": "23;56;74",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "lineHeight": 0,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false
+          }
+        },
+        {
+          "name": "Target_aqua-find-pebbles",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "High contrast",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button-hc",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Label_aqua-find-pebbles",
+          "type": "TextObject::Text",
+          "variables": [],
+          "behaviors": [],
+          "effects": [],
+          "bold": true,
+          "italic": false,
+          "underlined": false,
+          "smoothed": true,
+          "text": "🪨\nRounded\npebbles",
+          "font": "",
+          "characterSize": 16,
+          "color": {
+            "r": 23,
+            "g": 56,
+            "b": 74
+          },
+          "textAlignment": "left",
+          "verticalTextAlignment": "top",
+          "lineHeight": 0,
+          "isOutlineEnabled": false,
+          "isShadowEnabled": false,
+          "string": "🪨\nRounded\npebbles",
+          "content": {
+            "bold": true,
+            "italic": false,
+            "underlined": false,
+            "smoothed": true,
+            "text": "🪨\nRounded\npebbles",
+            "font": "",
+            "characterSize": 16,
+            "color": "23;56;74",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "lineHeight": 0,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false
+          }
+        },
+        {
+          "name": "Target_aqua-find-leaf-litter",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "High contrast",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button-hc",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Label_aqua-find-leaf-litter",
+          "type": "TextObject::Text",
+          "variables": [],
+          "behaviors": [],
+          "effects": [],
+          "bold": true,
+          "italic": false,
+          "underlined": false,
+          "smoothed": true,
+          "text": "🍂\nLeaf\nlitter",
+          "font": "",
+          "characterSize": 16,
+          "color": {
+            "r": 23,
+            "g": 56,
+            "b": 74
+          },
+          "textAlignment": "left",
+          "verticalTextAlignment": "top",
+          "lineHeight": 0,
+          "isOutlineEnabled": false,
+          "isShadowEnabled": false,
+          "string": "🍂\nLeaf\nlitter",
+          "content": {
+            "bold": true,
+            "italic": false,
+            "underlined": false,
+            "smoothed": true,
+            "text": "🍂\nLeaf\nlitter",
+            "font": "",
+            "characterSize": 16,
+            "color": "23;56;74",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "lineHeight": 0,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false
+          }
+        },
+        {
+          "name": "Target_aqua-find-empty-shell",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "High contrast",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button-hc",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Label_aqua-find-empty-shell",
+          "type": "TextObject::Text",
+          "variables": [],
+          "behaviors": [],
+          "effects": [],
+          "bold": true,
+          "italic": false,
+          "underlined": false,
+          "smoothed": true,
+          "text": "🐚\nEmpty\nshell",
+          "font": "",
+          "characterSize": 16,
+          "color": {
+            "r": 23,
+            "g": 56,
+            "b": 74
+          },
+          "textAlignment": "left",
+          "verticalTextAlignment": "top",
+          "lineHeight": 0,
+          "isOutlineEnabled": false,
+          "isShadowEnabled": false,
+          "string": "🐚\nEmpty\nshell",
+          "content": {
+            "bold": true,
+            "italic": false,
+            "underlined": false,
+            "smoothed": true,
+            "text": "🐚\nEmpty\nshell",
+            "font": "",
+            "characterSize": 16,
+            "color": "23;56;74",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "lineHeight": 0,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false
+          }
+        },
+        {
+          "name": "Target_aqua-find-reef-sand",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "High contrast",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button-hc",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Label_aqua-find-reef-sand",
+          "type": "TextObject::Text",
+          "variables": [],
+          "behaviors": [],
+          "effects": [],
+          "bold": true,
+          "italic": false,
+          "underlined": false,
+          "smoothed": true,
+          "text": "⌛\nReef\nsand",
+          "font": "",
+          "characterSize": 16,
+          "color": {
+            "r": 23,
+            "g": 56,
+            "b": 74
+          },
+          "textAlignment": "left",
+          "verticalTextAlignment": "top",
+          "lineHeight": 0,
+          "isOutlineEnabled": false,
+          "isShadowEnabled": false,
+          "string": "⌛\nReef\nsand",
+          "content": {
+            "bold": true,
+            "italic": false,
+            "underlined": false,
+            "smoothed": true,
+            "text": "⌛\nReef\nsand",
+            "font": "",
+            "characterSize": 16,
+            "color": "23;56;74",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "lineHeight": 0,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false
+          }
+        },
+        {
+          "name": "Target_aqua-find-rock-arch",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "High contrast",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button-hc",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Label_aqua-find-rock-arch",
+          "type": "TextObject::Text",
+          "variables": [],
+          "behaviors": [],
+          "effects": [],
+          "bold": true,
+          "italic": false,
+          "underlined": false,
+          "smoothed": true,
+          "text": "🪨\nRock\narch",
+          "font": "",
+          "characterSize": 16,
+          "color": {
+            "r": 23,
+            "g": 56,
+            "b": 74
+          },
+          "textAlignment": "left",
+          "verticalTextAlignment": "top",
+          "lineHeight": 0,
+          "isOutlineEnabled": false,
+          "isShadowEnabled": false,
+          "string": "🪨\nRock\narch",
+          "content": {
+            "bold": true,
+            "italic": false,
+            "underlined": false,
+            "smoothed": true,
+            "text": "🪨\nRock\narch",
+            "font": "",
+            "characterSize": 16,
+            "color": "23;56;74",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "lineHeight": 0,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false
+          }
+        },
+        {
+          "name": "Target_aqua-find-seafloor-core",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "High contrast",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button-hc",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Label_aqua-find-seafloor-core",
+          "type": "TextObject::Text",
+          "variables": [],
+          "behaviors": [],
+          "effects": [],
+          "bold": true,
+          "italic": false,
+          "underlined": false,
+          "smoothed": true,
+          "text": "🧪\nSeafloor\nsediment",
+          "font": "",
+          "characterSize": 16,
+          "color": {
+            "r": 23,
+            "g": 56,
+            "b": 74
+          },
+          "textAlignment": "left",
+          "verticalTextAlignment": "top",
+          "lineHeight": 0,
+          "isOutlineEnabled": false,
+          "isShadowEnabled": false,
+          "string": "🧪\nSeafloor\nsediment",
+          "content": {
+            "bold": true,
+            "italic": false,
+            "underlined": false,
+            "smoothed": true,
+            "text": "🧪\nSeafloor\nsediment",
             "font": "",
             "characterSize": 16,
             "color": "23;56;74",
@@ -27650,6 +28663,1999 @@
             "isOutlineEnabled": false,
             "isShadowEnabled": false
           }
+        },
+        {
+          "name": "AquaticSwimmer",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Crew0Frame0",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "swim-crew0-0",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Crew0Frame1",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "swim-crew0-1",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Crew1Frame0",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "swim-crew1-0",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Crew1Frame1",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "swim-crew1-1",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Crew2Frame0",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "swim-crew2-0",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Crew2Frame1",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "swim-crew2-1",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Crew3Frame0",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "swim-crew3-0",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Crew3Frame1",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "swim-crew3-1",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Crew4Frame0",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "swim-crew4-0",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Crew4Frame1",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "swim-crew4-1",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Crew5Frame0",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "swim-crew5-0",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Crew5Frame1",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "swim-crew5-1",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Crew6Frame0",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "swim-crew6-0",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Crew6Frame1",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "swim-crew6-1",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Crew7Frame0",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "swim-crew7-0",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Crew7Frame1",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "swim-crew7-1",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "SwimLabel_perch",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button-hc",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "SwimLabel_reeds",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button-hc",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "SwimLabel_reef-fish",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button-hc",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "SwimLabel_dolphin",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button-hc",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "SwimLabel_whale",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button-hc",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "SwimLabel_shark",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button-hc",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "SwimLabel_octopus",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button-hc",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "SwimLabel_isopod",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button-hc",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "SwimLabel_angler",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button-hc",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "SwimLabel_brittle",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button-hc",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "SwimLabel_pebbles",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button-hc",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "SwimLabel_leaf-litter",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button-hc",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "SwimLabel_empty-shell",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button-hc",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "SwimLabel_reef-sand",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button-hc",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "SwimLabel_rock-arch",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button-hc",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "SwimLabel_seafloor-core",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button-hc",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "SwimLife_perch",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "swim-life-perch",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "SwimLife_reeds",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "swim-life-reeds",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "SwimLife_reef-fish",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "swim-life-reef-fish",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "SwimLife_dolphin",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "swim-life-dolphin",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "SwimLife_whale",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "swim-life-whale",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "SwimLife_shark",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "swim-life-shark",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "SwimLife_octopus",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "swim-life-octopus",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "SwimLife_isopod",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "swim-life-isopod",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "SwimLife_angler",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "swim-life-angler",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "SwimLife_brittle",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "swim-life-brittle",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "SwimFind_pebbles",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "swim-find-pebbles",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "SwimFind_leaf-litter",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "swim-find-leaf-litter",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "SwimFind_empty-shell",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "swim-find-empty-shell",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "SwimFind_reef-sand",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "swim-find-reef-sand",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "SwimFind_rock-arch",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "swim-find-rock-arch",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "SwimFind_seafloor-core",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "swim-find-seafloor-core",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "SwimBubble0",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "swim-bubble",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "SwimBubble1",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "swim-bubble",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "SwimBubble2",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "swim-bubble",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "SwimBubble3",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "swim-bubble",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "SwimBubble4",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "swim-bubble",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "SwimBubble5",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "swim-bubble",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "SwimBubble6",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "swim-bubble",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "SwimBubble7",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "swim-bubble",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "instances": [
@@ -30252,6 +33258,216 @@
           "name": "Label_aqua-cleanup",
           "x": 900,
           "y": 249,
+          "width": 0,
+          "height": 0,
+          "customSize": false,
+          "angle": 0,
+          "zOrder": 6,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "Target_aqua-route",
+          "x": 873,
+          "y": 125,
+          "width": 94,
+          "height": 70,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 5,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "Label_aqua-route",
+          "x": 880,
+          "y": 129,
+          "width": 0,
+          "height": 0,
+          "customSize": false,
+          "angle": 0,
+          "zOrder": 6,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "Target_aqua-find-pebbles",
+          "x": 173,
+          "y": 385,
+          "width": 94,
+          "height": 70,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 5,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "Label_aqua-find-pebbles",
+          "x": 180,
+          "y": 389,
+          "width": 0,
+          "height": 0,
+          "customSize": false,
+          "angle": 0,
+          "zOrder": 6,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "Target_aqua-find-leaf-litter",
+          "x": 753,
+          "y": 385,
+          "width": 94,
+          "height": 70,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 5,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "Label_aqua-find-leaf-litter",
+          "x": 760,
+          "y": 389,
+          "width": 0,
+          "height": 0,
+          "customSize": false,
+          "angle": 0,
+          "zOrder": 6,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "Target_aqua-find-empty-shell",
+          "x": 173,
+          "y": 385,
+          "width": 94,
+          "height": 70,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 5,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "Label_aqua-find-empty-shell",
+          "x": 180,
+          "y": 389,
+          "width": 0,
+          "height": 0,
+          "customSize": false,
+          "angle": 0,
+          "zOrder": 6,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "Target_aqua-find-reef-sand",
+          "x": 753,
+          "y": 405,
+          "width": 94,
+          "height": 70,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 5,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "Label_aqua-find-reef-sand",
+          "x": 760,
+          "y": 409,
+          "width": 0,
+          "height": 0,
+          "customSize": false,
+          "angle": 0,
+          "zOrder": 6,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "Target_aqua-find-rock-arch",
+          "x": 173,
+          "y": 225,
+          "width": 94,
+          "height": 70,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 5,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "Label_aqua-find-rock-arch",
+          "x": 180,
+          "y": 229,
+          "width": 0,
+          "height": 0,
+          "customSize": false,
+          "angle": 0,
+          "zOrder": 6,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "Target_aqua-find-seafloor-core",
+          "x": 653,
+          "y": 415,
+          "width": 94,
+          "height": 70,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 5,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "Label_aqua-find-seafloor-core",
+          "x": 660,
+          "y": 419,
           "width": 0,
           "height": 0,
           "customSize": false,
@@ -37196,9 +40412,9 @@
         {
           "name": "AquaticBackground",
           "x": 0,
-          "y": 90,
+          "y": 0,
           "width": 1000,
-          "height": 430,
+          "height": 600,
           "customSize": true,
           "angle": 0,
           "zOrder": 0,
@@ -37262,6 +40478,621 @@
           "customSize": false,
           "angle": 0,
           "zOrder": 61,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "AquaticSwimmer",
+          "x": 0,
+          "y": 0,
+          "width": 100,
+          "height": 70,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 10,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "SwimLabel_perch",
+          "x": 280,
+          "y": 329,
+          "width": 130,
+          "height": 36,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 5,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "SwimLabel_reeds",
+          "x": 580,
+          "y": 309,
+          "width": 130,
+          "height": 36,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 5,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "SwimLabel_reef-fish",
+          "x": 240,
+          "y": 289,
+          "width": 130,
+          "height": 36,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 5,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "SwimLabel_dolphin",
+          "x": 480,
+          "y": 269,
+          "width": 130,
+          "height": 36,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 5,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "SwimLabel_whale",
+          "x": 740,
+          "y": 329,
+          "width": 130,
+          "height": 36,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 5,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "SwimLabel_shark",
+          "x": 320,
+          "y": 429,
+          "width": 130,
+          "height": 36,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 5,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "SwimLabel_octopus",
+          "x": 580,
+          "y": 449,
+          "width": 130,
+          "height": 36,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 5,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "SwimLabel_isopod",
+          "x": 240,
+          "y": 429,
+          "width": 130,
+          "height": 36,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 5,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "SwimLabel_angler",
+          "x": 540,
+          "y": 289,
+          "width": 130,
+          "height": 36,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 5,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "SwimLabel_brittle",
+          "x": 740,
+          "y": 409,
+          "width": 130,
+          "height": 36,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 5,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "SwimLabel_pebbles",
+          "x": 160,
+          "y": 449,
+          "width": 130,
+          "height": 36,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 5,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "SwimLabel_leaf-litter",
+          "x": 740,
+          "y": 449,
+          "width": 130,
+          "height": 36,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 5,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "SwimLabel_empty-shell",
+          "x": 160,
+          "y": 449,
+          "width": 130,
+          "height": 36,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 5,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "SwimLabel_reef-sand",
+          "x": 740,
+          "y": 469,
+          "width": 130,
+          "height": 36,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 5,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "SwimLabel_rock-arch",
+          "x": 160,
+          "y": 289,
+          "width": 130,
+          "height": 36,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 5,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "SwimLabel_seafloor-core",
+          "x": 640,
+          "y": 479,
+          "width": 130,
+          "height": 36,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 5,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "SwimLife_perch",
+          "x": 290,
+          "y": 260,
+          "width": 100,
+          "height": 80,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 2,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "SwimLife_reeds",
+          "x": 590,
+          "y": 240,
+          "width": 100,
+          "height": 80,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 2,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "SwimLife_reef-fish",
+          "x": 250,
+          "y": 220,
+          "width": 100,
+          "height": 80,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 2,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "SwimLife_dolphin",
+          "x": 490,
+          "y": 200,
+          "width": 100,
+          "height": 80,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 2,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "SwimLife_whale",
+          "x": 750,
+          "y": 260,
+          "width": 100,
+          "height": 80,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 2,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "SwimLife_shark",
+          "x": 330,
+          "y": 360,
+          "width": 100,
+          "height": 80,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 2,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "SwimLife_octopus",
+          "x": 590,
+          "y": 380,
+          "width": 100,
+          "height": 80,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 2,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "SwimLife_isopod",
+          "x": 250,
+          "y": 360,
+          "width": 100,
+          "height": 80,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 2,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "SwimLife_angler",
+          "x": 550,
+          "y": 220,
+          "width": 100,
+          "height": 80,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 2,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "SwimLife_brittle",
+          "x": 750,
+          "y": 340,
+          "width": 100,
+          "height": 80,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 2,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "SwimFind_pebbles",
+          "x": 170,
+          "y": 380,
+          "width": 100,
+          "height": 80,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 2,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "SwimFind_leaf-litter",
+          "x": 750,
+          "y": 380,
+          "width": 100,
+          "height": 80,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 2,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "SwimFind_empty-shell",
+          "x": 170,
+          "y": 380,
+          "width": 100,
+          "height": 80,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 2,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "SwimFind_reef-sand",
+          "x": 750,
+          "y": 400,
+          "width": 100,
+          "height": 80,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 2,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "SwimFind_rock-arch",
+          "x": 170,
+          "y": 220,
+          "width": 100,
+          "height": 80,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 2,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "SwimFind_seafloor-core",
+          "x": 650,
+          "y": 410,
+          "width": 100,
+          "height": 80,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 2,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "SwimBubble0",
+          "x": 100,
+          "y": 200,
+          "width": 12,
+          "height": 12,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 1,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "SwimBubble1",
+          "x": 210,
+          "y": 200,
+          "width": 12,
+          "height": 12,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 1,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "SwimBubble2",
+          "x": 320,
+          "y": 200,
+          "width": 12,
+          "height": 12,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 1,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "SwimBubble3",
+          "x": 430,
+          "y": 200,
+          "width": 12,
+          "height": 12,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 1,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "SwimBubble4",
+          "x": 540,
+          "y": 200,
+          "width": 12,
+          "height": 12,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 1,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "SwimBubble5",
+          "x": 650,
+          "y": 200,
+          "width": 12,
+          "height": 12,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 1,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "SwimBubble6",
+          "x": 760,
+          "y": 200,
+          "width": 12,
+          "height": 12,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 1,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "SwimBubble7",
+          "x": 870,
+          "y": 200,
+          "width": 12,
+          "height": 12,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 1,
           "layer": "",
           "locked": false,
           "numberProperties": [],
@@ -37362,8 +41193,8 @@
             "function displayPreferences(raw={}){return {highContrast:raw?.highContrast===true,colorBlind:raw?.colorBlind===true};}",
             "function destinationBadge(objects,id){const o=objects.find(o=>o.id===id);return o?String(objects.filter(x=>x.zone===o.zone).findIndex(x=>x.id===id)+1):'';}",
             "",
-            "const displaySprites=[\"Footer\",\"PipButton\",\"CrewButton\",\"SuitButton\",\"JournalButton\",\"SettingsButton\",\"PauseButton\",\"WordsButton\",\"AccessButton\",\"VisitButton\",\"Target_grounds-dig\",\"Target_grounds-home\",\"Target_grounds-farm\",\"Target_home\",\"Target_plant\",\"Target_rock\",\"Target_dig\",\"Target_magnet\",\"Target_crystal\",\"Target_bridge\",\"Target_hq-map\",\"Target_hq-bay\",\"Target_hq-lab\",\"Target_hq-pip\",\"Target_hq-bunks\",\"Target_hq-locker\",\"Target_hq-home\",\"Target_hq-exit\",\"Target_farm-hydro\",\"Target_farm-biodome\",\"Target_farm-garden\",\"Target_farm-orchard\",\"Target_farm-vertical\",\"Target_farm-solar\",\"Target_farm-water\",\"Target_farm-power\",\"Target_farm-bank\",\"Target_farm-computer\",\"Target_farm-leaf\",\"Target_farm-robot\",\"Target_farm-exit\",\"Target_dig-exit\",\"Target_dig-tools\",\"Target_dig-quartz\",\"Target_dig-iron\",\"Target_dig-fossil\",\"Target_dig-amethyst\",\"Target_dig-calcite\",\"Target_dig-granite\",\"Target_dig-basalt\",\"Target_dig-deeper\",\"Target_dig-layers\",\"Target_cave-up\",\"Target_cave-life\",\"Target_cave-pigment\",\"Target_cave-echo\",\"Target_cave-formations\",\"Target_cave-water\",\"Target_cave-lava\",\"Target_cave-mantle\",\"Target_engineering-exit\",\"Target_engineering-bridge\",\"Target_engineering-water\",\"Target_engineering-habitat\",\"Target_yard-free\",\"Target_yard-printer\",\"Target_yard-crane\",\"Target_yard-robots\",\"Target_yard-build\",\"Target_yard-pipes\",\"Target_yard-power\",\"Target_grounds-elevator\",\"Target_aqua-exit\",\"Target_aqua-center\",\"Target_aqua-science\",\"Target_aqua-dock\",\"Target_aqua-habitat\",\"Target_aqua-water\",\"Target_aqua-cleanup\",\"Target_aqua-volcano\",\"Target_aqua-perch\",\"Target_aqua-reeds\",\"Target_aqua-reef-fish\",\"Target_aqua-dolphin\",\"Target_aqua-whale\",\"Target_aqua-shark\",\"Target_aqua-octopus\",\"Target_aqua-isopod\",\"Target_aqua-angler\",\"Target_aqua-brittle\",\"Target_grounds-aquatic\",\"Panel\",\"Close\",\"Option0\",\"Option1\",\"Option2\",\"Option3\",\"Option4\",\"Option5\",\"CrewCard0\",\"CrewCard1\",\"CrewCard2\",\"CrewCard3\",\"CrewCard4\",\"CrewCard5\",\"CrewCard6\",\"CrewCard7\",\"CrewPreviousButton\",\"CrewNextButton\",\"PipTab0\",\"PipTab1\",\"PipTab2\",\"PipTab3\",\"PipTab4\",\"PipPart0\",\"PipPart1\",\"PipPart2\",\"PipPart3\",\"PipAction0\",\"PipAction1\",\"PipAction2\",\"PipAction3\",\"PipAction4\",\"EngineeringBackground\",\"BuildTool0\",\"BuildTool1\",\"BuildTool2\",\"BuildTool3\",\"BuildTool4\",\"BuildTool5\",\"BuildPart0\",\"BuildPart1\",\"BuildPart2\",\"BuildPart3\",\"BuildPart4\",\"AccessNotice\"];",
-            "const displayTexts=[{\"name\":\"Title\",\"color\":\"239;248;245\",\"light\":true},{\"name\":\"PipLabel\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"CrewLabel\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"SuitLabel\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"JournalLabel\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"SettingsLabel\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"PauseLabel\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"WordsLabel\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"AccessLabel\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"VisitLabel\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"ActiveCrew\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Status\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_grounds-dig\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_grounds-home\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_grounds-farm\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_home\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_plant\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_rock\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_dig\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_magnet\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_crystal\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_bridge\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_hq-map\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_hq-bay\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_hq-lab\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_hq-pip\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_hq-bunks\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_hq-locker\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_hq-home\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_hq-exit\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_farm-hydro\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_farm-biodome\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_farm-garden\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_farm-orchard\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_farm-vertical\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_farm-solar\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_farm-water\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_farm-power\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_farm-bank\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_farm-computer\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_farm-leaf\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_farm-robot\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_farm-exit\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_dig-exit\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_dig-tools\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_dig-quartz\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_dig-iron\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_dig-fossil\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_dig-amethyst\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_dig-calcite\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_dig-granite\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_dig-basalt\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_dig-deeper\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_dig-layers\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_cave-up\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_cave-life\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_cave-pigment\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_cave-echo\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_cave-formations\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_cave-water\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_cave-lava\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_cave-mantle\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_engineering-exit\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_engineering-bridge\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_engineering-water\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_engineering-habitat\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_yard-free\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_yard-printer\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_yard-crane\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_yard-robots\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_yard-build\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_yard-pipes\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_yard-power\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_grounds-elevator\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_aqua-exit\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_aqua-center\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_aqua-science\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_aqua-dock\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_aqua-habitat\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_aqua-water\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_aqua-cleanup\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_aqua-volcano\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_aqua-perch\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_aqua-reeds\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_aqua-reef-fish\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_aqua-dolphin\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_aqua-whale\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_aqua-shark\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_aqua-octopus\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_aqua-isopod\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_aqua-angler\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_aqua-brittle\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_grounds-aquatic\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"CardTitle\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"CardBody\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"CardVisual\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"CloseLabel\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"OptionLabel0\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"OptionLabel1\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"OptionLabel2\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"OptionLabel3\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"OptionLabel4\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"OptionLabel5\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"CrewName0\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"CrewDetail0\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"CrewName1\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"CrewDetail1\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"CrewName2\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"CrewDetail2\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"CrewName3\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"CrewDetail3\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"CrewName4\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"CrewDetail4\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"CrewName5\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"CrewDetail5\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"CrewName6\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"CrewDetail6\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"CrewName7\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"CrewDetail7\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"CrewPreviousLabel\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"CrewNextLabel\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"PipBlueprintLabel\",\"color\":\"23;56;74\",\"light\":true},{\"name\":\"WorkshopNote\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"PipTabLabel0\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"PipTabLabel1\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"PipTabLabel2\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"PipTabLabel3\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"PipTabLabel4\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"PipPartLabel0\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"PipPartLabel1\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"PipPartLabel2\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"PipPartLabel3\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"PipActionLabel0\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"PipActionLabel1\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"PipActionLabel2\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"PipActionLabel3\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"PipActionLabel4\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"BuildToolLabel0\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"BuildToolLabel1\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"BuildToolLabel2\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"BuildToolLabel3\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"BuildToolLabel4\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"BuildToolLabel5\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"BuildPartLabel0\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"BuildPartLabel1\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"BuildPartLabel2\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"BuildPartLabel3\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"BuildPartLabel4\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"BuildNote\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"BuildMarker0\",\"color\":\"239;248;245\",\"light\":false},{\"name\":\"BuildMarker1\",\"color\":\"239;248;245\",\"light\":false},{\"name\":\"BuildMarker2\",\"color\":\"239;248;245\",\"light\":false},{\"name\":\"AccessCaption\",\"color\":\"23;56;74\",\"light\":false}];",
+            "const displaySprites=[\"Footer\",\"PipButton\",\"CrewButton\",\"SuitButton\",\"JournalButton\",\"SettingsButton\",\"PauseButton\",\"WordsButton\",\"AccessButton\",\"VisitButton\",\"Target_grounds-dig\",\"Target_grounds-home\",\"Target_grounds-farm\",\"Target_home\",\"Target_plant\",\"Target_rock\",\"Target_dig\",\"Target_magnet\",\"Target_crystal\",\"Target_bridge\",\"Target_hq-map\",\"Target_hq-bay\",\"Target_hq-lab\",\"Target_hq-pip\",\"Target_hq-bunks\",\"Target_hq-locker\",\"Target_hq-home\",\"Target_hq-exit\",\"Target_farm-hydro\",\"Target_farm-biodome\",\"Target_farm-garden\",\"Target_farm-orchard\",\"Target_farm-vertical\",\"Target_farm-solar\",\"Target_farm-water\",\"Target_farm-power\",\"Target_farm-bank\",\"Target_farm-computer\",\"Target_farm-leaf\",\"Target_farm-robot\",\"Target_farm-exit\",\"Target_dig-exit\",\"Target_dig-tools\",\"Target_dig-quartz\",\"Target_dig-iron\",\"Target_dig-fossil\",\"Target_dig-amethyst\",\"Target_dig-calcite\",\"Target_dig-granite\",\"Target_dig-basalt\",\"Target_dig-deeper\",\"Target_dig-layers\",\"Target_cave-up\",\"Target_cave-life\",\"Target_cave-pigment\",\"Target_cave-echo\",\"Target_cave-formations\",\"Target_cave-water\",\"Target_cave-lava\",\"Target_cave-mantle\",\"Target_engineering-exit\",\"Target_engineering-bridge\",\"Target_engineering-water\",\"Target_engineering-habitat\",\"Target_yard-free\",\"Target_yard-printer\",\"Target_yard-crane\",\"Target_yard-robots\",\"Target_yard-build\",\"Target_yard-pipes\",\"Target_yard-power\",\"Target_grounds-elevator\",\"Target_aqua-exit\",\"Target_aqua-center\",\"Target_aqua-science\",\"Target_aqua-dock\",\"Target_aqua-habitat\",\"Target_aqua-water\",\"Target_aqua-cleanup\",\"Target_aqua-route\",\"Target_aqua-find-pebbles\",\"Target_aqua-find-leaf-litter\",\"Target_aqua-find-empty-shell\",\"Target_aqua-find-reef-sand\",\"Target_aqua-find-rock-arch\",\"Target_aqua-find-seafloor-core\",\"Target_aqua-volcano\",\"Target_aqua-perch\",\"Target_aqua-reeds\",\"Target_aqua-reef-fish\",\"Target_aqua-dolphin\",\"Target_aqua-whale\",\"Target_aqua-shark\",\"Target_aqua-octopus\",\"Target_aqua-isopod\",\"Target_aqua-angler\",\"Target_aqua-brittle\",\"Target_grounds-aquatic\",\"Panel\",\"Close\",\"Option0\",\"Option1\",\"Option2\",\"Option3\",\"Option4\",\"Option5\",\"CrewCard0\",\"CrewCard1\",\"CrewCard2\",\"CrewCard3\",\"CrewCard4\",\"CrewCard5\",\"CrewCard6\",\"CrewCard7\",\"CrewPreviousButton\",\"CrewNextButton\",\"PipTab0\",\"PipTab1\",\"PipTab2\",\"PipTab3\",\"PipTab4\",\"PipPart0\",\"PipPart1\",\"PipPart2\",\"PipPart3\",\"PipAction0\",\"PipAction1\",\"PipAction2\",\"PipAction3\",\"PipAction4\",\"EngineeringBackground\",\"BuildTool0\",\"BuildTool1\",\"BuildTool2\",\"BuildTool3\",\"BuildTool4\",\"BuildTool5\",\"BuildPart0\",\"BuildPart1\",\"BuildPart2\",\"BuildPart3\",\"BuildPart4\",\"AccessNotice\"];",
+            "const displayTexts=[{\"name\":\"Title\",\"color\":\"239;248;245\",\"light\":true},{\"name\":\"PipLabel\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"CrewLabel\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"SuitLabel\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"JournalLabel\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"SettingsLabel\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"PauseLabel\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"WordsLabel\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"AccessLabel\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"VisitLabel\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"ActiveCrew\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Status\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_grounds-dig\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_grounds-home\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_grounds-farm\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_home\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_plant\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_rock\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_dig\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_magnet\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_crystal\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_bridge\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_hq-map\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_hq-bay\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_hq-lab\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_hq-pip\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_hq-bunks\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_hq-locker\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_hq-home\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_hq-exit\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_farm-hydro\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_farm-biodome\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_farm-garden\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_farm-orchard\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_farm-vertical\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_farm-solar\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_farm-water\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_farm-power\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_farm-bank\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_farm-computer\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_farm-leaf\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_farm-robot\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_farm-exit\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_dig-exit\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_dig-tools\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_dig-quartz\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_dig-iron\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_dig-fossil\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_dig-amethyst\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_dig-calcite\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_dig-granite\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_dig-basalt\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_dig-deeper\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_dig-layers\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_cave-up\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_cave-life\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_cave-pigment\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_cave-echo\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_cave-formations\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_cave-water\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_cave-lava\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_cave-mantle\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_engineering-exit\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_engineering-bridge\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_engineering-water\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_engineering-habitat\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_yard-free\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_yard-printer\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_yard-crane\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_yard-robots\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_yard-build\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_yard-pipes\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_yard-power\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_grounds-elevator\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_aqua-exit\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_aqua-center\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_aqua-science\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_aqua-dock\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_aqua-habitat\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_aqua-water\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_aqua-cleanup\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_aqua-route\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_aqua-find-pebbles\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_aqua-find-leaf-litter\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_aqua-find-empty-shell\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_aqua-find-reef-sand\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_aqua-find-rock-arch\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_aqua-find-seafloor-core\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_aqua-volcano\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_aqua-perch\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_aqua-reeds\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_aqua-reef-fish\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_aqua-dolphin\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_aqua-whale\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_aqua-shark\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_aqua-octopus\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_aqua-isopod\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_aqua-angler\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_aqua-brittle\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_grounds-aquatic\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"CardTitle\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"CardBody\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"CardVisual\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"CloseLabel\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"OptionLabel0\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"OptionLabel1\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"OptionLabel2\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"OptionLabel3\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"OptionLabel4\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"OptionLabel5\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"CrewName0\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"CrewDetail0\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"CrewName1\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"CrewDetail1\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"CrewName2\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"CrewDetail2\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"CrewName3\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"CrewDetail3\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"CrewName4\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"CrewDetail4\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"CrewName5\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"CrewDetail5\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"CrewName6\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"CrewDetail6\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"CrewName7\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"CrewDetail7\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"CrewPreviousLabel\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"CrewNextLabel\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"PipBlueprintLabel\",\"color\":\"23;56;74\",\"light\":true},{\"name\":\"WorkshopNote\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"PipTabLabel0\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"PipTabLabel1\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"PipTabLabel2\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"PipTabLabel3\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"PipTabLabel4\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"PipPartLabel0\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"PipPartLabel1\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"PipPartLabel2\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"PipPartLabel3\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"PipActionLabel0\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"PipActionLabel1\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"PipActionLabel2\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"PipActionLabel3\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"PipActionLabel4\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"BuildToolLabel0\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"BuildToolLabel1\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"BuildToolLabel2\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"BuildToolLabel3\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"BuildToolLabel4\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"BuildToolLabel5\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"BuildPartLabel0\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"BuildPartLabel1\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"BuildPartLabel2\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"BuildPartLabel3\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"BuildPartLabel4\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"BuildNote\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"BuildMarker0\",\"color\":\"239;248;245\",\"light\":false},{\"name\":\"BuildMarker1\",\"color\":\"239;248;245\",\"light\":false},{\"name\":\"BuildMarker2\",\"color\":\"239;248;245\",\"light\":false},{\"name\":\"AccessCaption\",\"color\":\"23;56;74\",\"light\":false}];",
             "function nativeDisplayUpdate(){const v=s.settings,hash=String(v.highContrast)+'/'+String(v.colorBlind);if(s.displayHash!==hash){s.displayHash=hash;for(const n of displaySprites)obj(n).setAnimation(v.highContrast?1:0);for(const t of displayTexts)obj(t.name).setColor(v.highContrast?(t.light?'255;255;255':'0;0;0'):t.color);for(const o of objects)text('Label_'+o.id,(v.colorBlind?destinationBadge(objects,o.id)+' • ':'')+o.icon+'\\n'+o.name.replace(' ','\\n'));}if(s.overlay==='J.A.C.C. Crew')for(let i=0;i<roster.length;i++)text('CrewName'+i,(v.colorBlind?(i+1)+' • ':'')+(s.crew===i?'✓ ':'')+roster[i][0]);}",
             "",
             "// Earth lake + protected ocean simulations. Not a real dive or an animal-identification guide.",
@@ -37381,7 +41212,15 @@
             " {id:'angler',name:'Deep-sea anglerfish',icon:'🐟',habitat:'deep',x:600,y:260,text:'Some deep-sea anglerfish use a glowing lure to attract prey. Deep-sea animals have many different ways to find food in darkness.'},",
             " {id:'brittle',name:'Brittle star',icon:'✳️',habitat:'deep',x:800,y:380,text:'Brittle stars are relatives of sea stars. Some species live very deep. Their flexible arms help them move and handle food.'}",
             "];",
-            "const aquaticSamples=[{id:'water',name:'Water observation',icon:'💧',fact:'I compared a virtual water sample. Real water quality needs suitable tests.'},{id:'sediment',name:'Sediment sample',icon:'🪨',fact:'Sediment can contain fragments of rocks and remains of organisms.'},{id:'cleanup',name:'Cleanup sample',icon:'♻️',fact:'I removed simulated litter and kept a record. Marine animals stay in their habitat.'},{id:'basalt',name:'Volcanic basalt model',icon:'🌋',fact:'Basalt often forms when lava cools. This sample comes from a protected model, not a real hot vent.'},{id:'sonar',name:'Sonar map',icon:'📡',fact:'Sound echoes can help map underwater features. A sonar map is data, not a captured animal.'}];",
+            "const aquaticFinds=[",
+            " {id:'pebbles',name:'Rounded pebbles',icon:'🪨',habitat:'lake',x:220,y:420,fact:'Moving water and contact with other sediment can wear rock fragments into rounder shapes.'},",
+            " {id:'leaf-litter',name:'Leaf litter',icon:'🍂',habitat:'lake',x:800,y:420,fact:'Fallen leaves can become food for decomposers and part of lake food webs. This is an observation record.'},",
+            " {id:'empty-shell',name:'Empty shell',icon:'🐚',habitat:'reef',x:220,y:420,fact:'A shell can remain after a mollusk has died. We record the empty shell and leave living animals in place.'},",
+            " {id:'reef-sand',name:'Reef sand',icon:'⌛',habitat:'reef',x:800,y:440,fact:'Reef sand can include fragments of shells and other carbonate material. Sand composition varies between places.'},",
+            " {id:'rock-arch',name:'Rock arch',icon:'🪨',habitat:'deep',x:220,y:260,fact:'Underwater rock shapes offer clues to geological processes. This arch is a protected model observation, not a route into a real cave.'},",
+            " {id:'seafloor-core',name:'Seafloor sediment',icon:'🧪',habitat:'deep',x:700,y:450,fact:'Layers of seafloor sediment can preserve clues about past conditions. Scientists study samples carefully; this is a virtual record.'}",
+            "];",
+            "const aquaticSamples=[{id:'water',name:'Water observation',icon:'💧',fact:'I compared a virtual water sample. Real water quality needs suitable tests.'},{id:'sediment',name:'Sediment sample',icon:'🪨',fact:'Sediment can contain fragments of rocks and remains of organisms.'},{id:'cleanup',name:'Cleanup sample',icon:'♻️',fact:'I removed simulated litter and kept a record. Marine animals stay in their habitat.'},{id:'basalt',name:'Volcanic basalt model',icon:'🌋',fact:'Basalt often forms when lava cools. This sample comes from a protected model, not a real hot vent.'},{id:'sonar',name:'Sonar map',icon:'📡',fact:'Sound echoes can help map underwater features. A sonar map is data, not a captured animal.'},...aquaticFinds.map(f=>({id:f.id,name:f.name,icon:f.icon,fact:f.fact}))];",
             "const aquaticObjects=[",
             " {id:'aqua-exit',x:140,y:460,icon:'🏠',name:'Lake shore',kind:'portal',to:'grounds'},",
             " {id:'aqua-center',x:180,y:160,icon:'🌊',name:'Learning center',page:'center'},",
@@ -37390,6 +41229,8 @@
             " {id:'aqua-habitat',x:900,y:440,icon:'🫧',name:'Habitat workshop',page:'habitat'},",
             " {id:'aqua-water',x:500,y:440,icon:'💧',name:'Sample lab',page:'samples'},",
             " {id:'aqua-cleanup',x:940,y:280,icon:'♻️',name:'Lake / ocean cleanup',page:'cleanup'},",
+            " {id:'aqua-route',x:920,y:160,icon:'🧭',name:'Swim trail',page:'trail'},",
+            " ...aquaticFinds.map(f=>({...f,id:'aqua-find-'+f.id,find:f.id,page:'find:'+f.id})),",
             " {id:'aqua-volcano',x:500,y:340,icon:'🌋',name:'Volcano model',page:'volcano',habitat:'deep'},",
             " ...aquaticLife.map(a=>({...a,id:'aqua-'+a.id,life:a.id,page:'life:'+a.id}))",
             "].map(o=>({...o,zone:'aquatic',kind:o.kind||'aquatic'}));",
@@ -37399,6 +41240,7 @@
             "function aquaticBlocked(x,y){return x<1||x>23||y<3||y>12;}",
             "function aquaticAction(input,a,kits=[]){const s=normalizeAquatic(input);let route=a.route||'center',travel=null,reset=false,message='';const done=id=>{if(!s.completed.includes(id))s.completed.push(id)};",
             " if(a.type==='habitat'&&aquaticHabitats[a.value]){s.habitat=a.value;reset=true;message=aquaticHabitats[a.value].note;route='center';}",
+            " if(a.type==='explore'&&aquaticHabitats[a.value]){s.habitat=a.value;s.vehicle='swim';reset=true;route='trail';message='Ready to swim in '+aquaticHabitats[a.value].name+'.';}",
             " if(a.type==='vehicle'&&['swim','sub'].includes(a.value)){s.vehicle=a.value;route='dock';message=a.value==='sub'?'Submersible ready. Tap a destination to travel.':'Ready to swim. Tap a destination.';}",
             " if(a.type==='observe'&&aquaticLife.some(l=>l.id===a.value)){if(!s.observed.includes(a.value))s.observed.push(a.value);route='life:'+a.value;message='Observation saved. The animal stays free.';}",
             " if(a.type==='sample'&&aquaticSamples.some(l=>l.id===a.value)){if(!s.samples.includes(a.value))s.samples.push(a.value);route='collection';message='Sample record saved. I can explore again.';}",
@@ -37407,10 +41249,12 @@
             " if(a.type==='ping'){s.ping=1-s.ping;done('sonar');if(!s.samples.includes('sonar'))s.samples.push('sonar');}",
             " if(a.type==='fit'&&kits.includes(a.value)){if(!s.modules.includes(a.value))s.modules.push(a.value);done('habitat');route='habitat';message='Reusable habitat model fitted.';}",
             " if(a.type==='travel')travel=a.value;",
-            " return {aquatic:s,route,travel,reset,message};",
+            " return {aquatic:s,route,travel,reset,message,resume:a.type==='explore'&&!!aquaticHabitats[a.value]};",
             "}",
             "function aquaticView(s,route='center',kits=[]){const [page,id='0']=route.split(':'),n=Math.max(0,Number.parseInt(id)||0),go=(label,to)=>({label,type:'page',route:to}),act=(label,type,value,key)=>({label,type,value,key,route}),step=(label,key)=>act(label,'step',null,key),back=go('← Learning center','center'),v=(title,text,art,actions)=>({title,text,art,actions});",
-            " if(page==='center')return v('Aquatic Learning Center',aquaticHabitats[s.habitat].note+' Swim or ride a J.A.C.C. submersible. PIP uses aquatic gear here.','center',[go('🌊 Choose habitat','habitats'),go('🚤 Swim / sub dock','dock'),go('🔬 Science labs','science'),go('📒 My aquatic journal','collection'),go('🫧 Build a habitat','habitat')]);",
+            " if(page==='center')return v('Aquatic Learning Center',aquaticHabitats[s.habitat].note+' Swim or ride a J.A.C.C. submersible. PIP uses aquatic gear here.','center',[go('🌊 Choose habitat','habitats'),go('🚤 Swim / sub dock','dock'),go('🔬 Science labs','science'),go('📒 My aquatic journal','collection'),go('🫧 Build a habitat','habitat'),go('🧭 Free swim trail','trail')]);",
+            " if(page==='trail')return v('Swimming exploration','Choose a habitat, then tap open water or a picture to swim. PIP follows automatically. Observe wildlife and find sample records. All paths remain open.','sub',[...Object.entries(aquaticHabitats).map(([value,h])=>act('🏊 '+h.name,'explore',value)),go('📒 My aquatic journal','collection'),back]);",
+            " if(page==='find'){const f=aquaticFinds.find(f=>f.id===id);return f?v(f.name,'Observation saved. '+f.fact,'collection',[go('📒 My samples','records:0'),act('📍 Visit again','travel','aqua-find-'+f.id),go('🧭 Swim trail','trail'),back]):aquaticView(s);}",
             " if(page==='habitats')return v('Choose a training habitat','Our home lake is freshwater. The reef and deep ocean are learning simulations, not marine wildlife living in the lake.','depth-0',[...Object.entries(aquaticHabitats).map(([value,h])=>act((s.habitat===value?'✓ ':'')+h.name,'habitat',value)),back]);",
             " if(page==='dock')return v('J.A.C.C. sub dock','One tap chooses swimming or the training submersible. Both reach every activity. No oxygen timer or damage. Your saved PIP look is kept; the swim kit is used here.','sub',[act((s.vehicle==='swim'?'✓ ':'')+'Swim','vehicle','swim'),act((s.vehicle==='sub'?'✓ ':'')+'J.A.C.C. submersible','vehicle','sub'),back]);",
             " if(page==='science')return v('PIP aquatic science','Try a model, change a setting and repeat. The science tools do not diagnose a real dive.','science',[go('💧 Pressure','pressure'),go('⬇️ Ocean depth zones','depth'),go('🫧 Buoyancy','buoyancy'),go('🧂 Fresh / salt water','salinity'),go('🌋 Underwater volcanism','volcano'),go('More science →','more')]);",
@@ -37455,7 +41299,14 @@
             "else if(key.startsWith('life'))a=fish(150,85);",
             "else a='<path d=\"M95 30c-80 90 80 90 0 0m130 30c-80 90 80 90 0 0\" fill=\"#8bc1d5\"/>';",
             "return '<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"320\" height=\"180\"><rect width=\"320\" height=\"180\" rx=\"18\" fill=\"#153f5a\"/>'+a+'</svg>';}",
-            "function aquaticBackdrop(habitat='lake'){const deep=habitat==='deep';let s='<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"1000\" height=\"600\"><rect width=\"1000\" height=\"600\" fill=\"'+(deep?'#132d48':habitat==='reef'?'#277fa1':'#4e919a')+'\"/><path d=\"M0 110q100-20 200 0t200 0t200 0t200 0t200 0\" stroke=\"#b8e3df\" stroke-width=\"5\" fill=\"none\"/><path d=\"M0 490q100-50 240 0t250-15t240 0t270 0v125H0z\" fill=\"'+(deep?'#43586c':'#a8b7a0')+'\"/>';if(habitat==='reef')for(const x of [70,250,600,780])s+=`<path d=\"M${x} 500v-65m0 35-25-20m25 5 25-20\" stroke=\"#c7a7b5\" stroke-width=\"15\"/>`;if(habitat==='lake')for(const x of [60,240,650,800])s+=`<path d=\"M${x} 500q-25-60 0-90m0 90q30-65 20-100\" stroke=\"#8fb78c\" stroke-width=\"9\" fill=\"none\"/>`;if(deep)s+='<path d=\"M430 510l70-100 70 100z\" fill=\"#677888\"/><path d=\"M500 470v-35\" stroke=\"#d6a078\" stroke-width=\"12\"/>';return s+'</svg>';}",
+            "function aquaticBackdrop(habitat='lake'){const deep=habitat==='deep';let s='<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"1000\" height=\"600\"><defs><linearGradient id=\"water\" x2=\"0\" y2=\"1\"><stop stop-color=\"'+(deep?'#193c5c':habitat==='reef'?'#348fae':'#66acb2')+'\"/><stop offset=\"1\" stop-color=\"'+(deep?'#10263e':habitat==='reef'?'#195577':'#285d72')+'\"/></linearGradient></defs><rect width=\"1000\" height=\"600\" fill=\"url(#water)\"/>';",
+            "if(!deep){s+='<rect width=\"1000\" height=\"104\" fill=\"#b2dce0\"/><path d=\"M0 110q100-20 200 0t200 0t200 0t200 0t200 0\" stroke=\"#d0eeea\" stroke-width=\"5\" fill=\"none\"/>';for(const x of [160,450,760])s+=`<path d=\"M${x} 112l-90 360h140z\" fill=\"#d9eece\" opacity=\".05\"/>`;}",
+            "s+='<path d=\"M0 490q100-50 240 0t250-15t240 0t270 0v125H0z\" fill=\"'+(deep?'#43586c':'#9dac96')+'\"/><path d=\"M0 550q150-45 320 0t350 0t330-10v60H0z\" fill=\"'+(deep?'#344657':'#849a8d')+'\"/>';",
+            "for(let i=0;i<15;i++)s+=`<ellipse cx=\"${30+i*67}\" cy=\"${511+i%3*14}\" rx=\"${8+i%4*4}\" ry=\"${4+i%3*2}\" fill=\"${deep?'#63778a':'#b8c5b4'}\"/>`;",
+            "if(habitat==='reef')for(const x of [60,230,590,830])s+=`<path d=\"M${x} 505v-65m0 35-25-20m25 5 25-20\" stroke=\"#c7a7b5\" stroke-width=\"13\" stroke-linecap=\"round\" fill=\"none\"/><path d=\"M${x+35} 510v-36m0 12-15-20m15 9 18-20\" stroke=\"#c7bd85\" stroke-width=\"9\" stroke-linecap=\"round\" fill=\"none\"/>`;",
+            "if(habitat==='lake')for(const x of [60,240,650,850])s+=`<path d=\"M${x} 500q-25-60 0-90m0 90q30-65 20-100\" stroke=\"#8fb78c\" stroke-width=\"9\" fill=\"none\"/>`;",
+            "if(deep)s+='<path d=\"M430 510l70-100 70 100z\" fill=\"#677888\"/><path d=\"M500 470v-35\" stroke=\"#d6a078\" stroke-width=\"12\"/><path d=\"M20 510v-80l55-50 60 50v80h-32v-60q-25-35-50 0v60z\" fill=\"#617584\"/>';",
+            "return s+'</svg>';}",
             "",
             "// Reusable parts and connectivity/support models, not a real structural or electrical solver.",
             "const BUILD_COLS=12,BUILD_ROWS=5;",
@@ -37942,8 +41793,21 @@
             "function nativeProfileSettings(raw){const v=raw&&typeof raw==='object'?raw:{};return {access:accessPreferences(v.access),...displayPreferences(v),volume:typeof v.volume==='number'&&Number.isFinite(v.volume)?Math.max(0,Math.min(1,v.volume)):.3,narration:v.narration===true,reduced:v.reduced===true,effects:v.effects!==false};}",
             "function nativeSaveProfile(force=false){try{if(typeof localStorage==='undefined')return false;const data={version:1,firstVisit:normalizeFirstVisit(s.firstVisit),suit:normalizeSuit(s.suit),aquatic:normalizeAquatic(s.aquatic),construction:normalizeConstruction(s.construction),farm:normalizeFarm(s.farm),designs:normalizeDesigns(s.designs),excavation:normalizeDig(s.excavation),crew:s.crew,pip:normalizePip(s.pip),found:[...s.found],visited:[...s.visited],settings:s.settings};const text=JSON.stringify(data);if(force||text!==s.saveHash){localStorage.setItem('jacc-native-v1',text);s.saveHash=text;}return true}catch{return false}}",
             "",
-            "function nativeAquatic(route='center',message=''){const v=aquaticView(s.aquatic,route,s.construction.kits);open(v.title,v.text,'',v.actions.map(a=>[a.label,()=>{const r=aquaticAction(s.aquatic,a,s.construction.kits);s.aquatic=r.aquatic;if(r.travel){close();select(objects.find(o=>o.id===r.travel));return}if(r.reset){s.path=[];s.pending=null;actor.setPosition(160,415);}nativeAquatic(r.route,r.message)}]));obj('CardVisual').hide();obj('CardBody').setCharacterSize(17);text('CardBody',v.text.replace(/(.{1,46})(?:\\s|$)/g,'$1\\n').trim());obj('AquaticArt').hide(false);obj('AquaticArt').setAnimation(Math.max(0,aquaticArtKeys.indexOf(v.art)));if(s.buttons.length<6){const i=s.buttons.length;obj('Option'+i).hide(false);obj('OptionLabel'+i).hide(false);text('OptionLabel'+i,'Listen');s.buttons.push({name:'Option'+i,fn:()=>listenJournal(v.text)});}if(message)say(message);}",
-            "function nativeAquaticUpdate(){const visible=s.zone==='aquatic'&&!s.construction.active&&!s.construction.orbit;obj('AquaticBackground').hide(!visible);obj('AquaticSub').hide(!visible||s.aquatic.vehicle!=='sub');if(visible){obj('AquaticBackground').setAnimation(['lake','reef','deep'].indexOf(s.aquatic.habitat));obj('AquaticSub').setPosition(actor.getX()-44,actor.getY()-5);}}",
+            "// Original schematic swimming art; not production astronaut or wildlife designs.",
+            "function swimmerSvg(color,frame=0){const fin=frame?8:-8;return '<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"100\" height=\"70\" viewBox=\"0 0 100 70\"><g stroke=\"#17384a\" stroke-width=\"2\" stroke-linejoin=\"round\"><path d=\"M65 31l18 '+(12+fin)+' 14 2-12 9-24-10m4-2 15 '+(31-fin)+' 15-2-10-10-25-10\" fill=\"'+color+'\"/><rect x=\"33\" y=\"24\" width=\"36\" height=\"27\" rx=\"9\" fill=\"'+color+'\"/><path d=\"M37 27l20-13 16 5M38 46l18 10 17-4\" fill=\"none\" stroke=\"#c4ced8\" stroke-width=\"8\"/><ellipse cx=\"25\" cy=\"34\" rx=\"20\" ry=\"22\" fill=\"#c4ced8\"/><rect x=\"8\" y=\"24\" width=\"26\" height=\"17\" rx=\"6\" fill=\"#234d61\"/><path d=\"M12 27h14\" stroke=\"#35d3c9\" stroke-width=\"3\"/><path d=\"M84 57l12-2m-9-6 10-3\" stroke=\"#35d3c9\" stroke-width=\"4\"/></g></svg>';}",
+            "function swimLifeSvg(id){let s='';const fish=(color,large=false)=>'<path d=\"M75 39l22-20v39z\" fill=\"'+color+'\"/><ellipse cx=\"46\" cy=\"39\" rx=\"'+(large?39:32)+'\" ry=\"22\" fill=\"'+color+'\"/><circle cx=\"25\" cy=\"34\" r=\"4\" fill=\"#102c42\"/>';",
+            " if(id==='reeds')s='<path d=\"M30 74Q5 40 24 9m20 65Q30 30 54 6m10 68q30-30 16-58\" fill=\"none\" stroke=\"#a2d29e\" stroke-width=\"8\"/>';",
+            " else if(id==='octopus'){s='<ellipse cx=\"50\" cy=\"25\" rx=\"24\" ry=\"23\" fill=\"#cfaddd\"/>';for(let i=0;i<8;i++)s+='<path d=\"M'+(31+i*5)+' 41q'+(i<4?-15:15)+' 22 '+(i<4?-22:22)+' 28\" fill=\"none\" stroke=\"#cfaddd\" stroke-width=\"5\"/>';s+='<circle cx=\"41\" cy=\"23\" r=\"3\"/><circle cx=\"59\" cy=\"23\" r=\"3\"/>';}",
+            " else if(id==='brittle')s='<path d=\"M50 38L15 7m35 31L85 7M50 38L93 65M50 38v39M50 38L7 65\" stroke=\"#ecd09c\" stroke-width=\"8\"/><circle cx=\"50\" cy=\"38\" r=\"12\" fill=\"#ecd09c\"/>';",
+            " else if(id==='isopod'){s='<ellipse cx=\"50\" cy=\"35\" rx=\"37\" ry=\"22\" fill=\"#c4ced8\"/>';for(let x=22;x<83;x+=10)s+='<path d=\"M'+x+' 18v32l-8 12\" stroke=\"#7794a3\" stroke-width=\"3\"/>';}",
+            " else{s=fish(id==='reef-fish'?'#ffd46d':id==='shark'?'#a5bac9':id==='whale'?'#9cbbdb':'#a0d8dd',id==='whale');if(['shark','dolphin'].includes(id))s+='<path d=\"M43 20l13-18 10 23\" fill=\"#a5bac9\"/>';if(id==='dolphin')s+='<path d=\"M19 37L2 42l24 5\" fill=\"#a0d8dd\"/>';if(id==='angler')s+='<path d=\"M35 20q-5-28-22-13\" fill=\"none\" stroke=\"#c4ced8\" stroke-width=\"3\"/><circle cx=\"12\" cy=\"9\" r=\"6\" fill=\"#99e4d6\"/>';if(id==='reef-fish')s+='<path d=\"M40 20v38m14-38v38\" stroke=\"#294f68\" stroke-width=\"5\"/>';}",
+            " return '<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"100\" height=\"80\" viewBox=\"0 0 100 80\">'+s+'</svg>';",
+            "}",
+            "function swimFindSvg(id){let s;if(id==='empty-shell')s='<path d=\"M50 63Q-8 33 20 13q30-25 60 0 28 20-30 50z\" fill=\"#eed6b3\"/><path d=\"M50 63L20 13m30 50V2m0 61L80 13\" stroke=\"#a68172\" stroke-width=\"3\"/>';else if(id==='leaf-litter')s='<path d=\"M15 65Q5 5 80 12q0 60-65 53z\" fill=\"#cba26d\"/><path d=\"M15 65l56-44m-30 30-4-25m8 22 22-2\" stroke=\"#775846\" stroke-width=\"3\"/>';else if(id==='rock-arch')s='<path d=\"M10 68V32q40-55 80 0v36H68V35q-18-24-36 0v33z\" fill=\"#a3b7be\"/>';else if(id.includes('sand')||id==='seafloor-core')s='<rect x=\"29\" y=\"9\" width=\"42\" height=\"60\" rx=\"9\" fill=\"#c4ced8\"/><path d=\"M33 34h34v28H33z\" fill=\"#c4ad86\"/><path d=\"M33 46h34m-34 9h34\" stroke=\"#8e7867\" stroke-width=\"4\"/>';else s='<ellipse cx=\"32\" cy=\"52\" rx=\"23\" ry=\"17\" fill=\"#a9bec5\"/><ellipse cx=\"65\" cy=\"36\" rx=\"25\" ry=\"20\" fill=\"#c4ced8\"/><ellipse cx=\"70\" cy=\"65\" rx=\"18\" ry=\"12\" fill=\"#8fa4b1\"/>';return '<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"100\" height=\"80\">'+s+'</svg>';}",
+            "function swimOffset(index,phase,reduced=false){return reduced?0:Math.sin(phase*.7+index)*4;}",
+            "",
+            "function nativeAquatic(route='center',message=''){const v=aquaticView(s.aquatic,route,s.construction.kits);open(v.title,v.text,'',v.actions.map(a=>[a.label,()=>{const r=aquaticAction(s.aquatic,a,s.construction.kits);s.aquatic=r.aquatic;if(r.travel){close();select(objects.find(o=>o.id===r.travel));return}if(r.reset){s.path=[];s.pending=null;actor.setPosition(160,415);}if(r.resume){close();say(r.message);return}nativeAquatic(r.route,r.message)}]));obj('CardVisual').hide();obj('CardBody').setCharacterSize(17);text('CardBody',v.text.replace(/(.{1,46})(?:\\s|$)/g,'$1\\n').trim());obj('AquaticArt').hide(false);obj('AquaticArt').setAnimation(Math.max(0,aquaticArtKeys.indexOf(v.art)));if(s.buttons.length<6){const i=s.buttons.length;obj('Option'+i).hide(false);obj('OptionLabel'+i).hide(false);text('OptionLabel'+i,'Listen');s.buttons.push({name:'Option'+i,fn:()=>listenJournal(v.text)});}if(message)say(message);}",
+            "function nativeAquaticUpdate(){const visible=s.zone==='aquatic'&&!s.construction.active&&!s.construction.orbit;if(visible&&!s.paused&&!s.overlay&&!s.settings.reduced)s.swimPhase=(s.swimPhase||0)+Math.min(gdjs.evtTools.runtimeScene.getElapsedTimeInSeconds(runtimeScene),.05);const phase=s.swimPhase||0;obj('AquaticBackground').hide(!visible);obj('AquaticSub').hide(!visible||s.aquatic.vehicle!=='sub');obj('AquaticSwimmer').hide(!visible||s.aquatic.vehicle!=='swim');if(visible){actor.hide(s.aquatic.vehicle==='swim');obj('AquaticBackground').setAnimation(['lake','reef','deep'].indexOf(s.aquatic.habitat));obj('AquaticSub').setPosition(actor.getX()-44,actor.getY()-5);obj('AquaticSwimmer').setPosition(actor.getX()-30,actor.getY()+10);obj('AquaticSwimmer').setAnimation(s.crew*2+(s.path.length&&!s.settings.reduced?Math.floor(phase*3)%2:0));}for(const [i,o]of [...aquaticLife,...aquaticFinds].entries()){const show=visible&&o.habitat===s.aquatic.habitat,isLife=i<aquaticLife.length,sprite=obj((isLife?'SwimLife_':'SwimFind_')+o.id),id=isLife?'aqua-'+o.id:'aqua-find-'+o.id;sprite.hide(!show);obj('SwimLabel_'+o.id).hide(!show);if(show){sprite.setPosition(o.x-50,o.y-40+(isLife?swimOffset(i,phase,s.settings.reduced):0));obj('Target_'+id).setOpacity(0);obj('Label_'+id).setPosition(o.x-50,o.y+34);obj('Label_'+id).setCharacterSize(12);obj('Label_'+id).setColor('0;0;0');text('Label_'+id,(s.settings.colorBlind?destinationBadge(objects,id)+' • ':'')+((isLife?s.aquatic.observed:s.aquatic.samples).includes(o.id)?'✓ ':'')+o.name.replace(/(.{1,13})(?:\\s|$)/g,'$1\\n').trim());}}for(let i=0;i<8;i++){const bubble=obj('SwimBubble'+i);bubble.hide(!visible||s.settings.reduced||!s.settings.effects);if(visible)bubble.setPosition(100+i*110,470-((phase*15+i*43)%280));}}",
             "",
             "// Runs once per frame as a native GDevelop JavaScript event.",
             "const obj=name=>runtimeScene.getObjects(name)[0];",
@@ -37963,11 +41827,11 @@
             "function select(o){if(!o||s.paused)return;s.started=true;s.construction.active=null;s.construction.orbit=false;s.journey=null;if(o.zone!==s.zone){s.journey=o.id;o=objects.find(x=>x.id===zoneExit(s.zone,o.zone))}if(s.zone==='aquatic'&&o.habitat&&o.habitat!==s.aquatic.habitat){s.aquatic.habitat=o.habitat;actor.setPosition(160,415);}if(s.zone==='dig'){if(o.level!==s.excavation.level)nativeDigLevel(o.level);nativeDigSelect(o.x,o.y,o.id);return}s.path=pathfind([actor.getX()+20,actor.getY()+45],[o.x-65,o.y+55],s.zone);s.pending=o;s.action=0;say('Going to '+o.name);if(!s.path.length){s.pending=null;const here=cellAt(actor.getX()+20,actor.getY()+45),goal=cellAt(o.x-65,o.y+55);if(here.join()===goal.join()&&!blocked(...goal,s.zone))arrive(o);else{s.journey=null;say('Choose a clear path to explore.');}}}",
             "",
             "function card(o){open(o.name,o.text+(o.zone==='hq'?' '+firstVisitScript.discovery:''),o.icon+'   '+o.diagram,[['Listen / replay',()=>{say(o.text);if(typeof speechSynthesis!=='undefined'){speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(o.text);u.volume=s.settings.volume;speechSynthesis.speak(u)}}],['Revisit',()=>{close();select(objects.find(x=>x.id===o.id)||objects.find(x=>x.find===o.id)||objects.find(x=>x.id==='dig'))}],...(o.id==='hq-map'?[['Go exploring',()=>{close();select(objects.find(x=>x.id==='hq-exit'))}]]:[]),...(o.id==='hq-lab'?[['Find a sample',()=>{close();select(objects.find(x=>x.id==='dig'))}]]:[]),...(o.id==='hq-bunks'?[['Rest here',()=>{close();s.paused=true;text('PauseLabel','Resume');say('Resting. Resume whenever you are ready.')}]]:[]),...(o.zone==='hq'&&s.firstVisit.mode==='guided'?[['Another optional clue',nativeFirstVisitGoal]]:[]),...(materials.some(m=>m.id===o.id)?[['Ask PIP',()=>nativePipAnalysis(o.id)]]:[])]);if(o.zone==='hq')obj('CardVisual').hide();}",
-            "function arrive(o){s.last=o.id;if(o.kind!=='dig')s.visited.add(o.id);if(o.kind==='portal'){const next=s.journey;nativeZone(o.to);if(next)select(objects.find(x=>x.id===next));return}if(o.zone==='hq'){s.firstVisit.interacted=true;say(firstVisitScript.discovery);}const power=suitPowerFor(roster[s.crew][0],s.suit.overlay);if(power&&suitSubject(power,o)){nativeSuitPower(power.id,0,o.id);return}if(o.kind==='aquatic'){if(o.life&&!s.aquatic.observed.includes(o.life))s.aquatic.observed.push(o.life);nativeAquatic(o.page);return}if(o.kind==='construction'){nativeConstructionPage(o.page);return}if(o.kind==='diglevel'){nativeDigLevel(o.nextLevel);return}if(o.kind==='digtools'){nativeDigLesson('tools');return}if(o.kind==='diglesson'){nativeDigLesson(o.lesson);return}if(o.kind==='digfind'){s.found.add(o.find);card(digFinds.find(f=>f.id===o.find));return}if(o.kind==='engineering'){nativeEngineering(o.project);return}if(o.kind==='farm'){nativeFarm(o.page);return}if(o.kind==='workshop'){nativePipWorkshop();return}if(o.kind==='crew'){crewMenu();return}if(o.kind==='home'){say('Welcome home to the training grounds. Choose an adventure.');return}if(o.kind==='dig'){s.action=s.settings.reduced?.2:1.2;say('Digging through the soil...');return}s.found.add(o.id);card(o)}",
+            "function arrive(o){s.last=o.id;if(o.kind!=='dig')s.visited.add(o.id);if(o.kind==='portal'){const next=s.journey;nativeZone(o.to);if(next)select(objects.find(x=>x.id===next));return}if(o.zone==='hq'){s.firstVisit.interacted=true;say(firstVisitScript.discovery);}const power=suitPowerFor(roster[s.crew][0],s.suit.overlay);if(power&&suitSubject(power,o)){nativeSuitPower(power.id,0,o.id);return}if(o.kind==='aquatic'){if(o.life&&!s.aquatic.observed.includes(o.life))s.aquatic.observed.push(o.life);if(o.find&&!s.aquatic.samples.includes(o.find))s.aquatic.samples.push(o.find);nativeAquatic(o.page);return}if(o.kind==='construction'){nativeConstructionPage(o.page);return}if(o.kind==='diglevel'){nativeDigLevel(o.nextLevel);return}if(o.kind==='digtools'){nativeDigLesson('tools');return}if(o.kind==='diglesson'){nativeDigLesson(o.lesson);return}if(o.kind==='digfind'){s.found.add(o.find);card(digFinds.find(f=>f.id===o.find));return}if(o.kind==='engineering'){nativeEngineering(o.project);return}if(o.kind==='farm'){nativeFarm(o.page);return}if(o.kind==='workshop'){nativePipWorkshop();return}if(o.kind==='crew'){crewMenu();return}if(o.kind==='home'){say('Welcome home to the training grounds. Choose an adventure.');return}if(o.kind==='dig'){s.action=s.settings.reduced?.2:1.2;say('Digging through the soil...');return}s.found.add(o.id);card(o)}",
             "function crewMenu(page=Math.floor(s.crew/4)){const pages=Math.ceil(roster.length/4);page=Math.max(0,Math.min(pages-1,page));open('J.A.C.C. Crew','Tap an astronaut. Everyone can explore every activity.','');for(let i=page*4;i<Math.min(roster.length,page*4+4);i++){const r=roster[i];for(const name of ['CrewCard','CrewPortrait','CrewName','CrewDetail'])obj(name+i).hide(false);text('CrewName'+i,(s.crew===i?'✓ ':'')+r[0]);text('CrewDetail'+i,(crewDescription(r[0])+' | '+r[1]+' suit | '+r[2]).replace(/(.{1,29})(?:\\s|$)/g,'$1\\n').trim());s.buttons.push({name:'CrewCard'+i,fn:()=>{s.crew=i;actor.setAnimation(i);text('ActiveCrew',r[0]+' | '+r[1]+' | '+r[2]);close();say(r[0]+' selected. '+r[2])}});}for(const [name,label,to,visible]of [['CrewPrevious','← Previous crew',page-1,page>0],['CrewNext','More crew →',page+1,page<pages-1]])if(visible){obj(name+'Button').hide(false);obj(name+'Label').hide(false);s.buttons.push({name:name+'Button',fn:()=>crewMenu(to)});}}",
             "function pip(){open('PIP','Choose a picture. Your astronaut will walk there and explore.','PIP  >  TAP  >  DISCOVER',[",
             " ['Show places',()=>{close();if(s.zone==='dig'){s.excavation.hints=true;nativeDigVisibility();}s.settings.effects=true;nativeActiveObjects().forEach(o=>obj('Target_'+o.id).setOpacity(190));say('The cream pictures are places to explore.')}],",
-            " ['Show me a dig',()=>{close();select(objects.find(o=>o.id==='dig'))}],",
+            " [s.zone==='aquatic'?'Show me a swim':'Show me a dig',()=>{close();select(s.zone==='aquatic'?nativeActiveObjects().find(o=>o.life):objects.find(o=>o.id==='dig'))}],",
             " ['Previous activity',()=>{close();select(objects.find(o=>o.id===s.last)||objects.find(o=>o.id===zones[s.zone].home))}],",
             " ['Repeat guidance',()=>say('Tap a picture to explore. Tap the pickaxe to dig. Nothing needs holding or dragging.')],",
             " ['Return home',()=>{close();select(objects.find(o=>o.id===zones[s.zone].home))}],",
