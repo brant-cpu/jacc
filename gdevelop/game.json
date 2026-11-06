@@ -182,6 +182,118 @@
         "smoothed": false
       },
       {
+        "name": "crew6",
+        "kind": "image",
+        "file": "assets/crew6.png",
+        "metadata": "",
+        "userAdded": true,
+        "smoothed": false
+      },
+      {
+        "name": "crew7",
+        "kind": "image",
+        "file": "assets/crew7.png",
+        "metadata": "",
+        "userAdded": true,
+        "smoothed": false
+      },
+      {
+        "name": "pip-tool-art-life-lens-0",
+        "kind": "image",
+        "file": "assets/pip-tool-art-life-lens-0.png",
+        "metadata": "",
+        "userAdded": true,
+        "smoothed": true
+      },
+      {
+        "name": "pip-tool-art-life-lens-1",
+        "kind": "image",
+        "file": "assets/pip-tool-art-life-lens-1.png",
+        "metadata": "",
+        "userAdded": true,
+        "smoothed": true
+      },
+      {
+        "name": "pip-tool-art-life-lens-2",
+        "kind": "image",
+        "file": "assets/pip-tool-art-life-lens-2.png",
+        "metadata": "",
+        "userAdded": true,
+        "smoothed": true
+      },
+      {
+        "name": "pip-tool-art-xeno-lab-0",
+        "kind": "image",
+        "file": "assets/pip-tool-art-xeno-lab-0.png",
+        "metadata": "",
+        "userAdded": true,
+        "smoothed": true
+      },
+      {
+        "name": "pip-tool-art-xeno-lab-1",
+        "kind": "image",
+        "file": "assets/pip-tool-art-xeno-lab-1.png",
+        "metadata": "",
+        "userAdded": true,
+        "smoothed": true
+      },
+      {
+        "name": "pip-tool-art-xeno-lab-2",
+        "kind": "image",
+        "file": "assets/pip-tool-art-xeno-lab-2.png",
+        "metadata": "",
+        "userAdded": true,
+        "smoothed": true
+      },
+      {
+        "name": "pip-tool-art-eco-probe-0",
+        "kind": "image",
+        "file": "assets/pip-tool-art-eco-probe-0.png",
+        "metadata": "",
+        "userAdded": true,
+        "smoothed": true
+      },
+      {
+        "name": "pip-tool-art-eco-probe-1",
+        "kind": "image",
+        "file": "assets/pip-tool-art-eco-probe-1.png",
+        "metadata": "",
+        "userAdded": true,
+        "smoothed": true
+      },
+      {
+        "name": "pip-tool-art-eco-probe-2",
+        "kind": "image",
+        "file": "assets/pip-tool-art-eco-probe-2.png",
+        "metadata": "",
+        "userAdded": true,
+        "smoothed": true
+      },
+      {
+        "name": "pip-tool-art-pattern-projector-0",
+        "kind": "image",
+        "file": "assets/pip-tool-art-pattern-projector-0.png",
+        "metadata": "",
+        "userAdded": true,
+        "smoothed": true
+      },
+      {
+        "name": "pip-tool-art-pattern-projector-1",
+        "kind": "image",
+        "file": "assets/pip-tool-art-pattern-projector-1.png",
+        "metadata": "",
+        "userAdded": true,
+        "smoothed": true
+      },
+      {
+        "name": "pip-tool-art-pattern-projector-2",
+        "kind": "image",
+        "file": "assets/pip-tool-art-pattern-projector-2.png",
+        "metadata": "",
+        "userAdded": true,
+        "smoothed": true
+      },
+      {
         "name": "aqua-sub",
         "kind": "image",
         "file": "assets/aqua-sub.png",
@@ -1606,6 +1718,22 @@
         "smoothed": true
       },
       {
+        "name": "pip-body-orange",
+        "kind": "image",
+        "file": "assets/pip-body-orange.png",
+        "metadata": "",
+        "userAdded": true,
+        "smoothed": true
+      },
+      {
+        "name": "pip-body-purple",
+        "kind": "image",
+        "file": "assets/pip-body-purple.png",
+        "metadata": "",
+        "userAdded": true,
+        "smoothed": true
+      },
+      {
         "name": "pip-travel-hover",
         "kind": "image",
         "file": "assets/pip-travel-hover.png",
@@ -1657,6 +1785,38 @@
         "name": "pip-tool-sampler",
         "kind": "image",
         "file": "assets/pip-tool-sampler.png",
+        "metadata": "",
+        "userAdded": true,
+        "smoothed": true
+      },
+      {
+        "name": "pip-tool-life-lens",
+        "kind": "image",
+        "file": "assets/pip-tool-life-lens.png",
+        "metadata": "",
+        "userAdded": true,
+        "smoothed": true
+      },
+      {
+        "name": "pip-tool-xeno-lab",
+        "kind": "image",
+        "file": "assets/pip-tool-xeno-lab.png",
+        "metadata": "",
+        "userAdded": true,
+        "smoothed": true
+      },
+      {
+        "name": "pip-tool-eco-probe",
+        "kind": "image",
+        "file": "assets/pip-tool-eco-probe.png",
+        "metadata": "",
+        "userAdded": true,
+        "smoothed": true
+      },
+      {
+        "name": "pip-tool-pattern-projector",
+        "kind": "image",
+        "file": "assets/pip-tool-pattern-projector.png",
         "metadata": "",
         "userAdded": true,
         "smoothed": true
@@ -2290,6 +2450,64 @@
                   "sprites": [
                     {
                       "image": "crew5",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Crew6",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "crew6",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Crew7",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "crew7",
                       "hasCustomCollisionMask": false,
                       "points": [],
                       "originPoint": {
@@ -10932,6 +11150,474 @@
           }
         },
         {
+          "name": "CrewCard6",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "CrewPortrait6",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "crew6",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "CrewName6",
+          "type": "TextObject::Text",
+          "variables": [],
+          "behaviors": [],
+          "effects": [],
+          "bold": true,
+          "italic": false,
+          "underlined": false,
+          "smoothed": true,
+          "text": "",
+          "font": "",
+          "characterSize": 19,
+          "color": {
+            "r": 23,
+            "g": 56,
+            "b": 74
+          },
+          "textAlignment": "left",
+          "verticalTextAlignment": "top",
+          "lineHeight": 0,
+          "isOutlineEnabled": false,
+          "isShadowEnabled": false,
+          "string": "",
+          "content": {
+            "bold": true,
+            "italic": false,
+            "underlined": false,
+            "smoothed": true,
+            "text": "",
+            "font": "",
+            "characterSize": 19,
+            "color": "23;56;74",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "lineHeight": 0,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false
+          }
+        },
+        {
+          "name": "CrewDetail6",
+          "type": "TextObject::Text",
+          "variables": [],
+          "behaviors": [],
+          "effects": [],
+          "bold": true,
+          "italic": false,
+          "underlined": false,
+          "smoothed": true,
+          "text": "",
+          "font": "",
+          "characterSize": 15,
+          "color": {
+            "r": 23,
+            "g": 56,
+            "b": 74
+          },
+          "textAlignment": "left",
+          "verticalTextAlignment": "top",
+          "lineHeight": 0,
+          "isOutlineEnabled": false,
+          "isShadowEnabled": false,
+          "string": "",
+          "content": {
+            "bold": true,
+            "italic": false,
+            "underlined": false,
+            "smoothed": true,
+            "text": "",
+            "font": "",
+            "characterSize": 15,
+            "color": "23;56;74",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "lineHeight": 0,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false
+          }
+        },
+        {
+          "name": "CrewCard7",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "CrewPortrait7",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "crew7",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "CrewName7",
+          "type": "TextObject::Text",
+          "variables": [],
+          "behaviors": [],
+          "effects": [],
+          "bold": true,
+          "italic": false,
+          "underlined": false,
+          "smoothed": true,
+          "text": "",
+          "font": "",
+          "characterSize": 19,
+          "color": {
+            "r": 23,
+            "g": 56,
+            "b": 74
+          },
+          "textAlignment": "left",
+          "verticalTextAlignment": "top",
+          "lineHeight": 0,
+          "isOutlineEnabled": false,
+          "isShadowEnabled": false,
+          "string": "",
+          "content": {
+            "bold": true,
+            "italic": false,
+            "underlined": false,
+            "smoothed": true,
+            "text": "",
+            "font": "",
+            "characterSize": 19,
+            "color": "23;56;74",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "lineHeight": 0,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false
+          }
+        },
+        {
+          "name": "CrewDetail7",
+          "type": "TextObject::Text",
+          "variables": [],
+          "behaviors": [],
+          "effects": [],
+          "bold": true,
+          "italic": false,
+          "underlined": false,
+          "smoothed": true,
+          "text": "",
+          "font": "",
+          "characterSize": 15,
+          "color": {
+            "r": 23,
+            "g": 56,
+            "b": 74
+          },
+          "textAlignment": "left",
+          "verticalTextAlignment": "top",
+          "lineHeight": 0,
+          "isOutlineEnabled": false,
+          "isShadowEnabled": false,
+          "string": "",
+          "content": {
+            "bold": true,
+            "italic": false,
+            "underlined": false,
+            "smoothed": true,
+            "text": "",
+            "font": "",
+            "characterSize": 15,
+            "color": "23;56;74",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "lineHeight": 0,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false
+          }
+        },
+        {
+          "name": "CrewPreviousButton",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "CrewPreviousLabel",
+          "type": "TextObject::Text",
+          "variables": [],
+          "behaviors": [],
+          "effects": [],
+          "bold": true,
+          "italic": false,
+          "underlined": false,
+          "smoothed": true,
+          "text": "← Previous crew",
+          "font": "",
+          "characterSize": 18,
+          "color": {
+            "r": 23,
+            "g": 56,
+            "b": 74
+          },
+          "textAlignment": "left",
+          "verticalTextAlignment": "top",
+          "lineHeight": 0,
+          "isOutlineEnabled": false,
+          "isShadowEnabled": false,
+          "string": "← Previous crew",
+          "content": {
+            "bold": true,
+            "italic": false,
+            "underlined": false,
+            "smoothed": true,
+            "text": "← Previous crew",
+            "font": "",
+            "characterSize": 18,
+            "color": "23;56;74",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "lineHeight": 0,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false
+          }
+        },
+        {
+          "name": "CrewNextButton",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "CrewNextLabel",
+          "type": "TextObject::Text",
+          "variables": [],
+          "behaviors": [],
+          "effects": [],
+          "bold": true,
+          "italic": false,
+          "underlined": false,
+          "smoothed": true,
+          "text": "More crew →",
+          "font": "",
+          "characterSize": 18,
+          "color": {
+            "r": 23,
+            "g": 56,
+            "b": 74
+          },
+          "textAlignment": "left",
+          "verticalTextAlignment": "top",
+          "lineHeight": 0,
+          "isOutlineEnabled": false,
+          "isShadowEnabled": false,
+          "string": "More crew →",
+          "content": {
+            "bold": true,
+            "italic": false,
+            "underlined": false,
+            "smoothed": true,
+            "text": "More crew →",
+            "font": "",
+            "characterSize": 18,
+            "color": "23;56;74",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "lineHeight": 0,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false
+          }
+        },
+        {
           "name": "Piptravel",
           "type": "Sprite",
           "variables": [],
@@ -11582,6 +12268,64 @@
                   ]
                 }
               ]
+            },
+            {
+              "name": "orange",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "pip-body-orange",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "purple",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "pip-body-purple",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -11776,6 +12520,64 @@
                   "sprites": [
                     {
                       "image": "pip-body-black",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "orange",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "pip-body-orange",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "purple",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "pip-body-purple",
                       "hasCustomCollisionMask": false,
                       "points": [],
                       "originPoint": {
@@ -12082,6 +12884,122 @@
                   ]
                 }
               ]
+            },
+            {
+              "name": "life-lens",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "pip-tool-life-lens",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "xeno-lab",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "pip-tool-xeno-lab",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "eco-probe",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "pip-tool-eco-probe",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "pattern-projector",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "pip-tool-pattern-projector",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -12160,6 +13078,122 @@
                   "sprites": [
                     {
                       "image": "pip-tool-sampler",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "life-lens",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "pip-tool-life-lens",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "xeno-lab",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "pip-tool-xeno-lab",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "eco-probe",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "pip-tool-eco-probe",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "pattern-projector",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "pip-tool-pattern-projector",
                       "hasCustomCollisionMask": false,
                       "points": [],
                       "originPoint": {
@@ -13408,6 +14442,363 @@
                   "sprites": [
                     {
                       "image": "marker",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "PipToolArt",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "life-lens-0",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "pip-tool-art-life-lens-0",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "life-lens-1",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "pip-tool-art-life-lens-1",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "life-lens-2",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "pip-tool-art-life-lens-2",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "xeno-lab-0",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "pip-tool-art-xeno-lab-0",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "xeno-lab-1",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "pip-tool-art-xeno-lab-1",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "xeno-lab-2",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "pip-tool-art-xeno-lab-2",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "eco-probe-0",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "pip-tool-art-eco-probe-0",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "eco-probe-1",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "pip-tool-art-eco-probe-1",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "eco-probe-2",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "pip-tool-art-eco-probe-2",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "pattern-projector-0",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "pip-tool-art-pattern-projector-0",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "pattern-projector-1",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "pip-tool-art-pattern-projector-1",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "pattern-projector-2",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "pip-tool-art-pattern-projector-2",
                       "hasCustomCollisionMask": false,
                       "points": [],
                       "originPoint": {
@@ -23269,7 +24660,7 @@
           "x": 125,
           "y": 200,
           "width": 355,
-          "height": 95,
+          "height": 125,
           "customSize": true,
           "angle": 0,
           "zOrder": 52,
@@ -23282,7 +24673,7 @@
         {
           "name": "CrewPortrait0",
           "x": 137,
-          "y": 218,
+          "y": 228,
           "width": 40,
           "height": 56,
           "customSize": true,
@@ -23329,7 +24720,7 @@
           "x": 500,
           "y": 200,
           "width": 355,
-          "height": 95,
+          "height": 125,
           "customSize": true,
           "angle": 0,
           "zOrder": 52,
@@ -23342,7 +24733,7 @@
         {
           "name": "CrewPortrait1",
           "x": 512,
-          "y": 218,
+          "y": 228,
           "width": 40,
           "height": 56,
           "customSize": true,
@@ -23387,9 +24778,9 @@
         {
           "name": "CrewCard2",
           "x": 125,
-          "y": 305,
+          "y": 335,
           "width": 355,
-          "height": 95,
+          "height": 125,
           "customSize": true,
           "angle": 0,
           "zOrder": 52,
@@ -23402,7 +24793,7 @@
         {
           "name": "CrewPortrait2",
           "x": 137,
-          "y": 323,
+          "y": 363,
           "width": 40,
           "height": 56,
           "customSize": true,
@@ -23417,7 +24808,7 @@
         {
           "name": "CrewName2",
           "x": 190,
-          "y": 314,
+          "y": 344,
           "width": 0,
           "height": 0,
           "customSize": false,
@@ -23432,7 +24823,7 @@
         {
           "name": "CrewDetail2",
           "x": 190,
-          "y": 343,
+          "y": 373,
           "width": 0,
           "height": 0,
           "customSize": false,
@@ -23447,9 +24838,9 @@
         {
           "name": "CrewCard3",
           "x": 500,
-          "y": 305,
+          "y": 335,
           "width": 355,
-          "height": 95,
+          "height": 125,
           "customSize": true,
           "angle": 0,
           "zOrder": 52,
@@ -23462,7 +24853,7 @@
         {
           "name": "CrewPortrait3",
           "x": 512,
-          "y": 323,
+          "y": 363,
           "width": 40,
           "height": 56,
           "customSize": true,
@@ -23477,7 +24868,7 @@
         {
           "name": "CrewName3",
           "x": 565,
-          "y": 314,
+          "y": 344,
           "width": 0,
           "height": 0,
           "customSize": false,
@@ -23492,7 +24883,7 @@
         {
           "name": "CrewDetail3",
           "x": 565,
-          "y": 343,
+          "y": 373,
           "width": 0,
           "height": 0,
           "customSize": false,
@@ -23507,9 +24898,9 @@
         {
           "name": "CrewCard4",
           "x": 125,
-          "y": 410,
+          "y": 200,
           "width": 355,
-          "height": 95,
+          "height": 125,
           "customSize": true,
           "angle": 0,
           "zOrder": 52,
@@ -23522,7 +24913,7 @@
         {
           "name": "CrewPortrait4",
           "x": 137,
-          "y": 428,
+          "y": 228,
           "width": 40,
           "height": 56,
           "customSize": true,
@@ -23537,7 +24928,7 @@
         {
           "name": "CrewName4",
           "x": 190,
-          "y": 419,
+          "y": 209,
           "width": 0,
           "height": 0,
           "customSize": false,
@@ -23552,7 +24943,7 @@
         {
           "name": "CrewDetail4",
           "x": 190,
-          "y": 448,
+          "y": 238,
           "width": 0,
           "height": 0,
           "customSize": false,
@@ -23567,9 +24958,9 @@
         {
           "name": "CrewCard5",
           "x": 500,
-          "y": 410,
+          "y": 200,
           "width": 355,
-          "height": 95,
+          "height": 125,
           "customSize": true,
           "angle": 0,
           "zOrder": 52,
@@ -23582,7 +24973,7 @@
         {
           "name": "CrewPortrait5",
           "x": 512,
-          "y": 428,
+          "y": 228,
           "width": 40,
           "height": 56,
           "customSize": true,
@@ -23597,7 +24988,7 @@
         {
           "name": "CrewName5",
           "x": 565,
-          "y": 419,
+          "y": 209,
           "width": 0,
           "height": 0,
           "customSize": false,
@@ -23612,7 +25003,187 @@
         {
           "name": "CrewDetail5",
           "x": 565,
-          "y": 448,
+          "y": 238,
+          "width": 0,
+          "height": 0,
+          "customSize": false,
+          "angle": 0,
+          "zOrder": 53,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "CrewCard6",
+          "x": 125,
+          "y": 335,
+          "width": 355,
+          "height": 125,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 52,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "CrewPortrait6",
+          "x": 137,
+          "y": 363,
+          "width": 40,
+          "height": 56,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 53,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "CrewName6",
+          "x": 190,
+          "y": 344,
+          "width": 0,
+          "height": 0,
+          "customSize": false,
+          "angle": 0,
+          "zOrder": 53,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "CrewDetail6",
+          "x": 190,
+          "y": 373,
+          "width": 0,
+          "height": 0,
+          "customSize": false,
+          "angle": 0,
+          "zOrder": 53,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "CrewCard7",
+          "x": 500,
+          "y": 335,
+          "width": 355,
+          "height": 125,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 52,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "CrewPortrait7",
+          "x": 512,
+          "y": 363,
+          "width": 40,
+          "height": 56,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 53,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "CrewName7",
+          "x": 565,
+          "y": 344,
+          "width": 0,
+          "height": 0,
+          "customSize": false,
+          "angle": 0,
+          "zOrder": 53,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "CrewDetail7",
+          "x": 565,
+          "y": 373,
+          "width": 0,
+          "height": 0,
+          "customSize": false,
+          "angle": 0,
+          "zOrder": 53,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "CrewPreviousButton",
+          "x": 125,
+          "y": 480,
+          "width": 355,
+          "height": 60,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 52,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "CrewPreviousLabel",
+          "x": 133,
+          "y": 498,
+          "width": 0,
+          "height": 0,
+          "customSize": false,
+          "angle": 0,
+          "zOrder": 53,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "CrewNextButton",
+          "x": 500,
+          "y": 480,
+          "width": 355,
+          "height": 60,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 52,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "CrewNextLabel",
+          "x": 508,
+          "y": 498,
           "width": 0,
           "height": 0,
           "customSize": false,
@@ -24248,6 +25819,21 @@
           "customSize": true,
           "angle": 0,
           "zOrder": 70,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "PipToolArt",
+          "x": 590,
+          "y": 185,
+          "width": 285,
+          "height": 160,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 52,
           "layer": "",
           "locked": false,
           "numberProperties": [],
@@ -29418,7 +31004,7 @@
             "function zoneExit(from,to){return from==='grounds'?(to==='farm'?'grounds-farm':to==='dig'?'grounds-dig':to==='engineering'?'bridge':to==='aquatic'?'grounds-aquatic':'home'):zones[from].exit;}",
             "",
             "// Canonical names and specializations; visuals are temporary geometric placeholders.",
-            "const roster=[['Alex Thompson','Red','Fleming Model — Electromagnetism'],['Malik Adeyemi','Green','Townes Model — Laser optics and computing'],['Maya Rodriguez','Pink','Allwood Model — Geology and chemistry'],['Aiden Williams','Yellow','Engineering Model — Construction and heavy engineering'],['Kaito Tanaka','White','Aeronautics Model — Flight and speed'],['Lucas Turner','Black','Lederberg Model — Biology and Xenobiology']];",
+            "const roster=[['Alex Thompson','Red','Fleming Model — Electromagnetism'],['Malik Adeyemi','Green','Townes Model — Laser optics and computing'],['Maya Rodriguez','Pink','Allwood Model — Geology and chemistry'],['Aiden Williams','Yellow','Engineering Model — Construction and heavy engineering'],['Kaito Tanaka','White','Aeronautics Model — Flight and speed'],['Lucas Turner','Black','Lederberg Model — Biology and Xenobiology'],['Sumati Suri','Orange','Gadgil Model — Ecosystems and Environmental Science'],['Lilja Jónsdóttir','Purple','Mirzakhani Model — Mathematics']];",
             "const materials=[",
             "{id:'quartz',name:'Quartz',icon:'💎',diagram:'☀️ → 💎 → ✨',text:'Quartz is a mineral. Look at its crystal faces! Light can pass through some quartz.'},",
             "{id:'iron',name:'Iron-bearing mineral',icon:'🪨',diagram:'🧲 → 🪨',text:'Some iron-bearing minerals, such as magnetite, are attracted to a magnet. Not all iron minerals are magnetic.'},",
@@ -29437,7 +31023,7 @@
             "const modes={exploration:{phase:1,status:'playable'},geology:{phase:1,status:'playable'},lab:{phase:2,status:'planned'},engineering:{phase:2,status:'planned'},ocean:{phase:3,status:'planned'},flight:{phase:3,status:'planned'},pip:{phase:1,status:'basic'}};",
             "",
             "// Temporary suit-color placeholders; not production character designs.",
-            "const suitColors={Red:'#cf4348',Green:'#38864a',Pink:'#d76a9d',Yellow:'#edc74d',White:'#f2f2e8',Black:'#303842'};",
+            "const suitColors={Red:'#cf4348',Green:'#38864a',Pink:'#d76a9d',Yellow:'#edc74d',White:'#f2f2e8',Black:'#303842',Orange:'#d96b24',Purple:'#8653b6'};",
             "",
             "const objects=[...trainingObjects.map(o=>({...o,zone:'grounds'})),...hqObjects,...farmObjects,...digObjects,...engineeringObjects,...constructionStations,elevatorObject,...aquaticObjects,{id:'grounds-aquatic',zone:'grounds',x:680,y:280,icon:'🌊',name:'Aquatic Learning Center',kind:'portal',to:'aquatic'}];",
             "",
@@ -29493,10 +31079,10 @@
             "}",
             "",
             "// Original schematic placeholders. No licensed character artwork or permanent PIP design.",
-            "const pipPalette=[{id:'standard',name:'Standard cream',color:'#fff1b8'},{id:'red',name:'Alex red',color:'#cf4348'},{id:'green',name:'Malik green',color:'#38864a'},{id:'pink',name:'Maya pink',color:'#d76a9d'},{id:'yellow',name:'Aiden yellow',color:'#edc74d'},{id:'white',name:'Kaito white',color:'#f2f2e8'},{id:'black',name:'Lucas black',color:'#303842'}];",
+            "const pipPalette=[{id:'standard',name:'Standard cream',color:'#fff1b8'},{id:'red',name:'Alex red',color:'#cf4348'},{id:'green',name:'Malik green',color:'#38864a'},{id:'pink',name:'Maya pink',color:'#d76a9d'},{id:'yellow',name:'Aiden yellow',color:'#edc74d'},{id:'white',name:'Kaito white',color:'#f2f2e8'},{id:'black',name:'Lucas black',color:'#303842'},{id:'orange',name:'Sumati orange',color:'#d96b24'},{id:'purple',name:'Lilja purple',color:'#8653b6'}];",
             "const pipGroups=[",
-            " {id:'travel',title:'Move',icon:'🛞',parts:[{id:'hover',name:'Hover',icon:'☁️',note:'PIP floats beside me.'},{id:'wheels',name:'Rover wheels',icon:'🛞',note:'A rolling look for ground exploring.'},{id:'climber',name:'Four climbing arms',icon:'🕷️',note:'Four arms fitted. Climbing terrain comes later.'},{id:'swim',name:'Swim kit',icon:'🌊',note:'Swim gear fitted. Ocean exploring comes later.'}]},",
-            " {id:'tool',title:'Science',icon:'🔬',parts:[{id:'scanner',name:'Scanner',icon:'📡',note:'Ask PIP about a discovery.'},{id:'lens',name:'Zoom lens',icon:'🔬',note:'Look at a discovery more closely.'},{id:'sampler',name:'Sample arm',icon:'🦾',note:'Find out what a sample can tell us.'}]},",
+            " {id:'travel',title:'Move',icon:'🛞',parts:[{id:'hover',name:'Hover',icon:'☁️',note:'PIP floats beside me.'},{id:'wheels',name:'Rover wheels',icon:'🛞',note:'A rolling look for ground exploring.'},{id:'climber',name:'Four climbing arms',icon:'🕷️',note:'Four arms fitted. Climbing terrain comes later.'},{id:'swim',name:'Swim kit',icon:'🌊',note:'Swim gear for the Aquatic Learning Center.'}]},",
+            " {id:'tool',title:'Science',icon:'🔬',parts:[{id:'scanner',name:'Scanner',icon:'📡',note:'Ask PIP about a discovery.'},{id:'lens',name:'Zoom lens',icon:'🔬',note:'Look at a discovery more closely.'},{id:'sampler',name:'Sample arm',icon:'🦾',note:'Find out what a sample can tell us.'},{id:'life-lens',name:'Life lens',icon:'🧬',note:'Lucas: explore a plant-cell model. Try fitted tool to zoom.'},{id:'xeno-lab',name:'Xeno lab',icon:'🪐',note:'Lucas: compare possible conditions for life beyond Earth. No alien life is confirmed.'},{id:'eco-probe',name:'Eco probe',icon:'🌱',note:'Sumati: reveal relationships between organisms and their environment.'},{id:'pattern-projector',name:'Pattern projector',icon:'🔷',note:'Lilja: explore patterns, counting and symmetry.'}]},",
             " {id:'eyes',title:'Eyes',icon:'👀',parts:[{id:'visor',name:'Visor',icon:'▰',note:'A friendly glowing visor.'},{id:'binocular',name:'Explorer eyes',icon:'👀',note:'Two curious lenses.'},{id:'round',name:'Round eyes',icon:'◎',note:'Two round bright eyes.'}]},",
             " {id:'trim',title:'Fins & wings',icon:'🪽',parts:[{id:'none',name:'No extra fins',icon:'◻',note:'Keep PIP simple.'},{id:'wings',name:'Wings',icon:'🪽',note:'Little wings for a flying buddy.'},{id:'fins',name:'Fins',icon:'🐟',note:'Streamlined fins for a rover look.'}]}",
             "];",
@@ -29517,26 +31103,45 @@
             " trim:{none:'',wings:'<path fill=\"#c8edf2\" d=\"M62 80L15 61l9 35 38 15M138 80l47-19-9 35-38 15\"/>',fins:'<path fill=\"#65cbdc\" d=\"M65 70L38 44l8 70M135 70l27-26-8 70\"/>'}[c.trim],",
             " body:`<rect x=\"56\" y=\"57\" width=\"88\" height=\"81\" rx=\"22\" fill=\"${color}\"/><path d=\"M100 57V37\"/><circle cx=\"100\" cy=\"31\" r=\"7\" fill=\"#f7ca60\"/><rect x=\"75\" y=\"116\" width=\"50\" height=\"9\" rx=\"4\" fill=\"#a8dae3\"/>`,",
             " eyes:{visor:'<rect x=\"69\" y=\"78\" width=\"62\" height=\"27\" rx=\"10\" fill=\"#234d61\"/><path stroke=\"#9ae9ef\" stroke-width=\"4\" d=\"M79 88h11m20 0h11\"/>',binocular:'<path d=\"M87 89h26\"/><rect x=\"61\" y=\"73\" width=\"35\" height=\"34\" rx=\"12\" fill=\"#f7fbeb\"/><rect x=\"104\" y=\"73\" width=\"35\" height=\"34\" rx=\"12\" fill=\"#f7fbeb\"/><circle cx=\"80\" cy=\"89\" r=\"9\" fill=\"#3d92ad\"/><circle cx=\"120\" cy=\"89\" r=\"9\" fill=\"#3d92ad\"/>',round:'<circle cx=\"80\" cy=\"91\" r=\"15\" fill=\"#fffbed\"/><circle cx=\"120\" cy=\"91\" r=\"15\" fill=\"#fffbed\"/><circle cx=\"80\" cy=\"91\" r=\"6\" fill=\"#3d92ad\"/><circle cx=\"120\" cy=\"91\" r=\"6\" fill=\"#3d92ad\"/>'}[c.eyes],",
-            " tool:{scanner:'<path fill=\"#b8e6ee\" d=\"M145 115l14-21 13 21z\"/><circle cx=\"161\" cy=\"89\" r=\"8\" fill=\"#ffd367\"/>',lens:'<path stroke-width=\"8\" d=\"M142 124l15-16\"/><circle cx=\"166\" cy=\"99\" r=\"17\" fill=\"#b8e6ee\"/><circle cx=\"166\" cy=\"99\" r=\"7\" fill=\"#3d92ad\"/>',sampler:'<path fill=\"none\" stroke-width=\"7\" d=\"M143 115l19 12 10-13m0 0-5-14m5 14 13-7\"/>'}[c.tool]};",
+            " tool:{scanner:'<path fill=\"#b8e6ee\" d=\"M145 115l14-21 13 21z\"/><circle cx=\"161\" cy=\"89\" r=\"8\" fill=\"#ffd367\"/>',lens:'<path stroke-width=\"8\" d=\"M142 124l15-16\"/><circle cx=\"166\" cy=\"99\" r=\"17\" fill=\"#b8e6ee\"/><circle cx=\"166\" cy=\"99\" r=\"7\" fill=\"#3d92ad\"/>','life-lens':'<path d=\"M141 122l14-17\"/><circle cx=\"164\" cy=\"96\" r=\"21\" fill=\"#d6edc5\"/><ellipse cx=\"164\" cy=\"96\" rx=\"11\" ry=\"15\" fill=\"#8aba7d\"/><circle cx=\"164\" cy=\"96\" r=\"5\" fill=\"#8653b6\"/>','xeno-lab':'<path d=\"M143 122h17\"/><rect x=\"154\" y=\"78\" width=\"24\" height=\"48\" rx=\"8\" fill=\"#b8e6ee\"/><path d=\"M160 110h12m-6-12v24\" stroke=\"#8653b6\"/><circle cx=\"166\" cy=\"88\" r=\"5\" fill=\"#ffd367\"/>','eco-probe':'<path d=\"M143 122h17V93\"/><path d=\"M160 106q-26-3-20-23 22 0 20 23m0-8q0-22 23-21 0 21-23 21\" fill=\"#8aba7d\"/><circle cx=\"160\" cy=\"126\" r=\"9\" fill=\"#d96b24\"/>','pattern-projector':'<path d=\"M142 123l12-13\"/><rect x=\"151\" y=\"86\" width=\"30\" height=\"34\" rx=\"7\" fill=\"#8653b6\"/><path d=\"M158 93h16v18h-16z\" fill=\"#e2d7f5\"/><path d=\"M161 106l5-8 5 8z\" fill=\"#ffd367\"/>',sampler:'<path fill=\"none\" stroke-width=\"7\" d=\"M143 115l19 12 10-13m0 0-5-14m5 14 13-7\"/>'}[c.tool]};",
             " return '<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 200\" width=\"200\" height=\"200\"><g stroke=\"#234d61\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\">'+(layer==='all'?['travel','trim','body','eyes','tool'].map(k=>shapes[k]).join(''):shapes[layer]||'')+'</g></svg>';",
             "}",
             "",
+            "// Repeatable illustrated tools, available to every crew member. These are teaching models.",
+            "const pipToolLessons={",
+            " 'life-lens':{title:'Life lens — Lucas',steps:[['Plant cell','This model shows a plant cell. A cell wall surrounds it. Cells are tiny units of living things.'],['Inside the cell','The nucleus contains most of this cell’s DNA. This picture is simplified; cell parts are not drawn to scale.'],['Chloroplasts','Chloroplasts use light energy in photosynthesis. Many green plant cells have them; animal cells do not.']]},",
+            " 'xeno-lab':{title:'Xeno lab — Lucas',steps:[['Look for conditions','Life as we know it needs liquid water, energy and suitable chemical ingredients. We can investigate those conditions on other worlds.'],['Evidence, not proof','An ocean or organic molecules can make a place interesting to study. Neither proves that organisms live there. No extraterrestrial life has been confirmed.'],['Imagine and compare','This imaginary organism is fiction. What might help it live in its imagined habitat? Real biology and invented alien life are different kinds of exploration.']]},",
+            " 'eco-probe':{title:'Eco probe — Sumati',steps:[['Plant and pollinator','Some animals move pollen between flowers while visiting them. Many plants depend on animal pollinators, but others use wind or other methods.'],['Water, soil and life','Plants take up water through roots. Water, soil, air and organisms interact. A change in one part of a habitat can affect other parts.'],['Care for a habitat','Habitat restoration can help living things by improving their surroundings. It takes planning, time and observation. Our model shows connections, not an instant fix.']]},",
+            " 'pattern-projector':{title:'Pattern projector — Lilja',steps:[['What repeats?','Circle, square, circle, square. The repeating unit is circle then square. Tap again to explore another mathematical idea.'],['Count in groups','Two dots and two more dots make four dots: 2 + 2 = 4. We can count each dot or combine groups.'],['Mirror symmetry','The shapes on each side match across the mirror line. A reflection changes left and right while keeping shape and size.']]}",
+            "};",
+            "function pipToolView(tool,step=0){const id=Object.hasOwn(pipToolLessons,tool)?tool:'life-lens',lesson=pipToolLessons[id],index=Number.isInteger(step)?((step%lesson.steps.length)+lesson.steps.length)%lesson.steps.length:0;return {tool:id,step:index,title:lesson.title,heading:lesson.steps[index][0],text:lesson.steps[index][1],art:id+'-'+index};}",
+            "const pipToolArtKeys=Object.keys(pipToolLessons).flatMap(id=>[0,1,2].map(i=>id+'-'+i));",
+            "function pipToolArt(key){const [id,index]=[key.slice(0,-2),Number(key.slice(-1))];let shapes='';",
+            " if(id==='life-lens'){shapes='<rect x=\"60\" y=\"18\" width=\"200\" height=\"144\" rx=\"35\" fill=\"#c7e5aa\"/><rect x=\"70\" y=\"28\" width=\"180\" height=\"124\" rx=\"28\" fill=\"#e9f0c8\"/><circle cx=\"150\" cy=\"90\" r=\"28\" fill=\"'+(index===1?'#8653b6':'#b09bc7')+'\"/><circle cx=\"150\" cy=\"90\" r=\"10\" fill=\"#e2d7f5\"/>';for(const [x,y]of [[95,60],[210,55],[100,125],[210,125]])shapes+=`<ellipse cx=\"${x}\" cy=\"${y}\" rx=\"17\" ry=\"10\" fill=\"${index===2?'#39864a':'#9dbd77'}\"/>`;if(index===2)shapes+='<path d=\"M285 20l-40 25m40-5-35 25\" stroke=\"#d7a336\" stroke-width=\"6\"/>';}",
+            " if(id==='xeno-lab'){shapes='<circle cx=\"80\" cy=\"90\" r=\"52\" fill=\"#d5e9e6\"/><path d=\"M40 93q40-45 80 0v20q-40 40-80 0z\" fill=\"#60b3cf\"/><circle cx=\"230\" cy=\"90\" r=\"50\" fill=\"#e4d7bd\"/>';shapes+=index===0?'<path d=\"M130 90h45\" stroke=\"#d7a336\" stroke-width=\"8\"/><path d=\"M165 78l14 12-14 12\" fill=\"none\"/>':index===1?'<text x=\"230\" y=\"110\" text-anchor=\"middle\" font-size=\"60\" fill=\"#8653b6\">?</text>':'<ellipse cx=\"230\" cy=\"98\" rx=\"22\" ry=\"30\" fill=\"#8653b6\"/><circle cx=\"222\" cy=\"87\" r=\"5\" fill=\"#fffbed\"/><circle cx=\"238\" cy=\"87\" r=\"5\" fill=\"#fffbed\"/><text x=\"230\" y=\"165\" text-anchor=\"middle\" font-size=\"16\" fill=\"#17384a\">IMAGINARY</text>';}",
+            " if(id==='eco-probe'){shapes='<path d=\"M95 145V70m0 35q-35 0-35-30 30 0 35 30m0-15q30 0 30-28-30 0-30 28\" fill=\"#8aba7d\" stroke-width=\"6\"/><circle cx=\"95\" cy=\"50\" r=\"22\" fill=\"#e9b4cb\"/><circle cx=\"95\" cy=\"50\" r=\"8\" fill=\"#f4d37e\"/><path d=\"M145 95h45m-10-10 10 10-10 10\" fill=\"none\" stroke-width=\"6\"/>';if(index===0)shapes+='<ellipse cx=\"230\" cy=\"88\" rx=\"30\" ry=\"18\" fill=\"#f4d37e\"/><ellipse cx=\"220\" cy=\"63\" rx=\"15\" ry=\"17\" fill=\"#d5e9e6\"/><ellipse cx=\"244\" cy=\"63\" rx=\"15\" ry=\"17\" fill=\"#d5e9e6\"/><path d=\"M225 73v29m14-27v25\"/>';else if(index===1)shapes+='<path d=\"M235 40q-60 70 0 82 60-12 0-82z\" fill=\"#60b3cf\"/><path d=\"M55 150h220\" stroke=\"#aa8562\" stroke-width=\"12\"/>';else shapes+='<path d=\"M225 140V76m0 35-20-18m20 2 20-17\" stroke=\"#39864a\" stroke-width=\"8\"/><path d=\"M195 150h65\" stroke=\"#aa8562\" stroke-width=\"12\"/><circle cx=\"270\" cy=\"42\" r=\"17\" fill=\"#f4d37e\"/>';}",
+            " if(id==='pattern-projector'){if(index===0)for(let i=0;i<4;i++)shapes+=i%2?`<rect x=\"${30+i*70}\" y=\"65\" width=\"40\" height=\"40\" fill=\"#8653b6\"/>`:`<circle cx=\"${50+i*70}\" cy=\"85\" r=\"20\" fill=\"#60b3cf\"/>`;else if(index===1){for(const x of [55,100,220,265])shapes+=`<circle cx=\"${x}\" cy=\"80\" r=\"20\" fill=\"${x<160?'#8653b6':'#d96b24'}\"/>`;shapes+='<text x=\"160\" y=\"90\" text-anchor=\"middle\" font-size=\"32\" fill=\"#17384a\">+</text><text x=\"160\" y=\"145\" text-anchor=\"middle\" font-size=\"26\" fill=\"#17384a\">2 + 2 = 4</text>';}else shapes='<path d=\"M160 15v150\" stroke-dasharray=\"8 7\" stroke=\"#8653b6\"/><path d=\"M115 45l-50 45 50 45zM205 45l50 45-50 45z\" fill=\"#60b3cf\"/>';}",
+            " return '<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"320\" height=\"180\" viewBox=\"0 0 320 180\"><rect width=\"320\" height=\"180\" rx=\"18\" fill=\"#e9f1e7\"/><g stroke=\"#234d61\" stroke-width=\"3\" stroke-linejoin=\"round\">'+shapes+'</g></svg>';",
+            "}",
+            "",
             "// Native GDevelop workshop: no embedded web view or runtime dependencies.",
-            "const pipWorkshopUI=['PipBlueprint','PipBlueprintLabel','WorkshopNote','PipGhost','ScienceModel',...['travel','trim','body','eyes','tool'].map(n=>'Workshop'+n),...Array.from({length:5},(_,i)=>['PipTab'+i,'PipTabLabel'+i,'PipAction'+i,'PipActionLabel'+i]).flat(),...Array.from({length:4},(_,i)=>['PipPart'+i,'PipPartLabel'+i]).flat()];",
+            "const pipWorkshopUI=['PipToolArt','PipBlueprint','PipBlueprintLabel','WorkshopNote','PipGhost','ScienceModel',...['travel','trim','body','eyes','tool'].map(n=>'Workshop'+n),...Array.from({length:5},(_,i)=>['PipTab'+i,'PipTabLabel'+i,'PipAction'+i,'PipActionLabel'+i]).flat(),...Array.from({length:4},(_,i)=>['PipPart'+i,'PipPartLabel'+i]).flat()];",
             "function nativePipLayer(name,slot,config){const options=slot==='body'?pipPalette:pipGroups.find(g=>g.id===slot).parts;obj(name).setAnimation(options.findIndex(p=>p.id===config[slot==='body'?'color':slot]));}",
             "function nativePipUpdate(){for(const slot of ['travel','trim','body','eyes','tool']){const name=slot==='body'?'PipRobot':'Pip'+slot;obj(name).setPosition(actor.getX()-58,actor.getY()-35);nativePipLayer(name,slot,s.zone==='aquatic'?{...s.pip,travel:'swim'}:s.pip);if(s.overlay==='PIP Workshop')nativePipLayer('Workshop'+slot,slot,s.pip);}}",
-            "function nativePipFit(slot,id){s.pip=attachPip(s.pip,slot,id);const part=slot==='color'?pipPalette.find(p=>p.id===id):pipGroups.find(g=>g.id===slot).parts.find(p=>p.id===id);nativePipWorkshop(s.pipTab,s.pipPage);text('WorkshopNote','Fitted: '+part.name+'. '+(part.note||'My buddy has a new color.'));say('PIP fitted: '+part.name);}",
+            "function nativePipFit(slot,id){s.pip=attachPip(s.pip,slot,id);const part=slot==='color'?pipPalette.find(p=>p.id===id):pipGroups.find(g=>g.id===slot).parts.find(p=>p.id===id);nativePipWorkshop(s.pipTab,s.pipPage);text('WorkshopNote','Fitted: '+part.name+'. '+(pipToolLessons[id]?'Tap Try tool to explore.':part.note||'My buddy has a new color.'));say('PIP fitted: '+part.name);}",
             "function nativePipWorkshop(tab='travel',page=0){s.pipTab=tab;s.pipPage=page;open('PIP Workshop','Tap a part. Or drag it onto PIP.','');obj('CardBody').hide();obj('CardVisual').hide();for(const n of ['PipBlueprint','PipBlueprintLabel','WorkshopNote',...['travel','trim','body','eyes','tool'].map(n=>'Workshop'+n)])obj(n).hide(false);text('WorkshopNote','Tap to attach. Dragging is optional. PIP is always safe.');",
             " const groups=[...pipGroups,{id:'color',title:'Colors',icon:'🎨'}];for(let i=0;i<groups.length;i++){const g=groups[i];obj('PipTab'+i).hide(false);obj('PipTabLabel'+i).hide(false);text('PipTabLabel'+i,(g.id===tab?'✓ ':'')+g.title);s.buttons.push({name:'PipTab'+i,fn:()=>nativePipWorkshop(g.id,0)});}",
             " const group=pipGroups.find(g=>g.id===tab),items=tab==='color'?pipPalette:group.parts;s.pipParts=items.slice(page*4,page*4+4);",
             " s.pipParts.forEach((part,i)=>{obj('PipPart'+i).hide(false);obj('PipPartLabel'+i).hide(false);text('PipPartLabel'+i,(s.pip[tab]===part.id?'✓ ':'')+(part.icon||'🎨')+'\\n'+part.name);s.buttons.push({name:'PipPart'+i,fn:()=>nativePipFit(tab,part.id)});});",
-            " const actions=[['Standard',()=>{s.pip=standardPip();nativePipWorkshop();text('WorkshopNote','Standard PIP restored.')}],['Match crew',()=>{s.pip=matchPipCrew(s.pip,s.crew);nativePipWorkshop(tab,page);text('WorkshopNote','PIP matches my astronaut suit.')}],['Analyze',nativePipSamples],tab==='color'?['More colors',()=>nativePipWorkshop('color',page?0:1)]:['Help',pip],['Explore',()=>{close();say('PIP is ready to explore with me.')}]];",
+            " const actions=[['Standard',()=>{s.pip=standardPip();nativePipWorkshop();text('WorkshopNote','Standard PIP restored.')}],['Match crew',()=>{s.pip=matchPipCrew(s.pip,s.crew);nativePipWorkshop(tab,page);text('WorkshopNote','PIP matches my astronaut suit.')}],(pipToolLessons[s.pip.tool]?['Try tool',()=>nativePipTool()]:['Analyze',nativePipSamples]),items.length>4?[tab==='color'?'More colors':'More parts',()=>nativePipWorkshop(tab,(page+1)%Math.ceil(items.length/4))]:['Help',pip],['Explore',()=>{close();say('PIP is ready to explore with me.')}]];",
             " actions.forEach(([label,fn],i)=>{obj('PipAction'+i).hide(false);obj('PipActionLabel'+i).hide(false);text('PipActionLabel'+i,label);s.buttons.push({name:'PipAction'+i,fn});});",
             "}",
             "function nativePipSamples(){const found=materials.filter(m=>s.found.has(m.id));open('Ask PIP',found.length?'Choose a sample I discovered.':'Dig to find our first sample.','',[",
-            " ...found.map(m=>[m.icon+' '+m.name,()=>nativePipAnalysis(m.id)]),...(found.length?[]:[['Go digging',()=>{close();select(objects.find(o=>o.id==='dig'))}]]),['PIP Workshop',()=>nativePipWorkshop()]",
+            " ...(pipToolLessons[s.pip.tool]?[['Use fitted tool',()=>nativePipTool()]]:[]),...found.map(m=>[m.icon+' '+m.name,()=>nativePipAnalysis(m.id)]),...(found.length?[]:[['Go digging',()=>{close();select(objects.find(o=>o.id==='dig'))}]]),['PIP Workshop',()=>nativePipWorkshop()]",
             " ]);}",
             "function nativePipAnalysis(id){const a=pipAnalysis(id,s.pip.tool);if(!a)return;open('PIP: '+a.title,a.detail,'',[]);obj('ScienceModel').hide(false);obj('ScienceModel').setAnimation(materials.findIndex(m=>m.id===id));obj('WorkshopNote').hide(false);text('WorkshopNote',a.note.replace(/(.{1,88})(?:\\s|$)/g,'$1\\n').trim());obj('WorkshopNote').setPosition(125,380);const options=[['Listen',()=>listenJournal(a.detail+' '+a.note)],['My samples',nativePipSamples],['Workshop',()=>nativePipWorkshop()]];options.forEach(([label,fn],i)=>{obj('PipAction'+i).hide(false);obj('PipActionLabel'+i).hide(false);text('PipActionLabel'+i,label);s.buttons.push({name:'PipAction'+i,fn});});say('PIP uses our science guide. '+a.formula);}",
+            "",
+            "function nativePipTool(step=0){const v=pipToolView(s.pip.tool,step);open(v.title,v.heading+'. '+v.text,'',[['Next / repeat',()=>nativePipTool(v.step+1)],['Listen',()=>listenJournal(v.heading+'. '+v.text)],['PIP Workshop',()=>nativePipWorkshop('tool',Math.floor(pipGroups.find(g=>g.id==='tool').parts.findIndex(p=>p.id===s.pip.tool)/4))]]);obj('CardBody').setCharacterSize(17);text('CardBody',(v.heading+'. '+v.text).replace(/(.{1,46})(?:\\s|$)/g,'$1\\n').trim());obj('CardVisual').hide();obj('PipToolArt').hide(false);obj('PipToolArt').setAnimation(pipToolArtKeys.indexOf(v.art));}",
             "",
             "function nativeDigLevel(level){s.excavation.level=level;s.excavation.path=[];s.excavation.target=null;actor.setPosition(160,135);s.path=[];nativeDigVisibility();say(level?'Deep caverns: observe gently.':'Upper excavation site.');}",
             "function nativeDigSelect(x,y,target=null){if(s.paused)return;const c=digCell(x,y);if(digBlocked(...c,s.excavation.level)){nativeDigLesson('magma');return}beginDig(s.excavation,[actor.getX()+20,actor.getY()+45],[x,y],target);say(s.crew===3?'Aiden is using his heavy digging rig.':'Digging automatically. PIP helps with hard rock.');}",
@@ -29569,11 +31174,11 @@
             "const text=(name,value)=>obj(name).setString(value);",
             "if(!runtimeScene.__jacc){",
             " const profile=nativeLoadProfile();const known=new Set([...objects.map(o=>o.id),...materials.map(o=>o.id),...digFinds.map(o=>o.id)]);",
-            " runtimeScene.__jacc={aquatic:normalizeAquatic(profile.aquatic),construction:normalizeConstruction(profile.construction),excavation:normalizeDig(profile.excavation),designs:normalizeDesigns(profile.designs),farm:normalizeFarm(profile.farm),zone:'grounds',journey:null,pip:normalizePip(profile.pip),pipTab:'travel',pipPage:0,crew:Number.isInteger(profile.crew)&&profile.crew>=0&&profile.crew<6?profile.crew:0,started:false,paused:false,path:[],pending:null,dig:0,action:0,found:new Set((Array.isArray(profile.found)?profile.found:[]).filter(id=>known.has(id))),visited:new Set((Array.isArray(profile.visited)?profile.visited:[]).filter(id=>known.has(id))),last:null,overlay:null,buttons:[],focus:0,tab:false,enter:false,settings:nativeProfileSettings(profile.settings)};",
+            " runtimeScene.__jacc={aquatic:normalizeAquatic(profile.aquatic),construction:normalizeConstruction(profile.construction),excavation:normalizeDig(profile.excavation),designs:normalizeDesigns(profile.designs),farm:normalizeFarm(profile.farm),zone:'grounds',journey:null,pip:normalizePip(profile.pip),pipTab:'travel',pipPage:0,crew:Number.isInteger(profile.crew)&&profile.crew>=0&&profile.crew<roster.length?profile.crew:0,started:false,paused:false,path:[],pending:null,dig:0,action:0,found:new Set((Array.isArray(profile.found)?profile.found:[]).filter(id=>known.has(id))),visited:new Set((Array.isArray(profile.visited)?profile.visited:[]).filter(id=>known.has(id))),last:null,overlay:null,buttons:[],focus:0,tab:false,enter:false,settings:nativeProfileSettings(profile.settings)};",
             "}",
             "const s=runtimeScene.__jacc,actor=obj('Alex');",
             "const say=message=>{text('Status',message);if(s.settings.narration&&typeof speechSynthesis!=='undefined'){speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(message);u.volume=s.settings.volume;speechSynthesis.speak(u)}};",
-            "const crewUI=Array.from({length:6},(_,i)=>['CrewCard'+i,'CrewPortrait'+i,'CrewName'+i,'CrewDetail'+i]).flat();",
+            "const crewUI=['CrewPreviousButton','CrewPreviousLabel','CrewNextButton','CrewNextLabel',...Array.from({length:roster.length},(_,i)=>['CrewCard'+i,'CrewPortrait'+i,'CrewName'+i,'CrewDetail'+i]).flat()];",
             "const ui=['AquaticArt','ConstructionArt','DigArt','DesignArt','FarmArt',...pipWorkshopUI,...crewUI,'Panel','CardTitle','CardBody','CardVisual','Close','CloseLabel',...Array.from({length:6},(_,i)=>['Option'+i,'OptionLabel'+i]).flat()];",
             "function close(){s.overlay=null;for(const n of ui)obj(n).hide();}",
             "function open(title,body,visual,options=[]){s.overlay=title;s.buttons=[];obj('CardBody').setCharacterSize(19);obj('WorkshopNote').setPosition(125,435);for(const n of ui)obj(n).hide();for(const n of ['Panel','CardTitle','CardBody','CardVisual','Close','CloseLabel'])obj(n).hide(false);text('CardTitle',title);text('CardBody',body.replace(/(.{1,64})(?:\\s|$)/g,'$1\\n').trim());text('CardVisual',visual);options.slice(0,6).forEach(([label,fn],i)=>{obj('Option'+i).hide(false);obj('OptionLabel'+i).hide(false);text('OptionLabel'+i,label);s.buttons.push({name:'Option'+i,fn})});say(title+'. '+body);}",
@@ -29583,7 +31188,7 @@
             "",
             "function card(o){open(o.name,o.text,o.icon+'   '+o.diagram,[['Listen / replay',()=>{say(o.text);if(typeof speechSynthesis!=='undefined'){speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(o.text);u.volume=s.settings.volume;speechSynthesis.speak(u)}}],['Revisit',()=>{close();select(objects.find(x=>x.id===o.id)||objects.find(x=>x.find===o.id)||objects.find(x=>x.id==='dig'))}],...(o.id==='hq-map'?[['Go exploring',()=>{close();select(objects.find(x=>x.id==='hq-exit'))}]]:[]),...(o.id==='hq-lab'?[['Find a sample',()=>{close();select(objects.find(x=>x.id==='dig'))}]]:[]),...(o.id==='hq-bunks'?[['Rest here',()=>{close();s.paused=true;text('PauseLabel','Resume');say('Resting. Resume whenever you are ready.')}]]:[]),...(materials.some(m=>m.id===o.id)?[['Ask PIP',()=>nativePipAnalysis(o.id)]]:[])]);}",
             "function arrive(o){s.last=o.id;if(o.kind!=='dig')s.visited.add(o.id);if(o.kind==='portal'){const next=s.journey;nativeZone(o.to);if(next)select(objects.find(x=>x.id===next));return}if(o.kind==='aquatic'){if(o.life&&!s.aquatic.observed.includes(o.life))s.aquatic.observed.push(o.life);nativeAquatic(o.page);return}if(o.kind==='construction'){nativeConstructionPage(o.page);return}if(o.kind==='diglevel'){nativeDigLevel(o.nextLevel);return}if(o.kind==='digtools'){nativeDigLesson('tools');return}if(o.kind==='diglesson'){nativeDigLesson(o.lesson);return}if(o.kind==='digfind'){s.found.add(o.find);card(digFinds.find(f=>f.id===o.find));return}if(o.kind==='engineering'){nativeEngineering(o.project);return}if(o.kind==='farm'){nativeFarm(o.page);return}if(o.kind==='workshop'){nativePipWorkshop();return}if(o.kind==='crew'){crewMenu();return}if(o.kind==='home'){say('Welcome home to the training grounds. Choose an adventure.');return}if(o.kind==='dig'){s.action=s.settings.reduced?.2:1.2;say('Digging through the soil...');return}s.found.add(o.id);card(o)}",
-            "function crewMenu(){open('J.A.C.C. Crew','Tap an astronaut. Everyone can explore every activity.','');for(let i=0;i<roster.length;i++){const r=roster[i];for(const name of ['CrewCard','CrewPortrait','CrewName','CrewDetail'])obj(name+i).hide(false);text('CrewName'+i,(s.crew===i?'[Selected] ':'')+r[0]);text('CrewDetail'+i,(r[1]+' suit | '+r[2]).replace(/(.{1,29})(?:\\s|$)/g,'$1\\n').trim());s.buttons.push({name:'CrewCard'+i,fn:()=>{s.crew=i;actor.setAnimation(i);text('ActiveCrew',r[0]+' | '+r[1]+' | '+r[2]);close();say(r[0]+' selected. '+r[2])}});}}",
+            "function crewMenu(page=Math.floor(s.crew/4)){const pages=Math.ceil(roster.length/4);page=Math.max(0,Math.min(pages-1,page));open('J.A.C.C. Crew','Tap an astronaut. Everyone can explore every activity.','');for(let i=page*4;i<Math.min(roster.length,page*4+4);i++){const r=roster[i];for(const name of ['CrewCard','CrewPortrait','CrewName','CrewDetail'])obj(name+i).hide(false);text('CrewName'+i,(s.crew===i?'✓ ':'')+r[0]);text('CrewDetail'+i,(r[1]+' suit | '+r[2]).replace(/(.{1,29})(?:\\s|$)/g,'$1\\n').trim());s.buttons.push({name:'CrewCard'+i,fn:()=>{s.crew=i;actor.setAnimation(i);text('ActiveCrew',r[0]+' | '+r[1]+' | '+r[2]);close();say(r[0]+' selected. '+r[2])}});}for(const [name,label,to,visible]of [['CrewPrevious','← Previous crew',page-1,page>0],['CrewNext','More crew →',page+1,page<pages-1]])if(visible){obj(name+'Button').hide(false);obj(name+'Label').hide(false);s.buttons.push({name:name+'Button',fn:()=>crewMenu(to)});}}",
             "function pip(){open('PIP','Choose a picture. Your astronaut will walk there and explore.','PIP  >  TAP  >  DISCOVER',[",
             " ['Show places',()=>{close();if(s.zone==='dig'){s.excavation.hints=true;nativeDigVisibility();}s.settings.effects=true;nativeActiveObjects().forEach(o=>obj('Target_'+o.id).setOpacity(190));say('The cream pictures are places to explore.')}],",
             " ['Show me a dig',()=>{close();select(objects.find(o=>o.id==='dig'))}],",

@@ -48,4 +48,6 @@ The Enceladus page introduces Saturn's icy ocean moon and a future ocean-world p
 
 ## Character roster
 
-See [approved character decisions](docs/CHARACTERS.md), including Lucas's Lederberg Model and Sumati Suri, the seventh, orange J.A.C.C.: a girl from India with the Gadgil Model for Ecosystems and Environmental Science. Sumati is recorded for future crew-menu implementation.
+See [approved character decisions](docs/CHARACTERS.md), including Lucas's Lederberg Model and Sumati Suri, the seventh, orange J.A.C.C.: a girl from India with the Gadgil Model for Ecosystems and Environmental Science. Sumati and Lilja Jónsdóttir, the purple J.A.C.C. from Iceland (Mirzakhani Model — Mathematics), are playable in both builds. The crew now has eight members.
+
+PIP now has **Life Lens**, **Xeno Lab**, **Eco Probe**, and **Pattern Projector** attachments, plus orange/purple crew colors. Open **PIP → Build PIP → Science**, use **More parts** for the second page, fit a part, then choose **Try fitted tool** (browser) or **Try tool** (GDevelop). Every tool has three illustrated, repeatable steps. See [crew and PIP implementation notes](docs/CREW_AND_PIP.md).

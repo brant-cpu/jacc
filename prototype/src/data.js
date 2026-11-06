@@ -4,7 +4,7 @@ import {digObjects,engineeringObjects} from './excavation.js';
 import {farmObjects} from './farm.js';
 import {hqObjects} from './zones.js';
 // Canonical names and specializations; visuals are temporary geometric placeholders.
-export const roster=[['Alex Thompson','Red','Fleming Model — Electromagnetism'],['Malik Adeyemi','Green','Townes Model — Laser optics and computing'],['Maya Rodriguez','Pink','Allwood Model — Geology and chemistry'],['Aiden Williams','Yellow','Engineering Model — Construction and heavy engineering'],['Kaito Tanaka','White','Aeronautics Model — Flight and speed'],['Lucas Turner','Black','Lederberg Model — Biology and Xenobiology']];
+export const roster=[['Alex Thompson','Red','Fleming Model — Electromagnetism'],['Malik Adeyemi','Green','Townes Model — Laser optics and computing'],['Maya Rodriguez','Pink','Allwood Model — Geology and chemistry'],['Aiden Williams','Yellow','Engineering Model — Construction and heavy engineering'],['Kaito Tanaka','White','Aeronautics Model — Flight and speed'],['Lucas Turner','Black','Lederberg Model — Biology and Xenobiology'],['Sumati Suri','Orange','Gadgil Model — Ecosystems and Environmental Science'],['Lilja Jónsdóttir','Purple','Mirzakhani Model — Mathematics']];
 export const materials=[
 {id:'quartz',name:'Quartz',icon:'💎',diagram:'☀️ → 💎 → ✨',text:'Quartz is a mineral. Look at its crystal faces! Light can pass through some quartz.'},
 {id:'iron',name:'Iron-bearing mineral',icon:'🪨',diagram:'🧲 → 🪨',text:'Some iron-bearing minerals, such as magnetite, are attracted to a magnet. Not all iron minerals are magnetic.'},
@@ -23,6 +23,6 @@ export const trainingObjects=[
 export const modes={exploration:{phase:1,status:'playable'},geology:{phase:1,status:'playable'},lab:{phase:2,status:'planned'},engineering:{phase:2,status:'planned'},ocean:{phase:3,status:'planned'},flight:{phase:3,status:'planned'},pip:{phase:1,status:'basic'}};
 
 // Temporary suit-color placeholders; not production character designs.
-export const suitColors={Red:'#cf4348',Green:'#38864a',Pink:'#d76a9d',Yellow:'#edc74d',White:'#f2f2e8',Black:'#303842'};
+export const suitColors={Red:'#cf4348',Green:'#38864a',Pink:'#d76a9d',Yellow:'#edc74d',White:'#f2f2e8',Black:'#303842',Orange:'#d96b24',Purple:'#8653b6'};
 
 export const objects=[...trainingObjects.map(o=>({...o,zone:'grounds'})),...hqObjects,...farmObjects,...digObjects,...engineeringObjects,...constructionStations,elevatorObject,...aquaticObjects,{id:'grounds-aquatic',zone:'grounds',x:680,y:280,icon:'🌊',name:'Aquatic Learning Center',kind:'portal',to:'aquatic'}];
