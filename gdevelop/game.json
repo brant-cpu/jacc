@@ -182,6 +182,366 @@
         "smoothed": false
       },
       {
+        "name": "aqua-sub",
+        "kind": "image",
+        "file": "assets/aqua-sub.png",
+        "metadata": "",
+        "userAdded": true,
+        "smoothed": true
+      },
+      {
+        "name": "aqua-background-lake",
+        "kind": "image",
+        "file": "assets/aqua-background-lake.png",
+        "metadata": "",
+        "userAdded": true,
+        "smoothed": true
+      },
+      {
+        "name": "aqua-background-reef",
+        "kind": "image",
+        "file": "assets/aqua-background-reef.png",
+        "metadata": "",
+        "userAdded": true,
+        "smoothed": true
+      },
+      {
+        "name": "aqua-background-deep",
+        "kind": "image",
+        "file": "assets/aqua-background-deep.png",
+        "metadata": "",
+        "userAdded": true,
+        "smoothed": true
+      },
+      {
+        "name": "aqua-art-center",
+        "kind": "image",
+        "file": "assets/aqua-art-center.png",
+        "metadata": "",
+        "userAdded": true,
+        "smoothed": true
+      },
+      {
+        "name": "aqua-art-sub",
+        "kind": "image",
+        "file": "assets/aqua-art-sub.png",
+        "metadata": "",
+        "userAdded": true,
+        "smoothed": true
+      },
+      {
+        "name": "aqua-art-science",
+        "kind": "image",
+        "file": "assets/aqua-art-science.png",
+        "metadata": "",
+        "userAdded": true,
+        "smoothed": true
+      },
+      {
+        "name": "aqua-art-reef",
+        "kind": "image",
+        "file": "assets/aqua-art-reef.png",
+        "metadata": "",
+        "userAdded": true,
+        "smoothed": true
+      },
+      {
+        "name": "aqua-art-collection",
+        "kind": "image",
+        "file": "assets/aqua-art-collection.png",
+        "metadata": "",
+        "userAdded": true,
+        "smoothed": true
+      },
+      {
+        "name": "aqua-art-water",
+        "kind": "image",
+        "file": "assets/aqua-art-water.png",
+        "metadata": "",
+        "userAdded": true,
+        "smoothed": true
+      },
+      {
+        "name": "aqua-art-cleanup",
+        "kind": "image",
+        "file": "assets/aqua-art-cleanup.png",
+        "metadata": "",
+        "userAdded": true,
+        "smoothed": true
+      },
+      {
+        "name": "aqua-art-salinity",
+        "kind": "image",
+        "file": "assets/aqua-art-salinity.png",
+        "metadata": "",
+        "userAdded": true,
+        "smoothed": true
+      },
+      {
+        "name": "aqua-art-gigantism",
+        "kind": "image",
+        "file": "assets/aqua-art-gigantism.png",
+        "metadata": "",
+        "userAdded": true,
+        "smoothed": true
+      },
+      {
+        "name": "aqua-art-enceladus",
+        "kind": "image",
+        "file": "assets/aqua-art-enceladus.png",
+        "metadata": "",
+        "userAdded": true,
+        "smoothed": true
+      },
+      {
+        "name": "aqua-art-habitat",
+        "kind": "image",
+        "file": "assets/aqua-art-habitat.png",
+        "metadata": "",
+        "userAdded": true,
+        "smoothed": true
+      },
+      {
+        "name": "aqua-art-life-perch",
+        "kind": "image",
+        "file": "assets/aqua-art-life-perch.png",
+        "metadata": "",
+        "userAdded": true,
+        "smoothed": true
+      },
+      {
+        "name": "aqua-art-life-reeds",
+        "kind": "image",
+        "file": "assets/aqua-art-life-reeds.png",
+        "metadata": "",
+        "userAdded": true,
+        "smoothed": true
+      },
+      {
+        "name": "aqua-art-life-reef-fish",
+        "kind": "image",
+        "file": "assets/aqua-art-life-reef-fish.png",
+        "metadata": "",
+        "userAdded": true,
+        "smoothed": true
+      },
+      {
+        "name": "aqua-art-life-dolphin",
+        "kind": "image",
+        "file": "assets/aqua-art-life-dolphin.png",
+        "metadata": "",
+        "userAdded": true,
+        "smoothed": true
+      },
+      {
+        "name": "aqua-art-life-whale",
+        "kind": "image",
+        "file": "assets/aqua-art-life-whale.png",
+        "metadata": "",
+        "userAdded": true,
+        "smoothed": true
+      },
+      {
+        "name": "aqua-art-life-shark",
+        "kind": "image",
+        "file": "assets/aqua-art-life-shark.png",
+        "metadata": "",
+        "userAdded": true,
+        "smoothed": true
+      },
+      {
+        "name": "aqua-art-life-octopus",
+        "kind": "image",
+        "file": "assets/aqua-art-life-octopus.png",
+        "metadata": "",
+        "userAdded": true,
+        "smoothed": true
+      },
+      {
+        "name": "aqua-art-life-isopod",
+        "kind": "image",
+        "file": "assets/aqua-art-life-isopod.png",
+        "metadata": "",
+        "userAdded": true,
+        "smoothed": true
+      },
+      {
+        "name": "aqua-art-life-angler",
+        "kind": "image",
+        "file": "assets/aqua-art-life-angler.png",
+        "metadata": "",
+        "userAdded": true,
+        "smoothed": true
+      },
+      {
+        "name": "aqua-art-life-brittle",
+        "kind": "image",
+        "file": "assets/aqua-art-life-brittle.png",
+        "metadata": "",
+        "userAdded": true,
+        "smoothed": true
+      },
+      {
+        "name": "aqua-art-pressure-0",
+        "kind": "image",
+        "file": "assets/aqua-art-pressure-0.png",
+        "metadata": "",
+        "userAdded": true,
+        "smoothed": true
+      },
+      {
+        "name": "aqua-art-pressure-1",
+        "kind": "image",
+        "file": "assets/aqua-art-pressure-1.png",
+        "metadata": "",
+        "userAdded": true,
+        "smoothed": true
+      },
+      {
+        "name": "aqua-art-pressure-2",
+        "kind": "image",
+        "file": "assets/aqua-art-pressure-2.png",
+        "metadata": "",
+        "userAdded": true,
+        "smoothed": true
+      },
+      {
+        "name": "aqua-art-pressure-3",
+        "kind": "image",
+        "file": "assets/aqua-art-pressure-3.png",
+        "metadata": "",
+        "userAdded": true,
+        "smoothed": true
+      },
+      {
+        "name": "aqua-art-pressure-4",
+        "kind": "image",
+        "file": "assets/aqua-art-pressure-4.png",
+        "metadata": "",
+        "userAdded": true,
+        "smoothed": true
+      },
+      {
+        "name": "aqua-art-pressure-5",
+        "kind": "image",
+        "file": "assets/aqua-art-pressure-5.png",
+        "metadata": "",
+        "userAdded": true,
+        "smoothed": true
+      },
+      {
+        "name": "aqua-art-depth-0",
+        "kind": "image",
+        "file": "assets/aqua-art-depth-0.png",
+        "metadata": "",
+        "userAdded": true,
+        "smoothed": true
+      },
+      {
+        "name": "aqua-art-depth-1",
+        "kind": "image",
+        "file": "assets/aqua-art-depth-1.png",
+        "metadata": "",
+        "userAdded": true,
+        "smoothed": true
+      },
+      {
+        "name": "aqua-art-depth-2",
+        "kind": "image",
+        "file": "assets/aqua-art-depth-2.png",
+        "metadata": "",
+        "userAdded": true,
+        "smoothed": true
+      },
+      {
+        "name": "aqua-art-depth-3",
+        "kind": "image",
+        "file": "assets/aqua-art-depth-3.png",
+        "metadata": "",
+        "userAdded": true,
+        "smoothed": true
+      },
+      {
+        "name": "aqua-art-depth-4",
+        "kind": "image",
+        "file": "assets/aqua-art-depth-4.png",
+        "metadata": "",
+        "userAdded": true,
+        "smoothed": true
+      },
+      {
+        "name": "aqua-art-buoyancy-0",
+        "kind": "image",
+        "file": "assets/aqua-art-buoyancy-0.png",
+        "metadata": "",
+        "userAdded": true,
+        "smoothed": true
+      },
+      {
+        "name": "aqua-art-buoyancy-1",
+        "kind": "image",
+        "file": "assets/aqua-art-buoyancy-1.png",
+        "metadata": "",
+        "userAdded": true,
+        "smoothed": true
+      },
+      {
+        "name": "aqua-art-buoyancy-2",
+        "kind": "image",
+        "file": "assets/aqua-art-buoyancy-2.png",
+        "metadata": "",
+        "userAdded": true,
+        "smoothed": true
+      },
+      {
+        "name": "aqua-art-volcano-0",
+        "kind": "image",
+        "file": "assets/aqua-art-volcano-0.png",
+        "metadata": "",
+        "userAdded": true,
+        "smoothed": true
+      },
+      {
+        "name": "aqua-art-volcano-1",
+        "kind": "image",
+        "file": "assets/aqua-art-volcano-1.png",
+        "metadata": "",
+        "userAdded": true,
+        "smoothed": true
+      },
+      {
+        "name": "aqua-art-volcano-2",
+        "kind": "image",
+        "file": "assets/aqua-art-volcano-2.png",
+        "metadata": "",
+        "userAdded": true,
+        "smoothed": true
+      },
+      {
+        "name": "aqua-art-volcano-3",
+        "kind": "image",
+        "file": "assets/aqua-art-volcano-3.png",
+        "metadata": "",
+        "userAdded": true,
+        "smoothed": true
+      },
+      {
+        "name": "aqua-art-sonar-0",
+        "kind": "image",
+        "file": "assets/aqua-art-sonar-0.png",
+        "metadata": "",
+        "userAdded": true,
+        "smoothed": true
+      },
+      {
+        "name": "aqua-art-sonar-1",
+        "kind": "image",
+        "file": "assets/aqua-art-sonar-1.png",
+        "metadata": "",
+        "userAdded": true,
+        "smoothed": true
+      },
+      {
         "name": "build-cell-empty-0",
         "kind": "image",
         "file": "assets/build-cell-empty-0.png",
@@ -7439,6 +7799,1488 @@
             "underlined": false,
             "smoothed": true,
             "text": "🚀\nSpace\nelevator project",
+            "font": "",
+            "characterSize": 16,
+            "color": "23;56;74",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "lineHeight": 0,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false
+          }
+        },
+        {
+          "name": "Target_aqua-exit",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Label_aqua-exit",
+          "type": "TextObject::Text",
+          "variables": [],
+          "behaviors": [],
+          "effects": [],
+          "bold": true,
+          "italic": false,
+          "underlined": false,
+          "smoothed": true,
+          "text": "🏠\nLake\nshore",
+          "font": "",
+          "characterSize": 16,
+          "color": {
+            "r": 23,
+            "g": 56,
+            "b": 74
+          },
+          "textAlignment": "left",
+          "verticalTextAlignment": "top",
+          "lineHeight": 0,
+          "isOutlineEnabled": false,
+          "isShadowEnabled": false,
+          "string": "🏠\nLake\nshore",
+          "content": {
+            "bold": true,
+            "italic": false,
+            "underlined": false,
+            "smoothed": true,
+            "text": "🏠\nLake\nshore",
+            "font": "",
+            "characterSize": 16,
+            "color": "23;56;74",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "lineHeight": 0,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false
+          }
+        },
+        {
+          "name": "Target_aqua-center",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Label_aqua-center",
+          "type": "TextObject::Text",
+          "variables": [],
+          "behaviors": [],
+          "effects": [],
+          "bold": true,
+          "italic": false,
+          "underlined": false,
+          "smoothed": true,
+          "text": "🌊\nLearning\ncenter",
+          "font": "",
+          "characterSize": 16,
+          "color": {
+            "r": 23,
+            "g": 56,
+            "b": 74
+          },
+          "textAlignment": "left",
+          "verticalTextAlignment": "top",
+          "lineHeight": 0,
+          "isOutlineEnabled": false,
+          "isShadowEnabled": false,
+          "string": "🌊\nLearning\ncenter",
+          "content": {
+            "bold": true,
+            "italic": false,
+            "underlined": false,
+            "smoothed": true,
+            "text": "🌊\nLearning\ncenter",
+            "font": "",
+            "characterSize": 16,
+            "color": "23;56;74",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "lineHeight": 0,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false
+          }
+        },
+        {
+          "name": "Target_aqua-science",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Label_aqua-science",
+          "type": "TextObject::Text",
+          "variables": [],
+          "behaviors": [],
+          "effects": [],
+          "bold": true,
+          "italic": false,
+          "underlined": false,
+          "smoothed": true,
+          "text": "🔬\nPIP\nscience labs",
+          "font": "",
+          "characterSize": 16,
+          "color": {
+            "r": 23,
+            "g": 56,
+            "b": 74
+          },
+          "textAlignment": "left",
+          "verticalTextAlignment": "top",
+          "lineHeight": 0,
+          "isOutlineEnabled": false,
+          "isShadowEnabled": false,
+          "string": "🔬\nPIP\nscience labs",
+          "content": {
+            "bold": true,
+            "italic": false,
+            "underlined": false,
+            "smoothed": true,
+            "text": "🔬\nPIP\nscience labs",
+            "font": "",
+            "characterSize": 16,
+            "color": "23;56;74",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "lineHeight": 0,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false
+          }
+        },
+        {
+          "name": "Target_aqua-dock",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Label_aqua-dock",
+          "type": "TextObject::Text",
+          "variables": [],
+          "behaviors": [],
+          "effects": [],
+          "bold": true,
+          "italic": false,
+          "underlined": false,
+          "smoothed": true,
+          "text": "🚤\nJ.A.C.C.\nsub dock",
+          "font": "",
+          "characterSize": 16,
+          "color": {
+            "r": 23,
+            "g": 56,
+            "b": 74
+          },
+          "textAlignment": "left",
+          "verticalTextAlignment": "top",
+          "lineHeight": 0,
+          "isOutlineEnabled": false,
+          "isShadowEnabled": false,
+          "string": "🚤\nJ.A.C.C.\nsub dock",
+          "content": {
+            "bold": true,
+            "italic": false,
+            "underlined": false,
+            "smoothed": true,
+            "text": "🚤\nJ.A.C.C.\nsub dock",
+            "font": "",
+            "characterSize": 16,
+            "color": "23;56;74",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "lineHeight": 0,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false
+          }
+        },
+        {
+          "name": "Target_aqua-habitat",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Label_aqua-habitat",
+          "type": "TextObject::Text",
+          "variables": [],
+          "behaviors": [],
+          "effects": [],
+          "bold": true,
+          "italic": false,
+          "underlined": false,
+          "smoothed": true,
+          "text": "🫧\nHabitat\nworkshop",
+          "font": "",
+          "characterSize": 16,
+          "color": {
+            "r": 23,
+            "g": 56,
+            "b": 74
+          },
+          "textAlignment": "left",
+          "verticalTextAlignment": "top",
+          "lineHeight": 0,
+          "isOutlineEnabled": false,
+          "isShadowEnabled": false,
+          "string": "🫧\nHabitat\nworkshop",
+          "content": {
+            "bold": true,
+            "italic": false,
+            "underlined": false,
+            "smoothed": true,
+            "text": "🫧\nHabitat\nworkshop",
+            "font": "",
+            "characterSize": 16,
+            "color": "23;56;74",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "lineHeight": 0,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false
+          }
+        },
+        {
+          "name": "Target_aqua-water",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Label_aqua-water",
+          "type": "TextObject::Text",
+          "variables": [],
+          "behaviors": [],
+          "effects": [],
+          "bold": true,
+          "italic": false,
+          "underlined": false,
+          "smoothed": true,
+          "text": "💧\nSample\nlab",
+          "font": "",
+          "characterSize": 16,
+          "color": {
+            "r": 23,
+            "g": 56,
+            "b": 74
+          },
+          "textAlignment": "left",
+          "verticalTextAlignment": "top",
+          "lineHeight": 0,
+          "isOutlineEnabled": false,
+          "isShadowEnabled": false,
+          "string": "💧\nSample\nlab",
+          "content": {
+            "bold": true,
+            "italic": false,
+            "underlined": false,
+            "smoothed": true,
+            "text": "💧\nSample\nlab",
+            "font": "",
+            "characterSize": 16,
+            "color": "23;56;74",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "lineHeight": 0,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false
+          }
+        },
+        {
+          "name": "Target_aqua-cleanup",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Label_aqua-cleanup",
+          "type": "TextObject::Text",
+          "variables": [],
+          "behaviors": [],
+          "effects": [],
+          "bold": true,
+          "italic": false,
+          "underlined": false,
+          "smoothed": true,
+          "text": "♻️\nLake\n/ ocean cleanup",
+          "font": "",
+          "characterSize": 16,
+          "color": {
+            "r": 23,
+            "g": 56,
+            "b": 74
+          },
+          "textAlignment": "left",
+          "verticalTextAlignment": "top",
+          "lineHeight": 0,
+          "isOutlineEnabled": false,
+          "isShadowEnabled": false,
+          "string": "♻️\nLake\n/ ocean cleanup",
+          "content": {
+            "bold": true,
+            "italic": false,
+            "underlined": false,
+            "smoothed": true,
+            "text": "♻️\nLake\n/ ocean cleanup",
+            "font": "",
+            "characterSize": 16,
+            "color": "23;56;74",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "lineHeight": 0,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false
+          }
+        },
+        {
+          "name": "Target_aqua-volcano",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Label_aqua-volcano",
+          "type": "TextObject::Text",
+          "variables": [],
+          "behaviors": [],
+          "effects": [],
+          "bold": true,
+          "italic": false,
+          "underlined": false,
+          "smoothed": true,
+          "text": "🌋\nVolcano\nmodel",
+          "font": "",
+          "characterSize": 16,
+          "color": {
+            "r": 23,
+            "g": 56,
+            "b": 74
+          },
+          "textAlignment": "left",
+          "verticalTextAlignment": "top",
+          "lineHeight": 0,
+          "isOutlineEnabled": false,
+          "isShadowEnabled": false,
+          "string": "🌋\nVolcano\nmodel",
+          "content": {
+            "bold": true,
+            "italic": false,
+            "underlined": false,
+            "smoothed": true,
+            "text": "🌋\nVolcano\nmodel",
+            "font": "",
+            "characterSize": 16,
+            "color": "23;56;74",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "lineHeight": 0,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false
+          }
+        },
+        {
+          "name": "Target_aqua-perch",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Label_aqua-perch",
+          "type": "TextObject::Text",
+          "variables": [],
+          "behaviors": [],
+          "effects": [],
+          "bold": true,
+          "italic": false,
+          "underlined": false,
+          "smoothed": true,
+          "text": "🐟\nLake\nfish",
+          "font": "",
+          "characterSize": 16,
+          "color": {
+            "r": 23,
+            "g": 56,
+            "b": 74
+          },
+          "textAlignment": "left",
+          "verticalTextAlignment": "top",
+          "lineHeight": 0,
+          "isOutlineEnabled": false,
+          "isShadowEnabled": false,
+          "string": "🐟\nLake\nfish",
+          "content": {
+            "bold": true,
+            "italic": false,
+            "underlined": false,
+            "smoothed": true,
+            "text": "🐟\nLake\nfish",
+            "font": "",
+            "characterSize": 16,
+            "color": "23;56;74",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "lineHeight": 0,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false
+          }
+        },
+        {
+          "name": "Target_aqua-reeds",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Label_aqua-reeds",
+          "type": "TextObject::Text",
+          "variables": [],
+          "behaviors": [],
+          "effects": [],
+          "bold": true,
+          "italic": false,
+          "underlined": false,
+          "smoothed": true,
+          "text": "🌿\nLake\nplants",
+          "font": "",
+          "characterSize": 16,
+          "color": {
+            "r": 23,
+            "g": 56,
+            "b": 74
+          },
+          "textAlignment": "left",
+          "verticalTextAlignment": "top",
+          "lineHeight": 0,
+          "isOutlineEnabled": false,
+          "isShadowEnabled": false,
+          "string": "🌿\nLake\nplants",
+          "content": {
+            "bold": true,
+            "italic": false,
+            "underlined": false,
+            "smoothed": true,
+            "text": "🌿\nLake\nplants",
+            "font": "",
+            "characterSize": 16,
+            "color": "23;56;74",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "lineHeight": 0,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false
+          }
+        },
+        {
+          "name": "Target_aqua-reef-fish",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Label_aqua-reef-fish",
+          "type": "TextObject::Text",
+          "variables": [],
+          "behaviors": [],
+          "effects": [],
+          "bold": true,
+          "italic": false,
+          "underlined": false,
+          "smoothed": true,
+          "text": "🐠\nReef\nfish",
+          "font": "",
+          "characterSize": 16,
+          "color": {
+            "r": 23,
+            "g": 56,
+            "b": 74
+          },
+          "textAlignment": "left",
+          "verticalTextAlignment": "top",
+          "lineHeight": 0,
+          "isOutlineEnabled": false,
+          "isShadowEnabled": false,
+          "string": "🐠\nReef\nfish",
+          "content": {
+            "bold": true,
+            "italic": false,
+            "underlined": false,
+            "smoothed": true,
+            "text": "🐠\nReef\nfish",
+            "font": "",
+            "characterSize": 16,
+            "color": "23;56;74",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "lineHeight": 0,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false
+          }
+        },
+        {
+          "name": "Target_aqua-dolphin",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Label_aqua-dolphin",
+          "type": "TextObject::Text",
+          "variables": [],
+          "behaviors": [],
+          "effects": [],
+          "bold": true,
+          "italic": false,
+          "underlined": false,
+          "smoothed": true,
+          "text": "🐬\nDolphin",
+          "font": "",
+          "characterSize": 16,
+          "color": {
+            "r": 23,
+            "g": 56,
+            "b": 74
+          },
+          "textAlignment": "left",
+          "verticalTextAlignment": "top",
+          "lineHeight": 0,
+          "isOutlineEnabled": false,
+          "isShadowEnabled": false,
+          "string": "🐬\nDolphin",
+          "content": {
+            "bold": true,
+            "italic": false,
+            "underlined": false,
+            "smoothed": true,
+            "text": "🐬\nDolphin",
+            "font": "",
+            "characterSize": 16,
+            "color": "23;56;74",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "lineHeight": 0,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false
+          }
+        },
+        {
+          "name": "Target_aqua-whale",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Label_aqua-whale",
+          "type": "TextObject::Text",
+          "variables": [],
+          "behaviors": [],
+          "effects": [],
+          "bold": true,
+          "italic": false,
+          "underlined": false,
+          "smoothed": true,
+          "text": "🐋\nWhale",
+          "font": "",
+          "characterSize": 16,
+          "color": {
+            "r": 23,
+            "g": 56,
+            "b": 74
+          },
+          "textAlignment": "left",
+          "verticalTextAlignment": "top",
+          "lineHeight": 0,
+          "isOutlineEnabled": false,
+          "isShadowEnabled": false,
+          "string": "🐋\nWhale",
+          "content": {
+            "bold": true,
+            "italic": false,
+            "underlined": false,
+            "smoothed": true,
+            "text": "🐋\nWhale",
+            "font": "",
+            "characterSize": 16,
+            "color": "23;56;74",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "lineHeight": 0,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false
+          }
+        },
+        {
+          "name": "Target_aqua-shark",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Label_aqua-shark",
+          "type": "TextObject::Text",
+          "variables": [],
+          "behaviors": [],
+          "effects": [],
+          "bold": true,
+          "italic": false,
+          "underlined": false,
+          "smoothed": true,
+          "text": "🦈\nShark",
+          "font": "",
+          "characterSize": 16,
+          "color": {
+            "r": 23,
+            "g": 56,
+            "b": 74
+          },
+          "textAlignment": "left",
+          "verticalTextAlignment": "top",
+          "lineHeight": 0,
+          "isOutlineEnabled": false,
+          "isShadowEnabled": false,
+          "string": "🦈\nShark",
+          "content": {
+            "bold": true,
+            "italic": false,
+            "underlined": false,
+            "smoothed": true,
+            "text": "🦈\nShark",
+            "font": "",
+            "characterSize": 16,
+            "color": "23;56;74",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "lineHeight": 0,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false
+          }
+        },
+        {
+          "name": "Target_aqua-octopus",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Label_aqua-octopus",
+          "type": "TextObject::Text",
+          "variables": [],
+          "behaviors": [],
+          "effects": [],
+          "bold": true,
+          "italic": false,
+          "underlined": false,
+          "smoothed": true,
+          "text": "🐙\nOctopus",
+          "font": "",
+          "characterSize": 16,
+          "color": {
+            "r": 23,
+            "g": 56,
+            "b": 74
+          },
+          "textAlignment": "left",
+          "verticalTextAlignment": "top",
+          "lineHeight": 0,
+          "isOutlineEnabled": false,
+          "isShadowEnabled": false,
+          "string": "🐙\nOctopus",
+          "content": {
+            "bold": true,
+            "italic": false,
+            "underlined": false,
+            "smoothed": true,
+            "text": "🐙\nOctopus",
+            "font": "",
+            "characterSize": 16,
+            "color": "23;56;74",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "lineHeight": 0,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false
+          }
+        },
+        {
+          "name": "Target_aqua-isopod",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Label_aqua-isopod",
+          "type": "TextObject::Text",
+          "variables": [],
+          "behaviors": [],
+          "effects": [],
+          "bold": true,
+          "italic": false,
+          "underlined": false,
+          "smoothed": true,
+          "text": "🦐\nGiant\nisopod",
+          "font": "",
+          "characterSize": 16,
+          "color": {
+            "r": 23,
+            "g": 56,
+            "b": 74
+          },
+          "textAlignment": "left",
+          "verticalTextAlignment": "top",
+          "lineHeight": 0,
+          "isOutlineEnabled": false,
+          "isShadowEnabled": false,
+          "string": "🦐\nGiant\nisopod",
+          "content": {
+            "bold": true,
+            "italic": false,
+            "underlined": false,
+            "smoothed": true,
+            "text": "🦐\nGiant\nisopod",
+            "font": "",
+            "characterSize": 16,
+            "color": "23;56;74",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "lineHeight": 0,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false
+          }
+        },
+        {
+          "name": "Target_aqua-angler",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Label_aqua-angler",
+          "type": "TextObject::Text",
+          "variables": [],
+          "behaviors": [],
+          "effects": [],
+          "bold": true,
+          "italic": false,
+          "underlined": false,
+          "smoothed": true,
+          "text": "🐟\nDeep-sea\nanglerfish",
+          "font": "",
+          "characterSize": 16,
+          "color": {
+            "r": 23,
+            "g": 56,
+            "b": 74
+          },
+          "textAlignment": "left",
+          "verticalTextAlignment": "top",
+          "lineHeight": 0,
+          "isOutlineEnabled": false,
+          "isShadowEnabled": false,
+          "string": "🐟\nDeep-sea\nanglerfish",
+          "content": {
+            "bold": true,
+            "italic": false,
+            "underlined": false,
+            "smoothed": true,
+            "text": "🐟\nDeep-sea\nanglerfish",
+            "font": "",
+            "characterSize": 16,
+            "color": "23;56;74",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "lineHeight": 0,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false
+          }
+        },
+        {
+          "name": "Target_aqua-brittle",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Label_aqua-brittle",
+          "type": "TextObject::Text",
+          "variables": [],
+          "behaviors": [],
+          "effects": [],
+          "bold": true,
+          "italic": false,
+          "underlined": false,
+          "smoothed": true,
+          "text": "✳️\nBrittle\nstar",
+          "font": "",
+          "characterSize": 16,
+          "color": {
+            "r": 23,
+            "g": 56,
+            "b": 74
+          },
+          "textAlignment": "left",
+          "verticalTextAlignment": "top",
+          "lineHeight": 0,
+          "isOutlineEnabled": false,
+          "isShadowEnabled": false,
+          "string": "✳️\nBrittle\nstar",
+          "content": {
+            "bold": true,
+            "italic": false,
+            "underlined": false,
+            "smoothed": true,
+            "text": "✳️\nBrittle\nstar",
+            "font": "",
+            "characterSize": 16,
+            "color": "23;56;74",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "lineHeight": 0,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false
+          }
+        },
+        {
+          "name": "Target_grounds-aquatic",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Label_grounds-aquatic",
+          "type": "TextObject::Text",
+          "variables": [],
+          "behaviors": [],
+          "effects": [],
+          "bold": true,
+          "italic": false,
+          "underlined": false,
+          "smoothed": true,
+          "text": "🌊\nAquatic\nLearning Center",
+          "font": "",
+          "characterSize": 16,
+          "color": {
+            "r": 23,
+            "g": 56,
+            "b": 74
+          },
+          "textAlignment": "left",
+          "verticalTextAlignment": "top",
+          "lineHeight": 0,
+          "isOutlineEnabled": false,
+          "isShadowEnabled": false,
+          "string": "🌊\nAquatic\nLearning Center",
+          "content": {
+            "bold": true,
+            "italic": false,
+            "underlined": false,
+            "smoothed": true,
+            "text": "🌊\nAquatic\nLearning Center",
             "font": "",
             "characterSize": 16,
             "color": "23;56;74",
@@ -16967,6 +18809,1338 @@
               ]
             }
           ]
+        },
+        {
+          "name": "AquaticArt",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "center",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "aqua-art-center",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "sub",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "aqua-art-sub",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "science",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "aqua-art-science",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "reef",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "aqua-art-reef",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "collection",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "aqua-art-collection",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "water",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "aqua-art-water",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "cleanup",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "aqua-art-cleanup",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "salinity",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "aqua-art-salinity",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "gigantism",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "aqua-art-gigantism",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "enceladus",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "aqua-art-enceladus",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "habitat",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "aqua-art-habitat",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "life-perch",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "aqua-art-life-perch",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "life-reeds",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "aqua-art-life-reeds",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "life-reef-fish",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "aqua-art-life-reef-fish",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "life-dolphin",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "aqua-art-life-dolphin",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "life-whale",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "aqua-art-life-whale",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "life-shark",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "aqua-art-life-shark",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "life-octopus",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "aqua-art-life-octopus",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "life-isopod",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "aqua-art-life-isopod",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "life-angler",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "aqua-art-life-angler",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "life-brittle",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "aqua-art-life-brittle",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "pressure-0",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "aqua-art-pressure-0",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "pressure-1",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "aqua-art-pressure-1",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "pressure-2",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "aqua-art-pressure-2",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "pressure-3",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "aqua-art-pressure-3",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "pressure-4",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "aqua-art-pressure-4",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "pressure-5",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "aqua-art-pressure-5",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "depth-0",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "aqua-art-depth-0",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "depth-1",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "aqua-art-depth-1",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "depth-2",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "aqua-art-depth-2",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "depth-3",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "aqua-art-depth-3",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "depth-4",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "aqua-art-depth-4",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "buoyancy-0",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "aqua-art-buoyancy-0",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "buoyancy-1",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "aqua-art-buoyancy-1",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "buoyancy-2",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "aqua-art-buoyancy-2",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "volcano-0",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "aqua-art-volcano-0",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "volcano-1",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "aqua-art-volcano-1",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "volcano-2",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "aqua-art-volcano-2",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "volcano-3",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "aqua-art-volcano-3",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "sonar-0",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "aqua-art-sonar-0",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "sonar-1",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "aqua-art-sonar-1",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "AquaticBackground",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "lake",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "aqua-background-lake",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "reef",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "aqua-background-reef",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "deep",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "aqua-background-deep",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "AquaticSub",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "aqua-sub",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "instances": [
@@ -19239,6 +22413,576 @@
           "name": "Label_grounds-elevator",
           "x": 410,
           "y": 269,
+          "width": 0,
+          "height": 0,
+          "customSize": false,
+          "angle": 0,
+          "zOrder": 6,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "Target_aqua-exit",
+          "x": 93,
+          "y": 425,
+          "width": 94,
+          "height": 70,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 5,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "Label_aqua-exit",
+          "x": 100,
+          "y": 429,
+          "width": 0,
+          "height": 0,
+          "customSize": false,
+          "angle": 0,
+          "zOrder": 6,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "Target_aqua-center",
+          "x": 133,
+          "y": 125,
+          "width": 94,
+          "height": 70,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 5,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "Label_aqua-center",
+          "x": 140,
+          "y": 129,
+          "width": 0,
+          "height": 0,
+          "customSize": false,
+          "angle": 0,
+          "zOrder": 6,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "Target_aqua-science",
+          "x": 353,
+          "y": 125,
+          "width": 94,
+          "height": 70,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 5,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "Label_aqua-science",
+          "x": 360,
+          "y": 129,
+          "width": 0,
+          "height": 0,
+          "customSize": false,
+          "angle": 0,
+          "zOrder": 6,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "Target_aqua-dock",
+          "x": 693,
+          "y": 125,
+          "width": 94,
+          "height": 70,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 5,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "Label_aqua-dock",
+          "x": 700,
+          "y": 129,
+          "width": 0,
+          "height": 0,
+          "customSize": false,
+          "angle": 0,
+          "zOrder": 6,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "Target_aqua-habitat",
+          "x": 853,
+          "y": 405,
+          "width": 94,
+          "height": 70,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 5,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "Label_aqua-habitat",
+          "x": 860,
+          "y": 409,
+          "width": 0,
+          "height": 0,
+          "customSize": false,
+          "angle": 0,
+          "zOrder": 6,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "Target_aqua-water",
+          "x": 453,
+          "y": 405,
+          "width": 94,
+          "height": 70,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 5,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "Label_aqua-water",
+          "x": 460,
+          "y": 409,
+          "width": 0,
+          "height": 0,
+          "customSize": false,
+          "angle": 0,
+          "zOrder": 6,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "Target_aqua-cleanup",
+          "x": 893,
+          "y": 245,
+          "width": 94,
+          "height": 70,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 5,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "Label_aqua-cleanup",
+          "x": 900,
+          "y": 249,
+          "width": 0,
+          "height": 0,
+          "customSize": false,
+          "angle": 0,
+          "zOrder": 6,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "Target_aqua-volcano",
+          "x": 453,
+          "y": 305,
+          "width": 94,
+          "height": 70,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 5,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "Label_aqua-volcano",
+          "x": 460,
+          "y": 309,
+          "width": 0,
+          "height": 0,
+          "customSize": false,
+          "angle": 0,
+          "zOrder": 6,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "Target_aqua-perch",
+          "x": 293,
+          "y": 265,
+          "width": 94,
+          "height": 70,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 5,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "Label_aqua-perch",
+          "x": 300,
+          "y": 269,
+          "width": 0,
+          "height": 0,
+          "customSize": false,
+          "angle": 0,
+          "zOrder": 6,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "Target_aqua-reeds",
+          "x": 593,
+          "y": 245,
+          "width": 94,
+          "height": 70,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 5,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "Label_aqua-reeds",
+          "x": 600,
+          "y": 249,
+          "width": 0,
+          "height": 0,
+          "customSize": false,
+          "angle": 0,
+          "zOrder": 6,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "Target_aqua-reef-fish",
+          "x": 253,
+          "y": 225,
+          "width": 94,
+          "height": 70,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 5,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "Label_aqua-reef-fish",
+          "x": 260,
+          "y": 229,
+          "width": 0,
+          "height": 0,
+          "customSize": false,
+          "angle": 0,
+          "zOrder": 6,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "Target_aqua-dolphin",
+          "x": 493,
+          "y": 205,
+          "width": 94,
+          "height": 70,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 5,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "Label_aqua-dolphin",
+          "x": 500,
+          "y": 209,
+          "width": 0,
+          "height": 0,
+          "customSize": false,
+          "angle": 0,
+          "zOrder": 6,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "Target_aqua-whale",
+          "x": 753,
+          "y": 265,
+          "width": 94,
+          "height": 70,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 5,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "Label_aqua-whale",
+          "x": 760,
+          "y": 269,
+          "width": 0,
+          "height": 0,
+          "customSize": false,
+          "angle": 0,
+          "zOrder": 6,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "Target_aqua-shark",
+          "x": 333,
+          "y": 365,
+          "width": 94,
+          "height": 70,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 5,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "Label_aqua-shark",
+          "x": 340,
+          "y": 369,
+          "width": 0,
+          "height": 0,
+          "customSize": false,
+          "angle": 0,
+          "zOrder": 6,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "Target_aqua-octopus",
+          "x": 593,
+          "y": 385,
+          "width": 94,
+          "height": 70,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 5,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "Label_aqua-octopus",
+          "x": 600,
+          "y": 389,
+          "width": 0,
+          "height": 0,
+          "customSize": false,
+          "angle": 0,
+          "zOrder": 6,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "Target_aqua-isopod",
+          "x": 253,
+          "y": 365,
+          "width": 94,
+          "height": 70,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 5,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "Label_aqua-isopod",
+          "x": 260,
+          "y": 369,
+          "width": 0,
+          "height": 0,
+          "customSize": false,
+          "angle": 0,
+          "zOrder": 6,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "Target_aqua-angler",
+          "x": 553,
+          "y": 225,
+          "width": 94,
+          "height": 70,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 5,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "Label_aqua-angler",
+          "x": 560,
+          "y": 229,
+          "width": 0,
+          "height": 0,
+          "customSize": false,
+          "angle": 0,
+          "zOrder": 6,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "Target_aqua-brittle",
+          "x": 753,
+          "y": 345,
+          "width": 94,
+          "height": 70,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 5,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "Label_aqua-brittle",
+          "x": 760,
+          "y": 349,
+          "width": 0,
+          "height": 0,
+          "customSize": false,
+          "angle": 0,
+          "zOrder": 6,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "Target_grounds-aquatic",
+          "x": 633,
+          "y": 245,
+          "width": 94,
+          "height": 70,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 5,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "Label_grounds-aquatic",
+          "x": 640,
+          "y": 249,
           "width": 0,
           "height": 0,
           "customSize": false,
@@ -25234,6 +28978,51 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "name": "AquaticArt",
+          "x": 590,
+          "y": 185,
+          "width": 285,
+          "height": 160,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 52,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "AquaticBackground",
+          "x": 0,
+          "y": 90,
+          "width": 1000,
+          "height": 430,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 0,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "AquaticSub",
+          "x": 0,
+          "y": 0,
+          "width": 130,
+          "height": 80,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 9,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "events": [
@@ -25252,6 +29041,97 @@
         {
           "type": "BuiltinCommonInstructions::JsCode",
           "inlineCode": [
+            "// Earth lake + protected ocean simulations. Not a real dive or an animal-identification guide.",
+            "const aquaticHabitats={lake:{name:'Home lake',note:'Freshwater lake training area. Marine animals are in separate ocean simulations.'},reef:{name:'Reef & open-ocean simulation',note:'Representative marine viewing windows, not wildlife living in our freshwater lake.'},deep:{name:'Deep-ocean simulation',note:'Protected depth-habitat models. Not all deep-sea animals live in the abyss.'}};",
+            "const oceanWorldPresets={earthLake:{water:'fresh',iceCovered:false,life:'Earth freshwater examples'},earthMarine:{water:'salt',iceCovered:false,life:'Earth marine examples'},enceladus:{water:'subsurface salty ocean',iceCovered:true,life:'not confirmed',parent:'Saturn'}};",
+            "const aquaticLife=[",
+            " {id:'perch',name:'Lake fish',icon:'🐟',habitat:'lake',x:340,y:300,text:'Many freshwater fish use gills to take oxygen from water. Different fish need different conditions. Our lake example is separate from the ocean simulations.'},",
+            " {id:'reeds',name:'Lake plants',icon:'🌿',habitat:'lake',x:640,y:280,text:'Aquatic plants can provide shelter and food. Plants and algae use light for photosynthesis, so depth and water clarity matter.'},",
+            " {id:'reef-fish',name:'Reef fish',icon:'🐠',habitat:'reef',x:300,y:260,text:'Reefs give many fish places to shelter and find food. Fish species have different diets and needs. We observe without taking animals.'},",
+            " {id:'dolphin',name:'Dolphin',icon:'🐬',habitat:'reef',x:540,y:240,text:'Dolphins are marine mammals, not fish. They breathe air at the surface. Many use echolocation as well as vision.'},",
+            " {id:'whale',name:'Whale',icon:'🐋',habitat:'reef',x:800,y:300,text:'Whales are mammals that breathe air. Species differ: baleen whales filter food, while toothed whales have teeth. This is an open-ocean viewing window.'},",
+            " {id:'shark',name:'Shark',icon:'🦈',habitat:'reef',x:380,y:400,text:'Sharks are fish with skeletons made mostly of cartilage. They breathe using gills. Sharks play many roles in marine food webs; they are not enemies here.'},",
+            " {id:'octopus',name:'Octopus',icon:'🐙',habitat:'reef',x:640,y:420,text:'An octopus is a soft-bodied mollusk with eight arms. Many can change color and texture to blend with their surroundings.'},",
+            " {id:'isopod',name:'Giant isopod',icon:'🦐',habitat:'deep',x:300,y:400,text:'Giant isopods are crustaceans. Some deep-sea groups have unusually large members, but gigantism is not universal. Many giant isopods live above abyssal depths.'},",
+            " {id:'angler',name:'Deep-sea anglerfish',icon:'🐟',habitat:'deep',x:600,y:260,text:'Some deep-sea anglerfish use a glowing lure to attract prey. Deep-sea animals have many different ways to find food in darkness.'},",
+            " {id:'brittle',name:'Brittle star',icon:'✳️',habitat:'deep',x:800,y:380,text:'Brittle stars are relatives of sea stars. Some species live very deep. Their flexible arms help them move and handle food.'}",
+            "];",
+            "const aquaticSamples=[{id:'water',name:'Water observation',icon:'💧',fact:'I compared a virtual water sample. Real water quality needs suitable tests.'},{id:'sediment',name:'Sediment sample',icon:'🪨',fact:'Sediment can contain fragments of rocks and remains of organisms.'},{id:'cleanup',name:'Cleanup sample',icon:'♻️',fact:'I removed simulated litter and kept a record. Marine animals stay in their habitat.'},{id:'basalt',name:'Volcanic basalt model',icon:'🌋',fact:'Basalt often forms when lava cools. This sample comes from a protected model, not a real hot vent.'},{id:'sonar',name:'Sonar map',icon:'📡',fact:'Sound echoes can help map underwater features. A sonar map is data, not a captured animal.'}];",
+            "const aquaticObjects=[",
+            " {id:'aqua-exit',x:140,y:460,icon:'🏠',name:'Lake shore',kind:'portal',to:'grounds'},",
+            " {id:'aqua-center',x:180,y:160,icon:'🌊',name:'Learning center',page:'center'},",
+            " {id:'aqua-science',x:400,y:160,icon:'🔬',name:'PIP science labs',page:'science'},",
+            " {id:'aqua-dock',x:740,y:160,icon:'🚤',name:'J.A.C.C. sub dock',page:'dock'},",
+            " {id:'aqua-habitat',x:900,y:440,icon:'🫧',name:'Habitat workshop',page:'habitat'},",
+            " {id:'aqua-water',x:500,y:440,icon:'💧',name:'Sample lab',page:'samples'},",
+            " {id:'aqua-cleanup',x:940,y:280,icon:'♻️',name:'Lake / ocean cleanup',page:'cleanup'},",
+            " {id:'aqua-volcano',x:500,y:340,icon:'🌋',name:'Volcano model',page:'volcano',habitat:'deep'},",
+            " ...aquaticLife.map(a=>({...a,id:'aqua-'+a.id,life:a.id,page:'life:'+a.id}))",
+            "].map(o=>({...o,zone:'aquatic',kind:o.kind||'aquatic'}));",
+            "function defaultAquatic(){return {version:1,habitat:'lake',vehicle:'swim',observed:[],samples:[],completed:[],modules:[],pressure:0,depth:0,ballast:0,volcano:0,salinity:false,ping:0};}",
+            "function normalizeAquatic(raw={}){const s=defaultAquatic();if(!raw||typeof raw!=='object')return s;if(aquaticHabitats[raw.habitat])s.habitat=raw.habitat;if(raw.vehicle==='sub')s.vehicle='sub';for(const [key,valid]of [['observed',aquaticLife.map(a=>a.id)],['samples',aquaticSamples.map(a=>a.id)],['completed',['pressure','depth','buoyancy','volcano','sonar','habitat','salinity']],['modules',['beam-kit','foundation-kit','tower-kit','pipe-kit','valve-kit','power-kit','printed-kit','lift-kit','robot-kit']]])s[key]=[...new Set((Array.isArray(raw[key])?raw[key]:[]).filter(v=>valid.includes(v)))];for(const [key,max]of [['pressure',5],['depth',4],['ballast',2],['volcano',3]])if(Number.isInteger(raw[key])&&raw[key]>=0&&raw[key]<=max)s[key]=raw[key];s.salinity=raw.salinity===true;s.ping=raw.ping===1?1:0;return s;}",
+            "function aquaticVisible(s,o){return !o.habitat||o.habitat===s.habitat;}",
+            "function aquaticBlocked(x,y){return x<1||x>23||y<3||y>12;}",
+            "function aquaticAction(input,a,kits=[]){const s=normalizeAquatic(input);let route=a.route||'center',travel=null,reset=false,message='';const done=id=>{if(!s.completed.includes(id))s.completed.push(id)};",
+            " if(a.type==='habitat'&&aquaticHabitats[a.value]){s.habitat=a.value;reset=true;message=aquaticHabitats[a.value].note;route='center';}",
+            " if(a.type==='vehicle'&&['swim','sub'].includes(a.value)){s.vehicle=a.value;route='dock';message=a.value==='sub'?'Submersible ready. Tap a destination to travel.':'Ready to swim. Tap a destination.';}",
+            " if(a.type==='observe'&&aquaticLife.some(l=>l.id===a.value)){if(!s.observed.includes(a.value))s.observed.push(a.value);route='life:'+a.value;message='Observation saved. The animal stays free.';}",
+            " if(a.type==='sample'&&aquaticSamples.some(l=>l.id===a.value)){if(!s.samples.includes(a.value))s.samples.push(a.value);route='collection';message='Sample record saved. I can explore again.';}",
+            " if(a.type==='step'){const limits={pressure:5,depth:4,ballast:2,volcano:3};if(a.key in limits){s[a.key]=(s[a.key]+1)%(limits[a.key]+1);if(s[a.key]===limits[a.key])done(a.key==='ballast'?'buoyancy':a.key)}}",
+            " if(a.type==='salinity'){s.salinity=!s.salinity;done('salinity');}",
+            " if(a.type==='ping'){s.ping=1-s.ping;done('sonar');if(!s.samples.includes('sonar'))s.samples.push('sonar');}",
+            " if(a.type==='fit'&&kits.includes(a.value)){if(!s.modules.includes(a.value))s.modules.push(a.value);done('habitat');route='habitat';message='Reusable habitat model fitted.';}",
+            " if(a.type==='travel')travel=a.value;",
+            " return {aquatic:s,route,travel,reset,message};",
+            "}",
+            "function aquaticView(s,route='center',kits=[]){const [page,id='0']=route.split(':'),n=Math.max(0,Number.parseInt(id)||0),go=(label,to)=>({label,type:'page',route:to}),act=(label,type,value,key)=>({label,type,value,key,route}),step=(label,key)=>act(label,'step',null,key),back=go('← Learning center','center'),v=(title,text,art,actions)=>({title,text,art,actions});",
+            " if(page==='center')return v('Aquatic Learning Center',aquaticHabitats[s.habitat].note+' Swim or ride a J.A.C.C. submersible. PIP uses aquatic gear here.','center',[go('🌊 Choose habitat','habitats'),go('🚤 Swim / sub dock','dock'),go('🔬 Science labs','science'),go('📒 My aquatic journal','collection'),go('🫧 Build a habitat','habitat')]);",
+            " if(page==='habitats')return v('Choose a training habitat','Our home lake is freshwater. The reef and deep ocean are learning simulations, not marine wildlife living in the lake.','depth-0',[...Object.entries(aquaticHabitats).map(([value,h])=>act((s.habitat===value?'✓ ':'')+h.name,'habitat',value)),back]);",
+            " if(page==='dock')return v('J.A.C.C. sub dock','One tap chooses swimming or the training submersible. Both reach every activity. No oxygen timer or damage. Your saved PIP look is kept; the swim kit is used here.','sub',[act((s.vehicle==='swim'?'✓ ':'')+'Swim','vehicle','swim'),act((s.vehicle==='sub'?'✓ ':'')+'J.A.C.C. submersible','vehicle','sub'),back]);",
+            " if(page==='science')return v('PIP aquatic science','Try a model, change a setting and repeat. The science tools do not diagnose a real dive.','science',[go('💧 Pressure','pressure'),go('⬇️ Ocean depth zones','depth'),go('🫧 Buoyancy','buoyancy'),go('🧂 Fresh / salt water','salinity'),go('🌋 Underwater volcanism','volcano'),go('More science →','more')]);",
+            " if(page==='more')return v('More aquatic science','Oceanography studies ocean systems. Marine biology studies ocean life.','reef',[go('🐠 Reef life','reef'),go('🦐 Deep-sea gigantism','gigantism'),go('📡 Sonar mapping','sonar'),go('🪐 Enceladus ocean moon','enceladus'),go('← Science labs','science'),back]);",
+            " if(page==='life'){const a=aquaticLife.find(a=>a.id===id);return a?v(a.name,a.text,'life-'+a.id,[act(s.observed.includes(a.id)?'✓ Observation saved':'📷 Save observation','observe',a.id),go('My observations','observations:0'),back]):aquaticView(s);}",
+            " if(page==='collection')return v('My aquatic journal','Keep observations and nonliving sample records. No animals or living corals are collected.','collection',[go('🐬 My observations','observations:0'),go('💧 My samples','records:0'),go('🔬 My science activities','activities'),back]);",
+            " if(page==='observations'||page==='records'){const list=page==='observations'?aquaticLife.filter(a=>s.observed.includes(a.id)):aquaticSamples.filter(a=>s.samples.includes(a.id)),chunk=list.slice(n*3,n*3+3);return v(page==='observations'?'My wildlife observations':'My aquatic samples',list.length?'Tap a saved record to look again.':'My records will appear as I explore.','collection',[...chunk.map(a=>go(a.icon+' '+a.name,page==='observations'?'life:'+a.id:'record:'+a.id)),...(n>0?[go('← Previous',page+':'+(n-1))]:[]),...(list.length>(n+1)*3?[go('Next →',page+':'+(n+1))]:[]),go('← My aquatic journal','collection')]);}",
+            " if(page==='record'){const a=aquaticSamples.find(a=>a.id===id);return v(a?.name||'Sample record',a?.fact||'Explore to save a record.','collection',[go('← My samples','records:0'),back]);}",
+            " if(page==='activities')return v('My aquatic science',s.completed.length?'I tried: '+s.completed.join(', ')+'. I can repeat them any time.':'My completed models will appear here.','science',[go('Try a model','science'),back]);",
+            " if(page==='samples')return v('Water and sediment lab','We record virtual water and sediment samples. Water quality cannot be judged by appearance alone. Sample records remain reusable.','water',[act('💧 Save water record','sample','water'),act('🪨 Save sediment sample','sample','sediment'),back]);",
+            " if(page==='cleanup')return v('Aquatic cleanup','PIP can remove simulated litter while leaving living things in place. Less litter helps protect habitats.','cleanup',[act('♻️ Collect model litter','sample','cleanup'),back]);",
+            " if(page==='pressure'){const depths=[0,10,100,1000,4000,6000],d=depths[s.pressure];return v('Pressure model','Ocean model depth: '+d+' m. Approximate total pressure: '+Math.round(1+d/10)+' atmospheres. Pressure acts in all directions and increases with depth. These are teaching approximations, not dive limits.','pressure-'+s.pressure,[step('⬇️ Change model depth','pressure'),back]);}",
+            " if(page==='depth'){const bands=[['Sunlit','roughly 0–200 m. Enough light may support photosynthesis; actual light penetration varies.'],['Twilight','roughly 200–1,000 m. Light fades and is generally insufficient for photosynthesis.'],['Midnight','roughly 1,000–4,000 m. Sunlight does not reach here.'],['Abyssal','roughly 4,000–6,000 m. Dark, cold and under high pressure.'],['Hadal','deeper than roughly 6,000 m, often in trenches. Not the depth of our home lake.']];return v('Depth zone: '+bands[s.depth][0],bands[s.depth][1]+' This is an ocean zonation model.','depth-'+s.depth,[step('⬇️ Next depth zone','depth'),back]);}",
+            " if(page==='buoyancy'){const facts=['The sub is floating. An upward buoyant force comes from displaced water.','The model has balanced weight and buoyant force: neutral buoyancy.','Adding ballast increases mass in our fixed-volume model, so it tends to sink. Real submersibles have engineered controls.'];return v('Buoyancy and ballast',facts[s.ballast],'buoyancy-'+s.ballast,[step('⚖️ Change ballast','ballast'),go('🚤 Sub dock','dock'),back]);}",
+            " if(page==='salinity')return v('Fresh and salty water',(s.salinity?'Salt-water model: at similar temperature, saltier water is denser.':'Freshwater model: our home lake is freshwater.')+' Density affects buoyancy. Real water density also depends on temperature and pressure.','salinity',[act('🧂 Compare fresh / salty','salinity'),back]);",
+            " if(page==='volcano'){const facts=['Magma rises through Earth’s crust. This is a protected seafloor model.','At the seafloor, erupted molten rock is lava. Water can cool it into rock such as basalt.','Hydrothermal vents circulate seawater heated by rock. Not every vent lies on an erupting volcano.','Some microbes use chemical energy in chemosynthesis. They can support vent food webs without local sunlight. Deep ecosystems differ.'];return v('Underwater volcano model',facts[s.volcano],'volcano-'+s.volcano,[step('▶ Next model step','volcano'),act('🌋 Save basalt model sample','sample','basalt'),back]);}",
+            " if(page==='reef')return v('Reef life','Corals are animals. Many shallow reef-building corals have photosynthetic partners. Reefs shelter many organisms, but deep-water corals can live differently.','reef',[go('Ocean habitat simulation','habitats'),back]);",
+            " if(page==='gigantism')return v('Deep-sea gigantism','Some deep-sea groups have unusually large members. Not all deep-sea life is giant. Food, life history, temperature and other factors vary; there is no single rule that depth makes everything huge.','gigantism',[go('Giant isopod record','life:isopod'),back]);",
+            " if(page==='sonar')return v('PIP sonar mapping','Sound travels through water. Returning echoes can help estimate distance and map features. Sonar is different from light-based vision. This is a schematic tool model.','sonar-'+s.ping,[act('📡 Send model ping','ping'),back]);",
+            " if(page==='enceladus')return v('Enceladus: Saturn’s ocean moon','Evidence from NASA’s Cassini mission supports a salty ocean beneath Enceladus’s icy shell. Water-rich plumes escape into space. No life has been confirmed there. This is a future-world preset, not a moon we can travel to yet.','enceladus',[go('← More science','more'),back]);",
+            " if(page==='habitat')return v('Underwater habitat workshop',s.modules.length?'My fitted model kits: '+s.modules.map(k=>k.replaceAll('-',' ')).join(', ')+'. Real underwater habitats require pressure-rated engineering and suitable life support.':'Bring reusable construction kits to fit a protected habitat model. Exploration remains open without kits.','habitat',[...kits.slice(0,3).map(k=>act('Fit '+k.replaceAll('-',' '),'fit',k)),...(kits.length>3?[go('More kits →','kits:3')]:[]),...(!kits.length?[act('Visit construction yard','travel','yard-build')]:[]),back]);",
+            " if(page==='kits')return v('Habitat model kits','Fit a saved kit. Nothing is consumed.','habitat',[...kits.slice(n,n+3).map(k=>act('Fit '+k.replaceAll('-',' '),'fit',k)),...(n>0?[go('← Previous','kits:'+Math.max(0,n-3))]:[]),...(kits.length>n+3?[go('Next →','kits:'+(n+3))]:[]),go('← Habitat workshop','habitat')]);",
+            " return aquaticView(s,'center',kits);",
+            "}",
+            "const aquaticArtKeys=['center','sub','science','reef','collection','water','cleanup','salinity','gigantism','enceladus','habitat',...aquaticLife.map(a=>'life-'+a.id),...Array.from({length:6},(_,i)=>'pressure-'+i),...Array.from({length:5},(_,i)=>'depth-'+i),...Array.from({length:3},(_,i)=>'buoyancy-'+i),...Array.from({length:4},(_,i)=>'volcano-'+i),'sonar-0','sonar-1'];",
+            "function aquaticArt(key){let a='';const fish=(x,y,color='#8cc5d7')=>`<ellipse cx=\"${x}\" cy=\"${y}\" rx=\"48\" ry=\"24\" fill=\"${color}\"/><path d=\"M${x+40} ${y}l30-25v50z\" fill=\"${color}\"/><circle cx=\"${x-25}\" cy=\"${y-6}\" r=\"4\" fill=\"#17384a\"/>`;",
+            "if(key==='enceladus')a='<circle cx=\"160\" cy=\"90\" r=\"77\" fill=\"#e6f3ee\"/><circle cx=\"160\" cy=\"90\" r=\"60\" fill=\"#5c98b5\"/><circle cx=\"160\" cy=\"90\" r=\"34\" fill=\"#9e9b8b\"/><path d=\"M160 12l-10-10m20 10 10-10\" stroke=\"#bbdde2\" stroke-width=\"7\"/>';",
+            "else if(key.includes('octopus')){a='<ellipse cx=\"160\" cy=\"65\" rx=\"43\" ry=\"37\" fill=\"#c6a7ce\"/>';for(let i=0;i<8;i++)a+=`<path d=\"M${130+i*9} 87q${i<4?-25:25} 42 ${i<4?-35:35} 55\" fill=\"none\" stroke=\"#c6a7ce\" stroke-width=\"9\"/>`;}",
+            "else if(key.includes('dolphin')||key.includes('whale'))a=fish(150,85,key.includes('whale')?'#8aabc5':'#99bfd0')+'<path d=\"M145 67l12-28 18 25M152 103l12 22 15-25\" fill=\"#99bfd0\"/>';",
+            "else if(key.includes('shark'))a=fish(150,90,'#9faeb9')+'<path d=\"M130 72l18-40 25 40\" fill=\"#9faeb9\"/>';",
+            "else if(key.includes('isopod')||key==='gigantism'){a='<ellipse cx=\"160\" cy=\"85\" rx=\"70\" ry=\"38\" fill=\"#bdc4c4\"/>';for(let x=115;x<220;x+=15)a+=`<path d=\"M${x} 55v60m0 0-10 20\" stroke=\"#778b96\" stroke-width=\"4\"/>`;}",
+            "else if(key.includes('brittle'))a='<path d=\"M160 90L75 38m85 52 80-48m-80 48-3 65m3-65-85 40m85-40 85 40\" stroke=\"#d8bc84\" stroke-width=\"13\" stroke-linecap=\"round\"/>';",
+            "else if(key==='reef'||key==='center'||key.includes('reef-fish'))a='<path d=\"M65 145V65m0 40-30-20m30 0 25-30M250 145V75m0 30-25-20m25 10 25-35\" stroke=\"#c9a8b4\" stroke-width=\"12\"/>'+fish(155,85,'#f1cf79');",
+            "else if(key.startsWith('pressure')){const i=Number(key.split('-')[1]);a='<circle cx=\"160\" cy=\"90\" r=\"40\" fill=\"#b4d2d9\" stroke=\"#eef5e9\" stroke-width=\"5\"/>';for(const [x,y,dx,dy]of [[35,90,65,0],[285,90,-65,0],[160,15,0,25],[160,165,0,-25]])a+=`<path d=\"M${x} ${y}l${dx} ${dy}\" stroke=\"#79bdd7\" stroke-width=\"${3+i}\"/>`;}",
+            "else if(key.startsWith('depth')){const i=Number(key.split('-')[1]);for(let j=0;j<5;j++)a+=`<rect x=\"70\" y=\"${15+j*30}\" width=\"180\" height=\"28\" fill=\"${['#a1dce1','#65a9c8','#39799f','#245371','#19374f'][j]}\"/>`;a+=`<path d=\"M40 ${28+i*30}h30\" stroke=\"#f1d481\" stroke-width=\"9\"/>`;}",
+            "else if(key.startsWith('volcano'))a='<path d=\"M30 155l110-80 110 80z\" fill=\"#7c8a91\"/><path d=\"M140 110v-45l15-20\" stroke=\"#e8aa6c\" stroke-width=\"14\"/><path d=\"M205 145l10-50 18 50\" stroke=\"#b9cbd0\" stroke-width=\"8\"/><circle cx=\"218\" cy=\"65\" r=\"12\" fill=\"#96c2d3\"/>';",
+            "else if(key.startsWith('sonar')){a='<ellipse cx=\"85\" cy=\"90\" rx=\"45\" ry=\"23\" fill=\"#f1d481\"/><path d=\"M265 35v115\" stroke=\"#a1b6be\" stroke-width=\"12\"/>';for(let i=0;i<3;i++)a+=`<path d=\"M${135+i*35} 55q25 35 0 70\" fill=\"none\" stroke=\"${key.endsWith('1')?'#f1d481':'#8dd6de'}\" stroke-width=\"4\"/>`;}",
+            "else if(key==='sub'||key.startsWith('buoyancy')){const y=key.endsWith('0')?55:key.endsWith('2')?130:90;a=`<ellipse cx=\"160\" cy=\"${y}\" rx=\"85\" ry=\"33\" fill=\"#f1d481\"/><circle cx=\"135\" cy=\"${y}\" r=\"18\" fill=\"#8bc1d5\"/><circle cx=\"185\" cy=\"${y}\" r=\"18\" fill=\"#8bc1d5\"/>`;}",
+            "else if(key==='habitat')a='<path d=\"M55 145V90a105 75 0 0 1 210 0v55z\" fill=\"#a1c9c3\" stroke=\"#e3efdf\" stroke-width=\"5\"/><circle cx=\"130\" cy=\"90\" r=\"18\" fill=\"#4a91b2\"/><circle cx=\"195\" cy=\"90\" r=\"18\" fill=\"#4a91b2\"/>';",
+            "else if(key==='cleanup')a='<rect x=\"70\" y=\"60\" width=\"70\" height=\"80\" rx=\"15\" fill=\"#d1d5c4\"/><path d=\"M150 85h50m-15-15 15 15-15 15\" stroke=\"#91d4c9\" stroke-width=\"7\"/><rect x=\"225\" y=\"55\" width=\"50\" height=\"90\" fill=\"#89b6aa\"/>';",
+            "else if(key.includes('reeds'))a='<path d=\"M100 150q-40-60 10-110m40 110q-20-60 15-120m35 120q40-60 10-90\" stroke=\"#91b77c\" stroke-width=\"13\" fill=\"none\"/>';",
+            "else if(key.startsWith('life'))a=fish(150,85);",
+            "else a='<path d=\"M95 30c-80 90 80 90 0 0m130 30c-80 90 80 90 0 0\" fill=\"#8bc1d5\"/>';",
+            "return '<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"320\" height=\"180\"><rect width=\"320\" height=\"180\" rx=\"18\" fill=\"#153f5a\"/>'+a+'</svg>';}",
+            "function aquaticBackdrop(habitat='lake'){const deep=habitat==='deep';let s='<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"1000\" height=\"600\"><rect width=\"1000\" height=\"600\" fill=\"'+(deep?'#132d48':habitat==='reef'?'#277fa1':'#4e919a')+'\"/><path d=\"M0 110q100-20 200 0t200 0t200 0t200 0t200 0\" stroke=\"#b8e3df\" stroke-width=\"5\" fill=\"none\"/><path d=\"M0 490q100-50 240 0t250-15t240 0t270 0v125H0z\" fill=\"'+(deep?'#43586c':'#a8b7a0')+'\"/>';if(habitat==='reef')for(const x of [70,250,600,780])s+=`<path d=\"M${x} 500v-65m0 35-25-20m25 5 25-20\" stroke=\"#c7a7b5\" stroke-width=\"15\"/>`;if(habitat==='lake')for(const x of [60,240,650,800])s+=`<path d=\"M${x} 500q-25-60 0-90m0 90q30-65 20-100\" stroke=\"#8fb78c\" stroke-width=\"9\" fill=\"none\"/>`;if(deep)s+='<path d=\"M430 510l70-100 70 100z\" fill=\"#677888\"/><path d=\"M500 470v-35\" stroke=\"#d6a078\" stroke-width=\"12\"/>';return s+'</svg>';}",
+            "",
             "// Reusable parts and connectivity/support models, not a real structural or electrical solver.",
             "const BUILD_COLS=12,BUILD_ROWS=5;",
             "const constructionParts=[['beam','Beam','═'],['block','Block','▣'],['platform','Platform','▰'],['straight','Straight pipe','━'],['elbow','Elbow pipe','┗'],['valve','Valve','◉'],['wire','Wire','⌁']];",
@@ -25482,7 +29362,7 @@
             "farmArtKeys.push('hydro-0-built','hydro-1-built');",
             "",
             "// Provisional HQ environment, shared by both builds. Ground coordinates are 1000 × 600.",
-            "const zones={dig:{id:'dig',name:'Side-view Dig Site',spawn:[180,180],exit:'dig-exit',home:'grounds-home'},engineering:{id:'engineering',name:'Engineering & Terraforming',spawn:[180,460],exit:'engineering-exit',home:'grounds-home'},hq:{id:'hq',name:'GSEI HQ',spawn:[420,460],exit:'hq-exit',home:'grounds-home'},farm:{id:'farm',name:'Planet Farm',spawn:[100,480],exit:'farm-exit',home:'grounds-home'},grounds:{id:'grounds',name:'GSEI Discovery Training Grounds',spawn:[200,500],exit:'home',home:'grounds-home'}};",
+            "const zones={aquatic:{id:'aquatic',name:'Aquatic Learning Center',spawn:[180,460],exit:'aqua-exit',home:'grounds-home'},dig:{id:'dig',name:'Side-view Dig Site',spawn:[180,180],exit:'dig-exit',home:'grounds-home'},engineering:{id:'engineering',name:'Engineering & Terraforming',spawn:[180,460],exit:'engineering-exit',home:'grounds-home'},hq:{id:'hq',name:'GSEI HQ',spawn:[420,460],exit:'hq-exit',home:'grounds-home'},farm:{id:'farm',name:'Planet Farm',spawn:[100,480],exit:'farm-exit',home:'grounds-home'},grounds:{id:'grounds',name:'GSEI Discovery Training Grounds',spawn:[200,500],exit:'home',home:'grounds-home'}};",
             "const hqObjects=[",
             " {id:'hq-map',zone:'hq',x:180,y:180,icon:'🪐',name:'Star map',kind:'inspect',text:'Our star base is a place to begin an adventure. Look at Earth, the Moon and the stars.',diagram:'🌍 → 🌙 → ✨'},",
             " {id:'hq-bay',zone:'hq',x:240,y:255,icon:'🚀',name:'Arrival bay',kind:'inspect',text:'Welcome to HQ! A landing bay gives a craft a clear place to arrive. HQ supports our adventures. The training grounds are our home hub.',diagram:'🚀 → 🛬 → 🏠'},",
@@ -25535,7 +29415,7 @@
             "function hqSvg(){return '<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"1000\" height=\"600\">'+hqPlan.map(p=>p.kind==='rect'?`<rect x=\"${p.x}\" y=\"${p.y}\" width=\"${p.w}\" height=\"${p.h}\" rx=\"3\" fill=\"${p.color}\"/>`:p.kind==='ellipse'?`<ellipse cx=\"${p.x}\" cy=\"${p.y}\" rx=\"${p.w}\" ry=\"${p.h}\" fill=\"${p.color}\"/>`:`<text x=\"${p.x}\" y=\"${p.y}\" fill=\"${p.color}\" font-size=\"${p.size}\" font-family=\"sans-serif\" font-weight=\"bold\">${p.text}</text>`).join('')+'</svg>';}",
             "",
             "// The training grounds connect every destination.",
-            "function zoneExit(from,to){return from==='grounds'?(to==='farm'?'grounds-farm':to==='dig'?'grounds-dig':to==='engineering'?'bridge':'home'):zones[from].exit;}",
+            "function zoneExit(from,to){return from==='grounds'?(to==='farm'?'grounds-farm':to==='dig'?'grounds-dig':to==='engineering'?'bridge':to==='aquatic'?'grounds-aquatic':'home'):zones[from].exit;}",
             "",
             "// Canonical names and specializations; visuals are temporary geometric placeholders.",
             "const roster=[['Alex Thompson','Red','Fleming Model — Electromagnetism'],['Malik Adeyemi','Green','Townes Model — Laser optics and computing'],['Maya Rodriguez','Pink','Allwood Model — Geology and chemistry'],['Aiden Williams','Yellow','Engineering Model — Construction and heavy engineering'],['Kaito Tanaka','White','Aeronautics Model — Flight and speed'],['Lucas Turner','Black','Generation-1 J.A.C.C.']];",
@@ -25559,11 +29439,11 @@
             "// Temporary suit-color placeholders; not production character designs.",
             "const suitColors={Red:'#cf4348',Green:'#38864a',Pink:'#d76a9d',Yellow:'#edc74d',White:'#f2f2e8',Black:'#303842'};",
             "",
-            "const objects=[...trainingObjects.map(o=>({...o,zone:'grounds'})),...hqObjects,...farmObjects,...digObjects,...engineeringObjects,...constructionStations,elevatorObject];",
+            "const objects=[...trainingObjects.map(o=>({...o,zone:'grounds'})),...hqObjects,...farmObjects,...digObjects,...engineeringObjects,...constructionStations,elevatorObject,...aquaticObjects,{id:'grounds-aquatic',zone:'grounds',x:680,y:280,icon:'🌊',name:'Aquatic Learning Center',kind:'portal',to:'aquatic'}];",
             "",
             "const COLS=25, ROWS=15, CELL=40;",
             "// The pond is blocked. Hill and ramp/platform cells are traversable automatically.",
-            "function blocked(x,y,zone='grounds'){if(zone==='dig')return false;if(zone==='engineering')return x===0||x===24||y<=2||y>=13;if(zone==='hq')return hqBlocked(x,y);if(zone==='farm')return farmBlocked(x,y);return x>=13&&x<=16&&y>=4&&y<=7;}",
+            "function blocked(x,y,zone='grounds'){if(zone==='aquatic')return aquaticBlocked(x,y);if(zone==='dig')return false;if(zone==='engineering')return x===0||x===24||y<=2||y>=13;if(zone==='hq')return hqBlocked(x,y);if(zone==='farm')return farmBlocked(x,y);return x>=13&&x<=16&&y>=4&&y<=7;}",
             "function cellAt(x,y){return [Math.max(0,Math.min(COLS-1,Math.floor(x/CELL))),Math.max(0,Math.min(ROWS-1,Math.floor(y/CELL)))];}",
             "function pathfind(from,to,zone='grounds'){const start=cellAt(...from),goal=cellAt(...to);if(blocked(...goal,zone))return [];const key=p=>p.join(',');const queue=[start],parents=new Map([[key(start),null]]);for(let i=0;i<queue.length;i++){const p=queue[i];if(key(p)===key(goal)){const out=[];let c=p;while(parents.get(key(c))!==null){out.push([c[0]*CELL+20,c[1]*CELL+20]);c=parents.get(key(c));}return out.reverse();}for(const [dx,dy] of [[1,0],[-1,0],[0,1],[0,-1]]){const n=[p[0]+dx,p[1]+dy];if(n[0]<0||n[1]<0||n[0]>=COLS||n[1]>=ROWS||blocked(...n,zone)||parents.has(key(n)))continue;parents.set(key(n),p);queue.push(n);}}return [];}",
             "",
@@ -25596,18 +29476,20 @@
             " crystal:['I climbed to the crystal lookout.','Crystals have repeating shapes.'],",
             " bridge:['I looked at a bridge.','A bridge supports a path across a gap.']",
             "};",
-            "for(const o of [...constructionStations,elevatorObject,...digObjects,...engineeringObjects])journalActivities[o.id]=['I explored '+o.name.toLowerCase()+'.','I can return and investigate again.'];",
+            "for(const o of [...aquaticObjects,...constructionStations,elevatorObject,...digObjects,...engineeringObjects])journalActivities[o.id]=['I explored '+o.name.toLowerCase()+'.','I can return and investigate again.'];",
+            "journalActivities['grounds-aquatic']=['I explored the Aquatic Learning Center.','Our home lake connects to protected ocean simulations.'];",
             "journalActivities['grounds-dig']=['I explored the dig site.','Earth materials and cave habitats tell different stories.'];",
             "for(const s of farmStations)journalActivities[s.id]=['I visited the '+s.name.toLowerCase()+'.',s.fact];",
-            "function getJournalEntries(section,found,visited,objects,materials,farm={},construction={}){",
+            "function getJournalEntries(section,found,visited,objects,materials,farm={},construction={},aquatic={}){",
+            " const aquaState=normalizeAquatic(aquatic);",
             " const farmState=normalizeFarm(farm),buildState=normalizeConstruction(construction);",
             " const seen=new Set(visited);",
             " // Older browser saves only recorded discoveries. Preserve that history.",
             " for(const id of found)if(objects.some(o=>o.id===id))seen.add(id);",
             " if(materials.some(m=>found.has(m.id)))seen.add('dig');",
-            " if(section==='experiments')return farmState.experiments.map(id=>({id:'experiment-'+id,title:farmExperiments[id][0],summary:farmExperiments[id][0],fact:'I can repeat this model and try a different choice.',icon:'🔬',target:farmExperiments[id][1]})).concat(buildState.completed.map(id=>({id:'build-'+id,title:'I tried: '+constructionProjects[id].name,summary:'I built and tested a construction model.',fact:'I can change the design and try it again.',icon:'🏗️',target:'yard-build'}))); // Observation visits are not completed experiments.",
-            " if(section==='found'||section==='minerals')return [...objects,...materials,...digFinds.filter(f=>!materials.some(m=>m.id===f.id))].filter(o=>found.has(o.id)&&(section!=='minerals'||['quartz','iron','amethyst','calcite'].includes(o.id))).map(o=>({id:o.id,title:o.name,icon:o.icon,summary:section==='minerals'?'I found '+o.name.toLowerCase()+'.':'I discovered '+o.name.toLowerCase()+'.',fact:({quartz:'Quartz is a mineral with crystal faces.',iron:'Some iron-bearing minerals are attracted to magnets.',fossil:'A fossil is a trace or remain of ancient life.'})[o.id]||journalActivities[o.id]?.[1]||o.text,target:digFinds.some(f=>f.id===o.id)?'dig-'+o.id:o.id})).concat(section==='found'?farmPlants.filter(p=>farmState.seeds.includes(p.id)).map(p=>({id:'seed-'+p.id,title:p.name+' seed',icon:p.icon,summary:'I collected a '+p.name.toLowerCase()+' sample seed.',fact:p.fact,target:'farm-bank'})):[]);",
-            " return objects.filter(o=>seen.has(o.id)&&(section!=='adventures'||(['home','plant','rock','crystal','bridge'].includes(o.id)||o.zone==='hq'||o.zone==='farm'||o.zone==='dig'||o.zone==='engineering'))).map(o=>({id:o.id,title:journalActivities[o.id][0],icon:o.icon,summary:journalActivities[o.id][0],fact:journalActivities[o.id][1],target:o.id}));",
+            " if(section==='experiments')return farmState.experiments.map(id=>({id:'experiment-'+id,title:farmExperiments[id][0],summary:farmExperiments[id][0],fact:'I can repeat this model and try a different choice.',icon:'🔬',target:farmExperiments[id][1]})).concat(buildState.completed.map(id=>({id:'build-'+id,title:'I tried: '+constructionProjects[id].name,summary:'I built and tested a construction model.',fact:'I can change the design and try it again.',icon:'🏗️',target:'yard-build'}))).concat(aquaState.completed.map(id=>({id:'aquatic-'+id,title:'I tried aquatic science: '+id,summary:'I explored an underwater model.',fact:'I can change the model and repeat.',icon:'🌊',target:'aqua-science'}))); // Observation visits are not completed experiments.",
+            " if(section==='found'||section==='minerals')return [...objects,...materials,...digFinds.filter(f=>!materials.some(m=>m.id===f.id))].filter(o=>found.has(o.id)&&(section!=='minerals'||['quartz','iron','amethyst','calcite'].includes(o.id))).map(o=>({id:o.id,title:o.name,icon:o.icon,summary:section==='minerals'?'I found '+o.name.toLowerCase()+'.':'I discovered '+o.name.toLowerCase()+'.',fact:({quartz:'Quartz is a mineral with crystal faces.',iron:'Some iron-bearing minerals are attracted to magnets.',fossil:'A fossil is a trace or remain of ancient life.'})[o.id]||journalActivities[o.id]?.[1]||o.text,target:digFinds.some(f=>f.id===o.id)?'dig-'+o.id:o.id})).concat(section==='found'?farmPlants.filter(p=>farmState.seeds.includes(p.id)).map(p=>({id:'seed-'+p.id,title:p.name+' seed',icon:p.icon,summary:'I collected a '+p.name.toLowerCase()+' sample seed.',fact:p.fact,target:'farm-bank'})):[]).concat(section==='found'?[...aquaticLife.filter(a=>aquaState.observed.includes(a.id)).map(a=>({id:'observation-'+a.id,title:a.name,icon:a.icon,summary:'I observed '+a.name.toLowerCase()+'.',fact:a.text,target:'aqua-'+a.id})),...aquaticSamples.filter(a=>aquaState.samples.includes(a.id)).map(a=>({id:'aquatic-sample-'+a.id,title:a.name,icon:a.icon,summary:'I saved a '+a.name.toLowerCase()+' record.',fact:a.fact,target:'aqua-water'}))]:[]);",
+            " return objects.filter(o=>seen.has(o.id)&&(section!=='adventures'||(['home','plant','rock','crystal','bridge'].includes(o.id)||o.zone==='hq'||o.zone==='farm'||o.zone==='dig'||o.zone==='engineering'||o.zone==='aquatic'))).map(o=>({id:o.id,title:journalActivities[o.id][0],icon:o.icon,summary:journalActivities[o.id][0],fact:journalActivities[o.id][1],target:o.id}));",
             "}",
             "",
             "// Original schematic placeholders. No licensed character artwork or permanent PIP design.",
@@ -25642,7 +29524,7 @@
             "// Native GDevelop workshop: no embedded web view or runtime dependencies.",
             "const pipWorkshopUI=['PipBlueprint','PipBlueprintLabel','WorkshopNote','PipGhost','ScienceModel',...['travel','trim','body','eyes','tool'].map(n=>'Workshop'+n),...Array.from({length:5},(_,i)=>['PipTab'+i,'PipTabLabel'+i,'PipAction'+i,'PipActionLabel'+i]).flat(),...Array.from({length:4},(_,i)=>['PipPart'+i,'PipPartLabel'+i]).flat()];",
             "function nativePipLayer(name,slot,config){const options=slot==='body'?pipPalette:pipGroups.find(g=>g.id===slot).parts;obj(name).setAnimation(options.findIndex(p=>p.id===config[slot==='body'?'color':slot]));}",
-            "function nativePipUpdate(){for(const slot of ['travel','trim','body','eyes','tool']){const name=slot==='body'?'PipRobot':'Pip'+slot;obj(name).setPosition(actor.getX()-58,actor.getY()-35);nativePipLayer(name,slot,s.pip);if(s.overlay==='PIP Workshop')nativePipLayer('Workshop'+slot,slot,s.pip);}}",
+            "function nativePipUpdate(){for(const slot of ['travel','trim','body','eyes','tool']){const name=slot==='body'?'PipRobot':'Pip'+slot;obj(name).setPosition(actor.getX()-58,actor.getY()-35);nativePipLayer(name,slot,s.zone==='aquatic'?{...s.pip,travel:'swim'}:s.pip);if(s.overlay==='PIP Workshop')nativePipLayer('Workshop'+slot,slot,s.pip);}}",
             "function nativePipFit(slot,id){s.pip=attachPip(s.pip,slot,id);const part=slot==='color'?pipPalette.find(p=>p.id===id):pipGroups.find(g=>g.id===slot).parts.find(p=>p.id===id);nativePipWorkshop(s.pipTab,s.pipPage);text('WorkshopNote','Fitted: '+part.name+'. '+(part.note||'My buddy has a new color.'));say('PIP fitted: '+part.name);}",
             "function nativePipWorkshop(tab='travel',page=0){s.pipTab=tab;s.pipPage=page;open('PIP Workshop','Tap a part. Or drag it onto PIP.','');obj('CardBody').hide();obj('CardVisual').hide();for(const n of ['PipBlueprint','PipBlueprintLabel','WorkshopNote',...['travel','trim','body','eyes','tool'].map(n=>'Workshop'+n)])obj(n).hide(false);text('WorkshopNote','Tap to attach. Dragging is optional. PIP is always safe.');",
             " const groups=[...pipGroups,{id:'color',title:'Colors',icon:'🎨'}];for(let i=0;i<groups.length;i++){const g=groups[i];obj('PipTab'+i).hide(false);obj('PipTabLabel'+i).hide(false);text('PipTabLabel'+i,(g.id===tab?'✓ ':'')+g.title);s.buttons.push({name:'PipTab'+i,fn:()=>nativePipWorkshop(g.id,0)});}",
@@ -25670,34 +29552,37 @@
             "function nativeConstructionUpdate(dt){const c=s.construction,board=!!c.active,orbit=c.orbit,view=board||orbit;for(let i=0;i<3;i++)obj('BuildMarker'+i).hide(!board||!['pipes','power','water'].includes(c.active));if(board&&c.active==='power'){text('BuildMarker0','+');obj('BuildMarker0').setPosition(140,248);text('BuildMarker1','−');obj('BuildMarker1').setPosition(140,368);text('BuildMarker2',constructionPower(c)?'💡':'○');obj('BuildMarker2').setPosition(795,310);}else if(board){text('BuildMarker0','💧');obj('BuildMarker0').setPosition(136,310);text('BuildMarker1',c.active==='water'&&c.boards.water[30]?.rotation%2===1?'○':'💧');obj('BuildMarker1').setPosition(795,310);obj('BuildMarker2').hide();}for(const kind of ['printer','crane','robot']){obj('YardMachine'+kind).hide(s.zone!=='engineering'||view);obj('YardMachine'+kind).setAnimation(c[kind]);}obj('BuildBackground').hide(!board);obj('OrbitBackground').hide(!orbit);obj('OrbitSun').hide(!orbit);obj('HomeElevatorModel').hide(s.zone!=='grounds'||c.elevator<1||view);obj('BuildNote').hide(!view);for(let i=0;i<3;i++)obj('OrbitPlanet'+i).hide(!orbit);for(let i=0;i<6;i++){obj('BuildTool'+i).hide(!view||(orbit&&i>0));obj('BuildToolLabel'+i).hide(!view||(orbit&&i>0));if(view)text('BuildToolLabel'+i,orbit?'Home Base':['Test model','Undo','Reset','Plan','Robot build','Yard'][i]);}for(let i=0;i<5;i++){obj('BuildPart'+i).hide(true);obj('BuildPartLabel'+i).hide(true);}for(const tile of runtimeScene.getObjects('ConstructionCells')){tile.hide(!board);if(board){const x=Math.round((tile.getX()-120)/60),y=Math.round((tile.getY()-180)/60),fixed=buildFixed(c.active,x,y),placed=c.boards[c.active][y*12+x],hint=c.hints?constructionProjects[c.active].solution.find(p=>p[0]===x&&p[1]===y):null,cell=fixed?(c.active==='power'&&x===11?{part:y===2?'wire':'elbow',rotation:y===1?2:y===3?3:1}:{part:['pipes','water'].includes(c.active)?'straight':c.active==='power'?'wire':'block',rotation:0}):placed|| (hint?{part:hint[2],rotation:hint[3]}:{part:'empty',rotation:0});tile.setAnimation(constructionCellKeys.indexOf(cell.part+'-'+cell.rotation));tile.setOpacity(!fixed&&!placed&&hint?100:255);}}",
             "if(board){const palette=constructionPalette(c.active);palette.forEach((p,i)=>{obj('BuildPart'+i).hide(false);obj('BuildPartLabel'+i).hide(false);text('BuildPartLabel'+i,(c.selected===p?'✓ ':'')+constructionParts.find(v=>v[0]===p)[1]);});if(['pipes','water','power'].includes(c.active)){obj('BuildPart3').hide(false);obj('BuildPartLabel3').hide(false);text('BuildPartLabel3',c.active==='power'?'Source '+(c.power?'ON':'OFF'):'Rotate next');}obj('BuildPart4').hide(false);obj('BuildPartLabel4').hide(false);text('BuildPartLabel4','My parts');text('BuildNote',constructionProjects[c.active].name+' | '+c.selected+' | Tap to place. Pipes rotate; blocks remove on a second tap.');}",
             "if(orbit){if(!s.paused&&!s.overlay&&!s.settings.reduced)c.phase=(c.phase||0)+dt*.35;text('BuildNote','Training orbital preview. Planets orbit a star; the station is our viewpoint. Not to scale.');for(let i=0;i<3;i++){const phase=(c.phase||0)/(i+1)+i;obj('OrbitPlanet'+i).setPosition(510+Math.cos(phase)*(100+i*65)-15,340+Math.sin(phase)*(50+i*35)-15);}}",
-            "if(view){for(const o of objects){obj('Target_'+o.id).hide();obj('Label_'+o.id).hide();}}else{for(const o of objects){const hide=o.zone!==s.zone||(s.zone==='dig'&&!digVisible(s.excavation,o));obj('Target_'+o.id).hide(hide);obj('Label_'+o.id).hide(hide);}}",
+            "if(view){for(const o of objects){obj('Target_'+o.id).hide();obj('Label_'+o.id).hide();}}else{for(const o of objects){const hide=o.zone!==s.zone||(s.zone==='aquatic'&&!aquaticVisible(s.aquatic,o))||(s.zone==='dig'&&!digVisible(s.excavation,o));obj('Target_'+o.id).hide(hide);obj('Label_'+o.id).hide(hide);}}",
             "obj('Marker').hide(view||!s.settings.effects);actor.hide(view);for(const slot of ['travel','trim','body','eyes','tool'])obj(slot==='body'?'PipRobot':'Pip'+slot).hide(view);",
             "}",
             "",
             "// Local game progress only. No accounts, network requests or personal information.",
             "function nativeLoadProfile(){try{const raw=JSON.parse(localStorage.getItem('jacc-native-v1')||'{}');return raw&&typeof raw==='object'?raw:{}}catch{return {}}}",
             "function nativeProfileSettings(raw){const v=raw&&typeof raw==='object'?raw:{};return {volume:typeof v.volume==='number'&&Number.isFinite(v.volume)?Math.max(0,Math.min(1,v.volume)):.3,narration:v.narration===true,reduced:v.reduced===true,effects:v.effects!==false};}",
-            "function nativeSaveProfile(){try{if(typeof localStorage==='undefined')return false;const data={version:1,construction:normalizeConstruction(s.construction),farm:normalizeFarm(s.farm),designs:normalizeDesigns(s.designs),excavation:normalizeDig(s.excavation),crew:s.crew,pip:normalizePip(s.pip),found:[...s.found],visited:[...s.visited],settings:s.settings};const text=JSON.stringify(data);if(text!==s.saveHash){localStorage.setItem('jacc-native-v1',text);s.saveHash=text;}return true}catch{return false}}",
+            "function nativeSaveProfile(){try{if(typeof localStorage==='undefined')return false;const data={version:1,aquatic:normalizeAquatic(s.aquatic),construction:normalizeConstruction(s.construction),farm:normalizeFarm(s.farm),designs:normalizeDesigns(s.designs),excavation:normalizeDig(s.excavation),crew:s.crew,pip:normalizePip(s.pip),found:[...s.found],visited:[...s.visited],settings:s.settings};const text=JSON.stringify(data);if(text!==s.saveHash){localStorage.setItem('jacc-native-v1',text);s.saveHash=text;}return true}catch{return false}}",
+            "",
+            "function nativeAquatic(route='center',message=''){const v=aquaticView(s.aquatic,route,s.construction.kits);open(v.title,v.text,'',v.actions.map(a=>[a.label,()=>{const r=aquaticAction(s.aquatic,a,s.construction.kits);s.aquatic=r.aquatic;if(r.travel){close();select(objects.find(o=>o.id===r.travel));return}if(r.reset){s.path=[];s.pending=null;actor.setPosition(160,415);}nativeAquatic(r.route,r.message)}]));obj('CardVisual').hide();obj('CardBody').setCharacterSize(17);text('CardBody',v.text.replace(/(.{1,46})(?:\\s|$)/g,'$1\\n').trim());obj('AquaticArt').hide(false);obj('AquaticArt').setAnimation(Math.max(0,aquaticArtKeys.indexOf(v.art)));if(s.buttons.length<6){const i=s.buttons.length;obj('Option'+i).hide(false);obj('OptionLabel'+i).hide(false);text('OptionLabel'+i,'Listen');s.buttons.push({name:'Option'+i,fn:()=>listenJournal(v.text)});}if(message)say(message);}",
+            "function nativeAquaticUpdate(){const visible=s.zone==='aquatic'&&!s.construction.active&&!s.construction.orbit;obj('AquaticBackground').hide(!visible);obj('AquaticSub').hide(!visible||s.aquatic.vehicle!=='sub');if(visible){obj('AquaticBackground').setAnimation(['lake','reef','deep'].indexOf(s.aquatic.habitat));obj('AquaticSub').setPosition(actor.getX()-44,actor.getY()-5);}}",
             "",
             "// Runs once per frame as a native GDevelop JavaScript event.",
             "const obj=name=>runtimeScene.getObjects(name)[0];",
             "const text=(name,value)=>obj(name).setString(value);",
             "if(!runtimeScene.__jacc){",
             " const profile=nativeLoadProfile();const known=new Set([...objects.map(o=>o.id),...materials.map(o=>o.id),...digFinds.map(o=>o.id)]);",
-            " runtimeScene.__jacc={construction:normalizeConstruction(profile.construction),excavation:normalizeDig(profile.excavation),designs:normalizeDesigns(profile.designs),farm:normalizeFarm(profile.farm),zone:'grounds',journey:null,pip:normalizePip(profile.pip),pipTab:'travel',pipPage:0,crew:Number.isInteger(profile.crew)&&profile.crew>=0&&profile.crew<6?profile.crew:0,started:false,paused:false,path:[],pending:null,dig:0,action:0,found:new Set((Array.isArray(profile.found)?profile.found:[]).filter(id=>known.has(id))),visited:new Set((Array.isArray(profile.visited)?profile.visited:[]).filter(id=>known.has(id))),last:null,overlay:null,buttons:[],focus:0,tab:false,enter:false,settings:nativeProfileSettings(profile.settings)};",
+            " runtimeScene.__jacc={aquatic:normalizeAquatic(profile.aquatic),construction:normalizeConstruction(profile.construction),excavation:normalizeDig(profile.excavation),designs:normalizeDesigns(profile.designs),farm:normalizeFarm(profile.farm),zone:'grounds',journey:null,pip:normalizePip(profile.pip),pipTab:'travel',pipPage:0,crew:Number.isInteger(profile.crew)&&profile.crew>=0&&profile.crew<6?profile.crew:0,started:false,paused:false,path:[],pending:null,dig:0,action:0,found:new Set((Array.isArray(profile.found)?profile.found:[]).filter(id=>known.has(id))),visited:new Set((Array.isArray(profile.visited)?profile.visited:[]).filter(id=>known.has(id))),last:null,overlay:null,buttons:[],focus:0,tab:false,enter:false,settings:nativeProfileSettings(profile.settings)};",
             "}",
             "const s=runtimeScene.__jacc,actor=obj('Alex');",
             "const say=message=>{text('Status',message);if(s.settings.narration&&typeof speechSynthesis!=='undefined'){speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(message);u.volume=s.settings.volume;speechSynthesis.speak(u)}};",
             "const crewUI=Array.from({length:6},(_,i)=>['CrewCard'+i,'CrewPortrait'+i,'CrewName'+i,'CrewDetail'+i]).flat();",
-            "const ui=['ConstructionArt','DigArt','DesignArt','FarmArt',...pipWorkshopUI,...crewUI,'Panel','CardTitle','CardBody','CardVisual','Close','CloseLabel',...Array.from({length:6},(_,i)=>['Option'+i,'OptionLabel'+i]).flat()];",
+            "const ui=['AquaticArt','ConstructionArt','DigArt','DesignArt','FarmArt',...pipWorkshopUI,...crewUI,'Panel','CardTitle','CardBody','CardVisual','Close','CloseLabel',...Array.from({length:6},(_,i)=>['Option'+i,'OptionLabel'+i]).flat()];",
             "function close(){s.overlay=null;for(const n of ui)obj(n).hide();}",
             "function open(title,body,visual,options=[]){s.overlay=title;s.buttons=[];obj('CardBody').setCharacterSize(19);obj('WorkshopNote').setPosition(125,435);for(const n of ui)obj(n).hide();for(const n of ['Panel','CardTitle','CardBody','CardVisual','Close','CloseLabel'])obj(n).hide(false);text('CardTitle',title);text('CardBody',body.replace(/(.{1,64})(?:\\s|$)/g,'$1\\n').trim());text('CardVisual',visual);options.slice(0,6).forEach(([label,fn],i)=>{obj('Option'+i).hide(false);obj('OptionLabel'+i).hide(false);text('OptionLabel'+i,label);s.buttons.push({name:'Option'+i,fn})});say(title+'. '+body);}",
-            "function nativeActiveObjects(){return objects.filter(o=>!s.construction.active&&!s.construction.orbit&&o.zone===s.zone&&(s.zone!=='dig'||digVisible(s.excavation,o)))}",
-            "function nativeZone(id){s.zone=id;if(id==='dig'){s.excavation.level=0;s.excavation.path=[];s.excavation.target=null;}s.journey=null;s.pending=null;s.path=[];s.action=0;const [x,y]=zones[id].spawn;actor.setPosition(x-20,y-45);for(const name of ['Ground','Hill','Path','Trail','TopTrail','Pond','Platform','Ramp'])obj(name).hide(id!=='grounds');obj('HQBackdrop').hide(id!=='hq');obj('FarmBackdrop').hide(id!=='farm');obj('DigBackground').hide(id!=='dig');obj('EngineeringBackground').hide(id!=='engineering');for(const o of objects){obj('Target_'+o.id).hide(o.zone!==id);obj('Label_'+o.id).hide(o.zone!==id)}text('Title','J.A.C.C. | '+(id==='grounds'?'Training Grounds':zones[id].name));nativeDigVisibility();say('Welcome to '+zones[id].name+'.');}",
-            "function select(o){if(!o||s.paused)return;s.started=true;s.construction.active=null;s.construction.orbit=false;s.journey=null;if(o.zone!==s.zone){s.journey=o.id;o=objects.find(x=>x.id===zoneExit(s.zone,o.zone))}if(s.zone==='dig'){if(o.level!==s.excavation.level)nativeDigLevel(o.level);nativeDigSelect(o.x,o.y,o.id);return}s.path=pathfind([actor.getX()+20,actor.getY()+45],[o.x-65,o.y+55],s.zone);s.pending=o;s.action=0;say('Going to '+o.name);if(!s.path.length){s.pending=null;const here=cellAt(actor.getX()+20,actor.getY()+45),goal=cellAt(o.x-65,o.y+55);if(here.join()===goal.join()&&!blocked(...goal,s.zone))arrive(o);else{s.journey=null;say('Choose a clear path to explore.');}}}",
+            "function nativeActiveObjects(){return objects.filter(o=>!s.construction.active&&!s.construction.orbit&&o.zone===s.zone&&(s.zone!=='aquatic'||aquaticVisible(s.aquatic,o))&&(s.zone!=='dig'||digVisible(s.excavation,o)))}",
+            "function nativeZone(id){s.zone=id;if(id==='aquatic')s.aquatic.habitat='lake';if(id==='dig'){s.excavation.level=0;s.excavation.path=[];s.excavation.target=null;}s.journey=null;s.pending=null;s.path=[];s.action=0;const [x,y]=zones[id].spawn;actor.setPosition(x-20,y-45);for(const name of ['Ground','Hill','Path','Trail','TopTrail','Pond','Platform','Ramp'])obj(name).hide(id!=='grounds');obj('HQBackdrop').hide(id!=='hq');obj('FarmBackdrop').hide(id!=='farm');obj('DigBackground').hide(id!=='dig');obj('EngineeringBackground').hide(id!=='engineering');for(const o of objects){obj('Target_'+o.id).hide(o.zone!==id);obj('Label_'+o.id).hide(o.zone!==id)}text('Title','J.A.C.C. | '+(id==='grounds'?'Training Grounds':zones[id].name));nativeDigVisibility();say('Welcome to '+zones[id].name+'.');}",
+            "function select(o){if(!o||s.paused)return;s.started=true;s.construction.active=null;s.construction.orbit=false;s.journey=null;if(o.zone!==s.zone){s.journey=o.id;o=objects.find(x=>x.id===zoneExit(s.zone,o.zone))}if(s.zone==='aquatic'&&o.habitat&&o.habitat!==s.aquatic.habitat){s.aquatic.habitat=o.habitat;actor.setPosition(160,415);}if(s.zone==='dig'){if(o.level!==s.excavation.level)nativeDigLevel(o.level);nativeDigSelect(o.x,o.y,o.id);return}s.path=pathfind([actor.getX()+20,actor.getY()+45],[o.x-65,o.y+55],s.zone);s.pending=o;s.action=0;say('Going to '+o.name);if(!s.path.length){s.pending=null;const here=cellAt(actor.getX()+20,actor.getY()+45),goal=cellAt(o.x-65,o.y+55);if(here.join()===goal.join()&&!blocked(...goal,s.zone))arrive(o);else{s.journey=null;say('Choose a clear path to explore.');}}}",
             "",
             "function card(o){open(o.name,o.text,o.icon+'   '+o.diagram,[['Listen / replay',()=>{say(o.text);if(typeof speechSynthesis!=='undefined'){speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(o.text);u.volume=s.settings.volume;speechSynthesis.speak(u)}}],['Revisit',()=>{close();select(objects.find(x=>x.id===o.id)||objects.find(x=>x.find===o.id)||objects.find(x=>x.id==='dig'))}],...(o.id==='hq-map'?[['Go exploring',()=>{close();select(objects.find(x=>x.id==='hq-exit'))}]]:[]),...(o.id==='hq-lab'?[['Find a sample',()=>{close();select(objects.find(x=>x.id==='dig'))}]]:[]),...(o.id==='hq-bunks'?[['Rest here',()=>{close();s.paused=true;text('PauseLabel','Resume');say('Resting. Resume whenever you are ready.')}]]:[]),...(materials.some(m=>m.id===o.id)?[['Ask PIP',()=>nativePipAnalysis(o.id)]]:[])]);}",
-            "function arrive(o){s.last=o.id;if(o.kind!=='dig')s.visited.add(o.id);if(o.kind==='portal'){const next=s.journey;nativeZone(o.to);if(next)select(objects.find(x=>x.id===next));return}if(o.kind==='construction'){nativeConstructionPage(o.page);return}if(o.kind==='diglevel'){nativeDigLevel(o.nextLevel);return}if(o.kind==='digtools'){nativeDigLesson('tools');return}if(o.kind==='diglesson'){nativeDigLesson(o.lesson);return}if(o.kind==='digfind'){s.found.add(o.find);card(digFinds.find(f=>f.id===o.find));return}if(o.kind==='engineering'){nativeEngineering(o.project);return}if(o.kind==='farm'){nativeFarm(o.page);return}if(o.kind==='workshop'){nativePipWorkshop();return}if(o.kind==='crew'){crewMenu();return}if(o.kind==='home'){say('Welcome home to the training grounds. Choose an adventure.');return}if(o.kind==='dig'){s.action=s.settings.reduced?.2:1.2;say('Digging through the soil...');return}s.found.add(o.id);card(o)}",
+            "function arrive(o){s.last=o.id;if(o.kind!=='dig')s.visited.add(o.id);if(o.kind==='portal'){const next=s.journey;nativeZone(o.to);if(next)select(objects.find(x=>x.id===next));return}if(o.kind==='aquatic'){if(o.life&&!s.aquatic.observed.includes(o.life))s.aquatic.observed.push(o.life);nativeAquatic(o.page);return}if(o.kind==='construction'){nativeConstructionPage(o.page);return}if(o.kind==='diglevel'){nativeDigLevel(o.nextLevel);return}if(o.kind==='digtools'){nativeDigLesson('tools');return}if(o.kind==='diglesson'){nativeDigLesson(o.lesson);return}if(o.kind==='digfind'){s.found.add(o.find);card(digFinds.find(f=>f.id===o.find));return}if(o.kind==='engineering'){nativeEngineering(o.project);return}if(o.kind==='farm'){nativeFarm(o.page);return}if(o.kind==='workshop'){nativePipWorkshop();return}if(o.kind==='crew'){crewMenu();return}if(o.kind==='home'){say('Welcome home to the training grounds. Choose an adventure.');return}if(o.kind==='dig'){s.action=s.settings.reduced?.2:1.2;say('Digging through the soil...');return}s.found.add(o.id);card(o)}",
             "function crewMenu(){open('J.A.C.C. Crew','Tap an astronaut. Everyone can explore every activity.','');for(let i=0;i<roster.length;i++){const r=roster[i];for(const name of ['CrewCard','CrewPortrait','CrewName','CrewDetail'])obj(name+i).hide(false);text('CrewName'+i,(s.crew===i?'[Selected] ':'')+r[0]);text('CrewDetail'+i,(r[1]+' suit | '+r[2]).replace(/(.{1,29})(?:\\s|$)/g,'$1\\n').trim());s.buttons.push({name:'CrewCard'+i,fn:()=>{s.crew=i;actor.setAnimation(i);text('ActiveCrew',r[0]+' | '+r[1]+' | '+r[2]);close();say(r[0]+' selected. '+r[2])}});}}",
             "function pip(){open('PIP','Choose a picture. Your astronaut will walk there and explore.','PIP  >  TAP  >  DISCOVER',[",
             " ['Show places',()=>{close();if(s.zone==='dig'){s.excavation.hints=true;nativeDigVisibility();}s.settings.effects=true;nativeActiveObjects().forEach(o=>obj('Target_'+o.id).setOpacity(190));say('The cream pictures are places to explore.')}],",
@@ -25712,7 +29597,7 @@
             " ...journalSections.map(section=>[section.icon+' '+section.title,()=>journalPage(section.id)]),",
             " ['Listen',()=>listenJournal('My journal. Choose what I did, what I discovered, my adventures, my experiments, or my minerals.')]",
             " ]);}",
-            "function journalPage(id,page=0){const section=journalSections.find(x=>x.id===id),entries=getJournalEntries(id,s.found,s.visited,objects,materials,s.farm,s.construction),chunk=entries.slice(page*3,page*3+3);const options=chunk.map(e=>[e.icon+' '+e.title,()=>journalDetail(e,id,page)]);if(!entries.length)options.push(['Explore',()=>{close();select(objects.find(o=>o.id===section.target))}]);options.push(['My Journal',journal]);if(page>0)options.push(['Previous page',()=>journalPage(id,page-1)]);if(entries.length>(page+1)*3)options.push(['Next page',()=>journalPage(id,page+1)]);if(options.length<6)options.push(['Listen',()=>listenJournal(section.title+'. '+(entries.length?chunk.map(e=>e.summary).join(' '):section.empty))]);open(section.title,entries.length?section.intro:section.empty,section.icon,options);}",
+            "function journalPage(id,page=0){const section=journalSections.find(x=>x.id===id),entries=getJournalEntries(id,s.found,s.visited,objects,materials,s.farm,s.construction,s.aquatic),chunk=entries.slice(page*3,page*3+3);const options=chunk.map(e=>[e.icon+' '+e.title,()=>journalDetail(e,id,page)]);if(!entries.length)options.push(['Explore',()=>{close();select(objects.find(o=>o.id===section.target))}]);options.push(['My Journal',journal]);if(page>0)options.push(['Previous page',()=>journalPage(id,page-1)]);if(entries.length>(page+1)*3)options.push(['Next page',()=>journalPage(id,page+1)]);if(options.length<6)options.push(['Listen',()=>listenJournal(section.title+'. '+(entries.length?chunk.map(e=>e.summary).join(' '):section.empty))]);open(section.title,entries.length?section.intro:section.empty,section.icon,options);}",
             "function journalDetail(entry,section,page){open(entry.title,entry.summary+'\\n'+entry.fact,entry.icon,[['Listen',()=>listenJournal(entry.summary+' '+entry.fact)],['Do It Again',()=>{close();select(objects.find(o=>o.id===entry.target))}],['Back to '+journalSections.find(x=>x.id===section).title,()=>journalPage(section,page)]]);}",
             "",
             "function nativeFarm(route='home',message=''){const v=farmView(s.farm,route);open(v.title,v.body,'',v.actions.map(a=>[a.label,()=>{const result=farmAction(s.farm,a.action);s.farm=result.farm;if(result.travel){close();select(objects.find(o=>o.id===result.travel))}else nativeFarm(result.route,result.message)}]));obj('CardBody').setCharacterSize(17);text('CardBody',(message?message+'\\n':'')+v.body.replace(/(.{1,46})(?:\\s|$)/g,'$1\\n').trim());obj('CardVisual').hide();obj('FarmArt').hide(false);obj('FarmArt').setAnimation(Math.max(0,farmArtKeys.indexOf(farmArtKey(s.farm,route))));if(s.buttons.length<6){const i=s.buttons.length;obj('Option'+i).hide(false);obj('OptionLabel'+i).hide(false);text('OptionLabel'+i,'Listen');s.buttons.push({name:'Option'+i,fn:()=>listenJournal(v.body)})}}",
@@ -25747,10 +29632,10 @@
             "}",
             "const dt=Math.min(gdjs.evtTools.runtimeScene.getElapsedTimeInSeconds(runtimeScene),.05);",
             "if(!s.paused&&!s.overlay&&!s.construction.active&&!s.construction.orbit){",
-            " if(s.zone==='dig')nativeDigTick(dt);else if(s.path.length){const [x,y]=s.path[0],ax=actor.getX()+20,ay=actor.getY()+45,dx=x-ax,dy=y-ay,d=Math.hypot(dx,dy),step=150*dt;if(d<=step){actor.setPosition(x-20,y-45);s.path.shift();if(!s.path.length&&s.pending){const o=s.pending;s.pending=null;arrive(o)}}else actor.setPosition(actor.getX()+dx/d*step,actor.getY()+dy/d*step);}",
+            " if(s.zone==='dig')nativeDigTick(dt);else if(s.path.length){const [x,y]=s.path[0],ax=actor.getX()+20,ay=actor.getY()+45,dx=x-ax,dy=y-ay,d=Math.hypot(dx,dy),step=(s.zone==='aquatic'&&s.aquatic.vehicle==='sub'?190:150)*dt;if(d<=step){actor.setPosition(x-20,y-45);s.path.shift();if(!s.path.length&&s.pending){const o=s.pending;s.pending=null;arrive(o)}}else actor.setPosition(actor.getX()+dx/d*step,actor.getY()+dy/d*step);}",
             " if(s.action>0){s.action-=dt;if(s.action<=0){const m=materials[s.dig++%materials.length];s.visited.add('dig');s.found.add(m.id);card(m)}}",
             "}",
-            "nativePipUpdate();nativeConstructionUpdate(dt);obj('AidenRig').hide(s.zone!=='dig'||s.crew!==3);obj('PipRig').hide(s.zone!=='dig'||!s.excavation.path.length);obj('PipRig').setPosition(obj('PipRobot').getX()+45,obj('PipRobot').getY()+40);obj('AidenRig').setPosition(actor.getX()+35,actor.getY()+24);for(const key of ['bridge','water','habitat'])obj('FarmBuilt'+key).hide(s.zone!=='farm'||!(s.farm.upgrades[key]||(key==='water'?s.farm.constructionModules.some(k=>['pipe-kit','valve-kit'].includes(k)):key==='bridge'?s.farm.constructionModules.some(k=>['beam-kit','foundation-kit','tower-kit'].includes(k)):s.farm.constructionModules.includes('printed-kit'))));",
+            "nativePipUpdate();nativeConstructionUpdate(dt);nativeAquaticUpdate();obj('AidenRig').hide(s.zone!=='dig'||s.crew!==3);obj('PipRig').hide(s.zone!=='dig'||!s.excavation.path.length);obj('PipRig').setPosition(obj('PipRobot').getX()+45,obj('PipRobot').getY()+40);obj('AidenRig').setPosition(actor.getX()+35,actor.getY()+24);for(const key of ['bridge','water','habitat'])obj('FarmBuilt'+key).hide(s.zone!=='farm'||!(s.farm.upgrades[key]||(key==='water'?s.farm.constructionModules.some(k=>['pipe-kit','valve-kit'].includes(k)):key==='bridge'?s.farm.constructionModules.some(k=>['beam-kit','foundation-kit','tower-kit'].includes(k)):s.farm.constructionModules.includes('printed-kit'))));",
             "obj('Focus').setZOrder(s.overlay?51:s.construction.active||s.construction.orbit?7:3);obj('Focus').setOpacity(actions[s.focus].object?80:255);",
             "obj('Focus').setPosition((actions[s.focus].object||obj(actions[s.focus].name)).getX()-5,(actions[s.focus].object||obj(actions[s.focus].name)).getY()-5);obj('Focus').setWidth((actions[s.focus].object||obj(actions[s.focus].name)).getWidth()+10);obj('Focus').setHeight((actions[s.focus].object||obj(actions[s.focus].name)).getHeight()+10);",
             "",

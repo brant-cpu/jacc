@@ -1,3 +1,4 @@
+import {aquaticObjects} from './aquatic.js';
 import {constructionStations,elevatorObject} from './construction.js';
 import {digObjects,engineeringObjects} from './excavation.js';
 import {farmObjects} from './farm.js';
@@ -24,4 +25,4 @@ export const modes={exploration:{phase:1,status:'playable'},geology:{phase:1,sta
 // Temporary suit-color placeholders; not production character designs.
 export const suitColors={Red:'#cf4348',Green:'#38864a',Pink:'#d76a9d',Yellow:'#edc74d',White:'#f2f2e8',Black:'#303842'};
 
-export const objects=[...trainingObjects.map(o=>({...o,zone:'grounds'})),...hqObjects,...farmObjects,...digObjects,...engineeringObjects,...constructionStations,elevatorObject];
+export const objects=[...trainingObjects.map(o=>({...o,zone:'grounds'})),...hqObjects,...farmObjects,...digObjects,...engineeringObjects,...constructionStations,elevatorObject,...aquaticObjects,{id:'grounds-aquatic',zone:'grounds',x:680,y:280,icon:'🌊',name:'Aquatic Learning Center',kind:'portal',to:'aquatic'}];

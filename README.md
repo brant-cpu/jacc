@@ -39,3 +39,9 @@ The engineering portal leads to starter sample-guided workbenches. Select a reus
 From the home hub, choose **Engineering zone**. Visit the **3D printer**, **Crane bay**, **Builder robots**, **Pipe workshop**, **Power workshop**, **Construction challenges**, or **Free-build sandbox**. Tap prefabs into the side-view board, then Test model. Undo, Reset, Plan and Robot build are always available; no resources are spent.
 
 Complete the six challenges and three machine demonstrations to keep nine reusable kits. **My parts** fits kits at the farm. **Space elevator project** at Home Base assembles a training foundation/tower/dock and unlocks an animated orbital preview. The giant elevator and generated My Solar System are future systems, not completed real-scale simulations. See [construction model details and validation limits](docs/CONSTRUCTION_MODELS.md).
+
+## Aquatic Learning Center
+
+At the home hub lake, tap **Aquatic Learning Center**. Choose swimming or the **J.A.C.C. submersible**, then explore the freshwater lake or the reef/open-ocean and deep-ocean simulations. PIP automatically wears aquatic gear without changing its saved outfit. Observe fish, dolphins, whales, sharks, octopuses and deep-sea examples; keep nonliving sample records; repeat pressure, depth, buoyancy, sonar and volcano models. Discoveries appear in My Journal. Reusable construction kits fit the habitat model.
+
+The Enceladus page introduces Saturn's icy ocean moon and a future ocean-world preset. Moon travel is not implemented. See [aquatic science, validation and asset requirements](docs/AQUATIC_SCIENCE.md).
