@@ -4086,6 +4086,14 @@
         "smoothed": true
       },
       {
+        "name": "build-art-professor",
+        "kind": "image",
+        "file": "assets/build-art-professor.png",
+        "metadata": "",
+        "userAdded": true,
+        "smoothed": true
+      },
+      {
         "name": "build-art-yard",
         "kind": "image",
         "file": "assets/build-art-yard.png",
@@ -22633,6 +22641,327 @@
             "underlined": false,
             "smoothed": true,
             "text": "🌱\nHabitat\n/ terraforming",
+            "font": "",
+            "characterSize": 16,
+            "color": "23;56;74",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "lineHeight": 0,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false
+          }
+        },
+        {
+          "name": "Target_hq-elon",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "High contrast",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button-hc",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Label_hq-elon",
+          "type": "TextObject::Text",
+          "variables": [],
+          "behaviors": [],
+          "effects": [],
+          "bold": true,
+          "italic": false,
+          "underlined": false,
+          "smoothed": true,
+          "text": "🧑‍🔬\nProfessor\nElon",
+          "font": "",
+          "characterSize": 16,
+          "color": {
+            "r": 23,
+            "g": 56,
+            "b": 74
+          },
+          "textAlignment": "left",
+          "verticalTextAlignment": "top",
+          "lineHeight": 0,
+          "isOutlineEnabled": false,
+          "isShadowEnabled": false,
+          "string": "🧑‍🔬\nProfessor\nElon",
+          "content": {
+            "bold": true,
+            "italic": false,
+            "underlined": false,
+            "smoothed": true,
+            "text": "🧑‍🔬\nProfessor\nElon",
+            "font": "",
+            "characterSize": 16,
+            "color": "23;56;74",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "lineHeight": 0,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false
+          }
+        },
+        {
+          "name": "Target_yard-elon",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "High contrast",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button-hc",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Label_yard-elon",
+          "type": "TextObject::Text",
+          "variables": [],
+          "behaviors": [],
+          "effects": [],
+          "bold": true,
+          "italic": false,
+          "underlined": false,
+          "smoothed": true,
+          "text": "🧑‍🔬\nProfessor\nElon",
+          "font": "",
+          "characterSize": 16,
+          "color": {
+            "r": 23,
+            "g": 56,
+            "b": 74
+          },
+          "textAlignment": "left",
+          "verticalTextAlignment": "top",
+          "lineHeight": 0,
+          "isOutlineEnabled": false,
+          "isShadowEnabled": false,
+          "string": "🧑‍🔬\nProfessor\nElon",
+          "content": {
+            "bold": true,
+            "italic": false,
+            "underlined": false,
+            "smoothed": true,
+            "text": "🧑‍🔬\nProfessor\nElon",
+            "font": "",
+            "characterSize": 16,
+            "color": "23;56;74",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "lineHeight": 0,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false
+          }
+        },
+        {
+          "name": "Target_flight-elon",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "High contrast",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button-hc",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Label_flight-elon",
+          "type": "TextObject::Text",
+          "variables": [],
+          "behaviors": [],
+          "effects": [],
+          "bold": true,
+          "italic": false,
+          "underlined": false,
+          "smoothed": true,
+          "text": "🧑‍🔬\nProfessor\nElon",
+          "font": "",
+          "characterSize": 16,
+          "color": {
+            "r": 23,
+            "g": 56,
+            "b": 74
+          },
+          "textAlignment": "left",
+          "verticalTextAlignment": "top",
+          "lineHeight": 0,
+          "isOutlineEnabled": false,
+          "isShadowEnabled": false,
+          "string": "🧑‍🔬\nProfessor\nElon",
+          "content": {
+            "bold": true,
+            "italic": false,
+            "underlined": false,
+            "smoothed": true,
+            "text": "🧑‍🔬\nProfessor\nElon",
             "font": "",
             "characterSize": 16,
             "color": "23;56;74",
@@ -41455,6 +41784,35 @@
           "effects": [],
           "behaviors": [],
           "animations": [
+            {
+              "name": "professor",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "build-art-professor",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
             {
               "name": "yard",
               "useMultipleDirections": false,
@@ -247321,6 +247679,96 @@
           "initialVariables": []
         },
         {
+          "name": "Target_hq-elon",
+          "x": 733,
+          "y": 220,
+          "width": 94,
+          "height": 70,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 5,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "Label_hq-elon",
+          "x": 740,
+          "y": 224,
+          "width": 0,
+          "height": 0,
+          "customSize": false,
+          "angle": 0,
+          "zOrder": 6,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "Target_yard-elon",
+          "x": 603,
+          "y": 115,
+          "width": 94,
+          "height": 70,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 5,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "Label_yard-elon",
+          "x": 610,
+          "y": 119,
+          "width": 0,
+          "height": 0,
+          "customSize": false,
+          "angle": 0,
+          "zOrder": 6,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "Target_flight-elon",
+          "x": 653,
+          "y": 385,
+          "width": 94,
+          "height": 70,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 5,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "Label_flight-elon",
+          "x": 660,
+          "y": 389,
+          "width": 0,
+          "height": 0,
+          "customSize": false,
+          "angle": 0,
+          "zOrder": 6,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
           "name": "Target_yard-free",
           "x": 433,
           "y": 425,
@@ -263179,8 +263627,8 @@
             "function displayPreferences(raw={}){return {highContrast:raw?.highContrast===true,colorBlind:raw?.colorBlind===true};}",
             "function destinationBadge(objects,id){const o=objects.find(o=>o.id===id);return o?String(objects.filter(x=>x.zone===o.zone).findIndex(x=>x.id===id)+1):'';}",
             "",
-            "const displaySprites=[\"Footer\",\"PipButton\",\"CrewButton\",\"SuitButton\",\"JournalButton\",\"SettingsButton\",\"PauseButton\",\"WordsButton\",\"AccessButton\",\"VisitButton\",\"PlacesButton\",\"Target_yard-my-machines\",\"Target_yard-machine-test\",\"Target_grounds-elevator-adventure\",\"Target_grounds-chapterEarth\",\"Target_hq-chapters\",\"Target_coding-exit\",\"Target_coding-malik\",\"Target_coding-mike\",\"Target_coding-binary\",\"Target_coding-sequence\",\"Target_coding-rule\",\"Target_coding-syntax\",\"Target_coding-ai\",\"Target_coding-nextdoor\",\"Target_robotics-exit\",\"Target_robotics-mike\",\"Target_robotics-kaito\",\"Target_robotics-sensors\",\"Target_robotics-build\",\"Target_robotics-drone\",\"Target_robotics-jobs\",\"Target_robotics-care\",\"Target_robotics-nextdoor\",\"Target_robotics-pip\",\"Target_machineyard-exit\",\"Target_machineyard-console\",\"Target_machineyard-pad-0\",\"Target_machineyard-pad-1\",\"Target_machineyard-pad-2\",\"Target_elevator-exit\",\"Target_elevator-system\",\"Target_elevator-inspect\",\"Target_elevator-rescue\",\"Target_elevator-next\",\"Target_elevator-hint\",\"Target_chapterEarth-exit\",\"Target_chapterEarth-quartz\",\"Target_chapterEarth-iron\",\"Target_chapterEarth-tested\",\"Target_chapterEarth-station\",\"Target_chapterEarth-clue\",\"Target_chapterEarth-launch\",\"Target_chapterMoon-exit\",\"Target_chapterMoon-basalt\",\"Target_chapterMoon-guard1\",\"Target_chapterMoon-machine1\",\"Target_chapterMoon-guard2\",\"Target_chapterMoon-machine2\",\"Target_chapterMoon-energy\",\"Target_chapterMoon-finished\",\"Target_chapterMoon-tickship\",\"Target_magnetism-exit\",\"Target_magnetism-poles\",\"Target_magnetism-materials\",\"Target_magnetism-coil\",\"Target_magnetism-generator\",\"Target_flight-exit\",\"Target_flight-pad\",\"Target_flight-cloud\",\"Target_flight-windsock\",\"Target_flight-balloon\",\"Target_flight-high\",\"Target_flight-return-pad\",\"Target_forest-exit\",\"Target_forest-oak\",\"Target_forest-hollow\",\"Target_forest-bridge\",\"Target_forest-pollinator\",\"Target_forest-fern\",\"Target_forest-pine\",\"Target_forest-soil\",\"Target_diglands-exit\",\"Target_diglands-quartz\",\"Target_diglands-fossil\",\"Target_diglands-iron\",\"Target_diglands-cavern\",\"Target_diglands-water\",\"Target_diglands-basalt\",\"Target_diglands-lift\",\"Target_grounds-flight\",\"Target_grounds-forest\",\"Target_grounds-open-dig\",\"Target_grounds-dig\",\"Target_grounds-home\",\"Target_grounds-farm\",\"Target_home\",\"Target_plant\",\"Target_rock\",\"Target_dig\",\"Target_magnet\",\"Target_crystal\",\"Target_bridge\",\"Target_hq-map\",\"Target_hq-bay\",\"Target_hq-lab\",\"Target_hq-pip\",\"Target_hq-bunks\",\"Target_hq-locker\",\"Target_hq-home\",\"Target_hq-exit\",\"Target_hq-computers\",\"Target_hq-robotics\",\"Target_farm-hydro\",\"Target_farm-biodome\",\"Target_farm-garden\",\"Target_farm-orchard\",\"Target_farm-vertical\",\"Target_farm-solar\",\"Target_farm-water\",\"Target_farm-power\",\"Target_farm-bank\",\"Target_farm-computer\",\"Target_farm-leaf\",\"Target_farm-robot\",\"Target_farm-bed-0\",\"Target_farm-bed-1\",\"Target_farm-bed-2\",\"Target_farm-exit\",\"Target_dig-exit\",\"Target_dig-tools\",\"Target_dig-quartz\",\"Target_dig-iron\",\"Target_dig-fossil\",\"Target_dig-amethyst\",\"Target_dig-calcite\",\"Target_dig-granite\",\"Target_dig-basalt\",\"Target_dig-deeper\",\"Target_dig-layers\",\"Target_cave-up\",\"Target_cave-life\",\"Target_cave-pigment\",\"Target_cave-echo\",\"Target_cave-formations\",\"Target_cave-water\",\"Target_cave-lava\",\"Target_cave-mantle\",\"Target_engineering-exit\",\"Target_engineering-bridge\",\"Target_engineering-water\",\"Target_engineering-habitat\",\"Target_yard-free\",\"Target_yard-printer\",\"Target_yard-crane\",\"Target_yard-robots\",\"Target_yard-build\",\"Target_yard-pipes\",\"Target_yard-power\",\"Target_grounds-elevator\",\"Target_aqua-exit\",\"Target_aqua-center\",\"Target_aqua-science\",\"Target_aqua-dock\",\"Target_aqua-habitat\",\"Target_aqua-water\",\"Target_aqua-cleanup\",\"Target_aqua-route\",\"Target_aqua-find-pebbles\",\"Target_aqua-find-leaf-litter\",\"Target_aqua-find-empty-shell\",\"Target_aqua-find-reef-sand\",\"Target_aqua-find-rock-arch\",\"Target_aqua-find-seafloor-core\",\"Target_aqua-volcano\",\"Target_aqua-perch\",\"Target_aqua-reeds\",\"Target_aqua-reef-fish\",\"Target_aqua-dolphin\",\"Target_aqua-whale\",\"Target_aqua-shark\",\"Target_aqua-octopus\",\"Target_aqua-isopod\",\"Target_aqua-angler\",\"Target_aqua-brittle\",\"Target_grounds-aquatic\",\"Target_forest-maple-seed\",\"Target_chapterEarth-bean-seed\",\"Target_chapterMoon-lettuce-seed\",\"Panel\",\"Close\",\"Option0\",\"Option1\",\"Option2\",\"Option3\",\"Option4\",\"Option5\",\"CrewCard0\",\"CrewCard1\",\"CrewCard2\",\"CrewCard3\",\"CrewCard4\",\"CrewCard5\",\"CrewCard6\",\"CrewCard7\",\"CrewPreviousButton\",\"CrewNextButton\",\"PipTab0\",\"PipTab1\",\"PipTab2\",\"PipTab3\",\"PipTab4\",\"PipPart0\",\"PipPart1\",\"PipPart2\",\"PipPart3\",\"PipAction0\",\"PipAction1\",\"PipAction2\",\"PipAction3\",\"PipAction4\",\"EngineeringBackground\",\"BuildTool0\",\"BuildTool1\",\"BuildTool2\",\"BuildTool3\",\"BuildTool4\",\"BuildTool5\",\"BuildPart0\",\"BuildPart1\",\"BuildPart2\",\"BuildPart3\",\"BuildPart4\",\"AccessNotice\"];",
-            "const displayTexts=[{\"name\":\"Title\",\"color\":\"239;248;245\",\"light\":true},{\"name\":\"PipLabel\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"CrewLabel\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"SuitLabel\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"JournalLabel\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"SettingsLabel\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"PauseLabel\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"WordsLabel\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"AccessLabel\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"VisitLabel\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"PlacesLabel\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"ActiveCrew\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Status\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_yard-my-machines\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_yard-machine-test\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_grounds-elevator-adventure\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_grounds-chapterEarth\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_hq-chapters\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_coding-exit\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_coding-malik\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_coding-mike\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_coding-binary\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_coding-sequence\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_coding-rule\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_coding-syntax\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_coding-ai\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_coding-nextdoor\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_robotics-exit\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_robotics-mike\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_robotics-kaito\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_robotics-sensors\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_robotics-build\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_robotics-drone\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_robotics-jobs\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_robotics-care\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_robotics-nextdoor\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_robotics-pip\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_machineyard-exit\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_machineyard-console\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_machineyard-pad-0\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_machineyard-pad-1\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_machineyard-pad-2\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_elevator-exit\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_elevator-system\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_elevator-inspect\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_elevator-rescue\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_elevator-next\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_elevator-hint\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_chapterEarth-exit\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_chapterEarth-quartz\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_chapterEarth-iron\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_chapterEarth-tested\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_chapterEarth-station\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_chapterEarth-clue\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_chapterEarth-launch\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_chapterMoon-exit\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_chapterMoon-basalt\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_chapterMoon-guard1\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_chapterMoon-machine1\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_chapterMoon-guard2\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_chapterMoon-machine2\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_chapterMoon-energy\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_chapterMoon-finished\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_chapterMoon-tickship\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_magnetism-exit\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_magnetism-poles\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_magnetism-materials\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_magnetism-coil\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_magnetism-generator\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_flight-exit\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_flight-pad\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_flight-cloud\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_flight-windsock\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_flight-balloon\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_flight-high\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_flight-return-pad\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_forest-exit\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_forest-oak\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_forest-hollow\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_forest-bridge\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_forest-pollinator\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_forest-fern\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_forest-pine\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_forest-soil\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_diglands-exit\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_diglands-quartz\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_diglands-fossil\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_diglands-iron\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_diglands-cavern\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_diglands-water\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_diglands-basalt\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_diglands-lift\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_grounds-flight\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_grounds-forest\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_grounds-open-dig\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_grounds-dig\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_grounds-home\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_grounds-farm\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_home\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_plant\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_rock\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_dig\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_magnet\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_crystal\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_bridge\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_hq-map\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_hq-bay\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_hq-lab\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_hq-pip\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_hq-bunks\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_hq-locker\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_hq-home\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_hq-exit\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_hq-computers\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_hq-robotics\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_farm-hydro\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_farm-biodome\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_farm-garden\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_farm-orchard\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_farm-vertical\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_farm-solar\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_farm-water\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_farm-power\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_farm-bank\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_farm-computer\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_farm-leaf\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_farm-robot\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_farm-bed-0\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_farm-bed-1\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_farm-bed-2\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_farm-exit\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_dig-exit\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_dig-tools\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_dig-quartz\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_dig-iron\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_dig-fossil\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_dig-amethyst\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_dig-calcite\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_dig-granite\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_dig-basalt\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_dig-deeper\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_dig-layers\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_cave-up\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_cave-life\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_cave-pigment\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_cave-echo\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_cave-formations\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_cave-water\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_cave-lava\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_cave-mantle\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_engineering-exit\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_engineering-bridge\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_engineering-water\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_engineering-habitat\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_yard-free\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_yard-printer\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_yard-crane\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_yard-robots\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_yard-build\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_yard-pipes\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_yard-power\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_grounds-elevator\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_aqua-exit\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_aqua-center\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_aqua-science\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_aqua-dock\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_aqua-habitat\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_aqua-water\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_aqua-cleanup\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_aqua-route\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_aqua-find-pebbles\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_aqua-find-leaf-litter\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_aqua-find-empty-shell\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_aqua-find-reef-sand\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_aqua-find-rock-arch\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_aqua-find-seafloor-core\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_aqua-volcano\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_aqua-perch\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_aqua-reeds\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_aqua-reef-fish\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_aqua-dolphin\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_aqua-whale\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_aqua-shark\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_aqua-octopus\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_aqua-isopod\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_aqua-angler\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_aqua-brittle\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_grounds-aquatic\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_forest-maple-seed\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_chapterEarth-bean-seed\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_chapterMoon-lettuce-seed\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"CardTitle\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"CardBody\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"CardVisual\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"CloseLabel\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"OptionLabel0\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"OptionLabel1\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"OptionLabel2\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"OptionLabel3\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"OptionLabel4\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"OptionLabel5\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"CrewName0\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"CrewDetail0\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"CrewName1\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"CrewDetail1\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"CrewName2\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"CrewDetail2\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"CrewName3\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"CrewDetail3\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"CrewName4\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"CrewDetail4\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"CrewName5\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"CrewDetail5\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"CrewName6\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"CrewDetail6\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"CrewName7\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"CrewDetail7\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"CrewPreviousLabel\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"CrewNextLabel\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"PipBlueprintLabel\",\"color\":\"23;56;74\",\"light\":true},{\"name\":\"WorkshopNote\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"PipTabLabel0\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"PipTabLabel1\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"PipTabLabel2\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"PipTabLabel3\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"PipTabLabel4\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"PipPartLabel0\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"PipPartLabel1\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"PipPartLabel2\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"PipPartLabel3\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"PipActionLabel0\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"PipActionLabel1\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"PipActionLabel2\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"PipActionLabel3\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"PipActionLabel4\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"BuildToolLabel0\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"BuildToolLabel1\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"BuildToolLabel2\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"BuildToolLabel3\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"BuildToolLabel4\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"BuildToolLabel5\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"BuildPartLabel0\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"BuildPartLabel1\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"BuildPartLabel2\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"BuildPartLabel3\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"BuildPartLabel4\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"BuildNote\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"BuildMarker0\",\"color\":\"239;248;245\",\"light\":false},{\"name\":\"BuildMarker1\",\"color\":\"239;248;245\",\"light\":false},{\"name\":\"BuildMarker2\",\"color\":\"239;248;245\",\"light\":false},{\"name\":\"AccessCaption\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"ElevatorObjective\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"MachinePreviewLabel0\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"MachinePreviewLabel1\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"MachinePreviewLabel2\",\"color\":\"23;56;74\",\"light\":false}];",
+            "const displaySprites=[\"Footer\",\"PipButton\",\"CrewButton\",\"SuitButton\",\"JournalButton\",\"SettingsButton\",\"PauseButton\",\"WordsButton\",\"AccessButton\",\"VisitButton\",\"PlacesButton\",\"Target_yard-my-machines\",\"Target_yard-machine-test\",\"Target_grounds-elevator-adventure\",\"Target_grounds-chapterEarth\",\"Target_hq-chapters\",\"Target_coding-exit\",\"Target_coding-malik\",\"Target_coding-mike\",\"Target_coding-binary\",\"Target_coding-sequence\",\"Target_coding-rule\",\"Target_coding-syntax\",\"Target_coding-ai\",\"Target_coding-nextdoor\",\"Target_robotics-exit\",\"Target_robotics-mike\",\"Target_robotics-kaito\",\"Target_robotics-sensors\",\"Target_robotics-build\",\"Target_robotics-drone\",\"Target_robotics-jobs\",\"Target_robotics-care\",\"Target_robotics-nextdoor\",\"Target_robotics-pip\",\"Target_machineyard-exit\",\"Target_machineyard-console\",\"Target_machineyard-pad-0\",\"Target_machineyard-pad-1\",\"Target_machineyard-pad-2\",\"Target_elevator-exit\",\"Target_elevator-system\",\"Target_elevator-inspect\",\"Target_elevator-rescue\",\"Target_elevator-next\",\"Target_elevator-hint\",\"Target_chapterEarth-exit\",\"Target_chapterEarth-quartz\",\"Target_chapterEarth-iron\",\"Target_chapterEarth-tested\",\"Target_chapterEarth-station\",\"Target_chapterEarth-clue\",\"Target_chapterEarth-launch\",\"Target_chapterMoon-exit\",\"Target_chapterMoon-basalt\",\"Target_chapterMoon-guard1\",\"Target_chapterMoon-machine1\",\"Target_chapterMoon-guard2\",\"Target_chapterMoon-machine2\",\"Target_chapterMoon-energy\",\"Target_chapterMoon-finished\",\"Target_chapterMoon-tickship\",\"Target_magnetism-exit\",\"Target_magnetism-poles\",\"Target_magnetism-materials\",\"Target_magnetism-coil\",\"Target_magnetism-generator\",\"Target_flight-exit\",\"Target_flight-pad\",\"Target_flight-cloud\",\"Target_flight-windsock\",\"Target_flight-balloon\",\"Target_flight-high\",\"Target_flight-return-pad\",\"Target_forest-exit\",\"Target_forest-oak\",\"Target_forest-hollow\",\"Target_forest-bridge\",\"Target_forest-pollinator\",\"Target_forest-fern\",\"Target_forest-pine\",\"Target_forest-soil\",\"Target_diglands-exit\",\"Target_diglands-quartz\",\"Target_diglands-fossil\",\"Target_diglands-iron\",\"Target_diglands-cavern\",\"Target_diglands-water\",\"Target_diglands-basalt\",\"Target_diglands-lift\",\"Target_grounds-flight\",\"Target_grounds-forest\",\"Target_grounds-open-dig\",\"Target_grounds-dig\",\"Target_grounds-home\",\"Target_grounds-farm\",\"Target_home\",\"Target_plant\",\"Target_rock\",\"Target_dig\",\"Target_magnet\",\"Target_crystal\",\"Target_bridge\",\"Target_hq-map\",\"Target_hq-bay\",\"Target_hq-lab\",\"Target_hq-pip\",\"Target_hq-bunks\",\"Target_hq-locker\",\"Target_hq-home\",\"Target_hq-exit\",\"Target_hq-computers\",\"Target_hq-robotics\",\"Target_farm-hydro\",\"Target_farm-biodome\",\"Target_farm-garden\",\"Target_farm-orchard\",\"Target_farm-vertical\",\"Target_farm-solar\",\"Target_farm-water\",\"Target_farm-power\",\"Target_farm-bank\",\"Target_farm-computer\",\"Target_farm-leaf\",\"Target_farm-robot\",\"Target_farm-bed-0\",\"Target_farm-bed-1\",\"Target_farm-bed-2\",\"Target_farm-exit\",\"Target_dig-exit\",\"Target_dig-tools\",\"Target_dig-quartz\",\"Target_dig-iron\",\"Target_dig-fossil\",\"Target_dig-amethyst\",\"Target_dig-calcite\",\"Target_dig-granite\",\"Target_dig-basalt\",\"Target_dig-deeper\",\"Target_dig-layers\",\"Target_cave-up\",\"Target_cave-life\",\"Target_cave-pigment\",\"Target_cave-echo\",\"Target_cave-formations\",\"Target_cave-water\",\"Target_cave-lava\",\"Target_cave-mantle\",\"Target_engineering-exit\",\"Target_engineering-bridge\",\"Target_engineering-water\",\"Target_engineering-habitat\",\"Target_hq-elon\",\"Target_yard-elon\",\"Target_flight-elon\",\"Target_yard-free\",\"Target_yard-printer\",\"Target_yard-crane\",\"Target_yard-robots\",\"Target_yard-build\",\"Target_yard-pipes\",\"Target_yard-power\",\"Target_grounds-elevator\",\"Target_aqua-exit\",\"Target_aqua-center\",\"Target_aqua-science\",\"Target_aqua-dock\",\"Target_aqua-habitat\",\"Target_aqua-water\",\"Target_aqua-cleanup\",\"Target_aqua-route\",\"Target_aqua-find-pebbles\",\"Target_aqua-find-leaf-litter\",\"Target_aqua-find-empty-shell\",\"Target_aqua-find-reef-sand\",\"Target_aqua-find-rock-arch\",\"Target_aqua-find-seafloor-core\",\"Target_aqua-volcano\",\"Target_aqua-perch\",\"Target_aqua-reeds\",\"Target_aqua-reef-fish\",\"Target_aqua-dolphin\",\"Target_aqua-whale\",\"Target_aqua-shark\",\"Target_aqua-octopus\",\"Target_aqua-isopod\",\"Target_aqua-angler\",\"Target_aqua-brittle\",\"Target_grounds-aquatic\",\"Target_forest-maple-seed\",\"Target_chapterEarth-bean-seed\",\"Target_chapterMoon-lettuce-seed\",\"Panel\",\"Close\",\"Option0\",\"Option1\",\"Option2\",\"Option3\",\"Option4\",\"Option5\",\"CrewCard0\",\"CrewCard1\",\"CrewCard2\",\"CrewCard3\",\"CrewCard4\",\"CrewCard5\",\"CrewCard6\",\"CrewCard7\",\"CrewPreviousButton\",\"CrewNextButton\",\"PipTab0\",\"PipTab1\",\"PipTab2\",\"PipTab3\",\"PipTab4\",\"PipPart0\",\"PipPart1\",\"PipPart2\",\"PipPart3\",\"PipAction0\",\"PipAction1\",\"PipAction2\",\"PipAction3\",\"PipAction4\",\"EngineeringBackground\",\"BuildTool0\",\"BuildTool1\",\"BuildTool2\",\"BuildTool3\",\"BuildTool4\",\"BuildTool5\",\"BuildPart0\",\"BuildPart1\",\"BuildPart2\",\"BuildPart3\",\"BuildPart4\",\"AccessNotice\"];",
+            "const displayTexts=[{\"name\":\"Title\",\"color\":\"239;248;245\",\"light\":true},{\"name\":\"PipLabel\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"CrewLabel\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"SuitLabel\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"JournalLabel\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"SettingsLabel\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"PauseLabel\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"WordsLabel\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"AccessLabel\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"VisitLabel\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"PlacesLabel\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"ActiveCrew\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Status\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_yard-my-machines\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_yard-machine-test\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_grounds-elevator-adventure\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_grounds-chapterEarth\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_hq-chapters\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_coding-exit\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_coding-malik\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_coding-mike\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_coding-binary\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_coding-sequence\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_coding-rule\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_coding-syntax\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_coding-ai\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_coding-nextdoor\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_robotics-exit\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_robotics-mike\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_robotics-kaito\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_robotics-sensors\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_robotics-build\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_robotics-drone\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_robotics-jobs\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_robotics-care\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_robotics-nextdoor\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_robotics-pip\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_machineyard-exit\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_machineyard-console\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_machineyard-pad-0\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_machineyard-pad-1\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_machineyard-pad-2\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_elevator-exit\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_elevator-system\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_elevator-inspect\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_elevator-rescue\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_elevator-next\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_elevator-hint\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_chapterEarth-exit\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_chapterEarth-quartz\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_chapterEarth-iron\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_chapterEarth-tested\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_chapterEarth-station\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_chapterEarth-clue\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_chapterEarth-launch\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_chapterMoon-exit\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_chapterMoon-basalt\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_chapterMoon-guard1\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_chapterMoon-machine1\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_chapterMoon-guard2\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_chapterMoon-machine2\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_chapterMoon-energy\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_chapterMoon-finished\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_chapterMoon-tickship\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_magnetism-exit\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_magnetism-poles\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_magnetism-materials\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_magnetism-coil\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_magnetism-generator\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_flight-exit\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_flight-pad\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_flight-cloud\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_flight-windsock\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_flight-balloon\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_flight-high\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_flight-return-pad\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_forest-exit\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_forest-oak\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_forest-hollow\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_forest-bridge\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_forest-pollinator\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_forest-fern\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_forest-pine\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_forest-soil\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_diglands-exit\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_diglands-quartz\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_diglands-fossil\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_diglands-iron\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_diglands-cavern\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_diglands-water\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_diglands-basalt\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_diglands-lift\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_grounds-flight\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_grounds-forest\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_grounds-open-dig\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_grounds-dig\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_grounds-home\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_grounds-farm\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_home\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_plant\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_rock\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_dig\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_magnet\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_crystal\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_bridge\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_hq-map\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_hq-bay\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_hq-lab\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_hq-pip\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_hq-bunks\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_hq-locker\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_hq-home\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_hq-exit\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_hq-computers\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_hq-robotics\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_farm-hydro\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_farm-biodome\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_farm-garden\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_farm-orchard\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_farm-vertical\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_farm-solar\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_farm-water\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_farm-power\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_farm-bank\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_farm-computer\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_farm-leaf\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_farm-robot\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_farm-bed-0\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_farm-bed-1\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_farm-bed-2\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_farm-exit\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_dig-exit\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_dig-tools\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_dig-quartz\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_dig-iron\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_dig-fossil\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_dig-amethyst\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_dig-calcite\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_dig-granite\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_dig-basalt\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_dig-deeper\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_dig-layers\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_cave-up\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_cave-life\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_cave-pigment\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_cave-echo\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_cave-formations\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_cave-water\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_cave-lava\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_cave-mantle\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_engineering-exit\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_engineering-bridge\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_engineering-water\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_engineering-habitat\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_hq-elon\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_yard-elon\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_flight-elon\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_yard-free\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_yard-printer\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_yard-crane\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_yard-robots\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_yard-build\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_yard-pipes\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_yard-power\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_grounds-elevator\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_aqua-exit\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_aqua-center\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_aqua-science\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_aqua-dock\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_aqua-habitat\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_aqua-water\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_aqua-cleanup\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_aqua-route\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_aqua-find-pebbles\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_aqua-find-leaf-litter\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_aqua-find-empty-shell\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_aqua-find-reef-sand\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_aqua-find-rock-arch\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_aqua-find-seafloor-core\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_aqua-volcano\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_aqua-perch\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_aqua-reeds\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_aqua-reef-fish\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_aqua-dolphin\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_aqua-whale\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_aqua-shark\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_aqua-octopus\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_aqua-isopod\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_aqua-angler\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_aqua-brittle\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_grounds-aquatic\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_forest-maple-seed\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_chapterEarth-bean-seed\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_chapterMoon-lettuce-seed\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"CardTitle\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"CardBody\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"CardVisual\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"CloseLabel\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"OptionLabel0\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"OptionLabel1\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"OptionLabel2\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"OptionLabel3\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"OptionLabel4\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"OptionLabel5\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"CrewName0\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"CrewDetail0\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"CrewName1\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"CrewDetail1\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"CrewName2\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"CrewDetail2\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"CrewName3\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"CrewDetail3\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"CrewName4\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"CrewDetail4\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"CrewName5\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"CrewDetail5\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"CrewName6\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"CrewDetail6\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"CrewName7\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"CrewDetail7\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"CrewPreviousLabel\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"CrewNextLabel\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"PipBlueprintLabel\",\"color\":\"23;56;74\",\"light\":true},{\"name\":\"WorkshopNote\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"PipTabLabel0\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"PipTabLabel1\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"PipTabLabel2\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"PipTabLabel3\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"PipTabLabel4\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"PipPartLabel0\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"PipPartLabel1\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"PipPartLabel2\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"PipPartLabel3\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"PipActionLabel0\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"PipActionLabel1\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"PipActionLabel2\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"PipActionLabel3\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"PipActionLabel4\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"BuildToolLabel0\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"BuildToolLabel1\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"BuildToolLabel2\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"BuildToolLabel3\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"BuildToolLabel4\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"BuildToolLabel5\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"BuildPartLabel0\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"BuildPartLabel1\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"BuildPartLabel2\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"BuildPartLabel3\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"BuildPartLabel4\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"BuildNote\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"BuildMarker0\",\"color\":\"239;248;245\",\"light\":false},{\"name\":\"BuildMarker1\",\"color\":\"239;248;245\",\"light\":false},{\"name\":\"BuildMarker2\",\"color\":\"239;248;245\",\"light\":false},{\"name\":\"AccessCaption\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"ElevatorObjective\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"MachinePreviewLabel0\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"MachinePreviewLabel1\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"MachinePreviewLabel2\",\"color\":\"23;56;74\",\"light\":false}];",
             "function nativeDisplayUpdate(){const v=s.settings,hash=String(v.highContrast)+'/'+String(v.colorBlind);if(s.displayHash!==hash){s.displayHash=hash;for(const n of displaySprites)obj(n).setAnimation(v.highContrast?1:0);for(const t of displayTexts)obj(t.name).setColor(v.highContrast?(t.light?'255;255;255':'0;0;0'):t.color);for(const o of objects)text('Label_'+o.id,(v.colorBlind?destinationBadge(objects,o.id)+' • ':'')+o.icon+'\\n'+o.name.replace(' ','\\n'));}if(s.overlay==='J.A.C.C. Crew')for(let i=0;i<roster.length;i++)text('CrewName'+i,(v.colorBlind?(i+1)+' • ':'')+(s.crew===i?'✓ ':'')+roster[i][0]);}",
             "",
             "const professorMike={id:'professor-mike',name:'Professor Mike',zones:['coding','robotics'],role:'Robotics Lab and Computer Lab instructor',traits:['curious and inventive','playful and strategic','patient and encouraging','quietly funny','believes in the player'],intro:'Professor Mike: “Welcome! We code robots to help people. Try your idea; bugs are clues. PIP stays with you, one step at a time.”',tuneUp:'Cool, the robot followed our instructions exactly. That means our instructions need a tiny tune-up. PIP, want to help us try one change?'};",
@@ -263297,7 +263745,7 @@
             " rover:{name:'Rover',icon:'🚙',group:'vehicles',slots:{...mobile,module:['arm','scoop'],motion:['wheels','tracks','legs'],power:['battery','solarbattery']},text:'Make a rover with your own body, drive and working arm.'},",
             " solar:{name:'Solar station',icon:'☀️',group:'helpers',slots:{frame:['beam','truss'],fasteners:['bolts','clamps'],module:['panels','folding'],power:['battery','solarbattery'],computer:['computer']},text:'Connect a model panel station to storage and light a lamp.'},",
             " habitat:{name:'Habitat',icon:'🏠',group:'structures',slots:{frame:['box','round'],fasteners:['bolts','clamps'],module:['cabin','dome'],power:['battery','solarbattery'],computer:['computer']},text:'Make a shelter with a ready-made climate and life-support model.'},",
-            " rocket:{name:'Rocket',icon:'🚀',group:'vehicles',slots:{...mobile,module:['crew','cargo'],motion:['nozzle','vector'],power:['tank','twintank']},text:'Choose a capsule, matched propulsion package and computer. Try a launch, then launch again whenever you like.'},",
+            " rocket:{name:'Rocket',icon:'🚀',group:'vehicles',slots:{...mobile,module:['crew','cargo'],motion:['nozzle','vector'],power:['tank','twintank']},text:'Professor Elon: “Every great machine starts as an idea!” Choose a capsule, matched engine and propellant package, and computer. PIP can fit missing parts.'},",
             " submarine:{name:'Submarine',icon:'🛥️',group:'vehicles',slots:{...mobile,module:['fins','roundfins'],motion:['propeller','twinprop'],power:['battery','solarbattery']},text:'Choose a body, fins/ballast and motor-propeller module. Solar charging is at the surface; the battery powers underwater travel.'},",
             " airplane:{name:'Airplane',icon:'✈️',group:'vehicles',slots:{...mobile,module:['wings','swept'],motion:['propeller','twinprop'],power:['battery','solarbattery']},text:'An electric airplane for places with air. Choose wings, motors, power and a computer.'}",
             "};",
@@ -263727,6 +264175,10 @@
             "if(deep)s+='<path d=\"M430 510l70-100 70 100z\" fill=\"#677888\"/><path d=\"M500 470v-35\" stroke=\"#d6a078\" stroke-width=\"12\"/><path d=\"M20 510v-80l55-50 60 50v80h-32v-60q-25-35-50 0v60z\" fill=\"#617584\"/>';",
             "return s+'</svg>';}",
             "",
+            "// Approved fictional instructor; appearance uses the creator’s latest younger, beardless direction.",
+            "const professorElon={id:'professor-elon',name:'Professor Elon',roles:['J.A.C.C. program director','Rocket Lab and Engineering instructor'],traits:['big-picture thinker','eccentric and theatrical','brilliant but approachable','persistent experimenter','warmly encouraging'],appearance:{ageStyle:'younger professor',facialHair:'none',glasses:true,coat:'lab-coat style'},intro:'Professor Elon: “Every great machine starts as an idea. First build it, then make it better! What should we build first?”',handoff:'PIP, would you show our engineer the next part? I appear to have misplaced my tiny screwdriver again.'};",
+            "const professorElonObjects=[{id:'hq-elon',zone:'hq',x:780,y:255},{id:'yard-elon',zone:'engineering',x:650,y:150},{id:'flight-elon',zone:'flight',x:700,y:420}].map(o=>({...o,icon:'🧑‍🔬',name:professorElon.name,kind:'construction',page:'professor'}));",
+            "function constructionResult(result){return (result.ok?'Professor Elon: “Alright! Yeah! Awesome!” ':'Professor Elon: “Magnificent, an engineering mystery!” ')+result.message+(result.ok?' PIP: “Change a part whenever you like.”':' PIP: “We can change one part, or I can show the plan.”');}",
             "// Reusable parts and connectivity/support models, not a real structural or electrical solver.",
             "const BUILD_COLS=12,BUILD_ROWS=5;",
             "const constructionParts=[['beam','Beam','═'],['block','Block','▣'],['platform','Platform','▰'],['straight','Straight pipe','━'],['elbow','Elbow pipe','┗'],['valve','Valve','◉'],['wire','Wire','⌁']];",
@@ -263760,7 +264212,7 @@
             " return {ok:false,message:id==='power'?'Try a complete supply and return path, and turn on the power.':id==='pipes'?'Try matching every pipe opening from inlet to outlet.':id==='water'?'Fit a valve in the marked channel and close it.':'Try the highlighted plan: every part needs its intended support. Nothing is lost.'};}",
             "function buildAction(s,action){if(action==='undo'&&s.history.length)s.boards[s.active]=s.history.pop();if(action==='reset'){s.history.push(s.boards[s.active].map(c=>c?{...c}:null));if(s.history.length>12)s.history.shift();s.boards[s.active]=Array(60).fill(null);}if(action==='hint')s.hints=!s.hints;if(action==='robot'){if(s.active==='power')s.power=true;s.history.push(s.boards[s.active].map(c=>c?{...c}:null));if(s.history.length>12)s.history.shift();if(s.active!=='free')s.boards[s.active]=Array(60).fill(null);for(const [x,y,part,rotation]of constructionProjects[s.active].solution)if(s.active!=='free'||!s.boards.free[y*12+x])s.boards[s.active][y*12+x]={part,rotation};s.hints=true;}if(action==='power')s.power=!s.power;}",
             "function machineStep(s,id){if(!['printer','crane','robot'].includes(id))return;s[id]=(s[id]+1)%4;if(s[id]===3){const kit={printer:'printed-kit',crane:'lift-kit',robot:'robot-kit'}[id];if(!s.kits.includes(kit))s.kits.push(kit)}}",
-            "function constructionView(s,page='projects'){const go=(label,value)=>({label,type:'page',value}),act=(label,type,value)=>({label,type,value});if(page==='free')return {title:'My free build',text:'Build with blocks, beams and platforms. No required answer. Reset and robot demonstrations can be undone.',art:'yard',actions:[act('Open free build','build','free'),go('My construction parts','parts'),go('Construction challenges','projects')]};if(page==='projects')return {title:'Construction challenges',text:'Tap a plan. Fit prefabs with one tap. Test, change and repeat. PIP can show or demonstrate the plan.',art:'yard',actions:Object.entries(constructionProjects).filter(([id])=>id!=='free').map(([id,p])=>act((s.completed.includes(id)?'✓ ':'')+p.name,'build',id))};",
+            "function constructionView(s,page='projects'){const go=(label,value)=>({label,type:'page',value}),act=(label,type,value)=>({label,type,value});if(page==='professor')return {title:professorElon.name,text:professorElon.intro+' '+professorElon.handoff,art:'professor',actions:[go('🏗 Choose an engineering plan','projects'),go('▣ Invent a free build','free'),go('🚀 Build a model rocket','rocket'),go('🤖 PIP, the next part','pip-help')]};if(page==='pip-help'){const project=constructionProjects[s.active];return {title:'PIP / Our next engineering step',text:project?'PIP: “'+project.text+' We can try one part, or I can show the plan.”':'PIP: “Choose one engineering plan or a model rocket. You choose the parts; I can help fit them. There is no hurry.”',art:'robot-0',actions:[...(project?[act('← Keep building','resume'),act('🤖 PIP show the plan','demonstrate')]:[go('🏗 Choose a plan','projects'),go('🚀 Choose a rocket','rocket')]),go('🧑‍🔬 Professor Elon','professor'),act('🏠 Return home','home')]};}if(page==='free')return {title:'My free build',text:'Build with blocks, beams and platforms. No required answer. Reset and robot demonstrations can be undone.',art:'yard',actions:[act('Open free build','build','free'),go('My construction parts','parts'),go('Construction challenges','projects')]};if(page==='projects')return {title:'Construction challenges',text:'Tap a plan. Fit prefabs with one tap. Test, change and repeat. PIP can show or demonstrate the plan.',art:'yard',actions:Object.entries(constructionProjects).filter(([id])=>id!=='free').map(([id,p])=>act((s.completed.includes(id)?'✓ ':'')+p.name,'build',id))};",
             " if(['printer','crane','robot'].includes(page)){const data={printer:['3D printer',['Plan a part before printing. A printer follows a digital design.','Use prepared feedstock. Raw rocks are not ready-to-print plastic or metal.','The printer adds material in layers. Different printers use different processes.','Inspect the printed part. Strength depends on material, design and how it was made.']],crane:['Crane bay',['A crane moves a load to a planned place. People choose and check the job.','The crane picks up the load with suitable lifting equipment in our model.','The load moves while the model keeps a stable base. This is not real operating guidance.','Place and inspect. Our reusable lifting kit is saved.']],robot:['Builder robots',['People plan the task. Robots do not replace human judgment.','Sensors can help a robot find a part or check a position.','A robot can repeat a placement task. People check the equipment and result.','Our builder helper has finished its demonstration. Robot kit saved.']]};return {title:data[page][0],text:data[page][1][s[page]],art:page+'-'+s[page],actions:[act('▶ Next step','machine',page),go('▣ Build something','projects'),go('📦 My construction parts','parts')]};}",
             " if(page==='parts')return {title:'My construction parts',text:s.kits.length?'Reusable parts for farm, habitats and future worlds. They are saved keepsakes, not points.':'Try a machine or construction challenge to keep a reusable part.',art:'parts',actions:[...s.kits.slice(0,3).map(k=>act('Fit '+k.replaceAll('-',' '),'fit',k)),...(s.kits.length>3?[act('More parts →','parts',3)]:[]),go('Space elevator project','elevator'),go('Construction plans','projects')]};",
             " if(page.startsWith('parts:')){const n=Number(page.split(':')[1])||0;return {title:'My construction parts',text:'Fit a saved model part at the farm. Parts stay available for future plans.',art:'parts',actions:[...s.kits.slice(n,n+3).map(k=>act('Fit '+k.replaceAll('-',' '),'fit',k)),...(n>0?[go('← Previous','parts:'+Math.max(0,n-3))]:[]),...(s.kits.length>n+3?[go('Next →','parts:'+(n+3))]:[]),go('Construction plans','projects')]};}",
@@ -263770,8 +264222,8 @@
             " return constructionView(s,'projects');}",
             "function constructionCellSvg(part='empty',rotation=0){const shapes={empty:'',beam:'<rect x=\"3\" y=\"23\" width=\"54\" height=\"14\" rx=\"3\" fill=\"#d7bd70\"/>',block:'<rect x=\"5\" y=\"5\" width=\"50\" height=\"50\" rx=\"4\" fill=\"#9ab6bc\"/>',platform:'<path d=\"M3 16h54v12H3zM10 28v24m40-24v24\" fill=\"#d7bd70\" stroke=\"#d7bd70\" stroke-width=\"6\"/>',straight:'<path d=\"M0 30h60\" stroke=\"#71bfd6\" stroke-width=\"14\"/>',elbow:'<path d=\"M30 0v30h30\" stroke=\"#71bfd6\" stroke-width=\"14\" fill=\"none\"/>',valve:'<path d=\"M0 30h60\" stroke=\"#71bfd6\" stroke-width=\"14\"/><circle cx=\"30\" cy=\"30\" r=\"15\" fill=\"#edc46c\" stroke=\"#234d61\" stroke-width=\"3\"/><path d=\"M18 30h24\" stroke=\"#234d61\" stroke-width=\"5\"/>',wire:'<path d=\"M0 30h60\" stroke=\"#edc46c\" stroke-width=\"7\"/>'};return '<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"60\" height=\"60\"><rect x=\"1\" y=\"1\" width=\"58\" height=\"58\" rx=\"5\" fill=\"#284755\" stroke=\"#6b929c\" stroke-width=\"2\"/><g transform=\"rotate('+rotation*90+' 30 30)\">'+(shapes[part]||'')+'</g></svg>';}",
             "const constructionCellKeys=['empty-0',...constructionParts.flatMap(([p])=>[0,1,2,3].map(r=>p+'-'+r))];",
-            "const constructionArtKeys=['yard','parts','pipes','power','elevator',...['printer','crane','robot'].flatMap(p=>[0,1,2,3].map(i=>p+'-'+i))];",
-            "function constructionArt(key){let a='';if(key.startsWith('printer')){const n=+key.split('-')[1];a='<path d=\"M45 150V25h220v125M65 150h180\" stroke=\"#95b8c3\" stroke-width=\"10\" fill=\"none\"/><path d=\"M85 45h145m-70 0v30\" stroke=\"#edc46c\" stroke-width=\"8\"/>';for(let i=0;i<n*3;i++)a+=`<rect x=\"115\" y=\"${140-i*7}\" width=\"90\" height=\"5\" fill=\"#79b99c\"/>`;}",
+            "const constructionArtKeys=['professor','yard','parts','pipes','power','elevator',...['printer','crane','robot'].flatMap(p=>[0,1,2,3].map(i=>p+'-'+i))];",
+            "function constructionArt(key){let a='';if(key==='professor')a='<path d=\"M90 165v-50q0-25 70-25t70 25v50\" fill=\"#fffbed\" stroke=\"#17384a\" stroke-width=\"4\"/><path d=\"M140 92l20 30 20-30m-20 30v43\" fill=\"none\" stroke=\"#a6b8bd\" stroke-width=\"4\"/><ellipse cx=\"160\" cy=\"62\" rx=\"37\" ry=\"43\" fill=\"#d1aa87\"/><path d=\"M123 53q-4-48 41-43 40 0 33 43l-17-24q-27 8-57 24\" fill=\"#60717d\"/><g fill=\"none\" stroke=\"#17384a\" stroke-width=\"4\"><rect x=\"130\" y=\"51\" width=\"25\" height=\"18\" rx=\"5\"/><rect x=\"165\" y=\"51\" width=\"25\" height=\"18\" rx=\"5\"/><path d=\"M155 58h10m-16 22q11 9 22 0\"/></g><path d=\"M206 123v30m-6-33h12\" stroke=\"#35bcb8\" stroke-width=\"5\"/>';else if(key.startsWith('printer')){const n=+key.split('-')[1];a='<path d=\"M45 150V25h220v125M65 150h180\" stroke=\"#95b8c3\" stroke-width=\"10\" fill=\"none\"/><path d=\"M85 45h145m-70 0v30\" stroke=\"#edc46c\" stroke-width=\"8\"/>';for(let i=0;i<n*3;i++)a+=`<rect x=\"115\" y=\"${140-i*7}\" width=\"90\" height=\"5\" fill=\"#79b99c\"/>`;}",
             "else if(key.startsWith('crane')){const n=+key.split('-')[1];a='<path d=\"M90 155V30h175M45 155h90M90 30l80 20M90 80l80-30\" stroke=\"#edc46c\" stroke-width=\"8\" fill=\"none\"/>'+`<path d=\"M230 30v${80-n*15}\" stroke=\"#95b8c3\" stroke-width=\"5\"/><rect x=\"200\" y=\"${110-n*15}\" width=\"60\" height=\"32\" fill=\"#9ab6bc\"/>`;}",
             "else if(key.startsWith('robot'))a='<rect x=\"60\" y=\"45\" width=\"85\" height=\"75\" rx=\"15\" fill=\"#fff1b8\"/><path d=\"M145 85l65 20\" stroke=\"#95b8c3\" stroke-width=\"10\"/><circle cx=\"85\" cy=\"75\" r=\"8\" fill=\"#284755\"/><circle cx=\"120\" cy=\"75\" r=\"8\" fill=\"#284755\"/><rect x=\"215\" y=\"105\" width=\"45\" height=\"45\" fill=\"#79b99c\"/>';",
             "else if(key==='elevator')a='<path d=\"M145 155V25m30 130V25M110 155h100\" stroke=\"#95b8c3\" stroke-width=\"8\"/><path d=\"M160 25V5\" stroke=\"#edc46c\" stroke-width=\"3\"/><ellipse cx=\"160\" cy=\"20\" rx=\"50\" ry=\"13\" fill=\"none\" stroke=\"#79b99c\" stroke-width=\"5\"/>';",
@@ -264079,7 +264531,7 @@
             "const suitFinish={metal:{name:'Silver',color:'#c4ced8'},energy:{name:'Teal',color:'#35d3c9'}};",
             "const suitColors={Red:'#cf4348',Green:'#38864a',Pink:'#d76a9d',Yellow:'#edc74d',White:'#f2f2e8',Black:'#303842',Orange:'#d96b24',Purple:'#8653b6',Blue:'#347ec5'};",
             "",
-            "const objects=[...machineObjects.filter(o=>o.zone==='engineering'),...elevatorExtras.filter(o=>o.zone!=='chapterMoon'),...chapterExtras.filter(o=>!['chapterEarth','chapterMoon'].includes(o.zone)),...openSpaceObjects,...openSpacePortals,...trainingObjects.map(o=>({...o,zone:'grounds'})),...hqObjects,...techHQLinks,...farmObjects,...digObjects,...engineeringObjects,...constructionStations,elevatorObject,...aquaticObjects,{id:'grounds-aquatic',zone:'grounds',x:680,y:280,icon:'🌊',name:'Aquatic Learning Center',kind:'portal',to:'aquatic'},...wildSeedObjects];",
+            "const objects=[...machineObjects.filter(o=>o.zone==='engineering'),...elevatorExtras.filter(o=>o.zone!=='chapterMoon'),...chapterExtras.filter(o=>!['chapterEarth','chapterMoon'].includes(o.zone)),...openSpaceObjects,...openSpacePortals,...trainingObjects.map(o=>({...o,zone:'grounds'})),...hqObjects,...techHQLinks,...farmObjects,...digObjects,...engineeringObjects,...professorElonObjects,...constructionStations,elevatorObject,...aquaticObjects,{id:'grounds-aquatic',zone:'grounds',x:680,y:280,icon:'🌊',name:'Aquatic Learning Center',kind:'portal',to:'aquatic'},...wildSeedObjects];",
             "",
             "const COLS=25, ROWS=15, CELL=40;",
             "// The pond is blocked. Hill and ramp/platform cells are traversable automatically.",
@@ -264116,7 +264568,7 @@
             " crystal:['I climbed to the crystal lookout.','Crystals have repeating shapes.'],",
             " bridge:['I looked at a bridge.','A bridge supports a path across a gap.']",
             "};",
-            "for(const o of [...techHQLinks,...machineObjects,...elevatorExtras,...chapterExtras,...openSpaceObjects,...openSpacePortals,...aquaticObjects,...constructionStations,elevatorObject,...digObjects,...engineeringObjects])journalActivities[o.id]=['I explored '+o.name.toLowerCase()+'.','I can return and investigate again.'];",
+            "for(const o of [...techHQLinks,...machineObjects,...elevatorExtras,...chapterExtras,...openSpaceObjects,...openSpacePortals,...aquaticObjects,...professorElonObjects,...constructionStations,elevatorObject,...digObjects,...engineeringObjects])journalActivities[o.id]=['I explored '+o.name.toLowerCase()+'.','I can return and investigate again.'];",
             "journalActivities['grounds-aquatic']=['I explored the Aquatic Learning Center.','Our home lake connects to protected ocean simulations.'];",
             "journalActivities['grounds-dig']=['I explored the dig site.','Earth materials and cave habitats tell different stories.'];",
             "for(const s of [...farmStations,...gardenBeds,...wildSeedObjects.map(o=>({...o,fact:o.text}))])journalActivities[s.id]=['I visited the '+s.name.toLowerCase()+'.',s.fact];",
@@ -264244,8 +264696,8 @@
             "function nativeDigLesson(page){const v=digView(s.excavation,page,s.crew);open(v.title,v.text,'',v.actions.map(a=>[a.label,()=>{if(a.type==='reset'){s.excavation.cleared[s.excavation.level]=[];nativeDigLevel(s.excavation.level);close();}else if(a.type==='tool'){s.excavation.tool=a.value;close();say(a.label+' fitted.')}else if(a.type==='hints'){s.excavation.hints=true;close();nativeDigVisibility()}else{s.excavation[a.type]=1-(s.excavation[a.type]||0);nativeDigLesson(page)}}]));obj('CardBody').setCharacterSize(17);text('CardBody',v.text.replace(/(.{1,46})(?:\\s|$)/g,'$1\\n').trim());obj('DigArt').hide(false);const alt=(page==='echo'&&s.excavation.ping)||(page==='groundwater'&&s.excavation.water)||(page==='formations'&&s.excavation.formation);obj('DigArt').setAnimation(alt?digArtKeys.length+['echo','groundwater','formations'].indexOf(page):digArtKeys.indexOf(v.art));const i=s.buttons.length;obj('Option'+i).hide(false);obj('OptionLabel'+i).hide(false);text('OptionLabel'+i,'Listen');s.buttons.push({name:'Option'+i,fn:()=>listenJournal(v.text)});}",
             "function nativeEngineering(project,page=0){const v=designView(project,s.found,s.designs[project]);const choices=v.samples.slice(page*2,page*2+2).map(f=>[(v.selected===f.id?'✓ ':'')+'Use '+f.name,()=>{s.designs[project]=f.id;nativeEngineering(project,page)}]);if(!v.samples.length)choices.push(['Find samples',()=>{close();select(objects.find(o=>o.id==='grounds-dig'))}]);if(page>0)choices.push(['Previous',()=>nativeEngineering(project,page-1)]);if(v.samples.length>(page+1)*2)choices.push(['Next',()=>nativeEngineering(project,page+1)]);if(v.selected)choices.push(['Install on farm',()=>{s.farm.upgrades[project]=v.selected;close();select(objects.find(o=>o.id===designFarmTarget(project)))}]);choices.push(['Listen',()=>listenJournal(v.text)]);open(v.title,v.text,'',choices);obj('CardBody').setCharacterSize(16);text('CardBody',v.text.replace(/(.{1,47})(?:\\s|$)/g,'$1\\n').trim());obj('DesignArt').hide(false);obj('DesignArt').setAnimation(['bridge','water','habitat'].indexOf(project));}",
             "",
-            "function nativeConstructionPage(page='projects'){const c=s.construction,v=constructionView(c,page);open(v.title,v.text,'',v.actions.map(a=>[a.label,()=>{if(a.type==='build'){openBuild(c,a.value);close();return}if(a.type==='fit'){if(!c.kits.includes(a.value))return;if(!s.farm.constructionModules.includes(a.value))s.farm.constructionModules.push(a.value);if(!c.modules.includes(a.value))c.modules.push(a.value);c.active=null;c.orbit=false;close();select(objects.find(o=>o.id==='farm-robot'));return}const next=constructionDispatch(c,a);if(c.orbit){c.active=null;close();say('Training orbital preview unlocked.')}else nativeConstructionPage(next)}]));obj('CardVisual').hide();obj('CardBody').setCharacterSize(17);text('CardBody',v.text.replace(/(.{1,46})(?:\\s|$)/g,'$1\\n').trim());obj('ConstructionArt').hide(false);obj('ConstructionArt').setAnimation(constructionArtKeys.indexOf(v.art));if(s.buttons.length<6){const i=s.buttons.length;obj('Option'+i).hide(false);obj('OptionLabel'+i).hide(false);text('OptionLabel'+i,'Listen');s.buttons.push({name:'Option'+i,fn:()=>listenJournal(v.text)})}}",
-            "function nativeBuildControl(action){const c=s.construction;if(action==='exit'){const wasOrbit=c.orbit;c.active=null;c.orbit=false;if(wasOrbit)nativeZone('grounds');return}if(s.paused){say('Resume to keep building.');return}if(action==='parts'){nativeConstructionPage('parts');return}if(action==='test'){const r=testBuild(c);open('Model test',r.message,'',[['Keep building',close],['My construction parts',()=>nativeConstructionPage('parts')],['Listen',()=>listenJournal(r.message)]]);return}if(action==='rotate')c.rotation=(c.rotation+1)%4;else buildAction(c,action);say(action==='robot'?'Robot demonstrated the plan. Test it when ready.':'Construction model updated.');}",
+            "function nativeConstructionPage(page='projects'){if(page==='rocket'){const result=machineCommand(s.machines,{type:'blueprint',value:'rocket'});s.machines=result.machines;nativeMachines(result.route);return}const c=s.construction,v=constructionView(c,page);open(v.title,v.text,'',v.actions.map(a=>[a.label,()=>{if(a.type==='resume'){close();return}if(a.type==='demonstrate'){if(c.active)buildAction(c,'robot');close();return}if(a.type==='home'){close();select(objects.find(o=>o.id==='grounds-home'));return}if(a.type==='build'){openBuild(c,a.value);close();return}if(a.type==='fit'){if(!c.kits.includes(a.value))return;if(!s.farm.constructionModules.includes(a.value))s.farm.constructionModules.push(a.value);if(!c.modules.includes(a.value))c.modules.push(a.value);c.active=null;c.orbit=false;close();select(objects.find(o=>o.id==='farm-robot'));return}const next=constructionDispatch(c,a);if(c.orbit){c.active=null;close();say('Training orbital preview unlocked.')}else nativeConstructionPage(next)}]));obj('CardVisual').hide();obj('CardBody').setCharacterSize(17);text('CardBody',v.text.replace(/(.{1,46})(?:\\s|$)/g,'$1\\n').trim());obj('ConstructionArt').hide(false);obj('ConstructionArt').setAnimation(constructionArtKeys.indexOf(v.art));if(s.buttons.length<6){const i=s.buttons.length;obj('Option'+i).hide(false);obj('OptionLabel'+i).hide(false);text('OptionLabel'+i,'Listen');s.buttons.push({name:'Option'+i,fn:()=>listenJournal(v.text)})}}",
+            "function nativeBuildControl(action){const c=s.construction;if(action==='exit'){const wasOrbit=c.orbit;c.active=null;c.orbit=false;if(wasOrbit)nativeZone('grounds');return}if(s.paused){say('Resume to keep building.');return}if(action==='parts'){nativeConstructionPage('parts');return}if(action==='test'){const r=testBuild(c);open('Model test',constructionResult(r),'',[['Keep building',close],['My construction parts',()=>nativeConstructionPage('parts')],['Listen',()=>listenJournal(constructionResult(r))]]);return}if(action==='rotate')c.rotation=(c.rotation+1)%4;else buildAction(c,action);say(action==='robot'?'Robot demonstrated the plan. Test it when ready.':'Construction model updated.');}",
             "function nativeBuildActions(){const c=s.construction,hud=[{name:'PipButton',fn:pip},{name:'CrewButton',fn:crewMenu},{name:'JournalButton',fn:journal},{name:'SettingsButton',fn:settings},{name:'PauseButton',fn:()=>{s.paused=!s.paused;text('PauseLabel',s.paused?'Resume':'Pause');say(s.paused?'Paused. Take your time.':'Ready to build.')}}];if(c.orbit)return [{name:'BuildTool0',fn:()=>nativeBuildControl('exit')},...hud];const a=['test','undo','reset','hint','robot','exit'].map((id,i)=>({name:'BuildTool'+i,fn:()=>nativeBuildControl(id)}));constructionPalette(c.active).forEach((p,i)=>a.push({name:'BuildPart'+i,fn:()=>{c.selected=p;say('Selected '+p)}}));if(['pipes','water','power'].includes(c.active))a.push({name:'BuildPart3',fn:()=>nativeBuildControl(c.active==='power'?'power':'rotate')});a.push({name:'BuildPart4',fn:()=>nativeBuildControl('parts')});const cells=[];for(const tile of runtimeScene.getObjects('ConstructionCells')){const x=Math.round((tile.getX()-120)/60),y=Math.round((tile.getY()-180)/60);if(!buildFixed(c.active,x,y))cells.push({name:'BuildCell'+x+'_'+y,object:tile,fn:()=>{if(!s.paused){placeBuild(c,x,y);say('Prefab placed or changed.')}}});}return [...a,...hud,...cells];}",
             "function nativeConstructionUpdate(dt){const c=s.construction,board=!!c.active,orbit=c.orbit,view=board||orbit;for(let i=0;i<3;i++)obj('BuildMarker'+i).hide(!board||!['pipes','power','water'].includes(c.active));if(board&&c.active==='power'){text('BuildMarker0','+');obj('BuildMarker0').setPosition(140,248);text('BuildMarker1','−');obj('BuildMarker1').setPosition(140,368);text('BuildMarker2',constructionPower(c)?'💡':'○');obj('BuildMarker2').setPosition(795,310);}else if(board){text('BuildMarker0','💧');obj('BuildMarker0').setPosition(136,310);text('BuildMarker1',c.active==='water'&&c.boards.water[30]?.rotation%2===1?'○':'💧');obj('BuildMarker1').setPosition(795,310);obj('BuildMarker2').hide();}for(const kind of ['printer','crane','robot']){obj('YardMachine'+kind).hide(s.zone!=='engineering'||view);obj('YardMachine'+kind).setAnimation(c[kind]);}obj('BuildBackground').hide(!board);obj('OrbitBackground').hide(!orbit);obj('OrbitSun').hide(!orbit);obj('HomeElevatorModel').hide(s.zone!=='grounds'||c.elevator<1||view);obj('BuildNote').hide(!view);for(let i=0;i<3;i++)obj('OrbitPlanet'+i).hide(!orbit);for(let i=0;i<6;i++){obj('BuildTool'+i).hide(!view||(orbit&&i>0));obj('BuildToolLabel'+i).hide(!view||(orbit&&i>0));if(view)text('BuildToolLabel'+i,orbit?'Home Base':['Test model','Undo','Reset','Plan','Robot build','Yard'][i]);}for(let i=0;i<5;i++){obj('BuildPart'+i).hide(true);obj('BuildPartLabel'+i).hide(true);}for(const tile of runtimeScene.getObjects('ConstructionCells')){tile.hide(!board);if(board){const x=Math.round((tile.getX()-120)/60),y=Math.round((tile.getY()-180)/60),fixed=buildFixed(c.active,x,y),placed=c.boards[c.active][y*12+x],hint=c.hints?constructionProjects[c.active].solution.find(p=>p[0]===x&&p[1]===y):null,cell=fixed?(c.active==='power'&&x===11?{part:y===2?'wire':'elbow',rotation:y===1?2:y===3?3:1}:{part:['pipes','water'].includes(c.active)?'straight':c.active==='power'?'wire':'block',rotation:0}):placed|| (hint?{part:hint[2],rotation:hint[3]}:{part:'empty',rotation:0});tile.setAnimation(constructionCellKeys.indexOf(cell.part+'-'+cell.rotation));tile.setOpacity(!fixed&&!placed&&hint?100:255);}}",
             "if(board){const palette=constructionPalette(c.active);palette.forEach((p,i)=>{obj('BuildPart'+i).hide(false);obj('BuildPartLabel'+i).hide(false);text('BuildPartLabel'+i,(c.selected===p?'✓ ':'')+constructionParts.find(v=>v[0]===p)[1]);});if(['pipes','water','power'].includes(c.active)){obj('BuildPart3').hide(false);obj('BuildPartLabel3').hide(false);text('BuildPartLabel3',c.active==='power'?'Source '+(c.power?'ON':'OFF'):'Rotate next');}obj('BuildPart4').hide(false);obj('BuildPartLabel4').hide(false);text('BuildPartLabel4','My parts');text('BuildNote',constructionProjects[c.active].name+' | '+c.selected+' | Tap to place. Pipes rotate; blocks remove on a second tap.');}",
@@ -264332,9 +264784,9 @@
             "function select(o){if(!o||s.paused)return;if(chapterWorlds[o.zone]&&o.zone!==s.zone){if(!chapterCanVisit(o.zone,s.firstVisit.mode,s.chapter,nativeChapterDug())){nativeChapter();return;}nativeZone(o.zone);}if(openSpaces[s.zone]&&o.id==='grounds-home'){nativeZone('grounds');return}s.flightLanded=false;s.started=true;s.construction.active=null;s.construction.orbit=false;s.journey=null;if(o.zone!==s.zone){s.journey=o.id;o=objects.find(x=>x.id===zoneExit(s.zone,o.zone))}if(s.zone==='aquatic'&&o.habitat&&o.habitat!==s.aquatic.habitat){s.aquatic.habitat=o.habitat;actor.setPosition(160,415);}if(s.zone==='dig'){if(o.level!==s.excavation.level)nativeDigLevel(o.level);nativeDigSelect(o.x,o.y,o.id);return}s.path=pathfind([actor.getX()+20,actor.getY()+45],[o.x-65,o.y+55],s.zone);s.pending=o;s.action=0;say('Going to '+o.name);if(!s.path.length){s.pending=null;const here=cellAt(actor.getX()+20,actor.getY()+45,s.zone),goal=cellAt(o.x-65,o.y+55,s.zone);if(here.join()===goal.join()&&!blocked(...goal,s.zone))arrive(o);else{s.journey=null;say('Choose a clear path to explore.');}}}",
             "",
             "function card(o){open(o.name,o.text+(o.zone==='hq'?' '+firstVisitScript.discovery:''),o.icon+'   '+o.diagram,[['Listen / replay',()=>{say(o.text);if(typeof speechSynthesis!=='undefined'){speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(o.text);u.volume=s.settings.volume;speechSynthesis.speak(u)}}],['Revisit',()=>{close();select(objects.find(x=>x.id===o.id)||objects.find(x=>x.find===o.id)||objects.find(x=>x.id==='dig'))}],...(o.id==='hq-map'?[['Go exploring',()=>{close();select(objects.find(x=>x.id==='hq-exit'))}]]:[]),...(o.id==='hq-lab'?[['Find a sample',()=>{close();select(objects.find(x=>x.id==='dig'))}]]:[]),...(o.id==='hq-bunks'?[['Rest here',()=>{close();s.paused=true;text('PauseLabel','Resume');say('Resting. Resume whenever you are ready.')}]]:[]),...(o.zone==='hq'&&s.firstVisit.mode==='guided'?[['Another optional clue',nativeFirstVisitGoal]]:[]),...(o.seed&&s.farm.seeds.includes(o.seed)?[['Plant this seed at my farm',()=>{close();nativeZone('farm');nativeFarm('choose-bed:'+o.seed)}]]:[]),...(materials.some(m=>m.id===o.id)?[['Ask PIP',()=>nativePipAnalysis(o.id)]]:[])]);if(o.zone==='hq')obj('CardVisual').hide();}",
-            "function arrive(o){s.last=o.id;if(o.kind!=='dig')s.visited.add(o.id);if(o.kind==='tech'){nativeTech(o.page);return}if(o.kind==='machines'){nativeMachines(o.page);return}if(o.elevatorEntry){nativeElevator();return}if(o.kind==='elevator'){nativeElevator(o.page);return}if(o.chapterEntry){nativeChapter();return}if(o.kind==='chapter'){nativeChapter(o.page);return}if(o.kind==='portal'){const next=s.journey;nativeZone(o.to);if(next)select(objects.find(x=>x.id===next));return}if(o.kind==='magnetlab'){nativeMagnetLab(o.experiment);return}if(o.kind==='openlift'){nativeZone('grounds');return}if(o.kind==='openfind'){s.found.add(o.find);card(digFinds.find(f=>f.id===o.find));return}if(o.seed)s.farm=farmAction(s.farm,{type:'collect',id:o.seed,origin:o.seedOrigin}).farm;if(s.zone==='flight'&&o.id.includes('pad')){s.flightLanded=true;actor.setPosition(o.x-20,o.y-45);}if(o.zone==='hq'){s.firstVisit.interacted=true;say(firstVisitScript.discovery);}const power=suitPowerFor(roster[s.crew][0],s.suit.overlay);if(power&&suitSubject(power,o)){nativeSuitPower(power.id,0,o.id);return}if(o.kind==='aquatic'){if(o.life&&!s.aquatic.observed.includes(o.life))s.aquatic.observed.push(o.life);if(o.find&&!s.aquatic.samples.includes(o.find))s.aquatic.samples.push(o.find);nativeAquatic(o.page);return}if(o.kind==='construction'){nativeConstructionPage(o.page);return}if(o.kind==='diglevel'){nativeDigLevel(o.nextLevel);return}if(o.kind==='digtools'){nativeDigLesson('tools');return}if(o.kind==='diglesson'){nativeDigLesson(o.lesson);return}if(o.kind==='digfind'){s.found.add(o.find);card(digFinds.find(f=>f.id===o.find));return}if(o.kind==='engineering'){nativeEngineering(o.project);return}if(o.kind==='farm'){nativeFarm(o.page);return}if(o.kind==='workshop'){nativePipWorkshop();return}if(o.kind==='crew'){crewMenu();return}if(o.kind==='home'){say('Welcome home to the training grounds. Choose an adventure.');return}if(o.kind==='dig'){s.action=s.settings.reduced?.2:1.2;say('Digging through the soil...');return}s.found.add(o.id);card(o)}",
+            "function arrive(o){s.last=o.id;if(o.kind!=='dig')s.visited.add(o.id);if(o.kind==='tech'){nativeTech(o.page);return}if(o.kind==='machines'){nativeMachines(o.page);return}if(o.elevatorEntry){nativeElevator();return}if(o.kind==='elevator'){nativeElevator(o.page);return}if(o.chapterEntry){nativeChapter();return}if(o.kind==='chapter'){nativeChapter(o.page);return}if(o.kind==='portal'){const next=s.journey;nativeZone(o.to);if(next)select(objects.find(x=>x.id===next));return}if(o.kind==='magnetlab'){nativeMagnetLab(o.experiment);return}if(o.kind==='openlift'){nativeZone('grounds');return}if(o.kind==='openfind'){s.found.add(o.find);card(digFinds.find(f=>f.id===o.find));return}if(o.seed)s.farm=farmAction(s.farm,{type:'collect',id:o.seed,origin:o.seedOrigin}).farm;if(s.zone==='flight'&&o.id.includes('pad')){s.flightLanded=true;actor.setPosition(o.x-20,o.y-45);}if(o.zone==='hq'){s.firstVisit.interacted=true;say(firstVisitScript.discovery);}const power=suitPowerFor(roster[s.crew][0],s.suit.overlay);if(power&&o.page!=='professor'&&suitSubject(power,o)){nativeSuitPower(power.id,0,o.id);return}if(o.kind==='aquatic'){if(o.life&&!s.aquatic.observed.includes(o.life))s.aquatic.observed.push(o.life);if(o.find&&!s.aquatic.samples.includes(o.find))s.aquatic.samples.push(o.find);nativeAquatic(o.page);return}if(o.kind==='construction'){nativeConstructionPage(o.page);return}if(o.kind==='diglevel'){nativeDigLevel(o.nextLevel);return}if(o.kind==='digtools'){nativeDigLesson('tools');return}if(o.kind==='diglesson'){nativeDigLesson(o.lesson);return}if(o.kind==='digfind'){s.found.add(o.find);card(digFinds.find(f=>f.id===o.find));return}if(o.kind==='engineering'){nativeEngineering(o.project);return}if(o.kind==='farm'){nativeFarm(o.page);return}if(o.kind==='workshop'){nativePipWorkshop();return}if(o.kind==='crew'){crewMenu();return}if(o.kind==='home'){say('Welcome home to the training grounds. Choose an adventure.');return}if(o.kind==='dig'){s.action=s.settings.reduced?.2:1.2;say('Digging through the soil...');return}s.found.add(o.id);card(o)}",
             "function crewMenu(page=Math.floor(s.crew/4),onSelect=null){const pages=Math.ceil(roster.length/4);page=Math.max(0,Math.min(pages-1,page));open('J.A.C.C. Crew','Tap an astronaut. Everyone can explore every activity.','');for(let i=page*4;i<Math.min(roster.length,page*4+4);i++){const r=roster[i];for(const name of ['CrewCard','CrewPortrait','CrewName','CrewDetail'])obj(name+i).hide(false);text('CrewName'+i,(s.crew===i?'✓ ':'')+r[0]);text('CrewDetail'+i,(crewDescription(r[0])+' | '+r[1]+' suit | '+r[2]).replace(/(.{1,29})(?:\\s|$)/g,'$1\\n').trim());s.buttons.push({name:'CrewCard'+i,fn:()=>{s.crew=i;actor.setAnimation(i);text('ActiveCrew',r[0]+' | '+r[1]+' | '+r[2]);close();say(r[0]+' selected. '+r[2]);if(typeof onSelect==='function')onSelect();}});}for(const [name,label,to,visible]of [['CrewPrevious','← Previous crew',page-1,page>0],['CrewNext','More crew →',page+1,page<pages-1]])if(visible){obj(name+'Button').hide(false);obj(name+'Label').hide(false);s.buttons.push({name:name+'Button',fn:()=>crewMenu(to,onSelect)});}}",
-            "function pip(){if(['coding','robotics'].includes(s.zone)){const last=objects.find(o=>o.id===s.last&&o.zone===s.zone&&o.kind==='tech');nativeTech('pip-help:'+(last?.page||(s.zone==='coding'?'home':'build')));return}open('PIP','Choose a picture. Your astronaut will walk there and explore.','PIP  >  TAP  >  DISCOVER',[",
+            "function pip(){if(['engineering','machineyard'].includes(s.zone)||['hq','flight'].includes(s.zone)&&['hq-elon','flight-elon'].includes(s.last)){nativeConstructionPage('pip-help');return}if(['coding','robotics'].includes(s.zone)){const last=objects.find(o=>o.id===s.last&&o.zone===s.zone&&o.kind==='tech');nativeTech('pip-help:'+(last?.page||(s.zone==='coding'?'home':'build')));return}open('PIP','Choose a picture. Your astronaut will walk there and explore.','PIP  >  TAP  >  DISCOVER',[",
             " ['Show places',()=>{close();if(s.zone==='dig'){s.excavation.hints=true;nativeDigVisibility();}s.settings.effects=true;nativeActiveObjects().forEach(o=>obj('Target_'+o.id).setOpacity(190));say('The cream pictures are places to explore.')}],",
             " [s.zone==='aquatic'?'Show me a swim':'Show me a dig',()=>{close();select(s.zone==='aquatic'?nativeActiveObjects().find(o=>o.life):objects.find(o=>o.id==='dig'))}],",
             " ['Previous activity',()=>{close();select(objects.find(o=>o.id===s.last)||objects.find(o=>o.id===zones[s.zone].home))}],",

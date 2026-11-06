@@ -5,7 +5,7 @@ import {chapterExtras,chapterFlags,chapterSites,normalizeChapter} from './advent
 import {magnetExperiments} from './magnetism.js';
 import {openSpaceObjects,openSpacePortals} from './open-spaces.js';
 import {aquaticObjects,aquaticLife,aquaticSamples,normalizeAquatic} from './aquatic.js';
-import {constructionStations,elevatorObject,normalizeConstruction,constructionProjects} from './construction.js';
+import {professorElonObjects,constructionStations,elevatorObject,normalizeConstruction,constructionProjects} from './construction.js';
 import {digFinds,digObjects,engineeringObjects} from './excavation.js';
 import {gardenBeds} from './garden.js';
 import {farmPlants,farmStations,wildSeedObjects,farmExperiments,normalizeFarm} from './farm.js';
@@ -38,7 +38,7 @@ export const journalActivities={
  crystal:['I climbed to the crystal lookout.','Crystals have repeating shapes.'],
  bridge:['I looked at a bridge.','A bridge supports a path across a gap.']
 };
-for(const o of [...techHQLinks,...machineObjects,...elevatorExtras,...chapterExtras,...openSpaceObjects,...openSpacePortals,...aquaticObjects,...constructionStations,elevatorObject,...digObjects,...engineeringObjects])journalActivities[o.id]=['I explored '+o.name.toLowerCase()+'.','I can return and investigate again.'];
+for(const o of [...techHQLinks,...machineObjects,...elevatorExtras,...chapterExtras,...openSpaceObjects,...openSpacePortals,...aquaticObjects,...professorElonObjects,...constructionStations,elevatorObject,...digObjects,...engineeringObjects])journalActivities[o.id]=['I explored '+o.name.toLowerCase()+'.','I can return and investigate again.'];
 journalActivities['grounds-aquatic']=['I explored the Aquatic Learning Center.','Our home lake connects to protected ocean simulations.'];
 journalActivities['grounds-dig']=['I explored the dig site.','Earth materials and cave habitats tell different stories.'];
 for(const s of [...farmStations,...gardenBeds,...wildSeedObjects.map(o=>({...o,fact:o.text}))])journalActivities[s.id]=['I visited the '+s.name.toLowerCase()+'.',s.fact];

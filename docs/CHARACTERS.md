@@ -46,3 +46,7 @@ Approved across every astronaut suit: **silver for all metal accents** and **tea
 ## Professor Mike — Robotics and Computer Lab instructor
 
 Professor Mike is a warm, inventive, patient fictional instructor inspired by the creator’s friend Mike Dowd. His gentle humor and game-minded approach make bugs clues to explore. He introduces the purpose of challenges; PIP remains the child’s active companion and contextual helper. Malik and Kaito are astronaut teammates. Professor Elon remains program director. See [the approved profile and teaching brief](PROFESSOR_MIKE.md).
+
+## Professor Elon — Rocket Lab and Engineering
+
+Professor Elon leads rocket and engineering activities while retaining his program-director role. He is an approachable, theatrical, persistent fictional inventor who encourages children’s ideas. PIP provides the active assistance. **Latest appearance: younger professor, clean-shaven, glasses, lab-coat style.** This supersedes the earlier older/bearded description. See [his approved profile and voice brief](PROFESSOR_ELON.md).
