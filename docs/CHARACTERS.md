@@ -37,7 +37,7 @@ Lucas now has Bio-Vision, Adaptation Scan and Xeno Analysis; Sumati has Connecti
 
 ## Ninth J.A.C.C. — identity pending
 
-Approved: a male astronaut from China specializing in Astronomy and Astrophysics. His suit color is Blue. His personal name and model namesake remain unassigned. The configurable draft profile is in `prototype/src/suits.js`; he is not yet a ninth selectable character. Do not invent his permanent name or model namesake.
+Approved: a male astronaut from China specializing in Astronomy and Astrophysics. His suit color is Blue. His suit is the Sagan Model — Astronomy and Astrophysics, honoring Carl Sagan. His personal name remains unassigned. The configurable draft profile is in `prototype/src/suits.js`; he is not yet a ninth selectable character. Do not invent his permanent personal name.
 
 ## Shared suit material and energy colors
 

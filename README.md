@@ -56,4 +56,4 @@ PIP now has **Life Lens**, **Xeno Lab**, **Eco Probe**, and **Pattern Projector*
 
 All J.A.C.C.s are astronauts; Lucas Turner is French. Choose **Lucas, Sumati or Lilja → Suit** for their nine contextual powers. **Reveal in world**, then tap a highlighted place. **Explore this place** resumes its normal activity. Measure & Map calculates training-map distances; environmental surveys show greenhouse model settings; restoration/geometry plans link to the actual farm/construction activities. See [implemented powers and testing limits](docs/SUIT_POWERS.md).
 
-The ninth J.A.C.C. is recorded as a male Chinese astronaut specializing in Astronomy and Astrophysics; his suit is blue, while his name and model namesake are still to be chosen. All suits share silver metal accents and teal lights, thrusters and energy effects as the approved design standard.
+The ninth J.A.C.C. is recorded as a male Chinese astronaut specializing in Astronomy and Astrophysics; his blue suit is the Sagan Model, while his personal name is still to be chosen. All suits share silver metal accents and teal lights, thrusters and energy effects as the approved design standard.
