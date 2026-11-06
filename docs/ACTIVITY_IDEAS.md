@@ -79,3 +79,30 @@ Guided Adventure gives one optional step at a time. Free Explore lets children r
 - Vacuum and mass checks are only some of the engineering tests real spacecraft require. Do not present the activity as a full launch-safety checklist.
 
 Aiden introduces assembly; Malik computer/data systems; Alex power/communications concepts; Kaito attitude and flight; Lilja measurement; Sumati Earth-observation goals; and the blue Sagan astronaut astronomy payloads once his identity is complete. These are optional introductions, not exclusive ability gates. All crew can build.
+
+## Go With the Flow reference — supplied text
+
+The owner supplied the NASA/JPL-Caltech activity description: guide a submarine along currents to a key/treasure, using salt, heat, lateral-current and wall tools. The text also discusses temperature/salinity, sea ice, overturning circulation and SMAP surface-salinity observations. This records the supplied description; the live game, cited video and artwork have not been independently reviewed or imported.
+
+### Proposed J.A.C.C. activity: Current Workshop
+
+**Placement:** Aquatic Learning Center, in the ocean simulation alongside buoyancy, salinity and oceanography models. Do not add salt/heat to the actual freshwater home lake. Status: planned, not implemented.
+
+- A simple 2D profile grid shows a training submarine, current arrows, obstacles and a discovery capsule.
+- Select a model tool, then a large tile. Use a tool button to turn arrows; no dragging is required. Provide labeled tile choices for switch/controller/screen-reader access, not just spatial pointing.
+- Tools model a denser downward-flow region, a warmer upward-flow region, a lateral pump/flow deflector and a barrier. Explicitly label these as controls in a teaching model, not literal tools for steering the real ocean.
+- Run the model and the submarine follows automatically. Offer Pause, one-step advance, Undo, Reset, PIP demonstration and optional narration/captions. No oxygen countdown, penalty for a blocked route or timed selection. A blocked route simply invites another design.
+- Guided play introduces one tool/concept at a time; Free Explore lets children change the model and repeat. A key/discovery capsule can reveal a reusable journal illustration or observation, with no currency or competitive score.
+- Later connect satellite temperature/salinity observations to the planned CubeSat activity, and habitat/water-system designs to farming and future aquatic worlds. These cross-zone systems are future work.
+
+### Science boundaries and corrections
+
+At comparable temperature and pressure, saltier water is generally denser; warming seawater generally reduces density at fixed salinity/pressure. Sinking or rising depends on density relative to surrounding water, with temperature, salinity and pressure all relevant. Do not teach that adding salt or heat always creates a particular full-ocean current.
+
+Sea-ice formation largely rejects salt into surrounding seawater; real sea ice can retain brine. Melting adds freshwater. Cold meltwater does **not** inevitably sink: its lower salinity can make it buoyant despite its lower temperature. Freshwater also has a density maximum near 4 °C; avoid applying a universal warm-up/rise rule to all water.
+
+The global overturning circulation is more complex than a single conveyor loop. Wind, Earth's rotation, mixing, coastlines and seafloor shape also influence currents. Avoid the supplied text's categorical claims about climates freezing or overheating without a single circulation mechanism.
+
+SMAP uses microwave observations to infer sea-surface salinity; it does not directly measure every current or deep-ocean salinity. Verify mission-specific details against authoritative sources before production. Treat exact numerical model parameters as configurable educational approximations requiring science review.
+
+Use original J.A.C.C. art and characters. Retain shapes, patterns, spoken descriptions and labels in addition to colors. No NASA endorsement or asset-reuse permission is implied.
