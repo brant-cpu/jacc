@@ -18,7 +18,7 @@ export const openSpaceObjects=Object.entries(openSpaces).flatMap(([zone,z])=>[
  site(zone,'high',2050,800,'🔭','High lookout','The sky looks different from space. Wings and ordinary parachutes need an atmosphere; reaction thrust can work in vacuum.'),
  site(zone,'return-pad',650,900,'🛬','Lower landing pad','Rest, pause or take another flight. No fuel or oxygen timer is used in this training range.')
  ]:zone==='forest'?[
- site(zone,'oak',460,400,'🌳','Oak grove','An acorn is an oak seed. Trees provide shelter and interact with soil, water and other organisms.',{seed:'oak'}),
+ site(zone,'oak',460,400,'🌳','Oak grove','An acorn is an oak seed. Trees provide shelter and interact with soil, water and other organisms.',{seed:'oak',seedOrigin:'forest'}),
  site(zone,'hollow',800,450,'🪵','Tree hollow','A hollow tree can provide shelter. Observe animals without disturbing their homes.'),
  site(zone,'bridge',1100,600,'🌉','Stream bridge','This bridge provides a route across the stream. Water moves sediment and connects habitats.'),
  site(zone,'pollinator',1500,360,'🦋','Pollinator clearing','Some flower-visiting animals move pollen between flowers. Many plants depend on this relationship.'),
