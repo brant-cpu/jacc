@@ -198,6 +198,22 @@
         "smoothed": false
       },
       {
+        "name": "button-hc",
+        "kind": "image",
+        "file": "assets/button-hc.png",
+        "metadata": "",
+        "userAdded": true,
+        "smoothed": true
+      },
+      {
+        "name": "panel-hc",
+        "kind": "image",
+        "file": "assets/panel-hc.png",
+        "metadata": "",
+        "userAdded": true,
+        "smoothed": true
+      },
+      {
         "name": "suit-art-life-lens-0",
         "kind": "image",
         "file": "assets/suit-art-life-lens-0.png",
@@ -2870,6 +2886,35 @@
                   ]
                 }
               ]
+            },
+            {
+              "name": "High contrast",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "panel-hc",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -2930,6 +2975,35 @@
                   "sprites": [
                     {
                       "image": "button",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "High contrast",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button-hc",
                       "hasCustomCollisionMask": false,
                       "points": [],
                       "originPoint": {
@@ -3026,6 +3100,35 @@
                   ]
                 }
               ]
+            },
+            {
+              "name": "High contrast",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button-hc",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -3086,6 +3189,35 @@
                   "sprites": [
                     {
                       "image": "button",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "High contrast",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button-hc",
                       "hasCustomCollisionMask": false,
                       "points": [],
                       "originPoint": {
@@ -3182,6 +3314,35 @@
                   ]
                 }
               ]
+            },
+            {
+              "name": "High contrast",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button-hc",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -3260,6 +3421,35 @@
                   ]
                 }
               ]
+            },
+            {
+              "name": "High contrast",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button-hc",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -3320,6 +3510,35 @@
                   "sprites": [
                     {
                       "image": "button",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "High contrast",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button-hc",
                       "hasCustomCollisionMask": false,
                       "points": [],
                       "originPoint": {
@@ -3496,6 +3715,35 @@
                   ]
                 }
               ]
+            },
+            {
+              "name": "High contrast",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button-hc",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -3556,6 +3804,35 @@
                   "sprites": [
                     {
                       "image": "button",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "High contrast",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button-hc",
                       "hasCustomCollisionMask": false,
                       "points": [],
                       "originPoint": {
@@ -3652,6 +3929,35 @@
                   ]
                 }
               ]
+            },
+            {
+              "name": "High contrast",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button-hc",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -3712,6 +4018,35 @@
                   "sprites": [
                     {
                       "image": "button",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "High contrast",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button-hc",
                       "hasCustomCollisionMask": false,
                       "points": [],
                       "originPoint": {
@@ -3808,6 +4143,35 @@
                   ]
                 }
               ]
+            },
+            {
+              "name": "High contrast",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button-hc",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -3868,6 +4232,35 @@
                   "sprites": [
                     {
                       "image": "button",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "High contrast",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button-hc",
                       "hasCustomCollisionMask": false,
                       "points": [],
                       "originPoint": {
@@ -3964,6 +4357,35 @@
                   ]
                 }
               ]
+            },
+            {
+              "name": "High contrast",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button-hc",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -4024,6 +4446,35 @@
                   "sprites": [
                     {
                       "image": "button",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "High contrast",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button-hc",
                       "hasCustomCollisionMask": false,
                       "points": [],
                       "originPoint": {
@@ -4120,6 +4571,35 @@
                   ]
                 }
               ]
+            },
+            {
+              "name": "High contrast",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button-hc",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -4180,6 +4660,35 @@
                   "sprites": [
                     {
                       "image": "button",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "High contrast",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button-hc",
                       "hasCustomCollisionMask": false,
                       "points": [],
                       "originPoint": {
@@ -4276,6 +4785,35 @@
                   ]
                 }
               ]
+            },
+            {
+              "name": "High contrast",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button-hc",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -4336,6 +4874,35 @@
                   "sprites": [
                     {
                       "image": "button",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "High contrast",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button-hc",
                       "hasCustomCollisionMask": false,
                       "points": [],
                       "originPoint": {
@@ -4432,6 +4999,35 @@
                   ]
                 }
               ]
+            },
+            {
+              "name": "High contrast",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button-hc",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -4492,6 +5088,35 @@
                   "sprites": [
                     {
                       "image": "button",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "High contrast",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button-hc",
                       "hasCustomCollisionMask": false,
                       "points": [],
                       "originPoint": {
@@ -4588,6 +5213,35 @@
                   ]
                 }
               ]
+            },
+            {
+              "name": "High contrast",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button-hc",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -4648,6 +5302,35 @@
                   "sprites": [
                     {
                       "image": "button",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "High contrast",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button-hc",
                       "hasCustomCollisionMask": false,
                       "points": [],
                       "originPoint": {
@@ -4744,6 +5427,35 @@
                   ]
                 }
               ]
+            },
+            {
+              "name": "High contrast",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button-hc",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -4804,6 +5516,35 @@
                   "sprites": [
                     {
                       "image": "button",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "High contrast",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button-hc",
                       "hasCustomCollisionMask": false,
                       "points": [],
                       "originPoint": {
@@ -4900,6 +5641,35 @@
                   ]
                 }
               ]
+            },
+            {
+              "name": "High contrast",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button-hc",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -4960,6 +5730,35 @@
                   "sprites": [
                     {
                       "image": "button",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "High contrast",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button-hc",
                       "hasCustomCollisionMask": false,
                       "points": [],
                       "originPoint": {
@@ -5056,6 +5855,35 @@
                   ]
                 }
               ]
+            },
+            {
+              "name": "High contrast",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button-hc",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -5116,6 +5944,35 @@
                   "sprites": [
                     {
                       "image": "button",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "High contrast",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button-hc",
                       "hasCustomCollisionMask": false,
                       "points": [],
                       "originPoint": {
@@ -5212,6 +6069,35 @@
                   ]
                 }
               ]
+            },
+            {
+              "name": "High contrast",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button-hc",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -5272,6 +6158,35 @@
                   "sprites": [
                     {
                       "image": "button",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "High contrast",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button-hc",
                       "hasCustomCollisionMask": false,
                       "points": [],
                       "originPoint": {
@@ -5368,6 +6283,35 @@
                   ]
                 }
               ]
+            },
+            {
+              "name": "High contrast",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button-hc",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -5428,6 +6372,35 @@
                   "sprites": [
                     {
                       "image": "button",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "High contrast",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button-hc",
                       "hasCustomCollisionMask": false,
                       "points": [],
                       "originPoint": {
@@ -5524,6 +6497,35 @@
                   ]
                 }
               ]
+            },
+            {
+              "name": "High contrast",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button-hc",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -5584,6 +6586,35 @@
                   "sprites": [
                     {
                       "image": "button",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "High contrast",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button-hc",
                       "hasCustomCollisionMask": false,
                       "points": [],
                       "originPoint": {
@@ -5680,6 +6711,35 @@
                   ]
                 }
               ]
+            },
+            {
+              "name": "High contrast",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button-hc",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -5740,6 +6800,35 @@
                   "sprites": [
                     {
                       "image": "button",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "High contrast",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button-hc",
                       "hasCustomCollisionMask": false,
                       "points": [],
                       "originPoint": {
@@ -5836,6 +6925,35 @@
                   ]
                 }
               ]
+            },
+            {
+              "name": "High contrast",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button-hc",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -5896,6 +7014,35 @@
                   "sprites": [
                     {
                       "image": "button",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "High contrast",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button-hc",
                       "hasCustomCollisionMask": false,
                       "points": [],
                       "originPoint": {
@@ -5992,6 +7139,35 @@
                   ]
                 }
               ]
+            },
+            {
+              "name": "High contrast",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button-hc",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -6052,6 +7228,35 @@
                   "sprites": [
                     {
                       "image": "button",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "High contrast",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button-hc",
                       "hasCustomCollisionMask": false,
                       "points": [],
                       "originPoint": {
@@ -6148,6 +7353,35 @@
                   ]
                 }
               ]
+            },
+            {
+              "name": "High contrast",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button-hc",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -6208,6 +7442,35 @@
                   "sprites": [
                     {
                       "image": "button",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "High contrast",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button-hc",
                       "hasCustomCollisionMask": false,
                       "points": [],
                       "originPoint": {
@@ -6304,6 +7567,35 @@
                   ]
                 }
               ]
+            },
+            {
+              "name": "High contrast",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button-hc",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -6364,6 +7656,35 @@
                   "sprites": [
                     {
                       "image": "button",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "High contrast",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button-hc",
                       "hasCustomCollisionMask": false,
                       "points": [],
                       "originPoint": {
@@ -6460,6 +7781,35 @@
                   ]
                 }
               ]
+            },
+            {
+              "name": "High contrast",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button-hc",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -6520,6 +7870,35 @@
                   "sprites": [
                     {
                       "image": "button",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "High contrast",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button-hc",
                       "hasCustomCollisionMask": false,
                       "points": [],
                       "originPoint": {
@@ -6616,6 +7995,35 @@
                   ]
                 }
               ]
+            },
+            {
+              "name": "High contrast",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button-hc",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -6676,6 +8084,35 @@
                   "sprites": [
                     {
                       "image": "button",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "High contrast",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button-hc",
                       "hasCustomCollisionMask": false,
                       "points": [],
                       "originPoint": {
@@ -6772,6 +8209,35 @@
                   ]
                 }
               ]
+            },
+            {
+              "name": "High contrast",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button-hc",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -6832,6 +8298,35 @@
                   "sprites": [
                     {
                       "image": "button",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "High contrast",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button-hc",
                       "hasCustomCollisionMask": false,
                       "points": [],
                       "originPoint": {
@@ -6928,6 +8423,35 @@
                   ]
                 }
               ]
+            },
+            {
+              "name": "High contrast",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button-hc",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -6988,6 +8512,35 @@
                   "sprites": [
                     {
                       "image": "button",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "High contrast",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button-hc",
                       "hasCustomCollisionMask": false,
                       "points": [],
                       "originPoint": {
@@ -7084,6 +8637,35 @@
                   ]
                 }
               ]
+            },
+            {
+              "name": "High contrast",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button-hc",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -7144,6 +8726,35 @@
                   "sprites": [
                     {
                       "image": "button",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "High contrast",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button-hc",
                       "hasCustomCollisionMask": false,
                       "points": [],
                       "originPoint": {
@@ -7240,6 +8851,35 @@
                   ]
                 }
               ]
+            },
+            {
+              "name": "High contrast",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button-hc",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -7300,6 +8940,35 @@
                   "sprites": [
                     {
                       "image": "button",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "High contrast",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button-hc",
                       "hasCustomCollisionMask": false,
                       "points": [],
                       "originPoint": {
@@ -7396,6 +9065,35 @@
                   ]
                 }
               ]
+            },
+            {
+              "name": "High contrast",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button-hc",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -7456,6 +9154,35 @@
                   "sprites": [
                     {
                       "image": "button",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "High contrast",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button-hc",
                       "hasCustomCollisionMask": false,
                       "points": [],
                       "originPoint": {
@@ -7552,6 +9279,35 @@
                   ]
                 }
               ]
+            },
+            {
+              "name": "High contrast",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button-hc",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -7612,6 +9368,35 @@
                   "sprites": [
                     {
                       "image": "button",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "High contrast",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button-hc",
                       "hasCustomCollisionMask": false,
                       "points": [],
                       "originPoint": {
@@ -7708,6 +9493,35 @@
                   ]
                 }
               ]
+            },
+            {
+              "name": "High contrast",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button-hc",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -7768,6 +9582,35 @@
                   "sprites": [
                     {
                       "image": "button",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "High contrast",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button-hc",
                       "hasCustomCollisionMask": false,
                       "points": [],
                       "originPoint": {
@@ -7864,6 +9707,35 @@
                   ]
                 }
               ]
+            },
+            {
+              "name": "High contrast",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button-hc",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -7924,6 +9796,35 @@
                   "sprites": [
                     {
                       "image": "button",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "High contrast",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button-hc",
                       "hasCustomCollisionMask": false,
                       "points": [],
                       "originPoint": {
@@ -8020,6 +9921,35 @@
                   ]
                 }
               ]
+            },
+            {
+              "name": "High contrast",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button-hc",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -8080,6 +10010,35 @@
                   "sprites": [
                     {
                       "image": "button",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "High contrast",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button-hc",
                       "hasCustomCollisionMask": false,
                       "points": [],
                       "originPoint": {
@@ -8176,6 +10135,35 @@
                   ]
                 }
               ]
+            },
+            {
+              "name": "High contrast",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button-hc",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -8236,6 +10224,35 @@
                   "sprites": [
                     {
                       "image": "button",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "High contrast",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button-hc",
                       "hasCustomCollisionMask": false,
                       "points": [],
                       "originPoint": {
@@ -8332,6 +10349,35 @@
                   ]
                 }
               ]
+            },
+            {
+              "name": "High contrast",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button-hc",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -8392,6 +10438,35 @@
                   "sprites": [
                     {
                       "image": "button",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "High contrast",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button-hc",
                       "hasCustomCollisionMask": false,
                       "points": [],
                       "originPoint": {
@@ -8488,6 +10563,35 @@
                   ]
                 }
               ]
+            },
+            {
+              "name": "High contrast",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button-hc",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -8548,6 +10652,35 @@
                   "sprites": [
                     {
                       "image": "button",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "High contrast",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button-hc",
                       "hasCustomCollisionMask": false,
                       "points": [],
                       "originPoint": {
@@ -8644,6 +10777,35 @@
                   ]
                 }
               ]
+            },
+            {
+              "name": "High contrast",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button-hc",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -8704,6 +10866,35 @@
                   "sprites": [
                     {
                       "image": "button",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "High contrast",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button-hc",
                       "hasCustomCollisionMask": false,
                       "points": [],
                       "originPoint": {
@@ -8800,6 +10991,35 @@
                   ]
                 }
               ]
+            },
+            {
+              "name": "High contrast",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button-hc",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -8860,6 +11080,35 @@
                   "sprites": [
                     {
                       "image": "button",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "High contrast",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button-hc",
                       "hasCustomCollisionMask": false,
                       "points": [],
                       "originPoint": {
@@ -8956,6 +11205,35 @@
                   ]
                 }
               ]
+            },
+            {
+              "name": "High contrast",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button-hc",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -9016,6 +11294,35 @@
                   "sprites": [
                     {
                       "image": "button",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "High contrast",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button-hc",
                       "hasCustomCollisionMask": false,
                       "points": [],
                       "originPoint": {
@@ -9112,6 +11419,35 @@
                   ]
                 }
               ]
+            },
+            {
+              "name": "High contrast",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button-hc",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -9172,6 +11508,35 @@
                   "sprites": [
                     {
                       "image": "button",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "High contrast",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button-hc",
                       "hasCustomCollisionMask": false,
                       "points": [],
                       "originPoint": {
@@ -9268,6 +11633,35 @@
                   ]
                 }
               ]
+            },
+            {
+              "name": "High contrast",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button-hc",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -9328,6 +11722,35 @@
                   "sprites": [
                     {
                       "image": "button",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "High contrast",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button-hc",
                       "hasCustomCollisionMask": false,
                       "points": [],
                       "originPoint": {
@@ -9424,6 +11847,35 @@
                   ]
                 }
               ]
+            },
+            {
+              "name": "High contrast",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button-hc",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -9484,6 +11936,35 @@
                   "sprites": [
                     {
                       "image": "button",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "High contrast",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button-hc",
                       "hasCustomCollisionMask": false,
                       "points": [],
                       "originPoint": {
@@ -9580,6 +12061,35 @@
                   ]
                 }
               ]
+            },
+            {
+              "name": "High contrast",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button-hc",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -9640,6 +12150,35 @@
                   "sprites": [
                     {
                       "image": "button",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "High contrast",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button-hc",
                       "hasCustomCollisionMask": false,
                       "points": [],
                       "originPoint": {
@@ -9736,6 +12275,35 @@
                   ]
                 }
               ]
+            },
+            {
+              "name": "High contrast",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button-hc",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -9796,6 +12364,35 @@
                   "sprites": [
                     {
                       "image": "panel",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "High contrast",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "panel-hc",
                       "hasCustomCollisionMask": false,
                       "points": [],
                       "originPoint": {
@@ -9972,6 +12569,35 @@
                   ]
                 }
               ]
+            },
+            {
+              "name": "High contrast",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button-hc",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -10032,6 +12658,35 @@
                   "sprites": [
                     {
                       "image": "button",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "High contrast",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button-hc",
                       "hasCustomCollisionMask": false,
                       "points": [],
                       "originPoint": {
@@ -10128,6 +12783,35 @@
                   ]
                 }
               ]
+            },
+            {
+              "name": "High contrast",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button-hc",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -10188,6 +12872,35 @@
                   "sprites": [
                     {
                       "image": "button",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "High contrast",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button-hc",
                       "hasCustomCollisionMask": false,
                       "points": [],
                       "originPoint": {
@@ -10284,6 +12997,35 @@
                   ]
                 }
               ]
+            },
+            {
+              "name": "High contrast",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button-hc",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -10344,6 +13086,35 @@
                   "sprites": [
                     {
                       "image": "button",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "High contrast",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button-hc",
                       "hasCustomCollisionMask": false,
                       "points": [],
                       "originPoint": {
@@ -10440,6 +13211,35 @@
                   ]
                 }
               ]
+            },
+            {
+              "name": "High contrast",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button-hc",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -10500,6 +13300,35 @@
                   "sprites": [
                     {
                       "image": "button",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "High contrast",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button-hc",
                       "hasCustomCollisionMask": false,
                       "points": [],
                       "originPoint": {
@@ -10674,6 +13503,35 @@
                   ]
                 }
               ]
+            },
+            {
+              "name": "High contrast",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button-hc",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -10812,6 +13670,35 @@
                   "sprites": [
                     {
                       "image": "button",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "High contrast",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button-hc",
                       "hasCustomCollisionMask": false,
                       "points": [],
                       "originPoint": {
@@ -10986,6 +13873,35 @@
                   ]
                 }
               ]
+            },
+            {
+              "name": "High contrast",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button-hc",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -11124,6 +14040,35 @@
                   "sprites": [
                     {
                       "image": "button",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "High contrast",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button-hc",
                       "hasCustomCollisionMask": false,
                       "points": [],
                       "originPoint": {
@@ -11298,6 +14243,35 @@
                   ]
                 }
               ]
+            },
+            {
+              "name": "High contrast",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button-hc",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -11436,6 +14410,35 @@
                   "sprites": [
                     {
                       "image": "button",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "High contrast",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button-hc",
                       "hasCustomCollisionMask": false,
                       "points": [],
                       "originPoint": {
@@ -11610,6 +14613,35 @@
                   ]
                 }
               ]
+            },
+            {
+              "name": "High contrast",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button-hc",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -11766,6 +14798,35 @@
                   ]
                 }
               ]
+            },
+            {
+              "name": "High contrast",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button-hc",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -11826,6 +14887,35 @@
                   "sprites": [
                     {
                       "image": "button",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "High contrast",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button-hc",
                       "hasCustomCollisionMask": false,
                       "points": [],
                       "originPoint": {
@@ -13638,6 +16728,35 @@
                   ]
                 }
               ]
+            },
+            {
+              "name": "High contrast",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button-hc",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -13698,6 +16817,35 @@
                   "sprites": [
                     {
                       "image": "button",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "High contrast",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button-hc",
                       "hasCustomCollisionMask": false,
                       "points": [],
                       "originPoint": {
@@ -13794,6 +16942,35 @@
                   ]
                 }
               ]
+            },
+            {
+              "name": "High contrast",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button-hc",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -13854,6 +17031,35 @@
                   "sprites": [
                     {
                       "image": "button",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "High contrast",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button-hc",
                       "hasCustomCollisionMask": false,
                       "points": [],
                       "originPoint": {
@@ -13950,6 +17156,35 @@
                   ]
                 }
               ]
+            },
+            {
+              "name": "High contrast",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button-hc",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -14010,6 +17245,35 @@
                   "sprites": [
                     {
                       "image": "button",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "High contrast",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button-hc",
                       "hasCustomCollisionMask": false,
                       "points": [],
                       "originPoint": {
@@ -14106,6 +17370,35 @@
                   ]
                 }
               ]
+            },
+            {
+              "name": "High contrast",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button-hc",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -14166,6 +17459,35 @@
                   "sprites": [
                     {
                       "image": "button",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "High contrast",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button-hc",
                       "hasCustomCollisionMask": false,
                       "points": [],
                       "originPoint": {
@@ -14262,6 +17584,35 @@
                   ]
                 }
               ]
+            },
+            {
+              "name": "High contrast",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button-hc",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -14322,6 +17673,35 @@
                   "sprites": [
                     {
                       "image": "button",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "High contrast",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button-hc",
                       "hasCustomCollisionMask": false,
                       "points": [],
                       "originPoint": {
@@ -14418,6 +17798,35 @@
                   ]
                 }
               ]
+            },
+            {
+              "name": "High contrast",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button-hc",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -14478,6 +17887,35 @@
                   "sprites": [
                     {
                       "image": "button",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "High contrast",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button-hc",
                       "hasCustomCollisionMask": false,
                       "points": [],
                       "originPoint": {
@@ -14574,6 +18012,35 @@
                   ]
                 }
               ]
+            },
+            {
+              "name": "High contrast",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button-hc",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -14634,6 +18101,35 @@
                   "sprites": [
                     {
                       "image": "button",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "High contrast",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button-hc",
                       "hasCustomCollisionMask": false,
                       "points": [],
                       "originPoint": {
@@ -18797,6 +22293,35 @@
                   ]
                 }
               ]
+            },
+            {
+              "name": "High contrast",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "panel-hc",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -20605,6 +24130,35 @@
                   ]
                 }
               ]
+            },
+            {
+              "name": "High contrast",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button-hc",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -20665,6 +24219,35 @@
                   "sprites": [
                     {
                       "image": "button",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "High contrast",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button-hc",
                       "hasCustomCollisionMask": false,
                       "points": [],
                       "originPoint": {
@@ -20761,6 +24344,35 @@
                   ]
                 }
               ]
+            },
+            {
+              "name": "High contrast",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button-hc",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -20821,6 +24433,35 @@
                   "sprites": [
                     {
                       "image": "button",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "High contrast",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button-hc",
                       "hasCustomCollisionMask": false,
                       "points": [],
                       "originPoint": {
@@ -20917,6 +24558,35 @@
                   ]
                 }
               ]
+            },
+            {
+              "name": "High contrast",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button-hc",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -20977,6 +24647,35 @@
                   "sprites": [
                     {
                       "image": "button",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "High contrast",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button-hc",
                       "hasCustomCollisionMask": false,
                       "points": [],
                       "originPoint": {
@@ -21073,6 +24772,35 @@
                   ]
                 }
               ]
+            },
+            {
+              "name": "High contrast",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button-hc",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -21133,6 +24861,35 @@
                   "sprites": [
                     {
                       "image": "button",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "High contrast",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button-hc",
                       "hasCustomCollisionMask": false,
                       "points": [],
                       "originPoint": {
@@ -21229,6 +24986,35 @@
                   ]
                 }
               ]
+            },
+            {
+              "name": "High contrast",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button-hc",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -21307,6 +25093,35 @@
                   ]
                 }
               ]
+            },
+            {
+              "name": "High contrast",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button-hc",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -21367,6 +25182,35 @@
                   "sprites": [
                     {
                       "image": "button",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "High contrast",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button-hc",
                       "hasCustomCollisionMask": false,
                       "points": [],
                       "originPoint": {
@@ -32832,6 +36676,14 @@
         {
           "type": "BuiltinCommonInstructions::JsCode",
           "inlineCode": [
+            "// Independent preferences; no single palette serves every kind of color vision.",
+            "function displayPreferences(raw={}){return {highContrast:raw?.highContrast===true,colorBlind:raw?.colorBlind===true};}",
+            "function destinationBadge(objects,id){const o=objects.find(o=>o.id===id);return o?String(objects.filter(x=>x.zone===o.zone).findIndex(x=>x.id===id)+1):'';}",
+            "",
+            "const displaySprites=[\"Footer\",\"PipButton\",\"CrewButton\",\"SuitButton\",\"JournalButton\",\"SettingsButton\",\"PauseButton\",\"Target_grounds-dig\",\"Target_grounds-home\",\"Target_grounds-farm\",\"Target_home\",\"Target_plant\",\"Target_rock\",\"Target_dig\",\"Target_magnet\",\"Target_crystal\",\"Target_bridge\",\"Target_hq-map\",\"Target_hq-bay\",\"Target_hq-lab\",\"Target_hq-pip\",\"Target_hq-bunks\",\"Target_hq-locker\",\"Target_hq-home\",\"Target_hq-exit\",\"Target_farm-hydro\",\"Target_farm-biodome\",\"Target_farm-garden\",\"Target_farm-orchard\",\"Target_farm-vertical\",\"Target_farm-solar\",\"Target_farm-water\",\"Target_farm-power\",\"Target_farm-bank\",\"Target_farm-computer\",\"Target_farm-leaf\",\"Target_farm-robot\",\"Target_farm-exit\",\"Target_dig-exit\",\"Target_dig-tools\",\"Target_dig-quartz\",\"Target_dig-iron\",\"Target_dig-fossil\",\"Target_dig-amethyst\",\"Target_dig-calcite\",\"Target_dig-granite\",\"Target_dig-basalt\",\"Target_dig-deeper\",\"Target_dig-layers\",\"Target_cave-up\",\"Target_cave-life\",\"Target_cave-pigment\",\"Target_cave-echo\",\"Target_cave-formations\",\"Target_cave-water\",\"Target_cave-lava\",\"Target_cave-mantle\",\"Target_engineering-exit\",\"Target_engineering-bridge\",\"Target_engineering-water\",\"Target_engineering-habitat\",\"Target_yard-free\",\"Target_yard-printer\",\"Target_yard-crane\",\"Target_yard-robots\",\"Target_yard-build\",\"Target_yard-pipes\",\"Target_yard-power\",\"Target_grounds-elevator\",\"Target_aqua-exit\",\"Target_aqua-center\",\"Target_aqua-science\",\"Target_aqua-dock\",\"Target_aqua-habitat\",\"Target_aqua-water\",\"Target_aqua-cleanup\",\"Target_aqua-volcano\",\"Target_aqua-perch\",\"Target_aqua-reeds\",\"Target_aqua-reef-fish\",\"Target_aqua-dolphin\",\"Target_aqua-whale\",\"Target_aqua-shark\",\"Target_aqua-octopus\",\"Target_aqua-isopod\",\"Target_aqua-angler\",\"Target_aqua-brittle\",\"Target_grounds-aquatic\",\"Panel\",\"Close\",\"Option0\",\"Option1\",\"Option2\",\"Option3\",\"Option4\",\"Option5\",\"CrewCard0\",\"CrewCard1\",\"CrewCard2\",\"CrewCard3\",\"CrewCard4\",\"CrewCard5\",\"CrewCard6\",\"CrewCard7\",\"CrewPreviousButton\",\"CrewNextButton\",\"PipTab0\",\"PipTab1\",\"PipTab2\",\"PipTab3\",\"PipTab4\",\"PipPart0\",\"PipPart1\",\"PipPart2\",\"PipPart3\",\"PipAction0\",\"PipAction1\",\"PipAction2\",\"PipAction3\",\"PipAction4\",\"EngineeringBackground\",\"BuildTool0\",\"BuildTool1\",\"BuildTool2\",\"BuildTool3\",\"BuildTool4\",\"BuildTool5\",\"BuildPart0\",\"BuildPart1\",\"BuildPart2\",\"BuildPart3\",\"BuildPart4\"];",
+            "const displayTexts=[{\"name\":\"Title\",\"color\":\"239;248;245\",\"light\":true},{\"name\":\"PipLabel\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"CrewLabel\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"SuitLabel\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"JournalLabel\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"SettingsLabel\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"PauseLabel\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"ActiveCrew\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Status\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_grounds-dig\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_grounds-home\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_grounds-farm\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_home\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_plant\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_rock\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_dig\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_magnet\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_crystal\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_bridge\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_hq-map\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_hq-bay\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_hq-lab\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_hq-pip\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_hq-bunks\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_hq-locker\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_hq-home\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_hq-exit\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_farm-hydro\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_farm-biodome\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_farm-garden\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_farm-orchard\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_farm-vertical\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_farm-solar\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_farm-water\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_farm-power\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_farm-bank\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_farm-computer\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_farm-leaf\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_farm-robot\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_farm-exit\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_dig-exit\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_dig-tools\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_dig-quartz\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_dig-iron\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_dig-fossil\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_dig-amethyst\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_dig-calcite\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_dig-granite\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_dig-basalt\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_dig-deeper\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_dig-layers\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_cave-up\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_cave-life\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_cave-pigment\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_cave-echo\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_cave-formations\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_cave-water\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_cave-lava\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_cave-mantle\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_engineering-exit\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_engineering-bridge\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_engineering-water\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_engineering-habitat\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_yard-free\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_yard-printer\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_yard-crane\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_yard-robots\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_yard-build\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_yard-pipes\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_yard-power\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_grounds-elevator\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_aqua-exit\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_aqua-center\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_aqua-science\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_aqua-dock\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_aqua-habitat\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_aqua-water\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_aqua-cleanup\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_aqua-volcano\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_aqua-perch\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_aqua-reeds\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_aqua-reef-fish\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_aqua-dolphin\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_aqua-whale\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_aqua-shark\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_aqua-octopus\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_aqua-isopod\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_aqua-angler\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_aqua-brittle\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"Label_grounds-aquatic\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"CardTitle\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"CardBody\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"CardVisual\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"CloseLabel\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"OptionLabel0\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"OptionLabel1\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"OptionLabel2\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"OptionLabel3\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"OptionLabel4\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"OptionLabel5\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"CrewName0\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"CrewDetail0\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"CrewName1\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"CrewDetail1\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"CrewName2\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"CrewDetail2\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"CrewName3\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"CrewDetail3\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"CrewName4\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"CrewDetail4\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"CrewName5\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"CrewDetail5\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"CrewName6\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"CrewDetail6\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"CrewName7\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"CrewDetail7\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"CrewPreviousLabel\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"CrewNextLabel\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"PipBlueprintLabel\",\"color\":\"23;56;74\",\"light\":true},{\"name\":\"WorkshopNote\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"PipTabLabel0\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"PipTabLabel1\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"PipTabLabel2\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"PipTabLabel3\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"PipTabLabel4\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"PipPartLabel0\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"PipPartLabel1\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"PipPartLabel2\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"PipPartLabel3\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"PipActionLabel0\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"PipActionLabel1\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"PipActionLabel2\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"PipActionLabel3\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"PipActionLabel4\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"BuildToolLabel0\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"BuildToolLabel1\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"BuildToolLabel2\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"BuildToolLabel3\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"BuildToolLabel4\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"BuildToolLabel5\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"BuildPartLabel0\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"BuildPartLabel1\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"BuildPartLabel2\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"BuildPartLabel3\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"BuildPartLabel4\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"BuildNote\",\"color\":\"23;56;74\",\"light\":false},{\"name\":\"BuildMarker0\",\"color\":\"239;248;245\",\"light\":false},{\"name\":\"BuildMarker1\",\"color\":\"239;248;245\",\"light\":false},{\"name\":\"BuildMarker2\",\"color\":\"239;248;245\",\"light\":false}];",
+            "function nativeDisplayUpdate(){const v=s.settings,hash=String(v.highContrast)+'/'+String(v.colorBlind);if(s.displayHash!==hash){s.displayHash=hash;for(const n of displaySprites)obj(n).setAnimation(v.highContrast?1:0);for(const t of displayTexts)obj(t.name).setColor(v.highContrast?(t.light?'255;255;255':'0;0;0'):t.color);for(const o of objects)text('Label_'+o.id,(v.colorBlind?destinationBadge(objects,o.id)+' • ':'')+o.icon+'\\n'+o.name.replace(' ','\\n'));}if(s.overlay==='J.A.C.C. Crew')for(let i=0;i<roster.length;i++)text('CrewName'+i,(v.colorBlind?(i+1)+' • ':'')+(s.crew===i?'✓ ':'')+roster[i][0]);}",
+            "",
             "// Earth lake + protected ocean simulations. Not a real dive or an animal-identification guide.",
             "const aquaticHabitats={lake:{name:'Home lake',note:'Freshwater lake training area. Marine animals are in separate ocean simulations.'},reef:{name:'Reef & open-ocean simulation',note:'Representative marine viewing windows, not wildlife living in our freshwater lake.'},deep:{name:'Deep-ocean simulation',note:'Protected depth-habitat models. Not all deep-sea animals live in the abyss.'}};",
             "const oceanWorldPresets={earthLake:{water:'fresh',iceCovered:false,life:'Earth freshwater examples'},earthMarine:{water:'salt',iceCovered:false,life:'Earth marine examples'},enceladus:{water:'subsurface salty ocean',iceCovered:true,life:'not confirmed',parent:'Saturn'}};",
@@ -33405,7 +37257,7 @@
             "",
             "// Local game progress only. No accounts, network requests or personal information.",
             "function nativeLoadProfile(){try{const raw=JSON.parse(localStorage.getItem('jacc-native-v1')||'{}');return raw&&typeof raw==='object'?raw:{}}catch{return {}}}",
-            "function nativeProfileSettings(raw){const v=raw&&typeof raw==='object'?raw:{};return {volume:typeof v.volume==='number'&&Number.isFinite(v.volume)?Math.max(0,Math.min(1,v.volume)):.3,narration:v.narration===true,reduced:v.reduced===true,effects:v.effects!==false};}",
+            "function nativeProfileSettings(raw){const v=raw&&typeof raw==='object'?raw:{};return {...displayPreferences(v),volume:typeof v.volume==='number'&&Number.isFinite(v.volume)?Math.max(0,Math.min(1,v.volume)):.3,narration:v.narration===true,reduced:v.reduced===true,effects:v.effects!==false};}",
             "function nativeSaveProfile(){try{if(typeof localStorage==='undefined')return false;const data={version:1,suit:normalizeSuit(s.suit),aquatic:normalizeAquatic(s.aquatic),construction:normalizeConstruction(s.construction),farm:normalizeFarm(s.farm),designs:normalizeDesigns(s.designs),excavation:normalizeDig(s.excavation),crew:s.crew,pip:normalizePip(s.pip),found:[...s.found],visited:[...s.visited],settings:s.settings};const text=JSON.stringify(data);if(text!==s.saveHash){localStorage.setItem('jacc-native-v1',text);s.saveHash=text;}return true}catch{return false}}",
             "",
             "function nativeAquatic(route='center',message=''){const v=aquaticView(s.aquatic,route,s.construction.kits);open(v.title,v.text,'',v.actions.map(a=>[a.label,()=>{const r=aquaticAction(s.aquatic,a,s.construction.kits);s.aquatic=r.aquatic;if(r.travel){close();select(objects.find(o=>o.id===r.travel));return}if(r.reset){s.path=[];s.pending=null;actor.setPosition(160,415);}nativeAquatic(r.route,r.message)}]));obj('CardVisual').hide();obj('CardBody').setCharacterSize(17);text('CardBody',v.text.replace(/(.{1,46})(?:\\s|$)/g,'$1\\n').trim());obj('AquaticArt').hide(false);obj('AquaticArt').setAnimation(Math.max(0,aquaticArtKeys.indexOf(v.art)));if(s.buttons.length<6){const i=s.buttons.length;obj('Option'+i).hide(false);obj('OptionLabel'+i).hide(false);text('OptionLabel'+i,'Listen');s.buttons.push({name:'Option'+i,fn:()=>listenJournal(v.text)});}if(message)say(message);}",
@@ -33448,11 +37300,13 @@
             "function journalDetail(entry,section,page){open(entry.title,entry.summary+'\\n'+entry.fact,entry.icon,[['Listen',()=>listenJournal(entry.summary+' '+entry.fact)],['Do It Again',()=>{close();select(objects.find(o=>o.id===entry.target))}],['Back to '+journalSections.find(x=>x.id===section).title,()=>journalPage(section,page)]]);}",
             "",
             "function nativeFarm(route='home',message=''){const v=farmView(s.farm,route);open(v.title,v.body,'',v.actions.map(a=>[a.label,()=>{const result=farmAction(s.farm,a.action);s.farm=result.farm;if(result.travel){close();select(objects.find(o=>o.id===result.travel))}else nativeFarm(result.route,result.message)}]));obj('CardBody').setCharacterSize(17);text('CardBody',(message?message+'\\n':'')+v.body.replace(/(.{1,46})(?:\\s|$)/g,'$1\\n').trim());obj('CardVisual').hide();obj('FarmArt').hide(false);obj('FarmArt').setAnimation(Math.max(0,farmArtKeys.indexOf(farmArtKey(s.farm,route))));if(s.buttons.length<6){const i=s.buttons.length;obj('Option'+i).hide(false);obj('OptionLabel'+i).hide(false);text('OptionLabel'+i,'Listen');s.buttons.push({name:'Option'+i,fn:()=>listenJournal(v.body)})}}",
-            "function settings(){const v=s.settings;open('Settings','All activities wait for you. No scores or penalties.','TAKE YOUR TIME',[",
+            "function settings(){const v=s.settings;open('Settings','Color-blind support adds numbered labels. Display options can be combined.','TAKE YOUR TIME',[",
             " ['Volume '+Math.round(v.volume*100)+'%',()=>{v.volume=v.volume>=1?0:Math.min(1,Math.round((v.volume+.25)*100)/100);settings()}],",
             " ['Narration '+(v.narration?'ON':'OFF'),()=>{v.narration=!v.narration;settings()}],",
             " ['Reduced animation '+(v.reduced?'ON':'OFF'),()=>{v.reduced=!v.reduced;settings()}],",
-            " ['Visual effects '+(v.effects?'ON':'OFF'),()=>{v.effects=!v.effects;obj('Marker').hide(!v.effects);settings()}]",
+            " ['Visual effects '+(v.effects?'ON':'OFF'),()=>{v.effects=!v.effects;obj('Marker').hide(!v.effects);settings()}],",
+            " ['High contrast '+(v.highContrast?'ON':'OFF'),()=>{v.highContrast=!v.highContrast;settings()}],",
+            " ['Color-blind support '+(v.colorBlind?'ON':'OFF'),()=>{v.colorBlind=!v.colorBlind;settings()}]",
             " ]);}",
             "if(!s.initialized){s.initialized=true;actor.setAnimation(s.crew);text('ActiveCrew',roster[s.crew][0]+' | '+roster[s.crew][1]+' | '+roster[s.crew][2]);close();nativeZone('grounds');say('Tap a picture or the ground to explore. PIP can help.');gdjs.evtTools.input.touchSimulateMouse(runtimeScene,true);}",
             "const actions=s.overlay?[{name:'Close',fn:close},...s.buttons]:s.construction.active||s.construction.orbit?nativeBuildActions():[",
@@ -33486,7 +37340,7 @@
             "obj('Focus').setZOrder(s.overlay?51:s.construction.active||s.construction.orbit?7:3);obj('Focus').setOpacity(actions[s.focus].object?80:255);",
             "obj('Focus').setPosition((actions[s.focus].object||obj(actions[s.focus].name)).getX()-5,(actions[s.focus].object||obj(actions[s.focus].name)).getY()-5);obj('Focus').setWidth((actions[s.focus].object||obj(actions[s.focus].name)).getWidth()+10);obj('Focus').setHeight((actions[s.focus].object||obj(actions[s.focus].name)).getHeight()+10);",
             "",
-            "nativeSaveProfile();",
+            "nativeDisplayUpdate();nativeSaveProfile();",
             ""
           ],
           "parameterObjects": "",

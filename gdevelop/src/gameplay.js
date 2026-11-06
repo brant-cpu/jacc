@@ -35,11 +35,13 @@ function journalPage(id,page=0){const section=journalSections.find(x=>x.id===id)
 function journalDetail(entry,section,page){open(entry.title,entry.summary+'\n'+entry.fact,entry.icon,[['Listen',()=>listenJournal(entry.summary+' '+entry.fact)],['Do It Again',()=>{close();select(objects.find(o=>o.id===entry.target))}],['Back to '+journalSections.find(x=>x.id===section).title,()=>journalPage(section,page)]]);}
 
 function nativeFarm(route='home',message=''){const v=farmView(s.farm,route);open(v.title,v.body,'',v.actions.map(a=>[a.label,()=>{const result=farmAction(s.farm,a.action);s.farm=result.farm;if(result.travel){close();select(objects.find(o=>o.id===result.travel))}else nativeFarm(result.route,result.message)}]));obj('CardBody').setCharacterSize(17);text('CardBody',(message?message+'\n':'')+v.body.replace(/(.{1,46})(?:\s|$)/g,'$1\n').trim());obj('CardVisual').hide();obj('FarmArt').hide(false);obj('FarmArt').setAnimation(Math.max(0,farmArtKeys.indexOf(farmArtKey(s.farm,route))));if(s.buttons.length<6){const i=s.buttons.length;obj('Option'+i).hide(false);obj('OptionLabel'+i).hide(false);text('OptionLabel'+i,'Listen');s.buttons.push({name:'Option'+i,fn:()=>listenJournal(v.body)})}}
-function settings(){const v=s.settings;open('Settings','All activities wait for you. No scores or penalties.','TAKE YOUR TIME',[
+function settings(){const v=s.settings;open('Settings','Color-blind support adds numbered labels. Display options can be combined.','TAKE YOUR TIME',[
  ['Volume '+Math.round(v.volume*100)+'%',()=>{v.volume=v.volume>=1?0:Math.min(1,Math.round((v.volume+.25)*100)/100);settings()}],
  ['Narration '+(v.narration?'ON':'OFF'),()=>{v.narration=!v.narration;settings()}],
  ['Reduced animation '+(v.reduced?'ON':'OFF'),()=>{v.reduced=!v.reduced;settings()}],
- ['Visual effects '+(v.effects?'ON':'OFF'),()=>{v.effects=!v.effects;obj('Marker').hide(!v.effects);settings()}]
+ ['Visual effects '+(v.effects?'ON':'OFF'),()=>{v.effects=!v.effects;obj('Marker').hide(!v.effects);settings()}],
+ ['High contrast '+(v.highContrast?'ON':'OFF'),()=>{v.highContrast=!v.highContrast;settings()}],
+ ['Color-blind support '+(v.colorBlind?'ON':'OFF'),()=>{v.colorBlind=!v.colorBlind;settings()}]
  ]);}
 if(!s.initialized){s.initialized=true;actor.setAnimation(s.crew);text('ActiveCrew',roster[s.crew][0]+' | '+roster[s.crew][1]+' | '+roster[s.crew][2]);close();nativeZone('grounds');say('Tap a picture or the ground to explore. PIP can help.');gdjs.evtTools.input.touchSimulateMouse(runtimeScene,true);}
 const actions=s.overlay?[{name:'Close',fn:close},...s.buttons]:s.construction.active||s.construction.orbit?nativeBuildActions():[
@@ -73,4 +75,4 @@ nativePipUpdate();nativeConstructionUpdate(dt);nativeAquaticUpdate();nativeSuitU
 obj('Focus').setZOrder(s.overlay?51:s.construction.active||s.construction.orbit?7:3);obj('Focus').setOpacity(actions[s.focus].object?80:255);
 obj('Focus').setPosition((actions[s.focus].object||obj(actions[s.focus].name)).getX()-5,(actions[s.focus].object||obj(actions[s.focus].name)).getY()-5);obj('Focus').setWidth((actions[s.focus].object||obj(actions[s.focus].name)).getWidth()+10);obj('Focus').setHeight((actions[s.focus].object||obj(actions[s.focus].name)).getHeight()+10);
 
-nativeSaveProfile();
+nativeDisplayUpdate();nativeSaveProfile();
