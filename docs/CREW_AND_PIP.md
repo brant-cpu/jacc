@@ -6,9 +6,9 @@ Download and extract the repository. For GDevelop, open `gdevelop/game.json`, se
 
 Crew now includes Sumati Suri (orange, India, Gadgil Model — Ecosystems and Environmental Science) and Lilja Jónsdóttir (purple, Iceland, female math major, Mirzakhani Model — Mathematics). Lucas retains the Lederberg Model — Biology and Xenobiology. Existing roster positions are preserved so saved crew indices remain valid. New crew selections and PIP colors/parts use the existing local saves. All crew can explore every activity.
 
-Browser crew selection shows eight cards at landscape tablet width. Native selection uses four large cards per page and opens on the current crew member's page. Previous/More crew buttons work by single tap or keyboard focus/Enter.
+Browser crew selection shows nine cards at landscape tablet width. Native selection uses four large cards per page and opens on the current crew member's page. Previous/More crew buttons work by single tap or keyboard focus/Enter.
 
-PIP → Build PIP → Science contains seven tools across two pages. More parts cycles pages; native Colors now cycles three pages for all nine options (standard plus eight suits). Every part supports single-tap fitting; existing optional dragging remains available. Match crew and Standard work with the expanded palette.
+PIP → Build PIP → Science contains seven tools across two pages. More parts cycles pages; native Colors now cycles three pages for all ten options (standard plus nine suits). Every part supports single-tap fitting; existing optional dragging remains available. Match crew and Standard work with the expanded palette.
 
 | Attachment | Crew science | Repeatable illustrated activity |
 | --- | --- | --- |
@@ -39,3 +39,5 @@ Run `node --test prototype/tests/*.test.js`, `node gdevelop/tests/native.cjs`, a
 GDevelop editor rendering and physical iPad testing are unverified. Production character/PIP artwork, recorded narration and child/accessibility user testing are still needed. Browser speech depends on available device voices. Smaller layouts may scroll. Tool models simplify science and do not replace a scientific content review. No additional personal biographies or permanent suit designs were invented.
 
 Next milestone: validate crew and PIP activities with children on the target device, then connect these tools to selected farm/aquatic objects using richer pictorial experiments.
+
+Chen Yuxin is now selectable in the blue Sagan suit and has a matching PIP color. Crew → Build my J.A.C.C. opens the separate custom astronaut collection. See [Build a J.A.C.C.](BUILD_A_JACC.md).

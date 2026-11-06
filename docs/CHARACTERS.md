@@ -12,6 +12,7 @@ Approved character details for Granite Pixel Games. Suit artwork remains provisi
 | Lucas Turner | Black | Lederberg Model — Biology and Xenobiology |
 | Sumati Suri | Orange | Gadgil Model — Ecosystems and Environmental Science |
 | Lilja Jónsdóttir | Purple | Mirzakhani Model — Mathematics |
+| Chen Yuxin | Blue | Sagan Model — Astronomy and Astrophysics |
 
 ## Sumati Suri — Orange J.A.C.C.
 
@@ -35,9 +36,9 @@ Every J.A.C.C. is an astronaut with a scientific specialization. Lucas Turner is
 
 Lucas now has Bio-Vision, Adaptation Scan and Xeno Analysis; Sumati has Connection Vision, Environmental Survey and Restoration Planner; Lilja has Pattern Vision, Measure & Map and Geometry Builder. Their current implementations are one-tap contextual overlays and repeatable illustrated training models, with actual map measurements and farm/construction links. See [suit implementation and limits](SUIT_POWERS.md).
 
-## Ninth J.A.C.C. — identity pending
+## Chen Yuxin — Blue J.A.C.C.
 
-Approved: a male astronaut from China specializing in Astronomy and Astrophysics. His suit color is Blue. His suit is the Sagan Model — Astronomy and Astrophysics, honoring Carl Sagan. His personal name remains unassigned. The configurable draft profile is in `prototype/src/suits.js`; he is not yet a ninth selectable character. Do not invent his permanent personal name.
+Chen Yuxin is a girl from China and the ninth canonical astronaut. Her blue Sagan Model specializes in Astronomy and Astrophysics, honoring Carl Sagan. The creator’s latest instruction establishes her as female, superseding the earlier male draft. She is selectable in both builds and has a matching blue PIP color. No additional biography or production suit artwork is established.
 
 ## Shared suit material and energy colors
 
@@ -50,3 +51,7 @@ Professor Mike is a warm, inventive, patient fictional instructor inspired by th
 ## Professor Elon — Rocket Lab and Engineering
 
 Professor Elon leads rocket and engineering activities while retaining his program-director role. He is an approachable, theatrical, persistent fictional inventor who encourages children’s ideas. PIP provides the active assistance. **Latest appearance: younger professor, clean-shaven, glasses, lab-coat style.** This supersedes the earlier older/bearded description. See [his approved profile and voice brief](PROFESSOR_ELON.md).
+
+## Build a J.A.C.C.
+
+Player-created astronauts live in a separate collection. Children can mix helmet, armor, boots, STEM core, wings/thrusters and independent arm tools, and paint each slot differently. Names, skin tone, face style and nationality are editable; nationality is optional and has no effect on tools. Custom characters use one child body shape and no gender field. The canonical nine remain available. See [creator implementation and limits](BUILD_A_JACC.md).

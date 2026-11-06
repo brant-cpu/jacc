@@ -76,7 +76,7 @@ The [activity and reference catalog](docs/ACTIVITY_IDEAS.md) records the request
 
 ## Swimming exploration
 
-**Home hub lake → Aquatic Learning Center → Swim trail** now opens free swimming in the freshwater lake, reef/open-ocean or deep-ocean simulation. All eight crew have a swimming pose; PIP follows with swim gear. Observe world wildlife and find six new sample/observation records saved in the journal. Tap open water or a large labeled target; pause and reduced-animation settings are supported. See [the swimming build report and validation limits](docs/SWIMMING_EXPLORATION.md).
+**Home hub lake → Aquatic Learning Center → Swim trail** now opens free swimming in the freshwater lake, reef/open-ocean or deep-ocean simulation. All nine crew have a swimming pose; PIP follows with swim gear. Observe world wildlife and find six new sample/observation records saved in the journal. Tap open water or a large labeled target; pause and reduced-animation settings are supported. See [the swimming build report and validation limits](docs/SWIMMING_EXPLORATION.md).
 
 ## Large exploration spaces
 
@@ -93,3 +93,5 @@ Simple farming: **Planet Farm → My garden** now has three saved beds. Choose a
 **My Machines**: enter Engineering & Terraforming and tap **My Machines** to assemble, paint, save/copy, service and deploy eleven kinds of machines/structures. A three-pad test yard keeps working copies with the chosen parts. Farm rovers can water beds and solar stations can power the model lamp. See [the garage report](docs/MY_MACHINES.md).
 
 **HQ Computer Lab + Robotics Bay**: tap either new HQ door for Malik and Professor Mike’s coding activities, Kaito’s drone bench, saved tool-based helper robots, PIP customization and care-for-our-world activities. See [the lab report](docs/HQ_TECH_LABS.md) for controls, science distinctions, files and validation limits.
+
+**Chen Yuxin + Build a J.A.C.C.**: Chen is the selectable blue Sagan astronaut, a girl from China. **Crew → Build my J.A.C.C.** creates a custom astronaut with separately colored equipment, identity choices, mixed STEM tools and up to eight saved designs. Your custom astronaut appears during play, swimming and flight. See [creator controls and implementation limits](docs/BUILD_A_JACC.md).
