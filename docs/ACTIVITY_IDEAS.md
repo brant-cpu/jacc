@@ -287,3 +287,31 @@ Use virtual components and original artwork. No child needs coin cells, hot glue
 Children's future programs must be bounded, interruptible and restricted to a validated command schema. PIP's essential assistance, AAC, pause, sensory settings and return-home functions remain available independently of anything the child programs. Keep automatic-following companion behavior, deterministic programmed rules and any future trained AI capabilities clearly distinguished.
 
 Suggested first prototypes: Vibration-Bot Test Tray and Sense → Decide → Act, followed by the Recycled Robot Builder. Integrate with existing parts/programming plans rather than building duplicate workshops. Physics, electronics and scientific explanations require validation before numerical outcomes are claimed; real-device and child/adaptive-access testing remain necessary.
+
+## Digging, soil and terraforming concepts — supplied text
+
+The owner supplied fossil excavation, comparative seed/soil experiments, a sediment-settling jar, erosion, gem discovery, a rock museum and a desert-biome model. No source URL, species list or validated experimental dataset was supplied. These extend existing geology/farm plans rather than creating duplicate activities or new gameplay modes.
+
+| Concept | Proposed placement and accessible activity |
+| --- | --- |
+| Fossil Excavation | Existing dig site: extend the current fossil discovery with scientifically reviewed examples. Select a marked area/tool; automatic excavation reveals evidence. Compare shape, layers and preservation without precise brushing, timed actions or broken-fossil penalties. Classification can include uncertainty rather than claiming every fragment identifies a species. |
+| Seed/soil comparison | Farm soil lab beside the garden/hydro station: select the same seed type for parallel model containers, vary one soil property and advance observations by taps. Compare moisture, drainage, root-zone oxygen and later growth with conditions stated explicitly. |
+| Soil settling jar | Farm soil lab: choose a virtual sample, tap Mix, then Advance observation. Observe different settling rates/particle fractions; use patterns and labels for sand, silt, clay, water and organic material where modeled. No required shaking gesture or real-time wait. |
+| Erosion Science Lab | Farm/engineering terrain bench: compare slope, vegetation cover and model rainfall; run, pause, change and repeat. Record sediment movement and water paths. Connect later to planted slopes, drainage and restoration plans. |
+| Gem discovery | Existing dig site/crystal area: extend the current mineral finds with a few reviewed samples and large observation cards. Keep repeatable discovery, no currency/loot-box ranking and no implication that every shiny stone is a gem. |
+| My Rock Museum | GSEINHQ geology display linked to the existing journal: select saved rocks, minerals and fossil records, choose categories and place them in snapping display slots. Preserve original records and offer local labels/optional narration. |
+| Desert biome | Existing farm biodome/planned biome station: select climate/soil examples and observe plant adaptations. Distinguish water availability, soil texture and climate; include hot/cold desert differences and avoid representing all deserts as sand or all desert plants as cacti. |
+
+### Earth science and future-world connections
+
+Maya introduces rocks, minerals, soil materials and geological evidence; Lucas fossils/organisms; Sumati soil-life relationships, erosion and habitats; Lilja sorting/comparison data; Aiden excavation and terrain structures. Every astronaut can participate.
+
+Germination and later growth are different stages. Many seeds initially rely on stored reserves; suitable moisture, oxygen and temperature matter, while light requirements vary by species. Soil is not universally required for germination, and mineral nutrients become important to sustained growth. Choose specific plant examples and validated model behavior before displaying numerical results.
+
+A settling jar is a simplified particle/sedimentation model, not a perfect instant separation of every real soil. Fine clay may remain suspended for a long time; organic material and aggregates complicate separation. Label accelerated time and avoid treating layer heights as calibrated composition without appropriate methods. Distinguish weathering (breakdown) from erosion (transport).
+
+A museum must distinguish rocks, minerals, fossils and other materials. Fossils remain scientific observations, not raw construction supplies. Existing reusable mineral/rock records already inform starter engineering/farm models; a new museum, additional fossil species, settling simulation, germination comparisons and terrain/biome simulators are planned expansions.
+
+Local landscaping, soil management and habitat construction are not equivalent to terraforming an entire planet. Planet-scale terraforming is speculative. Future My World/My Solar System activities can use explicitly fictional, simplified worlds while distinguishing those models from real Earth science, environmental restoration and unconfirmed extraterrestrial life. The game should not imply that digging up a few minerals creates a habitable planet.
+
+All additions retain large selectable regions, automatic tool work, Undo/Reset or revisiting, PIP demonstration, caption/narration options and adaptive input. No required dragging, precision motor task, quiz, timer or environmental-destruction penalty. No new runtime activity is implemented by this catalog update.
