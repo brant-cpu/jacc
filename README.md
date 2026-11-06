@@ -61,3 +61,7 @@ The ninth J.A.C.C. is recorded as a male Chinese astronaut specializing in Astro
 ## Display options
 
 Settings now includes **High contrast** and **Color-blind support**. Enable either or both; preferences save locally. High contrast strengthens interface surfaces/text; color-blind support adds numbered destinations and crew markers alongside existing labels and symbols. See [scope, tests and remaining work](docs/DISPLAY_OPTIONS.md).
+
+## Adaptive access & My words
+
+Both builds now include **Access** and **My words / WORDS**. Choose one-switch scanning or two-switch selection, standard controller input, game-speech captions, visual alerts, optional haptics and scenery dimming. The AAC board offers activity choices, local caregiver-help phrases, brightness/sound requests, save and All done. PIP offers an offline helper and destination list. See [setup, device support and testing limits](docs/ADAPTIVE_ACCESS.md), particularly the unverified JAWS/native screen-reader path and real hardware. Live AI chat and room-speech transcription are not implemented.

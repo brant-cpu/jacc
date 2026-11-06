@@ -6,11 +6,11 @@ if(!runtimeScene.__jacc){
  runtimeScene.__jacc={suit:normalizeSuit(profile.suit),aquatic:normalizeAquatic(profile.aquatic),construction:normalizeConstruction(profile.construction),excavation:normalizeDig(profile.excavation),designs:normalizeDesigns(profile.designs),farm:normalizeFarm(profile.farm),zone:'grounds',journey:null,pip:normalizePip(profile.pip),pipTab:'travel',pipPage:0,crew:Number.isInteger(profile.crew)&&profile.crew>=0&&profile.crew<roster.length?profile.crew:0,started:false,paused:false,path:[],pending:null,dig:0,action:0,found:new Set((Array.isArray(profile.found)?profile.found:[]).filter(id=>known.has(id))),visited:new Set((Array.isArray(profile.visited)?profile.visited:[]).filter(id=>known.has(id))),last:null,overlay:null,buttons:[],focus:0,tab:false,enter:false,settings:nativeProfileSettings(profile.settings)};
 }
 const s=runtimeScene.__jacc,actor=obj('Alex');
-const say=message=>{text('Status',message);if(s.settings.narration&&typeof speechSynthesis!=='undefined'){speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(message);u.volume=s.settings.volume;speechSynthesis.speak(u)}};
+const say=message=>{text('Status',message);nativeAccessOutput(message);if(s.settings.narration&&typeof speechSynthesis!=='undefined'){speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(message);u.volume=s.settings.volume;speechSynthesis.speak(u)}};
 const crewUI=['CrewPreviousButton','CrewPreviousLabel','CrewNextButton','CrewNextLabel',...Array.from({length:roster.length},(_,i)=>['CrewCard'+i,'CrewPortrait'+i,'CrewName'+i,'CrewDetail'+i]).flat()];
 const ui=['SuitArt','AquaticArt','ConstructionArt','DigArt','DesignArt','FarmArt',...pipWorkshopUI,...crewUI,'Panel','CardTitle','CardBody','CardVisual','Close','CloseLabel',...Array.from({length:6},(_,i)=>['Option'+i,'OptionLabel'+i]).flat()];
 function close(){s.overlay=null;for(const n of ui)obj(n).hide();}
-function open(title,body,visual,options=[]){s.overlay=title;s.buttons=[];obj('CardBody').setCharacterSize(19);obj('WorkshopNote').setPosition(125,435);for(const n of ui)obj(n).hide();for(const n of ['Panel','CardTitle','CardBody','CardVisual','Close','CloseLabel'])obj(n).hide(false);text('CardTitle',title);text('CardBody',body.replace(/(.{1,64})(?:\s|$)/g,'$1\n').trim());text('CardVisual',visual);options.slice(0,6).forEach(([label,fn],i)=>{obj('Option'+i).hide(false);obj('OptionLabel'+i).hide(false);text('OptionLabel'+i,label);s.buttons.push({name:'Option'+i,fn})});say(title+'. '+body);}
+function open(title,body,visual,options=[]){s.focus=0;s.scanElapsed=0;s.overlay=title;s.buttons=[];obj('CardBody').setCharacterSize(19);obj('WorkshopNote').setPosition(125,435);for(const n of ui)obj(n).hide();for(const n of ['Panel','CardTitle','CardBody','CardVisual','Close','CloseLabel'])obj(n).hide(false);text('CardTitle',title);text('CardBody',body.replace(/(.{1,64})(?:\s|$)/g,'$1\n').trim());text('CardVisual',visual);options.slice(0,6).forEach(([label,fn],i)=>{obj('Option'+i).hide(false);obj('OptionLabel'+i).hide(false);text('OptionLabel'+i,label);s.buttons.push({name:'Option'+i,fn})});say(title+'. '+body);}
 function nativeActiveObjects(){return objects.filter(o=>!s.construction.active&&!s.construction.orbit&&o.zone===s.zone&&(s.zone!=='aquatic'||aquaticVisible(s.aquatic,o))&&(s.zone!=='dig'||digVisible(s.excavation,o)))}
 function nativeZone(id){s.zone=id;if(id==='aquatic')s.aquatic.habitat='lake';if(id==='dig'){s.excavation.level=0;s.excavation.path=[];s.excavation.target=null;}s.journey=null;s.pending=null;s.path=[];s.action=0;const [x,y]=zones[id].spawn;actor.setPosition(x-20,y-45);for(const name of ['Ground','Hill','Path','Trail','TopTrail','Pond','Platform','Ramp'])obj(name).hide(id!=='grounds');obj('HQBackdrop').hide(id!=='hq');obj('FarmBackdrop').hide(id!=='farm');obj('DigBackground').hide(id!=='dig');obj('EngineeringBackground').hide(id!=='engineering');for(const o of objects){obj('Target_'+o.id).hide(o.zone!==id);obj('Label_'+o.id).hide(o.zone!==id)}text('Title','J.A.C.C. | '+(id==='grounds'?'Training Grounds':zones[id].name));nativeDigVisibility();say('Welcome to '+zones[id].name+'.');}
 function select(o){if(!o||s.paused)return;s.started=true;s.construction.active=null;s.construction.orbit=false;s.journey=null;if(o.zone!==s.zone){s.journey=o.id;o=objects.find(x=>x.id===zoneExit(s.zone,o.zone))}if(s.zone==='aquatic'&&o.habitat&&o.habitat!==s.aquatic.habitat){s.aquatic.habitat=o.habitat;actor.setPosition(160,415);}if(s.zone==='dig'){if(o.level!==s.excavation.level)nativeDigLevel(o.level);nativeDigSelect(o.x,o.y,o.id);return}s.path=pathfind([actor.getX()+20,actor.getY()+45],[o.x-65,o.y+55],s.zone);s.pending=o;s.action=0;say('Going to '+o.name);if(!s.path.length){s.pending=null;const here=cellAt(actor.getX()+20,actor.getY()+45),goal=cellAt(o.x-65,o.y+55);if(here.join()===goal.join()&&!blocked(...goal,s.zone))arrive(o);else{s.journey=null;say('Choose a clear path to explore.');}}}
@@ -26,7 +26,7 @@ function pip(){open('PIP','Choose a picture. Your astronaut will walk there and 
  ['Return home',()=>{close();select(objects.find(o=>o.id===zones[s.zone].home))}],
  ['Build PIP',()=>nativePipWorkshop()]
  ]);}
-function listenJournal(message){if(typeof speechSynthesis!=='undefined'){speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(message);u.volume=s.settings.volume;u.rate=.85;speechSynthesis.speak(u)}}
+function listenJournal(message){nativeAccessOutput(message);if(typeof speechSynthesis!=='undefined'){speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(message);u.volume=s.settings.volume;u.rate=.85;speechSynthesis.speak(u)}}
 function journal(){open('My Journal','My stories. My discoveries. My adventures.','',[
  ...journalSections.map(section=>[section.icon+' '+section.title,()=>journalPage(section.id)]),
  ['Listen',()=>listenJournal('My journal. Choose what I did, what I discovered, my adventures, my experiments, or my minerals.')]
@@ -44,16 +44,17 @@ function settings(){const v=s.settings;open('Settings','Color-blind support adds
  ['Color-blind support '+(v.colorBlind?'ON':'OFF'),()=>{v.colorBlind=!v.colorBlind;settings()}]
  ]);}
 if(!s.initialized){s.initialized=true;actor.setAnimation(s.crew);text('ActiveCrew',roster[s.crew][0]+' | '+roster[s.crew][1]+' | '+roster[s.crew][2]);close();nativeZone('grounds');say('Tap a picture or the ground to explore. PIP can help.');gdjs.evtTools.input.touchSimulateMouse(runtimeScene,true);}
-const actions=s.overlay?[{name:'Close',fn:close},...s.buttons]:s.construction.active||s.construction.orbit?nativeBuildActions():[
+const actions=s.overlay?[{name:'Close',fn:close},...s.buttons,{name:'WordsButton',fn:()=>nativeAAC()},{name:'AccessButton',fn:()=>nativeAccessMenu()}]:s.construction.active||s.construction.orbit?nativeBuildActions():[
  {name:'PipButton',fn:pip},{name:'JournalButton',fn:journal},{name:'SettingsButton',fn:settings},
  {name:'PauseButton',fn:()=>{s.paused=!s.paused;text('PauseLabel',s.paused?'Resume':'Pause');say(s.paused?'Paused. Take your time.':'Ready to explore.')}},
- {name:'CrewButton',fn:crewMenu},{name:'SuitButton',fn:nativeSuitMenu},
+ {name:'WordsButton',fn:()=>nativeAAC()},{name:'AccessButton',fn:()=>nativeAccessMenu()},{name:'CrewButton',fn:crewMenu},{name:'SuitButton',fn:nativeSuitMenu},
  ...nativeActiveObjects().map(o=>({name:'Target_'+o.id,fn:()=>{if(!s.paused)select(o)}}))];
 const key=k=>gdjs.evtTools.input.isKeyPressed(runtimeScene,k);
 if(key('Escape')&&s.overlay)close();
 if(key('Tab')&&!s.tab)s.focus=(s.focus+1)%actions.length;
 s.tab=key('Tab');s.focus%=actions.length;
-if(key('Return')&&!s.enter)actions[s.focus].fn();s.enter=key('Return');
+if(key('Return')&&!s.enter&&s.settings.access.switchMode==='off')actions[s.focus].fn();s.enter=key('Return');
+nativeAccessInput(actions);
 const x=gdjs.evtTools.input.getCursorX(runtimeScene,'',0),y=gdjs.evtTools.input.getCursorY(runtimeScene,'',0);
 const released=gdjs.evtTools.input.isMouseButtonReleased(runtimeScene,'Left'),held=gdjs.evtTools.input.isMouseButtonPressed(runtimeScene,'Left');
 let dropped=false;
@@ -64,7 +65,7 @@ if(s.overlay==='PIP Workshop'){
 s.pipHeld=held;
 if(released&&!dropped){
  const hit=actions.find(a=>{const o=a.object||obj(a.name);return x>=o.getX()&&x<=o.getX()+o.getWidth()&&y>=o.getY()&&y<=o.getY()+o.getHeight()});
- if(hit)hit.fn();else if(!s.overlay&&s.construction.active){if(!s.paused&&x>=120&&x<840&&y>=180&&y<480){placeBuild(s.construction,Math.floor((x-120)/60),Math.floor((y-180)/60));say('Prefab placed or changed.')}}else if(!s.overlay&&s.construction.orbit){}else if(!s.overlay&&!s.paused&&s.zone==='dig'&&y>150&&y<520){nativeDigSelect(x,y);}else if(!s.overlay&&!s.paused&&y>95&&y<520){s.started=true;s.pending=null;s.action=0;s.journey=null;s.path=pathfind([actor.getX()+20,actor.getY()+45],[x,y],s.zone);obj('Marker').setPosition(x-12,y-12);obj('Marker').hide(!s.settings.effects);say(s.path.length?'Walking to your marker.':'Choose the path around the pond.');}
+ if(hit){requestHaptic(s.settings.access.haptics,s.controllerPad);hit.fn();}else if(!s.overlay&&s.construction.active){if(!s.paused&&x>=120&&x<840&&y>=180&&y<480){placeBuild(s.construction,Math.floor((x-120)/60),Math.floor((y-180)/60));say('Prefab placed or changed.')}}else if(!s.overlay&&s.construction.orbit){}else if(!s.overlay&&!s.paused&&s.zone==='dig'&&y>150&&y<520){nativeDigSelect(x,y);}else if(!s.overlay&&!s.paused&&y>95&&y<520){s.started=true;s.pending=null;s.action=0;s.journey=null;s.path=pathfind([actor.getX()+20,actor.getY()+45],[x,y],s.zone);obj('Marker').setPosition(x-12,y-12);obj('Marker').hide(!s.settings.effects);say(s.path.length?'Walking to your marker.':'Choose the path around the pond.');}
 }
 const dt=Math.min(gdjs.evtTools.runtimeScene.getElapsedTimeInSeconds(runtimeScene),.05);
 if(!s.paused&&!s.overlay&&!s.construction.active&&!s.construction.orbit){
@@ -75,4 +76,4 @@ nativePipUpdate();nativeConstructionUpdate(dt);nativeAquaticUpdate();nativeSuitU
 obj('Focus').setZOrder(s.overlay?51:s.construction.active||s.construction.orbit?7:3);obj('Focus').setOpacity(actions[s.focus].object?80:255);
 obj('Focus').setPosition((actions[s.focus].object||obj(actions[s.focus].name)).getX()-5,(actions[s.focus].object||obj(actions[s.focus].name)).getY()-5);obj('Focus').setWidth((actions[s.focus].object||obj(actions[s.focus].name)).getWidth()+10);obj('Focus').setHeight((actions[s.focus].object||obj(actions[s.focus].name)).getHeight()+10);
 
-nativeDisplayUpdate();nativeSaveProfile();
+nativeDisplayUpdate();nativeAccessUpdate();nativeSaveProfile();

@@ -90,3 +90,7 @@ Sumati Suri (orange, Gadgil Model — Ecosystems and Environmental Science) and 
 ## Astronaut suits
 
 Choose Lucas, Sumati or Lilja and open Suit for nine powers. Reveal in world highlights relevant destinations; tap one to approach and investigate. Explore this place / Clear suit overlay returns to normal activities. Native overlays reuse ring/link/grid textures. All crew are astronauts; Lucas is French. See [suit powers and validation limits](../docs/SUIT_POWERS.md). The unnamed Chinese astronomer/astrophysicist is a pending profile, not yet selectable.
+
+## Adaptive access
+
+WORDS opens the communication board; ACCESS opens scanning, captions, notices, haptics, AAC voice, dim scenery and controller settings. Keys default to Space/Enter; Access offers presets. A compatible interface must translate adaptive switches into these inputs. This native Sprite/Text interface is not a verified JAWS route; the browser provides semantic HTML controls for screen-reader testing. Actual GDevelop rendering and assistive hardware remain unverified. See [access setup and limitations](../docs/ADAPTIVE_ACCESS.md).

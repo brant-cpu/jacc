@@ -119,3 +119,7 @@ Sumati Suri (orange, Gadgil Model — Ecosystems and Environmental Science) and 
 ## Astronaut suits
 
 Choose Lucas, Sumati or Lilja and open Suit for nine powers. Reveal in world highlights relevant destinations; tap one to approach and investigate. Explore this place / Clear suit overlay returns to normal activities. All crew are astronauts; Lucas is French. See [suit powers and validation limits](../docs/SUIT_POWERS.md). The unnamed Chinese astronomer/astrophysicist is a pending profile, not yet selectable.
+
+## Adaptive access
+
+Open Access for one/two-switch controls, key binding, standard gamepad input, game captions, visual alerts, optional haptics, AAC voice and dim scenery. My words offers paged communication/activity choices. The browser uses semantic controls and named dialogs for screen-reader testing; JAWS itself is unverified. See [device setup, implemented behavior and limits](../docs/ADAPTIVE_ACCESS.md).
