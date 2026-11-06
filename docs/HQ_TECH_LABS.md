@@ -43,3 +43,5 @@ Real iPad testing, GDevelop editor/renderer preview, assistive-device testing, n
 Next milestone: let children connect their saved robot's sense/decision/action instructions to one visible farm route, with a large stop/return control, while retaining the current ready-made helper option.
 
 Checks completed for this build: **88 shared Node tests**, `prototype/tests/hq-tech-browser.cjs` (mouse + simulated touch), the existing `browser.cjs` and `machines-browser.cjs` regressions (both inputs), `gdevelop/tests/native.cjs` (complete schema/resource/event harness), generated JavaScript syntax and `git diff --check`. Native tests are not a substitute for opening the project in the actual GDevelop editor.
+
+Professor Mike’s [character profile](PROFESSOR_MIKE.md) now defines him as instructor of both labs. He is available in each room, with short playful teaching dialogue and an explicit handoff to PIP. PIP’s lab toolbar help follows the last activity instead of offering the general dig demonstration.

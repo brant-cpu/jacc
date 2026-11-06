@@ -42,3 +42,7 @@ Approved: a male astronaut from China specializing in Astronomy and Astrophysics
 ## Shared suit material and energy colors
 
 Approved across every astronaut suit: **silver for all metal accents** and **teal for all lights, thrusters and energy effects**. These are shared design elements, not additional primary suit colors. The ninth astronaut’s primary suit color is **blue**. Configurable silver/teal placeholder swatches are recorded as `suitFinish` in `prototype/src/data.js`; production artwork and existing provisional effects still need a visual pass to apply this standard consistently.
+
+## Professor Mike — Robotics and Computer Lab instructor
+
+Professor Mike is a warm, inventive, patient fictional instructor inspired by the creator’s friend Mike Dowd. His gentle humor and game-minded approach make bugs clues to explore. He introduces the purpose of challenges; PIP remains the child’s active companion and contextual helper. Malik and Kaito are astronaut teammates. Professor Elon remains program director. See [the approved profile and teaching brief](PROFESSOR_MIKE.md).
