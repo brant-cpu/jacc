@@ -29418,7 +29418,7 @@
             "function zoneExit(from,to){return from==='grounds'?(to==='farm'?'grounds-farm':to==='dig'?'grounds-dig':to==='engineering'?'bridge':to==='aquatic'?'grounds-aquatic':'home'):zones[from].exit;}",
             "",
             "// Canonical names and specializations; visuals are temporary geometric placeholders.",
-            "const roster=[['Alex Thompson','Red','Fleming Model — Electromagnetism'],['Malik Adeyemi','Green','Townes Model — Laser optics and computing'],['Maya Rodriguez','Pink','Allwood Model — Geology and chemistry'],['Aiden Williams','Yellow','Engineering Model — Construction and heavy engineering'],['Kaito Tanaka','White','Aeronautics Model — Flight and speed'],['Lucas Turner','Black','Generation-1 J.A.C.C.']];",
+            "const roster=[['Alex Thompson','Red','Fleming Model — Electromagnetism'],['Malik Adeyemi','Green','Townes Model — Laser optics and computing'],['Maya Rodriguez','Pink','Allwood Model — Geology and chemistry'],['Aiden Williams','Yellow','Engineering Model — Construction and heavy engineering'],['Kaito Tanaka','White','Aeronautics Model — Flight and speed'],['Lucas Turner','Black','Lederberg Model — Biology and Xenobiology']];",
             "const materials=[",
             "{id:'quartz',name:'Quartz',icon:'💎',diagram:'☀️ → 💎 → ✨',text:'Quartz is a mineral. Look at its crystal faces! Light can pass through some quartz.'},",
             "{id:'iron',name:'Iron-bearing mineral',icon:'🪨',diagram:'🧲 → 🪨',text:'Some iron-bearing minerals, such as magnetite, are attracted to a magnet. Not all iron minerals are magnetic.'},",
