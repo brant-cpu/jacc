@@ -90,4 +90,6 @@ Adventure 2: **Moonbase Dig**. Choose **Adventures** at home, the **Adventure de
 
 Simple farming: **Planet Farm → My garden** now has three saved beds. Choose an owned seed, plant and water it, then leave the farm and return to grow one stage. Harvest/replant when grown. Find sample seeds in the hills, forest, Earth research site and the Moon's sealed plant pod. See [the farm sim report](docs/SIMPLE_FARM_SIM.md).
 
-**My Machines**: enter Engineering & Terraforming and tap **My Machines** to assemble, paint, save/copy, service and deploy nine kinds of machines/structures. A three-pad test yard keeps working copies with the chosen parts. Farm rovers can water beds and solar stations can power the model lamp. See [the garage report](docs/MY_MACHINES.md).
+**My Machines**: enter Engineering & Terraforming and tap **My Machines** to assemble, paint, save/copy, service and deploy eleven kinds of machines/structures. A three-pad test yard keeps working copies with the chosen parts. Farm rovers can water beds and solar stations can power the model lamp. See [the garage report](docs/MY_MACHINES.md).
+
+**HQ Computer Lab + Robotics Bay**: tap either new HQ door for Malik and Professor Mike’s coding activities, Kaito’s drone bench, saved tool-based helper robots, PIP customization and care-for-our-world activities. See [the lab report](docs/HQ_TECH_LABS.md) for controls, science distinctions, files and validation limits.

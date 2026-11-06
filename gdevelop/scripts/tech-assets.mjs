@@ -1,0 +1,1 @@
+import {createRequire} from 'node:module';import {techArtKeys,techArt} from '../../prototype/src/hq-tech.js';const require=createRequire(import.meta.url),sharp=require(process.env.JACC_SHARP_PATH||'sharp');for(const key of techArtKeys)await sharp(Buffer.from(techArt(key))).png().toFile(new URL('../assets/tech-art-'+key+'.png',import.meta.url).pathname);
