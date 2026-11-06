@@ -106,3 +106,34 @@ The global overturning circulation is more complex than a single conveyor loop. 
 SMAP uses microwave observations to infer sea-surface salinity; it does not directly measure every current or deep-ocean salinity. Verify mission-specific details against authoritative sources before production. Treat exact numerical model parameters as configurable educational approximations requiring science review.
 
 Use original J.A.C.C. art and characters. Retain shapes, patterns, spoken descriptions and labels in addition to colors. No NASA endorsement or asset-reuse permission is implied.
+
+## Engineering activity collection — supplied reader-favorites list
+
+The owner supplied these eight concepts. No source URL or source assets were supplied for this list. These are proposed game adaptations, not instructions for real-world construction. All are activities within existing/planned zones, not new gameplay modes.
+
+| Activity | Placement | Proposed 2D interaction and science | Current status |
+| --- | --- | --- | --- |
+| Balloon-powered rover | Engineering vehicle test track | Tap wheels/frame/nozzle options; release with one tap; compare travel. Escaping air provides thrust, with friction and mass affecting motion. | Planned. |
+| Bridge Challenge | Existing engineering construction board | Snap beams/supports into place; compare span, bracing and simplified loads. Distinguish a structural model from certified engineering. | Existing bridge prefab/support challenge is playable; geometry/load comparison remains an expansion. |
+| Water-bottle rocket | Engineering model launch stand; future rocket-pad link | Choose model water fill, pressure preset and launch angle; launch automatically and compare a visual trajectory. Expelled water/air provides thrust. | Planned; no real rocket-pad travel is implemented. |
+| Paper-airplane launcher | Engineering flight test bench | Select a paper-plane shape and launcher setting; launch once; compare flight paths and revise. Explore lift, drag, gravity and thrust/initial launch impulse. | Planned. |
+| Hovercraft | Engineering vehicle test track | Tap air-cushion and mass/surface options; release and compare sliding. Explain support by an air cushion and reduced surface contact/friction. | Planned. |
+| Catapult | Engineering model launch stand | Adjust arm, pullback and angle through large preset choices; launch a model ball toward an empty landing area. Compare stored elastic energy, launch angle and distance. | Planned; no combat or character targets. |
+| Roller coaster | Engineering side-view track bench | Tap snapping track segments, choose a starting height and release a model car. Observe gravitational potential/kinetic energy, momentum, friction and track constraints. | Planned; not a validated coaster physics simulator. |
+| Pipeline Challenge | Existing pipe/valve workshop; farm water-system link | Select pipe pieces and rotation, connect openings, test routes and operate valves. Later compare branching and water delivery. | Existing pipe connectivity and valve models are playable; hydraulic pressure/flow simulation remains an expansion. |
+
+### Common interaction design
+
+Observe → choose parts/settings → run → compare → change → repeat. Each experiment uses discrete single-tap choices with automatic positioning and motion, no required drag/hold/timed release, and no distance leaderboard or competitive score. Offer one optional guided step at a time, free experimentation, PIP demonstration, undo/reset, captions/visual descriptions and switch/controller-accessible controls. Record a child's observations rather than grading them. Display distances as model units unless numerical physics is validated.
+
+Use a small number of clearly different variables per beginner activity. Longer distance is one observation, not the only definition of success. Keep reusable inventions/records for eventual farm/habitat/world connections; do not claim these future deployments already work.
+
+### Atmosphere and Moon distinction
+
+Balloon/rocket thrust can work without external air: reaction to expelled mass does not require pushing against an atmosphere. A balloon rover in a Moon model must still account for its finite gas, materials, gravity and wheel/ground interaction. Present the starting experiment as an Earth training model; a future Moon comparison needs validated assumptions.
+
+Paper aircraft require an atmosphere for aerodynamic lift. An ordinary air-cushion hovercraft requires a sustained supplied gas cushion and is not a normal lunar vehicle. An inflated balloon on Earth and in vacuum behaves differently. Clearly distinguish air pressure, buoyancy, aerodynamic lift, reaction thrust and air-cushion support rather than treating all air-powered devices as interchangeable.
+
+### Suggested build order
+
+First extend the existing Bridge and Pipeline models; then add Balloon Rover and Hovercraft comparisons; then Paper Airplane, model Rocket/Catapult trajectories, and finally the more involved Roller Coaster track simulation. This is a proposed implementation order, not a claim that the new activities have been built.
