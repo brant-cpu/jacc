@@ -48,4 +48,4 @@ The Enceladus page introduces Saturn's icy ocean moon and a future ocean-world p
 
 ## Character roster
 
-See [approved character decisions](docs/CHARACTERS.md), including Lucas's Lederberg Model and the seventh, orange J.A.C.C.: a girl from India with the Gadgil Model for Ecosystems and Environmental Science. Her name is still to be chosen; the orange character is recorded for future crew-menu implementation.
+See [approved character decisions](docs/CHARACTERS.md), including Lucas's Lederberg Model and Sumati Suri, the seventh, orange J.A.C.C.: a girl from India with the Gadgil Model for Ecosystems and Environmental Science. Sumati is recorded for future crew-menu implementation.
