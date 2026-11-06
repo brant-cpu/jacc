@@ -52,3 +52,30 @@ Use J.A.C.C.'s own characters and original artwork. NASA's pictured characters, 
 Spacecraft assembly (engineering), rover observation tasks (future planetary training), crater comparisons (dig site), Moon-phase geometry (GSEINHQ astronomy), illustrated spectra (science lab), water-cycle exploration (existing farm/aquatic models), and icy-ocean-moon cutaways (aquatic center). These are original adaptation proposals, not verified extracts from the blocked NASA pages.
 
 Every new activity should retain large controls, no required dragging/timing, repeat/demonstrate/undo where applicable, optional narration/captions, switch/controller access and an ungated route back to exploration. Production science review and real-device/child testing remain necessary.
+
+## CubeSat Builder reference — supplied text
+
+The owner supplied a NASA/JPL-Caltech CubeSat Builder description and instructions. The described source game uses timed orders, keyboard/joystick movement, concurrent part testing, assembly, vacuum/mass checks and shipment. This entry reviews that supplied text, not the blocked live game. No source-game artwork, code or NASA branding has been imported.
+
+### Proposed J.A.C.C. activity: CubeSat Cleanroom
+
+**Placement:** engineering/construction zone, linked to the HQ science lab and a future launch pad. It is a construction/science activity, not a separate new gameplay mode. Status: planned, not implemented.
+
+1. Choose a pictured science mission: observe clouds/rain, look at stars, or relay data. Present different mission needs explicitly.
+2. Tap parts to examine computer/data handling, power, communications, attitude control, navigation and payload. Propulsion is mission-dependent; many CubeSats have none.
+3. Tap a test station. The astronaut/PIP automatically carries and positions the selected item. Tests show a simple illustration of what is being checked.
+4. Tap a frame slot to fit a tested part; placement snaps into position. PIP can suggest a useful next step or demonstrate it. Parts can be removed and changed without loss.
+5. Check the assembled training model's mass and vacuum-readiness demonstration. These are simplified educational checks, not real flight qualification.
+6. Save the design in the journal and transfer it to a launch-preparation display. Actual launches, orbital mission data and deployment to My Solar System are future connections, not existing functionality.
+
+Guided Adventure gives one optional step at a time. Free Explore lets children revisit stations and experiment. No countdown, quotas, competitive scores or required multitasking. Multiple projects can be a later optional feature; a single project must remain sufficient. Provide large single-tap choices, named controls, accessible destination selection, spoken explanations/captions, undo/restart and switch/controller access. Use shapes, symbols and names as well as part colors.
+
+### Science details to refine before production
+
+- A 1U CubeSat is approximately 10 × 10 × 10 cm (about four inches per side). Multi-unit spacecraft need not be cubes, and CubeSat formats extend beyond 6U. Use the relevant current deployer specification before teaching exact dimensions or limits.
+- Reaction wheels control orientation (attitude); they are not car steering wheels and do not directly steer a spacecraft's orbital path.
+- Star trackers measure attitude against star patterns; they do not independently supply full orbital position/navigation. Distinguish orientation, position estimation and trajectory changes.
+- Batteries store energy; solar panels generate electrical power from sunlight. Mission design determines the required systems and payload.
+- Vacuum and mass checks are only some of the engineering tests real spacecraft require. Do not present the activity as a full launch-safety checklist.
+
+Aiden introduces assembly; Malik computer/data systems; Alex power/communications concepts; Kaito attitude and flight; Lilja measurement; Sumati Earth-observation goals; and the blue Sagan astronaut astronomy payloads once his identity is complete. These are optional introductions, not exclusive ability gates. All crew can build.
