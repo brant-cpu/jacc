@@ -179,3 +179,17 @@ Recommended first prototypes: Mirror Route and Light Message, followed by Prism 
 ## Coding, robot logic and creative computing
 
 The owner supplied a 15-activity home-coding article. See [the complete J.A.C.C. mapping](CODING_ACTIVITY_ADAPTATIONS.md) for PIP Route Builder, Sample Sorter, Signal Bracelet, local story/card/page creation, a nonpunitive Buddy Play Lab, graphs, optional number exploration, mini-adventure building and later sample classification. Proposed placement: Malik's Coding & Robot Logic Bench in the GSEINHQ science lab, linked to engineering/farm robots. External accounts, Python installation, public chat and a pet-care timer are not prerequisites. These activities remain planned, not implemented.
+
+## Crystal Cave — supplied game concept
+
+The owner supplied the title and description of a puzzle about arranging differently shaped/propertied molecules into an ordered, stable configuration. No source URL, exact rules, artwork or implementation was provided. Status: planned, not implemented.
+
+**Placement:** a crystal-pattern workbench in the dig site's caverns, linked to Maya's crystal investigation/HQ chemistry work. Lilja can introduce geometric patterns; PIP explains the chosen material model. All astronauts can use it.
+
+**Proposed interaction:** select a building unit → select a large snapping position → optionally rotate with a separate button → inspect the repeating pattern. Begin with a few pieces and clearly illustrated rules, then offer larger patterns or different unit types as optional extensions. Provide Undo, Reset, PIP demonstration and unlimited repetition, without timers, penalties or mandatory dragging. Ordered arrangements can reveal a crystal illustration and a journal observation when implemented; they should not consume the child's mineral collection.
+
+Use the correct building-unit language for each model: water molecules for a molecular-crystal example such as ice; positive/negative ions for an ionic example such as sodium chloride; linked silicon/oxygen units for a simplified quartz-network illustration. Do not describe quartz as a pile of independent SiO2 molecules. The initial 2D pattern puzzle is an abstraction, not the full three-dimensional crystal structure or a calculation of physical stability.
+
+A completed pattern means the game's explicitly described ordering/connection rules are satisfied. Do not claim that geometric fit alone establishes real chemical bonding, crystal stability or energy minimization. Material-specific rules/diagrams need scientific review before production.
+
+Units need shapes, symbols and spoken names as well as colors. Expose named slots and rotation controls to switch/controller/keyboard and browser screen-reader paths; preserve captions, reduced effects, AAC and large targets. Difficulty is optional and does not gate exploration or future visits.
