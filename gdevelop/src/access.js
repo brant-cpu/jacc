@@ -14,7 +14,7 @@ function nativeAccessKeys(){const p=nativeAccessPrefs(),list=[' ','Enter','Contr
 function nativeAccessDestinations(page=0){const list=nativeActiveObjects();open('Choose a destination','Travel and positioning happen automatically.','',[
  ...list.slice(page*4,page*4+4).map(o=>[o.icon+' '+o.name,()=>{close();nativeAccessPause(false);select(o)}]),...(page>0?[['Previous places',()=>nativeAccessDestinations(page-1)]]:[]),...(list.length>(page+1)*4?[['More places',()=>nativeAccessDestinations(page+1)]]:[])
  ]);}
-function nativeAccessHelper(){const o=helperSuggestion(nativeActiveObjects(),s.visited,s.last);open('PIP helper','Built-in offline guidance. This is not a live AI chat service.','',[
+function nativeAccessHelper(){if(s.expeditions.active){nativeExpeditionMenu('mission');return}const o=helperSuggestion(nativeActiveObjects(),s.visited,s.last);open('PIP helper','Built-in offline guidance. This is not a live AI chat service.','',[
  ...(o?[['Try '+o.name,()=>{close();nativeAccessPause(false);select(o)}]]:[]),['Destinations',()=>nativeAccessDestinations()],['Previous activity',()=>{close();select(objects.find(o=>o.id===s.last)||objects.find(o=>o.id==='grounds-home'))}],['My words',()=>nativeAAC()]
  ]);}
 function nativeAccessCommand(actions,command){if(command==='aac'){nativeAAC();return}if(command==='help'){nativeAccessHelper();return}if(command==='back'){if(s.overlay)close();return}if(command==='next'||command==='previous'){s.focus=scanStep(s.focus,actions.length,command==='next'?1:-1);s.scanElapsed=0;return}if(command==='select'){requestHaptic(nativeAccessPrefs().haptics,s.controllerPad);actions[s.focus%actions.length]?.fn();s.scanElapsed=0;}}

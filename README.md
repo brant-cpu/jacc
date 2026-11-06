@@ -12,6 +12,10 @@ Double-click **prototype/index.html** in the extracted folder. This version incl
 
 These are separate implementations. The browser HTML is not a GDevelop project. Both use provisional art and share science content and navigation logic. Real-device testing and child/accessibility user testing remain outstanding.
 
+## Generated exploration worlds
+
+Choose **Places → Big exploration worlds** in the browser, or **Places → Explore worlds** in GDevelop. Fly from ground to orbit, swim to the abyss, dig through Earth layers, climb the forest canopy, or plant a top-down farm. Worlds stream colored-block terrain as you explore. Every astronaut can deploy wings and boosters; walking uses gravity and automatic hops/climbs. PIP offers optional goals and layer lifts. Collect seeds and samples, revisit journal entries, and place reusable blocks, platforms and ladders. See [controls, science models, save limits and validation](docs/PROCEDURAL_EXPLORATION.md).
+
 ## Build PIP
 
 Open **PIP → Build PIP** for the schematic workshop. Tap parts or optionally drag them onto PIP. Standard restores the base buddy; Match crew copies the current astronaut's suit color. Use Analyze, or Ask PIP on a discovery card, for illustrated offline science explanations. See each build's README for implemented features and limits.

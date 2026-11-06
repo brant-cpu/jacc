@@ -1,3 +1,4 @@
+import {normalizeExpeditions,expeditionJournal} from './expeditions.js';
 import {normalizeRocketLab,rocketSky,rocketMissions,rocketLinks} from './rocket-lab.js';
 import {normalizeTech,techActivities,techHQLinks} from './hq-tech.js';
 import {machineObjects,machineName,normalizeMachines} from './machines.js';
@@ -43,7 +44,8 @@ for(const o of [...rocketLinks,...techHQLinks,...machineObjects,...elevatorExtra
 journalActivities['grounds-aquatic']=['I explored the Aquatic Learning Center.','Our home lake connects to protected ocean simulations.'];
 journalActivities['grounds-dig']=['I explored the dig site.','Earth materials and cave habitats tell different stories.'];
 for(const s of [...farmStations,...gardenBeds,...wildSeedObjects.map(o=>({...o,fact:o.text}))])journalActivities[s.id]=['I visited the '+s.name.toLowerCase()+'.',s.fact];
-export function getJournalEntries(section,found,visited,objects,materials,farm={},construction={},aquatic={},chapter={},elevator={},machines={},tech={},rocketLab={}){
+export function getJournalEntries(section,found,visited,objects,materials,farm={},construction={},aquatic={},chapter={},elevator={},machines={},tech={},rocketLab={},expeditions={}){
+ const records=expeditionJournal(normalizeExpeditions(expeditions),section);if(records.length)return records.concat(getJournalEntries(section,found,visited,objects,materials,farm,construction,aquatic,chapter,elevator,machines,tech,rocketLab));
  const lab=normalizeRocketLab(rocketLab);if(section==='experiments'&&lab.completed.length)return lab.completed.map(id=>({id:'rocket-'+id,title:{checks:'I checked my rocket model.',thrust:'I tried thrust and payload.',launch:'I completed a training flight.'}[id],summary:'I changed a choice, observed the model and can repeat it.',fact:'This is a simplified training model, not a real launch procedure.',icon:'🚀',target:id==='thrust'?'rocketlab-test':id==='checks'?'rocketlab-pad':'rocketlab-missions'})).concat(getJournalEntries(section,found,visited,objects,materials,farm,construction,aquatic,chapter,elevator,machines,tech));
  if(section==='adventures'&&lab.flown.length)return lab.flown.map(id=>({id:'rocket-mission-'+id,title:'My mission: '+rocketMissions[id].name,summary:'I completed a player-paced training flight.',fact:rocketMissions[id].text,icon:rocketMissions[id].icon,target:'rocketlab-missions'})).concat(getJournalEntries(section,found,visited,objects,materials,farm,construction,aquatic,chapter,elevator,machines,tech));
  if(section==='found'&&lab.observed.length)return rocketSky.flatMap((o,i)=>lab.observed.includes(o.id)?[{id:'rocket-sky-'+o.id,title:o.name,summary:'I observed '+o.name+' in our sky model.',fact:o.text,icon:o.icon,target:'rocketlab-sky',rocketSky:i}]:[]).concat(getJournalEntries(section,found,visited,objects,materials,farm,construction,aquatic,chapter,elevator,machines,tech));
