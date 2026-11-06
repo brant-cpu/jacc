@@ -175,3 +175,7 @@ Depict fabrication as an enclosed, interlocked virtual process and treat eye/mat
 Every task retains single-action controls, optional PIP demonstration, Undo/Reset where appropriate, captions/audio descriptions, labeled/patterned beam paths, switch/controller selection and no compulsory quiz or timed response. Colors are supplementary cues, not the sole puzzle rule. Production science review, original art and real-device/child testing remain required.
 
 Recommended first prototypes: Mirror Route and Light Message, followed by Prism Explorer and virtual pattern fabrication. This recommendation is part of the planning catalog; no new station is yet playable.
+
+## Coding, robot logic and creative computing
+
+The owner supplied a 15-activity home-coding article. See [the complete J.A.C.C. mapping](CODING_ACTIVITY_ADAPTATIONS.md) for PIP Route Builder, Sample Sorter, Signal Bracelet, local story/card/page creation, a nonpunitive Buddy Play Lab, graphs, optional number exploration, mini-adventure building and later sample classification. Proposed placement: Malik's Coding & Robot Logic Bench in the GSEINHQ science lab, linked to engineering/farm robots. External accounts, Python installation, public chat and a pet-care timer are not prerequisites. These activities remain planned, not implemented.
