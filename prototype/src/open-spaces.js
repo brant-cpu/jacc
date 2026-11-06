@@ -1,9 +1,14 @@
 // Large, connected training landscapes. Coordinates/model layers are not real-world scale.
-export const openSpaces={flight:{name:'Open Flight Range',width:2400,height:1200,color:'#76bfd4',spawn:[180,400]},forest:{name:'Forest Exploration',width:2400,height:1200,color:'#a6cb8b',spawn:[180,400]},diglands:{name:'Open Dig Landscape',width:2400,height:1600,color:'#91725e',spawn:[180,200]}};
+export const openSpaces={magnetism:{name:'Magnetism Lab',width:1000,height:600,color:'#d2e5df',spawn:[180,460]},flight:{name:'Open Flight Range',width:2400,height:1200,color:'#76bfd4',spawn:[180,400]},forest:{name:'Forest Exploration',width:2400,height:1200,color:'#a6cb8b',spawn:[180,400]},diglands:{name:'Open Dig Landscape',width:2400,height:1600,color:'#91725e',spawn:[180,200]}};
 const site=(zone,id,x,y,icon,name,text,extra={})=>({zone,id:zone+'-'+id,x,y,icon,name,text,diagram:icon,kind:'inspect',...extra});
 export const openSpaceObjects=Object.entries(openSpaces).flatMap(([zone,z])=>[
- site(zone,'exit',140,zone==='diglands'?180:400,'🏠','Return to home hub','The home hub is always available.',{kind:'portal',to:'grounds'}),
- ...(zone==='flight'?[
+ site(zone,'exit',140,zone==='diglands'?180:zone==='magnetism'?460:400,'🏠','Return to home hub','The home hub is always available.',{kind:'portal',to:'grounds'}),
+ ...(zone==='magnetism'?[
+ site(zone,'poles',300,200,'🧲','Push and pull','Test which ends pull together.',{kind:'magnetlab',experiment:'poles'}),
+ site(zone,'materials',700,200,'🔎','Material detective','Test iron, wood, copper and aluminium.',{kind:'magnetlab',experiment:'materials'}),
+ site(zone,'coil',350,400,'⚡','Coil lab','Use a coil and a virtual electric circuit.',{kind:'magnetlab',experiment:'coil'}),
+ site(zone,'generator',750,400,'💡','Generator','Turn motion into a voltage pulse.',{kind:'magnetlab',experiment:'generator'})
+ ]:zone==='flight'?[
  site(zone,'pad',430,420,'🛬','Landing pad','Your astronaut lands automatically at this training pad. You can fly again by choosing any destination.'),
  site(zone,'cloud',820,280,'☁️','Cloud lookout','Clouds contain tiny water droplets or ice crystals. This flight range is an atmospheric training model.'),
  site(zone,'windsock',1250,400,'🎏','Wind station','A windsock helps show wind direction. This marker explains wind; it does not simulate actual wind forces.'),
@@ -34,6 +39,7 @@ export function spaceCamera(zone,point){const z=openSpaces[zone];return z?[Math.
 export function normalizeOpenProgress(raw={}){return {cleared:[...new Set((Array.isArray(raw?.cleared)?raw.cleared:[]).filter(k=>typeof k==='string'&&/^\d+,\d+$/.test(k)&&(()=>{const [x,y]=k.split(',').map(Number);return !openBlocked(x,y,'diglands')})()))].slice(0,2400)};}
 export function clearOpenGround(progress,x,y){const cell=Math.floor(x/40)+','+Math.floor(y/40);if(!openBlocked(Math.floor(x/40),Math.floor(y/40),'diglands')&&!progress.cleared.includes(cell))progress.cleared.push(cell);}
 export function openSpaceSvg(zone){const z=openSpaces[zone];let s=`<svg xmlns="http://www.w3.org/2000/svg" width="${z.width/2}" height="${z.height/2}" viewBox="0 0 ${z.width} ${z.height}"><rect width="${z.width}" height="${z.height}" fill="${z.color}"/>`;
+if(zone==='magnetism'){s+='<path d="M70 120h860v380H70z" fill="#edf4df" stroke="#6d9696" stroke-width="8"/>';for(const [x,y]of [[300,200],[700,200],[350,400],[750,400]])s+=`<rect x="${x-115}" y="${y-60}" width="230" height="110" rx="14" fill="#aac5cd" stroke="#436679" stroke-width="4"/><path d="M${x-90} ${y-45}h180" stroke="#35d3c9" stroke-width="5"/>`;}
 if(zone==='flight'){for(let i=0;i<24;i++){const x=100+(i*347)%2200,y=160+(i*163)%900;s+=`<ellipse cx="${x}" cy="${y}" rx="80" ry="25" fill="#e7f3ee" opacity=".6"/>`;}for(const [x,y]of [[430,420],[650,900]])s+=`<rect x="${x-110}" y="${y+40}" width="220" height="20" rx="8" fill="#c4ced8"/><path d="M${x-70} ${y+45}h140" stroke="#35d3c9" stroke-width="5"/>`;}
 if(zone==='forest'){s+='<path d="M1040 0h120v1200h-120z" fill="#518eae"/><rect x="1020" y="560" width="160" height="120" fill="#bc9c70"/>';for(let i=0;i<70;i++){const x=80+(i*317)%2200,y=130+(i*199)%950;if(x>980&&x<1200)continue;s+=`<rect x="${x-8}" y="${y}" width="16" height="65" fill="#8a7056"/><circle cx="${x}" cy="${y}" r="43" fill="${i%2?'#558554':'#719c65'}" opacity=".65"/>`;}s+='<path d="M130 400Q450 600 850 450L1100 600l400-240 400 290" stroke="#d6c59c" stroke-width="50" fill="none"/>';}
 if(zone==='diglands'){for(let y=120;y<1600;y+=40)for(let x=40;x<2360;x+=40)s+=`<rect x="${x}" y="${y}" width="39" height="39" fill="${y<480?'#b69b76':y<960?'#8f7569':'#68707d'}"/>`;s+='<rect x="40" y="120" width="220" height="120" fill="#203440"/>';}

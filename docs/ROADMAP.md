@@ -37,3 +37,5 @@ The home lake now opens the Aquatic Learning Center in both builds: swimming/sub
 ## Large exploration spaces — playable framework
 
 Open Flight Range, Forest Exploration and Open Dig Landscape are now authored scrolling spaces linked to the home hub. Places provides large-button space/landmark navigation; automatic flight/landing, forest observations/seed collection and saved automatic excavation are implemented. These are training landscapes, not procedural planets or complete ecological/aerodynamic/geological simulations. See [current validation and remaining work](OPEN_SPACES.md).
+
+Implemented: Magnetism Lab (both builds), with four repeatable qualitative polarity/material/coil/induction experiments, illustrated outcomes, journal trial records and home-hub travel. Quantitative fields, motors and real-device validation remain future work. See MAGNETISM_LAB.md.
