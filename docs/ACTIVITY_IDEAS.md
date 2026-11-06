@@ -226,3 +226,32 @@ Optional picture/audio profiles can introduce Katherine Johnson's trajectory cal
 ### Play pattern and status
 
 Design → assemble → test → observe → improve → save → optionally deploy later. Use large tap choices, snapping placement, automatic traversal/launches, pause/step/replay, PIP demonstrations, captions, noncolor cues, switch/controller navigation and AAC access. No countdown, reflex piloting, compulsory quiz, competitive distance score or harmful failure state. Guided play offers one optional step; Free Explore allows repetition and improvisation. All listed stations remain planned; existing construction models and the earned orbital preview are the current playable foundations.
+
+## Agricultural technology and Hydroponics Made Easy — supplied text
+
+The owner supplied an agricultural-technology introduction and a hydroponics activity summary: convert a bottle into a miniature garden using light, air and nutrient-rich water. No source URL, detailed procedure or current demographic dataset was supplied. The cited 2050 population figure is a projection associated with a particular UN revision; verify its source/date before displaying it as current. Food security also involves access, distribution, waste, nutrition, livelihoods and environmental limits, not just producing more food. Keep the child's story hopeful and exploratory without assigning responsibility for world hunger.
+
+### Existing foundation
+
+The playable Planet Farm already has a Hydro farm station, nutrient/oxygen explanations, a pump demonstration, sample seeds and experiment journal records. The proposed activity below expands that station; it is not a new zone, new gameplay mode or a claim that a growth simulator already exists.
+
+### Proposed expansion: My Hydro Grow Pod
+
+At **Planet Farm → Hydro farm**, build a transparent virtual bottle/pod by tapping components into snapping slots: container, plant support, model nutrient-water reservoir and an appropriate root-zone oxygen/water-delivery system. Select a seed/seedling example such as lettuce from the existing plant collection.
+
+- Tap the pod to inspect leaves and roots. PIP shows where water and mineral nutrients enter and where gas exchange occurs.
+- Compare soil growing with a labeled hydroponic model, explaining that suitable support and root-zone conditions matter in both systems.
+- Change one model condition at a time: light, nutrient availability or root-zone oxygenation. Keep other conditions explicit for a meaningful comparison.
+- Tap **Observe next stage** to advance a clearly labeled educational model. No real-time waiting, required login, hunger meter, plant death or penalties for leaving the activity. Unfavorable conditions can show limited model growth and an invitation to investigate.
+- Save pictures/observations to the journal and seed bank where appropriate. Quantities are illustrative until a validated plant-growth model and units are defined.
+- Reuse existing engineering pipe, valve, power and printed-support kits in the farm model. Richer plumbing/sensor/robot behavior and deployment to future habitats remain later connections.
+
+Maya explains mineral nutrients and solution chemistry; Lucas roots and plant biology; Sumati water/resource relationships; Lilja compares recorded data. Malik can introduce future sensors/automation. Every astronaut can use the station.
+
+### Scientific and access boundaries
+
+Hydroponics means growing without soil, not without nutrients. Plants require appropriate light, water, mineral nutrients, gas exchange and temperature; roots need oxygen. Photosynthetic leaves use carbon dioxide, while living plant tissues also respire. Different hydroponic systems provide water/oxygen/support differently; a bottle of stagnant water is not a universal complete setup.
+
+Recirculation can improve water-use efficiency but is not automatically zero-waste or suitable for every crop/location; electricity, equipment, nutrient management and maintenance matter. Avoid implying hydroponics alone solves global food insecurity or that all plant growth comes from nutrients in soil rather than substantial carbon acquisition from air.
+
+Use pictorial single-tap parts/settings, large controls, snapping, repeat/reset, optional demonstrations, captions/narration and switch/controller access. Do not require pouring, dragging, precise handling or reading. This entry is a recorded plan; no new hydroponic growth/comparison activity has been implemented by it.
