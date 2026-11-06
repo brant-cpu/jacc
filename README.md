@@ -69,3 +69,7 @@ Both builds now include **Access** and **My words / WORDS**. Choose one-switch s
 ## First Visit: GSEINHQ
 
 Choose **First visit** (browser) or **VISIT** (GDevelop) for the optional onboarding story: Explore, Guided Adventure or Adaptive Play; optional supports; crew selection; then arrival at **GSEINHQ**. Skip setup enters HQ immediately. Guided offers one optional nearby goal; Explore has no automatic clue prompts. The training grounds remain the home hub, and direct exploration is still available. See [the script and behavior brief](docs/FIRST_VISIT.md).
+
+## Activity ideas
+
+The [activity and reference catalog](docs/ACTIVITY_IDEAS.md) records the requested puzzle activities and NASA Kids/Mission Biomes references. Biome exploration is proposed for the farm biodome and future world planning; these entries are plans, not newly playable activities. NASA page review remains blocked by network policy.
