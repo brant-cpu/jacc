@@ -145,3 +145,33 @@ The owner uploaded the 81-page **Aviation For Kids: A Mini Course For Students i
 ## Electromagnetism and electromagnetic spectrum
 
 The owner's supplied roundup lists 19 activities, including magnetic field drawing, coils, a battery train, wave comparisons, spectrum ordering, stellar chemistry and worksheet/story formats. See [the source-specific mapping and science corrections](ELECTROMAGNETISM_ACTIVITIES.md). Proposed first stations are Field Viewer, Magnetic Crane, Generator Bench, Spectrum Explorer, Wave Comparison Table and Star Fingerprint Lab, connected to the existing magnet station, HQ lab and engineering power workshop. Alex introduces the fundamentals; Malik and the future blue Sagan astronaut provide optics/astronomy connections. These activities remain planned, not implemented.
+
+## Laser-powered STEM — supplied article
+
+The owner supplied an article attributed to Crystal, March 19, 2025, about laser-related art, fabrication, puzzles, optics and mathematical models. No source URL or independently verified equipment guidance was supplied. Its central educational idea is combining creative design with experimentation in light and fabrication. Its claims about home equipment are not adopted as instructions for children.
+
+### Proposed placement and activities
+
+Malik introduces an **Optics Bench in the GSEINHQ science lab**, linked to an **enclosed virtual fabrication machine in the engineering workshop**. These are proposed station activities, not new gameplay modes or completed implementations. All astronauts can use them.
+
+| Activity | Accessible 2D adaptation |
+| --- | --- |
+| Mirror Route | Select a mirror and tap rotation presets to guide a model beam to a detector. Run, step, pause and repeat; no aiming precision, speed or dragging. |
+| Prism Explorer | Compare a white-light source and a narrow-band source through a prism. Show that a prism can separate wavelengths already present; it does not turn a single-frequency laser into a full rainbow. |
+| Diffraction Window | Select slit-width and wavelength presets; compare clearly labeled model intensity patterns. These are illustrative patterns until numerical optics is validated. |
+| Light Message | Tap a sequence of on/off symbols; a receiver decodes the model signal. Introduce communication/computing with no requirement to tap at a particular speed. |
+| Engraving Studio | Choose shapes, patterns or an optional locally stored name; let an enclosed virtual machine make a decorative panel for the child's habitat or equipment. No real device connection or fabrication instructions. |
+| Shape Fabricator | Select geometric pieces and let a protected model machine produce reusable virtual tangram, bridge or construction pieces. Connect to Lilja's mathematics and Aiden's engineering work. |
+| Symmetry Designer | Build a pattern through discrete choices and mirror/rotate buttons; inspect angles and symmetry before making a virtual design. |
+
+### Science and presentation boundaries
+
+Lasers can produce highly directional, coherent light, often over a narrow range of wavelengths; not all lasers emit visible light. A visible beam line in the game's empty space is a diagrammatic aid, not a claim that beams are ordinarily visible from the side without scattering. Reflection and refraction use appropriate geometric models; diffraction needs wave behavior, not just straight-line ray rules.
+
+Do not teach that a laser necessarily contains all rainbow colors, that more power is always better, or that material compatibility follows one universal CO2/nonmetal versus fiber/metal rule. Keep power/tool settings qualitative and illustrative until models are validated.
+
+Depict fabrication as an enclosed, interlocked virtual process and treat eye/material protection as machine design features. Do not reproduce the article's purchasing advice, imply goggles/gloves alone make equipment child-safe, provide real laser-machine settings, or encourage aiming at people/animals. Game visuals use steady, adjustable lines without flashing, strobing or glare.
+
+Every task retains single-action controls, optional PIP demonstration, Undo/Reset where appropriate, captions/audio descriptions, labeled/patterned beam paths, switch/controller selection and no compulsory quiz or timed response. Colors are supplementary cues, not the sole puzzle rule. Production science review, original art and real-device/child testing remain required.
+
+Recommended first prototypes: Mirror Route and Light Message, followed by Prism Explorer and virtual pattern fabrication. This recommendation is part of the planning catalog; no new station is yet playable.
