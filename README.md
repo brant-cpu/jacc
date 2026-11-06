@@ -84,4 +84,6 @@ The home hub now links to **Flight range**, **Forest**, and **Open dig landscape
 
 Magnetism Lab: tap its home-hub magnet entrance or **Places → Magnetism Lab**. Try polarity, material attraction, a switchable electromagnet and magnet/coil generation; replay them through My Experiments. See [the lab report](docs/MAGNETISM_LAB.md).
 
-First story chapter: **Moonbase Dig**. Choose **Adventures** at home, the **Adventure desk** at HQ, or **Places → Adventure chapters**. Dig on Earth and the Moon, build a field station, clear hostile Nymion guards with one-tap cartoon bolts, and stop their crystal machines. Explore/Adaptive offer immediate access; Guided requires digging and rocket-pad readiness. See [chapter report](docs/MOONBASE_DIG.md).
+Adventure 2: **Moonbase Dig**. Choose **Adventures** at home, the **Adventure desk** at HQ, or **Places → Adventure chapters**. Dig on Earth and the Moon, build a field station, clear hostile Nymion guards with one-tap cartoon bolts, and stop their crystal machines. Explore/Adaptive offer immediate access; New Guided play follows the Elevator Hack, digging and rocket-pad readiness. See [chapter report](docs/MOONBASE_DIG.md).
+
+**Adventure 1: The Space Elevator Hack** now precedes the Moon mission. Choose **Places → Adventure chapters → Adventure 1: Space Elevator** for six deck rescues, the five starring companions, Lucas’s supporting air scan, Professor Elon and Commander Zuglu’s relaxed four-stage encounter. See [the implementation report](docs/SPACE_ELEVATOR_HACK.md).

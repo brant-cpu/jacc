@@ -34,3 +34,5 @@ nav{flex-wrap:wrap}#aac,#access{font-size:15px;max-width:100px}#panel-aac{margin
 header nav{gap:4px}#places,#aac,#access,#visit{font-size:14px;max-width:80px;padding:6px}
 
 .chapter-reaction svg{animation:jacc-buzz .55s ease-out;transform-origin:center}@keyframes jacc-buzz{20%{transform:translateX(5px) rotate(-8deg)}50%{transform:translateX(12px) rotate(10deg)}80%{transform:translateX(5px) rotate(-4deg)}}
+
+#elevator-objective{position:absolute;left:2%;right:2%;top:16%;padding:10px 12px;border:3px solid #234d61;border-radius:12px;background:#fffbed;color:#17384a;font-weight:700;font-size:clamp(14px,1.7vw,19px);pointer-events:none}#elevator-objective[hidden]{display:none}
