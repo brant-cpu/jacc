@@ -193,3 +193,36 @@ Use the correct building-unit language for each model: water molecules for a mol
 A completed pattern means the game's explicitly described ordering/connection rules are satisfied. Do not claim that geometric fit alone establishes real chemical bonding, crystal stability or energy minimization. Material-specific rules/diagrams need scientific review before production.
 
 Units need shapes, symbols and spoken names as well as colors. Expose named slots and rotation controls to switch/controller/keyboard and browser screen-reader paths; preserve captions, reduced effects, AAC and large targets. Difficulty is optional and does not gate exploration or future visits.
+
+## Space STEM and engineering challenge collection — supplied concepts
+
+The owner supplied satellite, Apollo-inspired lunar lander, shuttle, paper/straw rocket and air/chemical-propulsion concepts, ending with a proposed game sequence: make virtual fuel, create an engine and go to space. No source URL or independently reviewed experimental instructions were supplied. These are game-activity proposals, not physical construction instructions or newly implemented systems.
+
+### Placement and adaptation
+
+| Concept | Proposed station and one-action interaction |
+| --- | --- |
+| Build a Satellite | Existing planned CubeSat Cleanroom in engineering: choose mission, fit/test subsystems and save a reusable design. Avoid duplicating the previously cataloged satellite activity. |
+| Build a Lunar Lander | Engineering Lander Test Bench: tap legs, footprint, payload and model energy-absorbing supports into snapping slots. Run an automatic descent/landing comparison; revise without crashes harming astronauts. Apollo-inspired historical examples are labeled historical. |
+| Space Shuttle Challenge | Engineering Spacecraft Hangar: compare an illustrated historical shuttle with a child's original virtual spacecraft; assemble wings, payload bay, landing gear and other appropriate parts. Explain that different mission phases use different systems. |
+| Paper Straw Rocket | Existing planned launch/flight test bench: select model fins/body and initial-launch presets. Automatic launches demonstrate launch impulse, stability and air resistance; no manual aiming or timed release is required. |
+| Air Propulsion | Propulsion Discovery Bench: compare a balloon/cold-gas schematic with other simplified propulsion concepts. Show expelled mass and reaction thrust. Air-powered models and chemical rocket engines are not interchangeable. |
+| Engine Builder | Virtual propulsion cutaway: tap mission-appropriate tank/feed/chamber/nozzle modules into a protected schematic, then watch labeled flows/force arrows. These modules and interfaces are symbolic, not buildable engine specifications. |
+| Virtual Fuel Workshop | Use clearly fictional inventory tokens or ready-made sealed model supplies to represent stored energy/propellant. Chemical-propulsion explanations stay conceptual; no real reactants, mixing procedures, quantities, operating pressures or ignition methods are provided. Distinguish fuel, oxidizer, propellant, electricity and pressurized gas where relevant. |
+| Go to Space | Future launch-pad connection: choose a mission, preview the model, launch automatically and observe ascent/coasting/orbit or landing phases. Offer pause, step and replay. Actual spacecraft launch, orbital missions, procedural worlds and colonies are not implemented by this catalog entry. |
+
+Connect these benches to the engineering yard, GSEINHQ science lab and future rocket pad. Kaito introduces flight/spacecraft movement, Aiden structures, Malik computing, Alex power/electromagnetic concepts and the blue Sagan astronaut astronomy after his identity is complete. Everyone can participate.
+
+### Scientific framing
+
+Thrust comes from expelling mass; a rocket need not push against surrounding air. Chemical engines require an appropriate reaction system; many carry an oxidizer because space provides no atmospheric oxygen. Cold-gas propulsion uses stored gas rather than chemical combustion, while electric propulsion uses electrical energy to accelerate propellant. Do not present every rocket as burning fuel or treat a battery, balloon and chemical engine as equivalent.
+
+Reaching space and entering a sustained orbit are different goals: orbital flight requires suitable sideways velocity as well as altitude. Historical shuttles used aerodynamic surfaces in an atmosphere, not as wings producing lift in vacuum. The Moon's environment has essentially no atmosphere for ordinary parachutes or wing lift; an Apollo-style lander uses propulsion for descent and legs for touchdown support. Engineering schematics and simplified trajectories require defined assumptions before numerical results are shown as scientific measurements.
+
+### People behind space exploration
+
+Optional picture/audio profiles can introduce Katherine Johnson's trajectory calculations, Evelyn Boyd Granville's computing work on space programs, and Mae Jemison's work as an astronaut and physician. Verify any detailed historical claims before production. These are real-person learning references, not additional J.A.C.C. roster members or replacements for existing characters.
+
+### Play pattern and status
+
+Design → assemble → test → observe → improve → save → optionally deploy later. Use large tap choices, snapping placement, automatic traversal/launches, pause/step/replay, PIP demonstrations, captions, noncolor cues, switch/controller navigation and AAC access. No countdown, reflex piloting, compulsory quiz, competitive distance score or harmful failure state. Guided play offers one optional step; Free Explore allows repetition and improvisation. All listed stations remain planned; existing construction models and the earned orbital preview are the current playable foundations.
