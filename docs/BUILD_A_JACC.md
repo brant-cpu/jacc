@@ -19,7 +19,7 @@ The active saved custom character appears in normal exploration, the open flight
 
 ## Mixed STEM tools
 
-Tap **Suit** while using a custom astronaut. The core and two arms can provide three different STEM choices. Biology uses the existing Bio-Vision model, ecosystems uses Connection Vision, and mathematics uses Pattern Vision, with their existing illustrated steps and world overlays. Other tools link to the relevant working stations: magnet experiments, crystal/light observation, digging, free construction, the flight range and HQ star map. There is also a clear-overlay control.
+Tap **Suit** while using a custom astronaut. The core and two arms can provide three different STEM choices. Biology uses the existing Bio-Vision model, ecosystems uses Connection Vision, and mathematics uses Pattern Vision, with their existing illustrated steps and world overlays. Other tools link to the relevant working stations: magnet experiments, crystal/light observation, digging, free construction, the flight range and Rocket Lab sky window. There is also a clear-overlay control.
 
 These are reusable training tools and activity connections, not a newly implemented physical ability simulator. Wings and thrusters change appearance; flight, swimming, obstacles and automatic traversal still follow the current zone rules. No outfit is required to access an activity. Chen can use all existing activities; a dedicated Sagan powers collection is still future work.
 
