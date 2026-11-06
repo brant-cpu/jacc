@@ -65,3 +65,7 @@ Settings now includes **High contrast** and **Color-blind support**. Enable eith
 ## Adaptive access & My words
 
 Both builds now include **Access** and **My words / WORDS**. Choose one-switch scanning or two-switch selection, standard controller input, game-speech captions, visual alerts, optional haptics and scenery dimming. The AAC board offers activity choices, local caregiver-help phrases, brightness/sound requests, save and All done. PIP offers an offline helper and destination list. See [setup, device support and testing limits](docs/ADAPTIVE_ACCESS.md), particularly the unverified JAWS/native screen-reader path and real hardware. Live AI chat and room-speech transcription are not implemented.
+
+## First Visit: GSEINHQ
+
+Choose **First visit** (browser) or **VISIT** (GDevelop) for the optional onboarding story: Explore, Guided Adventure or Adaptive Play; optional supports; crew selection; then arrival at **GSEINHQ**. Skip setup enters HQ immediately. Guided offers one optional nearby goal; Explore has no automatic clue prompts. The training grounds remain the home hub, and direct exploration is still available. See [the script and behavior brief](docs/FIRST_VISIT.md).

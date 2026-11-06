@@ -27,3 +27,5 @@ nav{flex-wrap:wrap}#aac,#access{font-size:15px;max-width:100px}#panel-aac{margin
 #access-feedback{position:fixed;bottom:8px;left:50%;transform:translateX(-50%);width:calc(100% - 24px);max-width:1000px;z-index:6}#access-feedback p{max-height:92px;overflow:auto;margin:0;font-size:18px;line-height:1.4}#access-feedback[hidden]{display:none}
 
 #access-feedback{position:absolute;top:8px;bottom:auto}#access-feedback p{max-height:76px}
+
+#first-visit-start{position:absolute;left:34%;top:66%;width:32%;min-height:64px;z-index:3;font-size:18px}#visit{font-size:15px;max-width:100px}

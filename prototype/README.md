@@ -123,3 +123,7 @@ Choose Lucas, Sumati or Lilja and open Suit for nine powers. Reveal in world hig
 ## Adaptive access
 
 Open Access for one/two-switch controls, key binding, standard gamepad input, game captions, visual alerts, optional haptics, AAC voice and dim scenery. My words offers paged communication/activity choices. The browser uses semantic controls and named dialogs for screen-reader testing; JAWS itself is unverified. See [device setup, implemented behavior and limits](../docs/ADAPTIVE_ACCESS.md).
+
+## First Visit: GSEINHQ
+
+The starting screen/header offers First visit; Explore still skips setup. The optional story supports play-style choice, comfort settings, changeable crew and a visit to GSEINHQ. Guided suggests one optional nearby point; Explore stays quiet until invited or an object is tapped. See [approved script and behavior](../docs/FIRST_VISIT.md).

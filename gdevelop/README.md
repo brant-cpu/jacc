@@ -94,3 +94,7 @@ Choose Lucas, Sumati or Lilja and open Suit for nine powers. Reveal in world hig
 ## Adaptive access
 
 WORDS opens the communication board; ACCESS opens scanning, captions, notices, haptics, AAC voice, dim scenery and controller settings. Keys default to Space/Enter; Access offers presets. A compatible interface must translate adaptive switches into these inputs. This native Sprite/Text interface is not a verified JAWS route; the browser provides semantic HTML controls for screen-reader testing. Actual GDevelop rendering and assistive hardware remain unverified. See [access setup and limitations](../docs/ADAPTIVE_ACCESS.md).
+
+## First Visit: GSEINHQ
+
+VISIT opens the optional story without blocking normal startup. Choose Explore, Guided Adventure or Adaptive Play, optionally adjust supports/select crew, then enter GSEINHQ. Skip setup bypasses questions. The existing HQ entrance and home hub remain usable. See [approved script, behavior and test limits](../docs/FIRST_VISIT.md).

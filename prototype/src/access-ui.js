@@ -25,5 +25,5 @@ export function mountAdaptiveAccess({settings,save,open,close,button,paragraph,c
  const nav=document.querySelector('nav');for(const [id,label,fn]of [['aac','💬 My words',()=>aac()],['access','♿ Access',options]]){const b=document.createElement('button');b.id=id;b.textContent=label;b.onclick=fn;nav.append(b)}
  const inPanel=document.createElement('button');inPanel.id='panel-aac';inPanel.textContent='💬 My words';inPanel.onclick=()=>aac();panel.insertBefore(inPanel,document.querySelector('#content'));
  function resetFocus(){index=0;elapsed=0;signature='';document.querySelectorAll('.adaptive-focus').forEach(e=>e.classList.remove('adaptive-focus'));}
- apply();requestAnimationFrame(frame);return {output,aac,options,command,resetFocus,get preferences(){return prefs}};
+ apply();requestAnimationFrame(frame);return {output,aac,options,command,resetFocus,setPreferences:raw=>{prefs=accessPreferences(raw);persist();},get preferences(){return prefs}};
 }
