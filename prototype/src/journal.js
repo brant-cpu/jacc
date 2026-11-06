@@ -1,3 +1,4 @@
+import {machineObjects,machineName,normalizeMachines} from './machines.js';
 import {elevatorExtras,elevatorDecks,normalizeElevator} from './elevator.js';
 import {chapterExtras,chapterFlags,chapterSites,normalizeChapter} from './adventures.js';
 import {magnetExperiments} from './magnetism.js';
@@ -36,14 +37,14 @@ export const journalActivities={
  crystal:['I climbed to the crystal lookout.','Crystals have repeating shapes.'],
  bridge:['I looked at a bridge.','A bridge supports a path across a gap.']
 };
-for(const o of [...elevatorExtras,...chapterExtras,...openSpaceObjects,...openSpacePortals,...aquaticObjects,...constructionStations,elevatorObject,...digObjects,...engineeringObjects])journalActivities[o.id]=['I explored '+o.name.toLowerCase()+'.','I can return and investigate again.'];
+for(const o of [...machineObjects,...elevatorExtras,...chapterExtras,...openSpaceObjects,...openSpacePortals,...aquaticObjects,...constructionStations,elevatorObject,...digObjects,...engineeringObjects])journalActivities[o.id]=['I explored '+o.name.toLowerCase()+'.','I can return and investigate again.'];
 journalActivities['grounds-aquatic']=['I explored the Aquatic Learning Center.','Our home lake connects to protected ocean simulations.'];
 journalActivities['grounds-dig']=['I explored the dig site.','Earth materials and cave habitats tell different stories.'];
 for(const s of [...farmStations,...gardenBeds,...wildSeedObjects.map(o=>({...o,fact:o.text}))])journalActivities[s.id]=['I visited the '+s.name.toLowerCase()+'.',s.fact];
-export function getJournalEntries(section,found,visited,objects,materials,farm={},construction={},aquatic={},chapter={},elevator={}){
+export function getJournalEntries(section,found,visited,objects,materials,farm={},construction={},aquatic={},chapter={},elevator={},machines={}){
  const aquaState=normalizeAquatic(aquatic);
  const farmState=normalizeFarm(farm),buildState=normalizeConstruction(construction);
- const seen=new Set(visited);
+ const seen=new Set(visited);const garage=normalizeMachines(machines);if(section==='did'&&garage.models.length)return garage.models.map(m=>({id:'machine-'+m.id,title:'I built '+machineName(m)+'.',icon:'🛠️',summary:'I chose modules, assembled them and saved my machine.',fact:'This compatible model can be repaired, copied and deployed.',target:'yard-my-machines',machineId:m.id})).concat(getJournalEntries(section,found,visited,objects,materials,farm,construction,aquatic,chapter,elevator));
  const story=normalizeChapter(chapter);const chapterEntries=chapterSites.filter(o=>story[o.page]).map(o=>({id:'story-'+o.page,title:'Moonbase Dig: '+o.name,icon:o.icon,summary:o.page==='finished'?'I protected the research site and stopped the harvesting.':'I tried '+o.name.toLowerCase()+' in Moonbase Dig.',fact:'A replayable story chapter. Nymions and their energy crystals are fictional.',target:o.id}));
  const lift=normalizeElevator(elevator);const liftEntries=elevatorDecks.filter((d,i)=>lift.rescued[i]).map(d=>({id:'elevator-story-'+elevatorDecks.indexOf(d),title:'Space Elevator: '+d.name,icon:'🛗',summary:d.rescue,fact:d.success,target:'elevator-system',elevatorDeck:elevatorDecks.indexOf(d)}));if(lift.resolved)liftEntries.push({id:'elevator-finale',title:'Space Elevator: Everyone safe',icon:'🌙',summary:'We freed Professor Elon and interrupted Zuglu’s hammer.',fact:'Nymlord and Zuglu escaped in the tick ship. The signal leads to the Moon.',target:'elevator-system',elevatorDeck:6});
  if(section==='adventures'&&(chapterEntries.length||liftEntries.length))return liftEntries.concat(chapterEntries).concat(getJournalEntries(section,found,visited,objects,materials,farm,construction,aquatic));

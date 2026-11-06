@@ -47,3 +47,5 @@ Implemented Adventure 1: The Space Elevator Hack (both builds), with six deck sy
 Implemented simple farm sim in both builds: three saved planting beds, owned/reusable seeds, watering queued for the next farm return, four illustrated stages, safe idle plants, harvest/replant, source history, hill/forest/Earth/Moon seed encounters and grown-plant journal entries. Original farm science/equipment are preserved. See SIMPLE_FARM_SIM.md.
 
 Pending environment request: a calm, Ecco-inspired original ocean playground with optional cave loops and an always-available return to open water; work was blocked by the earlier executor failure.
+
+Implemented My Machines (both builds): nine blueprints, shared compatible modules, draft/undo/paint, a 24-design garage, service checks, snapshot deployments, a three-pad engineering test yard, authored-world medium/access constraints, farm rover watering, solar power and journal/reload support. Rideable vehicles, detailed mechanical physics, manufacturing economies and procedural-world deployment remain later milestones. See MY_MACHINES.md.

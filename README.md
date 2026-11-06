@@ -89,3 +89,5 @@ Adventure 2: **Moonbase Dig**. Choose **Adventures** at home, the **Adventure de
 **Adventure 1: The Space Elevator Hack** now precedes the Moon mission. Choose **Places → Adventure chapters → Adventure 1: Space Elevator** for six deck rescues, the five starring companions, Lucas’s supporting air scan, Professor Elon and Commander Zuglu’s relaxed four-stage encounter. See [the implementation report](docs/SPACE_ELEVATOR_HACK.md).
 
 Simple farming: **Planet Farm → My garden** now has three saved beds. Choose an owned seed, plant and water it, then leave the farm and return to grow one stage. Harvest/replant when grown. Find sample seeds in the hills, forest, Earth research site and the Moon's sealed plant pod. See [the farm sim report](docs/SIMPLE_FARM_SIM.md).
+
+**My Machines**: enter Engineering & Terraforming and tap **My Machines** to assemble, paint, save/copy, service and deploy nine kinds of machines/structures. A three-pad test yard keeps working copies with the chosen parts. Farm rovers can water beds and solar stations can power the model lamp. See [the garage report](docs/MY_MACHINES.md).
