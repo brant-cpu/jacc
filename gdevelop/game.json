@@ -198,6 +198,198 @@
         "smoothed": false
       },
       {
+        "name": "suit-art-life-lens-0",
+        "kind": "image",
+        "file": "assets/suit-art-life-lens-0.png",
+        "metadata": "",
+        "userAdded": true,
+        "smoothed": true
+      },
+      {
+        "name": "suit-art-life-lens-1",
+        "kind": "image",
+        "file": "assets/suit-art-life-lens-1.png",
+        "metadata": "",
+        "userAdded": true,
+        "smoothed": true
+      },
+      {
+        "name": "suit-art-life-lens-2",
+        "kind": "image",
+        "file": "assets/suit-art-life-lens-2.png",
+        "metadata": "",
+        "userAdded": true,
+        "smoothed": true
+      },
+      {
+        "name": "suit-art-adaptation-0",
+        "kind": "image",
+        "file": "assets/suit-art-adaptation-0.png",
+        "metadata": "",
+        "userAdded": true,
+        "smoothed": true
+      },
+      {
+        "name": "suit-art-adaptation-1",
+        "kind": "image",
+        "file": "assets/suit-art-adaptation-1.png",
+        "metadata": "",
+        "userAdded": true,
+        "smoothed": true
+      },
+      {
+        "name": "suit-art-adaptation-2",
+        "kind": "image",
+        "file": "assets/suit-art-adaptation-2.png",
+        "metadata": "",
+        "userAdded": true,
+        "smoothed": true
+      },
+      {
+        "name": "suit-art-xeno-lab-0",
+        "kind": "image",
+        "file": "assets/suit-art-xeno-lab-0.png",
+        "metadata": "",
+        "userAdded": true,
+        "smoothed": true
+      },
+      {
+        "name": "suit-art-xeno-lab-1",
+        "kind": "image",
+        "file": "assets/suit-art-xeno-lab-1.png",
+        "metadata": "",
+        "userAdded": true,
+        "smoothed": true
+      },
+      {
+        "name": "suit-art-xeno-lab-2",
+        "kind": "image",
+        "file": "assets/suit-art-xeno-lab-2.png",
+        "metadata": "",
+        "userAdded": true,
+        "smoothed": true
+      },
+      {
+        "name": "suit-art-eco-probe-0",
+        "kind": "image",
+        "file": "assets/suit-art-eco-probe-0.png",
+        "metadata": "",
+        "userAdded": true,
+        "smoothed": true
+      },
+      {
+        "name": "suit-art-eco-probe-1",
+        "kind": "image",
+        "file": "assets/suit-art-eco-probe-1.png",
+        "metadata": "",
+        "userAdded": true,
+        "smoothed": true
+      },
+      {
+        "name": "suit-art-eco-probe-2",
+        "kind": "image",
+        "file": "assets/suit-art-eco-probe-2.png",
+        "metadata": "",
+        "userAdded": true,
+        "smoothed": true
+      },
+      {
+        "name": "suit-art-pattern-projector-0",
+        "kind": "image",
+        "file": "assets/suit-art-pattern-projector-0.png",
+        "metadata": "",
+        "userAdded": true,
+        "smoothed": true
+      },
+      {
+        "name": "suit-art-pattern-projector-1",
+        "kind": "image",
+        "file": "assets/suit-art-pattern-projector-1.png",
+        "metadata": "",
+        "userAdded": true,
+        "smoothed": true
+      },
+      {
+        "name": "suit-art-pattern-projector-2",
+        "kind": "image",
+        "file": "assets/suit-art-pattern-projector-2.png",
+        "metadata": "",
+        "userAdded": true,
+        "smoothed": true
+      },
+      {
+        "name": "suit-art-measure-0",
+        "kind": "image",
+        "file": "assets/suit-art-measure-0.png",
+        "metadata": "",
+        "userAdded": true,
+        "smoothed": true
+      },
+      {
+        "name": "suit-art-measure-1",
+        "kind": "image",
+        "file": "assets/suit-art-measure-1.png",
+        "metadata": "",
+        "userAdded": true,
+        "smoothed": true
+      },
+      {
+        "name": "suit-art-measure-2",
+        "kind": "image",
+        "file": "assets/suit-art-measure-2.png",
+        "metadata": "",
+        "userAdded": true,
+        "smoothed": true
+      },
+      {
+        "name": "suit-art-geometry-0",
+        "kind": "image",
+        "file": "assets/suit-art-geometry-0.png",
+        "metadata": "",
+        "userAdded": true,
+        "smoothed": true
+      },
+      {
+        "name": "suit-art-geometry-1",
+        "kind": "image",
+        "file": "assets/suit-art-geometry-1.png",
+        "metadata": "",
+        "userAdded": true,
+        "smoothed": true
+      },
+      {
+        "name": "suit-art-geometry-2",
+        "kind": "image",
+        "file": "assets/suit-art-geometry-2.png",
+        "metadata": "",
+        "userAdded": true,
+        "smoothed": true
+      },
+      {
+        "name": "suit-ring",
+        "kind": "image",
+        "file": "assets/suit-ring.png",
+        "metadata": "",
+        "userAdded": true,
+        "smoothed": true
+      },
+      {
+        "name": "suit-link",
+        "kind": "image",
+        "file": "assets/suit-link.png",
+        "metadata": "",
+        "userAdded": true,
+        "smoothed": true
+      },
+      {
+        "name": "suit-grid",
+        "kind": "image",
+        "file": "assets/suit-grid.png",
+        "metadata": "",
+        "userAdded": true,
+        "smoothed": true
+      },
+      {
         "name": "pip-tool-art-life-lens-0",
         "kind": "image",
         "file": "assets/pip-tool-art-life-lens-0.png",
@@ -2867,6 +3059,84 @@
             "underlined": false,
             "smoothed": true,
             "text": "CREW",
+            "font": "",
+            "characterSize": 18,
+            "color": "23;56;74",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "lineHeight": 0,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false
+          }
+        },
+        {
+          "name": "SuitButton",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "button",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "SuitLabel",
+          "type": "TextObject::Text",
+          "variables": [],
+          "behaviors": [],
+          "effects": [],
+          "bold": true,
+          "italic": false,
+          "underlined": false,
+          "smoothed": true,
+          "text": "SUIT",
+          "font": "",
+          "characterSize": 18,
+          "color": {
+            "r": 23,
+            "g": 56,
+            "b": 74
+          },
+          "textAlignment": "left",
+          "verticalTextAlignment": "top",
+          "lineHeight": 0,
+          "isOutlineEnabled": false,
+          "isShadowEnabled": false,
+          "string": "SUIT",
+          "content": {
+            "bold": true,
+            "italic": false,
+            "underlined": false,
+            "smoothed": true,
+            "text": "SUIT",
             "font": "",
             "characterSize": 18,
             "color": "23;56;74",
@@ -14464,6 +14734,1536 @@
           ]
         },
         {
+          "name": "SuitArt",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "life-lens-0",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "suit-art-life-lens-0",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "life-lens-1",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "suit-art-life-lens-1",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "life-lens-2",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "suit-art-life-lens-2",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "adaptation-0",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "suit-art-adaptation-0",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "adaptation-1",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "suit-art-adaptation-1",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "adaptation-2",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "suit-art-adaptation-2",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "xeno-lab-0",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "suit-art-xeno-lab-0",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "xeno-lab-1",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "suit-art-xeno-lab-1",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "xeno-lab-2",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "suit-art-xeno-lab-2",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "eco-probe-0",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "suit-art-eco-probe-0",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "eco-probe-1",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "suit-art-eco-probe-1",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "eco-probe-2",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "suit-art-eco-probe-2",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "pattern-projector-0",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "suit-art-pattern-projector-0",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "pattern-projector-1",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "suit-art-pattern-projector-1",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "pattern-projector-2",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "suit-art-pattern-projector-2",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "measure-0",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "suit-art-measure-0",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "measure-1",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "suit-art-measure-1",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "measure-2",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "suit-art-measure-2",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "geometry-0",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "suit-art-geometry-0",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "geometry-1",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "suit-art-geometry-1",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "geometry-2",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "suit-art-geometry-2",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "SuitOverlay",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "suit-grid",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "SuitRing0",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "suit-ring",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "SuitRing1",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "suit-ring",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "SuitRing2",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "suit-ring",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "SuitRing3",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "suit-ring",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "SuitRing4",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "suit-ring",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "SuitRing5",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "suit-ring",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "SuitRing6",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "suit-ring",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "SuitRing7",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "suit-ring",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "SuitRing8",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "suit-ring",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "SuitRing9",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "suit-ring",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "SuitRing10",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "suit-ring",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "SuitRing11",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "suit-ring",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "SuitLink0",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "suit-link",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "SuitLink1",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "suit-link",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "SuitLink2",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "suit-link",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "SuitLink3",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "suit-link",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "SuitLink4",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "suit-link",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "SuitLink5",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "suit-link",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "SuitLink6",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "suit-link",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "SuitLink7",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "suit-link",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "SuitLink8",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "suit-link",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "SuitLink9",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "suit-link",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "SuitLink10",
+          "type": "Sprite",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "suit-link",
+                      "hasCustomCollisionMask": false,
+                      "points": [],
+                      "originPoint": {
+                        "name": "origin",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "center",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
           "name": "PipToolArt",
           "type": "Sprite",
           "variables": [],
@@ -21777,9 +23577,9 @@
         },
         {
           "name": "PipButton",
-          "x": 460,
+          "x": 400,
           "y": 8,
-          "width": 100,
+          "width": 94,
           "height": 65,
           "customSize": true,
           "angle": 0,
@@ -21792,7 +23592,7 @@
         },
         {
           "name": "PipLabel",
-          "x": 468,
+          "x": 408,
           "y": 26,
           "width": 0,
           "height": 0,
@@ -21807,9 +23607,9 @@
         },
         {
           "name": "CrewButton",
-          "x": 566,
+          "x": 499,
           "y": 8,
-          "width": 100,
+          "width": 94,
           "height": 65,
           "customSize": true,
           "angle": 0,
@@ -21822,7 +23622,37 @@
         },
         {
           "name": "CrewLabel",
-          "x": 574,
+          "x": 507,
+          "y": 26,
+          "width": 0,
+          "height": 0,
+          "customSize": false,
+          "angle": 0,
+          "zOrder": 21,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "SuitButton",
+          "x": 598,
+          "y": 8,
+          "width": 94,
+          "height": 65,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 20,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "SuitLabel",
+          "x": 606,
           "y": 26,
           "width": 0,
           "height": 0,
@@ -21837,9 +23667,9 @@
         },
         {
           "name": "JournalButton",
-          "x": 672,
+          "x": 697,
           "y": 8,
-          "width": 100,
+          "width": 94,
           "height": 65,
           "customSize": true,
           "angle": 0,
@@ -21852,7 +23682,7 @@
         },
         {
           "name": "JournalLabel",
-          "x": 680,
+          "x": 705,
           "y": 26,
           "width": 0,
           "height": 0,
@@ -21867,9 +23697,9 @@
         },
         {
           "name": "SettingsButton",
-          "x": 778,
+          "x": 796,
           "y": 8,
-          "width": 100,
+          "width": 94,
           "height": 65,
           "customSize": true,
           "angle": 0,
@@ -21882,7 +23712,7 @@
         },
         {
           "name": "SettingsLabel",
-          "x": 786,
+          "x": 804,
           "y": 26,
           "width": 0,
           "height": 0,
@@ -21897,9 +23727,9 @@
         },
         {
           "name": "PauseButton",
-          "x": 884,
+          "x": 895,
           "y": 8,
-          "width": 100,
+          "width": 94,
           "height": 65,
           "customSize": true,
           "angle": 0,
@@ -21912,7 +23742,7 @@
         },
         {
           "name": "PauseLabel",
-          "x": 892,
+          "x": 903,
           "y": 26,
           "width": 0,
           "height": 0,
@@ -25819,6 +27649,381 @@
           "customSize": true,
           "angle": 0,
           "zOrder": 70,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "SuitArt",
+          "x": 590,
+          "y": 185,
+          "width": 285,
+          "height": 160,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 52,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "SuitOverlay",
+          "x": 0,
+          "y": 0,
+          "width": 1000,
+          "height": 600,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 4,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "SuitRing0",
+          "x": 0,
+          "y": 0,
+          "width": 100,
+          "height": 100,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 4,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "SuitRing1",
+          "x": 0,
+          "y": 0,
+          "width": 100,
+          "height": 100,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 4,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "SuitRing2",
+          "x": 0,
+          "y": 0,
+          "width": 100,
+          "height": 100,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 4,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "SuitRing3",
+          "x": 0,
+          "y": 0,
+          "width": 100,
+          "height": 100,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 4,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "SuitRing4",
+          "x": 0,
+          "y": 0,
+          "width": 100,
+          "height": 100,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 4,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "SuitRing5",
+          "x": 0,
+          "y": 0,
+          "width": 100,
+          "height": 100,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 4,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "SuitRing6",
+          "x": 0,
+          "y": 0,
+          "width": 100,
+          "height": 100,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 4,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "SuitRing7",
+          "x": 0,
+          "y": 0,
+          "width": 100,
+          "height": 100,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 4,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "SuitRing8",
+          "x": 0,
+          "y": 0,
+          "width": 100,
+          "height": 100,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 4,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "SuitRing9",
+          "x": 0,
+          "y": 0,
+          "width": 100,
+          "height": 100,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 4,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "SuitRing10",
+          "x": 0,
+          "y": 0,
+          "width": 100,
+          "height": 100,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 4,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "SuitRing11",
+          "x": 0,
+          "y": 0,
+          "width": 100,
+          "height": 100,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 4,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "SuitLink0",
+          "x": 0,
+          "y": 0,
+          "width": 100,
+          "height": 4,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 4,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "SuitLink1",
+          "x": 0,
+          "y": 0,
+          "width": 100,
+          "height": 4,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 4,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "SuitLink2",
+          "x": 0,
+          "y": 0,
+          "width": 100,
+          "height": 4,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 4,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "SuitLink3",
+          "x": 0,
+          "y": 0,
+          "width": 100,
+          "height": 4,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 4,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "SuitLink4",
+          "x": 0,
+          "y": 0,
+          "width": 100,
+          "height": 4,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 4,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "SuitLink5",
+          "x": 0,
+          "y": 0,
+          "width": 100,
+          "height": 4,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 4,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "SuitLink6",
+          "x": 0,
+          "y": 0,
+          "width": 100,
+          "height": 4,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 4,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "SuitLink7",
+          "x": 0,
+          "y": 0,
+          "width": 100,
+          "height": 4,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 4,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "SuitLink8",
+          "x": 0,
+          "y": 0,
+          "width": 100,
+          "height": 4,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 4,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "SuitLink9",
+          "x": 0,
+          "y": 0,
+          "width": 100,
+          "height": 4,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 4,
+          "layer": "",
+          "locked": false,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "SuitLink10",
+          "x": 0,
+          "y": 0,
+          "width": 100,
+          "height": 4,
+          "customSize": true,
+          "angle": 0,
+          "zOrder": 4,
           "layer": "",
           "locked": false,
           "numberProperties": [],
@@ -31124,6 +33329,41 @@
             " return '<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"320\" height=\"180\" viewBox=\"0 0 320 180\"><rect width=\"320\" height=\"180\" rx=\"18\" fill=\"#e9f1e7\"/><g stroke=\"#234d61\" stroke-width=\"3\" stroke-linejoin=\"round\">'+shapes+'</g></svg>';",
             "}",
             "",
+            "// All J.A.C.C.s are astronauts. Nationality is only recorded where approved by the owner.",
+            "const crewDetails={'Lucas Turner':{role:'Astronaut',country:'France'},'Sumati Suri':{role:'Astronaut',country:'India'},'Lilja Jónsdóttir':{role:'Astronaut',country:'Iceland'}};",
+            "const pendingAstronaut={role:'Astronaut',gender:'male',country:'China',specialization:'Astronomy and Astrophysics',name:null,suit:null,model:null};",
+            "function crewDescription(name){const p=crewDetails[name];return 'Astronaut'+(p?.country?' • '+p.country:'');}",
+            "const suitPowers={",
+            " 'Lucas Turner':[",
+            " {id:'bio-vision',name:'Bio-Vision',icon:'🧬',kind:'life',art:'life-lens',steps:[['Living cells','Reveal a simplified plant-cell model. Living things are made of cells; rocks are not. This is an illustration, not a live microscope image.'],['Inside a cell','Zoom into the nucleus, which holds most DNA in this model plant cell. Cells have structures with different jobs.'],['Light and life','Many green plant cells have chloroplasts that use light energy in photosynthesis. Animal cells do not have chloroplasts.']]},",
+            " {id:'adaptation-scan',name:'Adaptation Scan',icon:'🐟',kind:'life',art:'adaptation',steps:[['Observe a trait','Investigate a trait that can help an organism in its surroundings. Different organisms have different adaptations.'],['Compare organisms','Fish use gills; dolphins and whales breathe air. A similar body shape does not mean animals breathe the same way.'],['Darkness and signals','Some animals use sound, touch or chemical signals in darkness. Some deep-sea animals produce light. Not every dark habitat has the same animals.']]},",
+            " {id:'xeno-analysis',name:'Xeno Analysis',icon:'🪐',kind:'all',art:'xeno-lab',steps:[['Investigate conditions','Life as we know it depends on liquid water, energy and suitable chemical ingredients. Our home-world scan is a training model.'],['Check the evidence','Enceladus has evidence of a subsurface ocean. Water or organic molecules alone do not prove organisms live there. No extraterrestrial life is confirmed.'],['Imagine carefully','This organism is imaginary. We can invent an adaptation and compare it with known biology, while keeping fiction separate from evidence.']]}],",
+            " 'Sumati Suri':[",
+            " {id:'connection-vision',name:'Connection Vision',icon:'🌿',kind:'environment',art:'eco-probe',steps:[['Follow a connection','Reveal links among organisms and their surroundings. Some flower-visiting animals move pollen, helping many plants reproduce.'],['Trace water','Roots take up water from their surroundings. Water, soil, air and organisms interact; changes can affect several parts of a habitat.'],['Observe again','A habitat contains many relationships. Our highlighted lines are teaching connections, not a complete food web or a measured ecological survey.']]},",
+            " {id:'environmental-survey',name:'Environmental Survey',icon:'💧',kind:'all',art:'eco-probe',steps:[['Observe conditions','Compare the light, water and shelter a habitat provides. These are training observations, not readings from real sensors.'],['Change a model','The farm greenhouse lets us change shade and ventilation. Different organisms need different conditions; one setting is not right for everything.'],['Plan a comparison','Try one change, observe it and compare. Use the farm water and greenhouse models to investigate cause and effect without penalties.']]},",
+            " {id:'restoration-planner',name:'Restoration Planner',icon:'🌱',kind:'environment',art:'eco-probe',steps:[['Plan for living things','Preview places for plants, water systems and shelter. A good restoration plan starts by understanding the habitat.'],['Build with care','Engineering kits can model water channels, supports and protected growing spaces. Connect this plan to the farm and construction yard.'],['Return and observe','Restoration takes time, planning and observation. This preview does not instantly restore a real ecosystem or change every plant.']]}],",
+            " 'Lilja Jónsdóttir':[",
+            " {id:'pattern-vision',name:'Pattern Vision',icon:'🔷',kind:'all',art:'pattern-projector',steps:[['Reveal a pattern','Look for a repeating unit. Circle, square, circle, square repeats a two-shape unit. We can also observe repeating crystal shapes.'],['Group and count','Two groups of two make four. Patterns and grouping can help us describe quantities.'],['Find symmetry','Compare shapes across a mirror line. Reflection keeps size and shape while reversing their positions across the line.']]},",
+            " {id:'measure-map',name:'Measure & Map',icon:'📏',kind:'all',art:'measure',steps:[['Measure the training map','Project a grid, a distance and an angle between the astronaut and the selected place. Values use training-map units, not real metres.'],['Compare lengths','The grid cells are 40 training units wide. Distance along a route may differ from straight-line distance.'],['Make a plan','Measurements help describe the space available for a bridge, habitat or farm structure. These schematics are not real engineering plans.']]},",
+            " {id:'geometry-builder',name:'Geometry Builder',icon:'📐',kind:'all',art:'geometry',steps:[['Preview a structure','Project a bridge, a support and a habitat outline. Shapes can help us plan how parts fit together.'],['Compare shapes','Triangles can brace structures; beams span gaps. Actual stability also depends on materials, joints, loads and support.'],['Build and test','Open the construction yard to place prefabs and test the model. Everyone can build, undo and repeat without using up kits.']]}]",
+            "};",
+            "const allSuitPowers=Object.values(suitPowers).flat();",
+            "function normalizeSuit(raw={}){return {overlay:allSuitPowers.some(p=>p.id===raw?.overlay)?raw.overlay:null,records:[...new Set((Array.isArray(raw?.records)?raw.records:[]).filter(id=>allSuitPowers.some(p=>p.id===id)))]};}",
+            "function suitPowerFor(name,id){return (suitPowers[name]||[]).find(p=>p.id===id)||null;}",
+            "function suitSubject(power,o){if(!o||['portal','home','diglevel','digtools','crew','workshop'].includes(o.kind))return false;if(power.kind==='all')return true;const living=o.life||o.id==='plant'||/^farm-(garden|orchard|leaf|biodome|hydro|vertical|robot|water)/.test(o.id)||/^cave-(life|pigment|echo)/.test(o.id);return !!(living||power.kind==='environment'&&/water|habitat|cleanup|plant|soil/.test(o.id));}",
+            "function activateSuit(raw,name,id){const s=normalizeSuit(raw);if(!suitPowerFor(name,id))return s;s.overlay=id;if(!s.records.includes(id))s.records.push(id);return s;}",
+            "function suitPowerView(name,id,step=0,context={}){const power=suitPowerFor(name,id);if(!power)return null;const n=Number.isInteger(step)?((step%3)+3)%3:0,o=objects.find(o=>o.id===context.target&&o.zone===context.zone),pos=context.position||[200,500],distance=o?Math.hypot(o.x-pos[0],o.y-pos[1]):null,angle=o?Math.atan2(-(o.y-pos[1]),o.x-pos[0])*180/Math.PI:null;let text=power.steps[n][1];if(o)text='Selected place: '+o.name+'. '+text;if(id==='measure-map'&&o)text+=' Straight line: '+Math.round(distance)+' training units. Direction: '+Math.round(angle)+'° from map right (positive is up).';if(id==='environmental-survey'&&context.farm)text+=' Current greenhouse model: shade '+(context.farm.shade?'on':'off')+', vent '+(context.farm.vent?'open':'closed')+'.';if(id==='adaptation-scan'&&o?.life==='dolphin')text+=' This dolphin is a mammal and breathes air.';if(id==='adaptation-scan'&&o?.life==='shark')text+=' This shark is a fish and uses gills.';return {id,title:power.name,heading:power.steps[n][0],text,step:n,art:power.art+'-'+n,target:o?.id||null,travel:id==='geometry-builder'?'yard-build':id==='restoration-planner'?'farm-biodome':id==='environmental-survey'?'farm-biodome':null};}",
+            "function suitArt(key){if(key.startsWith('adaptation-'))return aquaticArt(['life-shark','life-dolphin','life-angler'][Number(key.slice(-1))]||'life-shark');if(!key.startsWith('measure')&&!key.startsWith('geometry'))return pipToolArt(key);const n=Number(key.slice(-1));let shapes='';if(key.startsWith('measure')){for(let x=20;x<=300;x+=40)shapes+=`<path d=\"M${x} 15v150\"/>`;for(let y=25;y<=165;y+=40)shapes+=`<path d=\"M20 ${y}h280\"/>`;shapes+='<path d=\"M40 145L260 45\" stroke=\"#8653b6\" stroke-width=\"7\"/><circle cx=\"40\" cy=\"145\" r=\"8\" fill=\"#d96b24\"/><circle cx=\"260\" cy=\"45\" r=\"8\" fill=\"#60b3cf\"/>';if(n>0)shapes+='<path d=\"M40 145h220V45\" stroke=\"#d96b24\" stroke-width=\"5\" fill=\"none\"/>';if(n===2)shapes+='<path d=\"M80 145a40 40 0 0 0-4-16\" stroke=\"#39864a\" stroke-width=\"5\" fill=\"none\"/>';}else{shapes='<path d=\"M20 145h70v-40h140v40h70\" stroke=\"#aa8562\" stroke-width=\"9\" fill=\"none\"/><path d=\"M80 105h160\" stroke=\"#8653b6\" stroke-width=\"12\"/>';if(n>0)shapes+='<path d=\"M90 100l35-60 35 60 35-60 35 60\" stroke=\"#60b3cf\" stroke-width=\"6\" fill=\"none\"/>';if(n===2)shapes+='<path d=\"M115 155v-35a45 45 0 0 1 90 0v35z\" fill=\"#c7e5aa\"/>';}return '<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"320\" height=\"180\"><rect width=\"320\" height=\"180\" rx=\"18\" fill=\"#e9f1e7\"/><g stroke=\"#72929b\" stroke-width=\"1\">'+shapes+'</g></svg>';}",
+            "const suitArtKeys=[...new Set(allSuitPowers.flatMap(p=>[0,1,2].map(n=>p.art+'-'+n)))];",
+            "function suitOverlayPoints(power,zone,habitat='lake',level=0){return objects.filter(o=>o.zone===zone&&(zone!=='dig'||o.level===level)&&(!o.habitat||o.habitat===habitat)&&suitSubject(power,o)).slice(0,12);}",
+            "function suitOverlay(power,zone,habitat='lake',level=0){const points=suitOverlayPoints(power,zone,habitat,level);let shapes='';if(power.id==='measure-map'){for(let x=20;x<1000;x+=40)shapes+=`<path d=\"M${x} 100v420\"/>`;for(let y=100;y<520;y+=40)shapes+=`<path d=\"M20 ${y}h960\"/>`;}for(const o of points)shapes+=`<circle data-suit-target=\"${o.id}\" cx=\"${o.x}\" cy=\"${o.y}\" r=\"48\" stroke-width=\"5\"/>`;if(['connection-vision','restoration-planner','geometry-builder'].includes(power.id))for(let i=1;i<points.length;i++)shapes+=`<path d=\"M${points[i-1].x} ${points[i-1].y}L${points[i].x} ${points[i].y}\" stroke-width=\"4\" stroke-dasharray=\"10 8\"/>`;return '<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"1000\" height=\"600\"><g stroke=\"#ac72df\" opacity=\".8\" fill=\"none\" stroke-width=\"1\">'+shapes+'</g></svg>';}",
+            "",
+            "function nativeSuitMenu(){const name=roster[s.crew][0],powers=suitPowers[name]||[];open('Astronaut suit powers',name+' | '+crewDescription(name)+(powers.length?'':'. Specialist tools are still being developed; everyone can explore every activity.'),'',[...powers.map(p=>[p.icon+' '+p.name,()=>nativeSuitPower(p.id)]),['Clear suit overlay',()=>{s.suit.overlay=null;close();say('Ready to explore.')}],['Choose astronaut',()=>crewMenu()]]);}",
+            "function nativeSuitPower(id,step=0,target=s.last){const v=suitPowerView(roster[s.crew][0],id,step,{zone:s.zone,target,farm:s.farm,position:[actor.getX()+20,actor.getY()+45]});if(!v)return;open(v.title,v.heading+'. '+v.text,'',[",
+            " ['Reveal in world',()=>{s.suit=activateSuit(s.suit,roster[s.crew][0],id);close();say(v.title+' active. Tap a highlighted place.')}],['Next / repeat',()=>nativeSuitPower(id,v.step+1,v.target)],...(v.travel?[['Try this plan',()=>{s.suit.overlay=null;close();select(objects.find(o=>o.id===v.travel))}]]:[]),...(v.target?[['Explore this place',()=>{s.suit.overlay=null;close();select(objects.find(o=>o.id===v.target))}]]:[]),['Listen',()=>listenJournal(v.heading+'. '+v.text)],['Suit powers',nativeSuitMenu]",
+            " ]);obj('CardBody').setCharacterSize(16);text('CardBody',(v.heading+'. '+v.text).replace(/(.{1,46})(?:\\s|$)/g,'$1\\n').trim());obj('CardVisual').hide();obj('SuitArt').hide(false);obj('SuitArt').setAnimation(suitArtKeys.indexOf(v.art));}",
+            "function nativeSuitUpdate(){const power=suitPowerFor(roster[s.crew][0],s.suit.overlay),active=!!power&&!s.construction.active&&!s.construction.orbit,points=active?suitOverlayPoints(power,s.zone,s.aquatic.habitat,s.excavation.level):[];obj('SuitOverlay').hide(!active||power.id!=='measure-map');for(let i=0;i<12;i++){const ring=obj('SuitRing'+i),p=points[i];ring.hide(!p);if(p)ring.setPosition(p.x-50,p.y-50);}const linked=active&&['connection-vision','restoration-planner','geometry-builder'].includes(power.id);for(let i=0;i<11;i++){const line=obj('SuitLink'+i),a=points[i],b=points[i+1];line.hide(!linked||!b);if(linked&&b){const width=Math.hypot(b.x-a.x,b.y-a.y);line.setWidth(width);line.setPosition((a.x+b.x-width)/2,(a.y+b.y)/2-2);line.setAngle(Math.atan2(b.y-a.y,b.x-a.x)*180/Math.PI);}}}",
+            "",
             "// Native GDevelop workshop: no embedded web view or runtime dependencies.",
             "const pipWorkshopUI=['PipToolArt','PipBlueprint','PipBlueprintLabel','WorkshopNote','PipGhost','ScienceModel',...['travel','trim','body','eyes','tool'].map(n=>'Workshop'+n),...Array.from({length:5},(_,i)=>['PipTab'+i,'PipTabLabel'+i,'PipAction'+i,'PipActionLabel'+i]).flat(),...Array.from({length:4},(_,i)=>['PipPart'+i,'PipPartLabel'+i]).flat()];",
             "function nativePipLayer(name,slot,config){const options=slot==='body'?pipPalette:pipGroups.find(g=>g.id===slot).parts;obj(name).setAnimation(options.findIndex(p=>p.id===config[slot==='body'?'color':slot]));}",
@@ -31164,7 +33404,7 @@
             "// Local game progress only. No accounts, network requests or personal information.",
             "function nativeLoadProfile(){try{const raw=JSON.parse(localStorage.getItem('jacc-native-v1')||'{}');return raw&&typeof raw==='object'?raw:{}}catch{return {}}}",
             "function nativeProfileSettings(raw){const v=raw&&typeof raw==='object'?raw:{};return {volume:typeof v.volume==='number'&&Number.isFinite(v.volume)?Math.max(0,Math.min(1,v.volume)):.3,narration:v.narration===true,reduced:v.reduced===true,effects:v.effects!==false};}",
-            "function nativeSaveProfile(){try{if(typeof localStorage==='undefined')return false;const data={version:1,aquatic:normalizeAquatic(s.aquatic),construction:normalizeConstruction(s.construction),farm:normalizeFarm(s.farm),designs:normalizeDesigns(s.designs),excavation:normalizeDig(s.excavation),crew:s.crew,pip:normalizePip(s.pip),found:[...s.found],visited:[...s.visited],settings:s.settings};const text=JSON.stringify(data);if(text!==s.saveHash){localStorage.setItem('jacc-native-v1',text);s.saveHash=text;}return true}catch{return false}}",
+            "function nativeSaveProfile(){try{if(typeof localStorage==='undefined')return false;const data={version:1,suit:normalizeSuit(s.suit),aquatic:normalizeAquatic(s.aquatic),construction:normalizeConstruction(s.construction),farm:normalizeFarm(s.farm),designs:normalizeDesigns(s.designs),excavation:normalizeDig(s.excavation),crew:s.crew,pip:normalizePip(s.pip),found:[...s.found],visited:[...s.visited],settings:s.settings};const text=JSON.stringify(data);if(text!==s.saveHash){localStorage.setItem('jacc-native-v1',text);s.saveHash=text;}return true}catch{return false}}",
             "",
             "function nativeAquatic(route='center',message=''){const v=aquaticView(s.aquatic,route,s.construction.kits);open(v.title,v.text,'',v.actions.map(a=>[a.label,()=>{const r=aquaticAction(s.aquatic,a,s.construction.kits);s.aquatic=r.aquatic;if(r.travel){close();select(objects.find(o=>o.id===r.travel));return}if(r.reset){s.path=[];s.pending=null;actor.setPosition(160,415);}nativeAquatic(r.route,r.message)}]));obj('CardVisual').hide();obj('CardBody').setCharacterSize(17);text('CardBody',v.text.replace(/(.{1,46})(?:\\s|$)/g,'$1\\n').trim());obj('AquaticArt').hide(false);obj('AquaticArt').setAnimation(Math.max(0,aquaticArtKeys.indexOf(v.art)));if(s.buttons.length<6){const i=s.buttons.length;obj('Option'+i).hide(false);obj('OptionLabel'+i).hide(false);text('OptionLabel'+i,'Listen');s.buttons.push({name:'Option'+i,fn:()=>listenJournal(v.text)});}if(message)say(message);}",
             "function nativeAquaticUpdate(){const visible=s.zone==='aquatic'&&!s.construction.active&&!s.construction.orbit;obj('AquaticBackground').hide(!visible);obj('AquaticSub').hide(!visible||s.aquatic.vehicle!=='sub');if(visible){obj('AquaticBackground').setAnimation(['lake','reef','deep'].indexOf(s.aquatic.habitat));obj('AquaticSub').setPosition(actor.getX()-44,actor.getY()-5);}}",
@@ -31174,12 +33414,12 @@
             "const text=(name,value)=>obj(name).setString(value);",
             "if(!runtimeScene.__jacc){",
             " const profile=nativeLoadProfile();const known=new Set([...objects.map(o=>o.id),...materials.map(o=>o.id),...digFinds.map(o=>o.id)]);",
-            " runtimeScene.__jacc={aquatic:normalizeAquatic(profile.aquatic),construction:normalizeConstruction(profile.construction),excavation:normalizeDig(profile.excavation),designs:normalizeDesigns(profile.designs),farm:normalizeFarm(profile.farm),zone:'grounds',journey:null,pip:normalizePip(profile.pip),pipTab:'travel',pipPage:0,crew:Number.isInteger(profile.crew)&&profile.crew>=0&&profile.crew<roster.length?profile.crew:0,started:false,paused:false,path:[],pending:null,dig:0,action:0,found:new Set((Array.isArray(profile.found)?profile.found:[]).filter(id=>known.has(id))),visited:new Set((Array.isArray(profile.visited)?profile.visited:[]).filter(id=>known.has(id))),last:null,overlay:null,buttons:[],focus:0,tab:false,enter:false,settings:nativeProfileSettings(profile.settings)};",
+            " runtimeScene.__jacc={suit:normalizeSuit(profile.suit),aquatic:normalizeAquatic(profile.aquatic),construction:normalizeConstruction(profile.construction),excavation:normalizeDig(profile.excavation),designs:normalizeDesigns(profile.designs),farm:normalizeFarm(profile.farm),zone:'grounds',journey:null,pip:normalizePip(profile.pip),pipTab:'travel',pipPage:0,crew:Number.isInteger(profile.crew)&&profile.crew>=0&&profile.crew<roster.length?profile.crew:0,started:false,paused:false,path:[],pending:null,dig:0,action:0,found:new Set((Array.isArray(profile.found)?profile.found:[]).filter(id=>known.has(id))),visited:new Set((Array.isArray(profile.visited)?profile.visited:[]).filter(id=>known.has(id))),last:null,overlay:null,buttons:[],focus:0,tab:false,enter:false,settings:nativeProfileSettings(profile.settings)};",
             "}",
             "const s=runtimeScene.__jacc,actor=obj('Alex');",
             "const say=message=>{text('Status',message);if(s.settings.narration&&typeof speechSynthesis!=='undefined'){speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(message);u.volume=s.settings.volume;speechSynthesis.speak(u)}};",
             "const crewUI=['CrewPreviousButton','CrewPreviousLabel','CrewNextButton','CrewNextLabel',...Array.from({length:roster.length},(_,i)=>['CrewCard'+i,'CrewPortrait'+i,'CrewName'+i,'CrewDetail'+i]).flat()];",
-            "const ui=['AquaticArt','ConstructionArt','DigArt','DesignArt','FarmArt',...pipWorkshopUI,...crewUI,'Panel','CardTitle','CardBody','CardVisual','Close','CloseLabel',...Array.from({length:6},(_,i)=>['Option'+i,'OptionLabel'+i]).flat()];",
+            "const ui=['SuitArt','AquaticArt','ConstructionArt','DigArt','DesignArt','FarmArt',...pipWorkshopUI,...crewUI,'Panel','CardTitle','CardBody','CardVisual','Close','CloseLabel',...Array.from({length:6},(_,i)=>['Option'+i,'OptionLabel'+i]).flat()];",
             "function close(){s.overlay=null;for(const n of ui)obj(n).hide();}",
             "function open(title,body,visual,options=[]){s.overlay=title;s.buttons=[];obj('CardBody').setCharacterSize(19);obj('WorkshopNote').setPosition(125,435);for(const n of ui)obj(n).hide();for(const n of ['Panel','CardTitle','CardBody','CardVisual','Close','CloseLabel'])obj(n).hide(false);text('CardTitle',title);text('CardBody',body.replace(/(.{1,64})(?:\\s|$)/g,'$1\\n').trim());text('CardVisual',visual);options.slice(0,6).forEach(([label,fn],i)=>{obj('Option'+i).hide(false);obj('OptionLabel'+i).hide(false);text('OptionLabel'+i,label);s.buttons.push({name:'Option'+i,fn})});say(title+'. '+body);}",
             "function nativeActiveObjects(){return objects.filter(o=>!s.construction.active&&!s.construction.orbit&&o.zone===s.zone&&(s.zone!=='aquatic'||aquaticVisible(s.aquatic,o))&&(s.zone!=='dig'||digVisible(s.excavation,o)))}",
@@ -31187,8 +33427,8 @@
             "function select(o){if(!o||s.paused)return;s.started=true;s.construction.active=null;s.construction.orbit=false;s.journey=null;if(o.zone!==s.zone){s.journey=o.id;o=objects.find(x=>x.id===zoneExit(s.zone,o.zone))}if(s.zone==='aquatic'&&o.habitat&&o.habitat!==s.aquatic.habitat){s.aquatic.habitat=o.habitat;actor.setPosition(160,415);}if(s.zone==='dig'){if(o.level!==s.excavation.level)nativeDigLevel(o.level);nativeDigSelect(o.x,o.y,o.id);return}s.path=pathfind([actor.getX()+20,actor.getY()+45],[o.x-65,o.y+55],s.zone);s.pending=o;s.action=0;say('Going to '+o.name);if(!s.path.length){s.pending=null;const here=cellAt(actor.getX()+20,actor.getY()+45),goal=cellAt(o.x-65,o.y+55);if(here.join()===goal.join()&&!blocked(...goal,s.zone))arrive(o);else{s.journey=null;say('Choose a clear path to explore.');}}}",
             "",
             "function card(o){open(o.name,o.text,o.icon+'   '+o.diagram,[['Listen / replay',()=>{say(o.text);if(typeof speechSynthesis!=='undefined'){speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(o.text);u.volume=s.settings.volume;speechSynthesis.speak(u)}}],['Revisit',()=>{close();select(objects.find(x=>x.id===o.id)||objects.find(x=>x.find===o.id)||objects.find(x=>x.id==='dig'))}],...(o.id==='hq-map'?[['Go exploring',()=>{close();select(objects.find(x=>x.id==='hq-exit'))}]]:[]),...(o.id==='hq-lab'?[['Find a sample',()=>{close();select(objects.find(x=>x.id==='dig'))}]]:[]),...(o.id==='hq-bunks'?[['Rest here',()=>{close();s.paused=true;text('PauseLabel','Resume');say('Resting. Resume whenever you are ready.')}]]:[]),...(materials.some(m=>m.id===o.id)?[['Ask PIP',()=>nativePipAnalysis(o.id)]]:[])]);}",
-            "function arrive(o){s.last=o.id;if(o.kind!=='dig')s.visited.add(o.id);if(o.kind==='portal'){const next=s.journey;nativeZone(o.to);if(next)select(objects.find(x=>x.id===next));return}if(o.kind==='aquatic'){if(o.life&&!s.aquatic.observed.includes(o.life))s.aquatic.observed.push(o.life);nativeAquatic(o.page);return}if(o.kind==='construction'){nativeConstructionPage(o.page);return}if(o.kind==='diglevel'){nativeDigLevel(o.nextLevel);return}if(o.kind==='digtools'){nativeDigLesson('tools');return}if(o.kind==='diglesson'){nativeDigLesson(o.lesson);return}if(o.kind==='digfind'){s.found.add(o.find);card(digFinds.find(f=>f.id===o.find));return}if(o.kind==='engineering'){nativeEngineering(o.project);return}if(o.kind==='farm'){nativeFarm(o.page);return}if(o.kind==='workshop'){nativePipWorkshop();return}if(o.kind==='crew'){crewMenu();return}if(o.kind==='home'){say('Welcome home to the training grounds. Choose an adventure.');return}if(o.kind==='dig'){s.action=s.settings.reduced?.2:1.2;say('Digging through the soil...');return}s.found.add(o.id);card(o)}",
-            "function crewMenu(page=Math.floor(s.crew/4)){const pages=Math.ceil(roster.length/4);page=Math.max(0,Math.min(pages-1,page));open('J.A.C.C. Crew','Tap an astronaut. Everyone can explore every activity.','');for(let i=page*4;i<Math.min(roster.length,page*4+4);i++){const r=roster[i];for(const name of ['CrewCard','CrewPortrait','CrewName','CrewDetail'])obj(name+i).hide(false);text('CrewName'+i,(s.crew===i?'✓ ':'')+r[0]);text('CrewDetail'+i,(r[1]+' suit | '+r[2]).replace(/(.{1,29})(?:\\s|$)/g,'$1\\n').trim());s.buttons.push({name:'CrewCard'+i,fn:()=>{s.crew=i;actor.setAnimation(i);text('ActiveCrew',r[0]+' | '+r[1]+' | '+r[2]);close();say(r[0]+' selected. '+r[2])}});}for(const [name,label,to,visible]of [['CrewPrevious','← Previous crew',page-1,page>0],['CrewNext','More crew →',page+1,page<pages-1]])if(visible){obj(name+'Button').hide(false);obj(name+'Label').hide(false);s.buttons.push({name:name+'Button',fn:()=>crewMenu(to)});}}",
+            "function arrive(o){s.last=o.id;if(o.kind!=='dig')s.visited.add(o.id);if(o.kind==='portal'){const next=s.journey;nativeZone(o.to);if(next)select(objects.find(x=>x.id===next));return}const power=suitPowerFor(roster[s.crew][0],s.suit.overlay);if(power&&suitSubject(power,o)){nativeSuitPower(power.id,0,o.id);return}if(o.kind==='aquatic'){if(o.life&&!s.aquatic.observed.includes(o.life))s.aquatic.observed.push(o.life);nativeAquatic(o.page);return}if(o.kind==='construction'){nativeConstructionPage(o.page);return}if(o.kind==='diglevel'){nativeDigLevel(o.nextLevel);return}if(o.kind==='digtools'){nativeDigLesson('tools');return}if(o.kind==='diglesson'){nativeDigLesson(o.lesson);return}if(o.kind==='digfind'){s.found.add(o.find);card(digFinds.find(f=>f.id===o.find));return}if(o.kind==='engineering'){nativeEngineering(o.project);return}if(o.kind==='farm'){nativeFarm(o.page);return}if(o.kind==='workshop'){nativePipWorkshop();return}if(o.kind==='crew'){crewMenu();return}if(o.kind==='home'){say('Welcome home to the training grounds. Choose an adventure.');return}if(o.kind==='dig'){s.action=s.settings.reduced?.2:1.2;say('Digging through the soil...');return}s.found.add(o.id);card(o)}",
+            "function crewMenu(page=Math.floor(s.crew/4)){const pages=Math.ceil(roster.length/4);page=Math.max(0,Math.min(pages-1,page));open('J.A.C.C. Crew','Tap an astronaut. Everyone can explore every activity.','');for(let i=page*4;i<Math.min(roster.length,page*4+4);i++){const r=roster[i];for(const name of ['CrewCard','CrewPortrait','CrewName','CrewDetail'])obj(name+i).hide(false);text('CrewName'+i,(s.crew===i?'✓ ':'')+r[0]);text('CrewDetail'+i,(crewDescription(r[0])+' | '+r[1]+' suit | '+r[2]).replace(/(.{1,29})(?:\\s|$)/g,'$1\\n').trim());s.buttons.push({name:'CrewCard'+i,fn:()=>{s.crew=i;actor.setAnimation(i);text('ActiveCrew',r[0]+' | '+r[1]+' | '+r[2]);close();say(r[0]+' selected. '+r[2])}});}for(const [name,label,to,visible]of [['CrewPrevious','← Previous crew',page-1,page>0],['CrewNext','More crew →',page+1,page<pages-1]])if(visible){obj(name+'Button').hide(false);obj(name+'Label').hide(false);s.buttons.push({name:name+'Button',fn:()=>crewMenu(to)});}}",
             "function pip(){open('PIP','Choose a picture. Your astronaut will walk there and explore.','PIP  >  TAP  >  DISCOVER',[",
             " ['Show places',()=>{close();if(s.zone==='dig'){s.excavation.hints=true;nativeDigVisibility();}s.settings.effects=true;nativeActiveObjects().forEach(o=>obj('Target_'+o.id).setOpacity(190));say('The cream pictures are places to explore.')}],",
             " ['Show me a dig',()=>{close();select(objects.find(o=>o.id==='dig'))}],",
@@ -31216,7 +33456,7 @@
             "const actions=s.overlay?[{name:'Close',fn:close},...s.buttons]:s.construction.active||s.construction.orbit?nativeBuildActions():[",
             " {name:'PipButton',fn:pip},{name:'JournalButton',fn:journal},{name:'SettingsButton',fn:settings},",
             " {name:'PauseButton',fn:()=>{s.paused=!s.paused;text('PauseLabel',s.paused?'Resume':'Pause');say(s.paused?'Paused. Take your time.':'Ready to explore.')}},",
-            " {name:'CrewButton',fn:crewMenu},",
+            " {name:'CrewButton',fn:crewMenu},{name:'SuitButton',fn:nativeSuitMenu},",
             " ...nativeActiveObjects().map(o=>({name:'Target_'+o.id,fn:()=>{if(!s.paused)select(o)}}))];",
             "const key=k=>gdjs.evtTools.input.isKeyPressed(runtimeScene,k);",
             "if(key('Escape')&&s.overlay)close();",
@@ -31240,7 +33480,7 @@
             " if(s.zone==='dig')nativeDigTick(dt);else if(s.path.length){const [x,y]=s.path[0],ax=actor.getX()+20,ay=actor.getY()+45,dx=x-ax,dy=y-ay,d=Math.hypot(dx,dy),step=(s.zone==='aquatic'&&s.aquatic.vehicle==='sub'?190:150)*dt;if(d<=step){actor.setPosition(x-20,y-45);s.path.shift();if(!s.path.length&&s.pending){const o=s.pending;s.pending=null;arrive(o)}}else actor.setPosition(actor.getX()+dx/d*step,actor.getY()+dy/d*step);}",
             " if(s.action>0){s.action-=dt;if(s.action<=0){const m=materials[s.dig++%materials.length];s.visited.add('dig');s.found.add(m.id);card(m)}}",
             "}",
-            "nativePipUpdate();nativeConstructionUpdate(dt);nativeAquaticUpdate();obj('AidenRig').hide(s.zone!=='dig'||s.crew!==3);obj('PipRig').hide(s.zone!=='dig'||!s.excavation.path.length);obj('PipRig').setPosition(obj('PipRobot').getX()+45,obj('PipRobot').getY()+40);obj('AidenRig').setPosition(actor.getX()+35,actor.getY()+24);for(const key of ['bridge','water','habitat'])obj('FarmBuilt'+key).hide(s.zone!=='farm'||!(s.farm.upgrades[key]||(key==='water'?s.farm.constructionModules.some(k=>['pipe-kit','valve-kit'].includes(k)):key==='bridge'?s.farm.constructionModules.some(k=>['beam-kit','foundation-kit','tower-kit'].includes(k)):s.farm.constructionModules.includes('printed-kit'))));",
+            "nativePipUpdate();nativeConstructionUpdate(dt);nativeAquaticUpdate();nativeSuitUpdate();obj('AidenRig').hide(s.zone!=='dig'||s.crew!==3);obj('PipRig').hide(s.zone!=='dig'||!s.excavation.path.length);obj('PipRig').setPosition(obj('PipRobot').getX()+45,obj('PipRobot').getY()+40);obj('AidenRig').setPosition(actor.getX()+35,actor.getY()+24);for(const key of ['bridge','water','habitat'])obj('FarmBuilt'+key).hide(s.zone!=='farm'||!(s.farm.upgrades[key]||(key==='water'?s.farm.constructionModules.some(k=>['pipe-kit','valve-kit'].includes(k)):key==='bridge'?s.farm.constructionModules.some(k=>['beam-kit','foundation-kit','tower-kit'].includes(k)):s.farm.constructionModules.includes('printed-kit'))));",
             "obj('Focus').setZOrder(s.overlay?51:s.construction.active||s.construction.orbit?7:3);obj('Focus').setOpacity(actions[s.focus].object?80:255);",
             "obj('Focus').setPosition((actions[s.focus].object||obj(actions[s.focus].name)).getX()-5,(actions[s.focus].object||obj(actions[s.focus].name)).getY()-5);obj('Focus').setWidth((actions[s.focus].object||obj(actions[s.focus].name)).getWidth()+10);obj('Focus').setHeight((actions[s.focus].object||obj(actions[s.focus].name)).getHeight()+10);",
             "",

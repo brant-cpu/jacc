@@ -51,3 +51,9 @@ The Enceladus page introduces Saturn's icy ocean moon and a future ocean-world p
 See [approved character decisions](docs/CHARACTERS.md), including Lucas's Lederberg Model and Sumati Suri, the seventh, orange J.A.C.C.: a girl from India with the Gadgil Model for Ecosystems and Environmental Science. Sumati and Lilja Jónsdóttir, the purple J.A.C.C. from Iceland (Mirzakhani Model — Mathematics), are playable in both builds. The crew now has eight members.
 
 PIP now has **Life Lens**, **Xeno Lab**, **Eco Probe**, and **Pattern Projector** attachments, plus orange/purple crew colors. Open **PIP → Build PIP → Science**, use **More parts** for the second page, fit a part, then choose **Try fitted tool** (browser) or **Try tool** (GDevelop). Every tool has three illustrated, repeatable steps. See [crew and PIP implementation notes](docs/CREW_AND_PIP.md).
+
+## Astronaut suit powers
+
+All J.A.C.C.s are astronauts; Lucas Turner is French. Choose **Lucas, Sumati or Lilja → Suit** for their nine contextual powers. **Reveal in world**, then tap a highlighted place. **Explore this place** resumes its normal activity. Measure & Map calculates training-map distances; environmental surveys show greenhouse model settings; restoration/geometry plans link to the actual farm/construction activities. See [implemented powers and testing limits](docs/SUIT_POWERS.md).
+
+The ninth J.A.C.C. is recorded as a male Chinese astronaut specializing in Astronomy and Astrophysics; his name, suit color and model namesake are still to be chosen.

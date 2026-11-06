@@ -86,3 +86,7 @@ Open `game.json`, select **TrainingGrounds**, Preview, then choose **Aquatic Lea
 ## New crew and PIP tools
 
 Sumati Suri (orange, Gadgil Model — Ecosystems and Environmental Science) and Lilja Jónsdóttir (purple, Mirzakhani Model — Mathematics) are selectable. PIP can match either suit color. Life Lens, Xeno Lab, Eco Probe and Pattern Projector are available in Science; More parts cycles the rack. Fit one, then use Try fitted tool (browser) / Try tool (native) to explore its three repeatable illustrated steps. See [implementation, tests and limits](../docs/CREW_AND_PIP.md).
+
+## Astronaut suits
+
+Choose Lucas, Sumati or Lilja and open Suit for nine powers. Reveal in world highlights relevant destinations; tap one to approach and investigate. Explore this place / Clear suit overlay returns to normal activities. Native overlays reuse ring/link/grid textures. All crew are astronauts; Lucas is French. See [suit powers and validation limits](../docs/SUIT_POWERS.md). The unnamed Chinese astronomer/astrophysicist is a pending profile, not yet selectable.

@@ -28,3 +28,13 @@ Lilja is a female math major from Iceland. Her purple suit uses the Mirzakhani M
 ## PIP science attachments
 
 All crew members can fit every attachment. Life Lens and Xeno Lab support Lucas’s biology/xenobiology; Eco Probe supports Sumati’s ecosystems/environmental science; Pattern Projector supports Lilja’s mathematics. They provide three repeatable illustrated steps each. Fictional alien life is labeled imaginary, and conditions suitable for life are distinguished from confirmed organisms. These tools are schematic teaching models, not new character-exclusive abilities.
+
+## Astronaut identity and suit powers
+
+Every J.A.C.C. is an astronaut with a scientific specialization. Lucas Turner is French (France); his name, black suit and Lederberg specialization remain unchanged.
+
+Lucas now has Bio-Vision, Adaptation Scan and Xeno Analysis; Sumati has Connection Vision, Environmental Survey and Restoration Planner; Lilja has Pattern Vision, Measure & Map and Geometry Builder. Their current implementations are one-tap contextual overlays and repeatable illustrated training models, with actual map measurements and farm/construction links. See [suit implementation and limits](SUIT_POWERS.md).
+
+## Ninth J.A.C.C. — identity pending
+
+Approved: a male astronaut from China specializing in Astronomy and Astrophysics. His personal name, suit color and model namesake remain unassigned. Blue was suggested as an available suit color; it has not been approved. The configurable draft profile is in `prototype/src/suits.js`; he is not yet a ninth selectable character. Do not substitute a permanent name, country, color or model without the owner's choice.
