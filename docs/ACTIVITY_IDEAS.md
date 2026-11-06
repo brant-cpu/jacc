@@ -141,3 +141,7 @@ First extend the existing Bridge and Pipeline models; then add Balloon Rover and
 ## Uploaded EAA aviation course
 
 The owner uploaded the 81-page **Aviation For Kids: A Mini Course For Students in Grades 2–5** (EAA/AvKids, revised December 2015). Its activity sections are now reviewed directly. See [source-specific station mapping and science notes](EAA_AVIATION_ADAPTATIONS.md) for thrust, parachutes, drag chutes, paper rotors, wind-tunnel lift, paper/loop/tube aircraft, airplane parts and optional route/glossary projects. Proposed placement is the engineering Flight Test Bay, with Kaito and Aiden introducing activities. This is a reviewed reference and implementation plan, not newly playable content.
+
+## Electromagnetism and electromagnetic spectrum
+
+The owner's supplied roundup lists 19 activities, including magnetic field drawing, coils, a battery train, wave comparisons, spectrum ordering, stellar chemistry and worksheet/story formats. See [the source-specific mapping and science corrections](ELECTROMAGNETISM_ACTIVITIES.md). Proposed first stations are Field Viewer, Magnetic Crane, Generator Bench, Spectrum Explorer, Wave Comparison Table and Star Fingerprint Lab, connected to the existing magnet station, HQ lab and engineering power workshop. Alex introduces the fundamentals; Malik and the future blue Sagan astronaut provide optics/astronomy connections. These activities remain planned, not implemented.
