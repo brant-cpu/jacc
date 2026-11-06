@@ -37,4 +37,8 @@ Lucas now has Bio-Vision, Adaptation Scan and Xeno Analysis; Sumati has Connecti
 
 ## Ninth J.A.C.C. — identity pending
 
-Approved: a male astronaut from China specializing in Astronomy and Astrophysics. His personal name, suit color and model namesake remain unassigned. Blue was suggested as an available suit color; it has not been approved. The configurable draft profile is in `prototype/src/suits.js`; he is not yet a ninth selectable character. Do not substitute a permanent name, country, color or model without the owner's choice.
+Approved: a male astronaut from China specializing in Astronomy and Astrophysics. His suit color is Blue. His personal name and model namesake remain unassigned. The configurable draft profile is in `prototype/src/suits.js`; he is not yet a ninth selectable character. Do not invent his permanent name or model namesake.
+
+## Shared suit material and energy colors
+
+Approved across every astronaut suit: **silver for all metal accents** and **teal for all lights, thrusters and energy effects**. These are shared design elements, not additional primary suit colors. The ninth astronaut’s primary suit color is **blue**. Configurable silver/teal placeholder swatches are recorded as `suitFinish` in `prototype/src/data.js`; production artwork and existing provisional effects still need a visual pass to apply this standard consistently.

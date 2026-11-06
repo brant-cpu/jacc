@@ -3,7 +3,7 @@ import {objects} from './data.js';
 import {pipToolArt} from './pip.js';
 // All J.A.C.C.s are astronauts. Nationality is only recorded where approved by the owner.
 export const crewDetails={'Lucas Turner':{role:'Astronaut',country:'France'},'Sumati Suri':{role:'Astronaut',country:'India'},'Lilja Jónsdóttir':{role:'Astronaut',country:'Iceland'}};
-export const pendingAstronaut={role:'Astronaut',gender:'male',country:'China',specialization:'Astronomy and Astrophysics',name:null,suit:null,model:null};
+export const pendingAstronaut={role:'Astronaut',gender:'male',country:'China',specialization:'Astronomy and Astrophysics',name:null,suit:'Blue',model:null};
 export function crewDescription(name){const p=crewDetails[name];return 'Astronaut'+(p?.country?' • '+p.country:'');}
 export const suitPowers={
  'Lucas Turner':[

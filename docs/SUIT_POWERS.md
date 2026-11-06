@@ -1,6 +1,6 @@
 # Astronaut suit powers
 
-All J.A.C.C.s are astronauts. The game now labels crew members accordingly; Lucas Turner is recorded as French. The eight existing astronauts remain selectable. A ninth profile records a male Chinese astronaut specializing in Astronomy and Astrophysics; his name, color and model are pending, so he is not a playable placeholder.
+All J.A.C.C.s are astronauts. The game now labels crew members accordingly; Lucas Turner is recorded as French. The eight existing astronauts remain selectable. A ninth profile records a male Chinese astronaut specializing in Astronomy and Astrophysics; his blue suit is approved, while his name and model are pending, so he is not a playable placeholder.
 
 ## Run and use
 

@@ -23,6 +23,8 @@ export const trainingObjects=[
 export const modes={exploration:{phase:1,status:'playable'},geology:{phase:1,status:'playable'},lab:{phase:2,status:'planned'},engineering:{phase:2,status:'planned'},ocean:{phase:3,status:'planned'},flight:{phase:3,status:'planned'},pip:{phase:1,status:'basic'}};
 
 // Temporary suit-color placeholders; not production character designs.
-export const suitColors={Red:'#cf4348',Green:'#38864a',Pink:'#d76a9d',Yellow:'#edc74d',White:'#f2f2e8',Black:'#303842',Orange:'#d96b24',Purple:'#8653b6'};
+// Shared material standard: primary suit colors remain distinct. Hex values are configurable placeholder swatches.
+export const suitFinish={metal:{name:'Silver',color:'#c4ced8'},energy:{name:'Teal',color:'#35d3c9'}};
+export const suitColors={Red:'#cf4348',Green:'#38864a',Pink:'#d76a9d',Yellow:'#edc74d',White:'#f2f2e8',Black:'#303842',Orange:'#d96b24',Purple:'#8653b6',Blue:'#347ec5'};
 
 export const objects=[...trainingObjects.map(o=>({...o,zone:'grounds'})),...hqObjects,...farmObjects,...digObjects,...engineeringObjects,...constructionStations,elevatorObject,...aquaticObjects,{id:'grounds-aquatic',zone:'grounds',x:680,y:280,icon:'🌊',name:'Aquatic Learning Center',kind:'portal',to:'aquatic'}];
