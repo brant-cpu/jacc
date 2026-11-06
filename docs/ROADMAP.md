@@ -33,3 +33,7 @@ No combat, enemies, rocket travel, procedural planets, colonies or solar-system 
 ## Aquatic foundation
 
 The home lake now opens the Aquatic Learning Center in both builds: swimming/sub navigation, lake and marine/deep simulation habitats, wildlife observations, sample records, science tools and reusable-kit habitat records. Enceladus is an educational ocean-world preset; procedural aquatic worlds, moon travel and persistent colonies remain future systems. Validate the native scene and iPad experience, then refine aquatic art, animations and visual experiments before expanding travel.
+
+## Large exploration spaces — playable framework
+
+Open Flight Range, Forest Exploration and Open Dig Landscape are now authored scrolling spaces linked to the home hub. Places provides large-button space/landmark navigation; automatic flight/landing, forest observations/seed collection and saved automatic excavation are implemented. These are training landscapes, not procedural planets or complete ecological/aerodynamic/geological simulations. See [current validation and remaining work](OPEN_SPACES.md).

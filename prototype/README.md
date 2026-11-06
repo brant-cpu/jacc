@@ -131,3 +131,7 @@ The starting screen/header offers First visit; Explore still skips setup. The op
 ## Swimming exploration
 
 Choose Aquatic Learning Center → Swim trail → habitat. Tap water or labeled wildlife/finds to swim; PIP → Show me a swim demonstrates. Six repeatable findings save automatically to the aquatic/global journal. The dock retains submarine travel and existing science activities. See [features, files, tests and limitations](../docs/SWIMMING_EXPLORATION.md).
+
+## Large exploration spaces
+
+Home hub → Flight range / Forest / Open dig landscape, or open Places. Tap ground/sky or choose a distant landmark to travel automatically while the camera follows. Forest observations include an oak seed; the expanded dig landscape preserves tunnels and mineral records. PIP → Return home is immediate. See [open-space build report](../docs/OPEN_SPACES.md).

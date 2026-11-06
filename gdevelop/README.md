@@ -102,3 +102,7 @@ VISIT opens the optional story without blocking normal startup. Choose Explore, 
 ## Swimming exploration
 
 Preview TrainingGrounds → Aquatic Learning Center → Swim trail. Choose a habitat to enter swimming directly. New native swimmer/wildlife/find sprites retain large stable targets, habitat filtering and saved journal records. PIP offers Show me a swim; pause/reduced motion stop the new animation. Existing submarine/science tools remain. See [build report and native-renderer testing limits](../docs/SWIMMING_EXPLORATION.md).
+
+## Large exploration spaces
+
+Preview TrainingGrounds and select Flight range, Forest or Open dig landscape; PLACES also offers space/landmark travel. The native world actor uses large-map coordinates, while the visible avatar, scenery, markers and PIP are offset into the following viewport. Tunnel tiles reuse one texture; cleared paths save locally. Actual editor/iPad rendering and performance need testing. See [open-space build report](../docs/OPEN_SPACES.md).

@@ -77,3 +77,7 @@ The [activity and reference catalog](docs/ACTIVITY_IDEAS.md) records the request
 ## Swimming exploration
 
 **Home hub lake → Aquatic Learning Center → Swim trail** now opens free swimming in the freshwater lake, reef/open-ocean or deep-ocean simulation. All eight crew have a swimming pose; PIP follows with swim gear. Observe world wildlife and find six new sample/observation records saved in the journal. Tap open water or a large labeled target; pause and reduced-animation settings are supported. See [the swimming build report and validation limits](docs/SWIMMING_EXPLORATION.md).
+
+## Large exploration spaces
+
+The home hub now links to **Flight range**, **Forest**, and **Open dig landscape**. Each extends beyond one screen with a following view, automatic travel and discoveries. **Places / PLACES** selects spaces and distant landmarks; PIP → Return home is immediate from these areas. Forest seeds and dug samples save locally, along with excavated tunnels. See [features, files, tests and limitations](docs/OPEN_SPACES.md).
