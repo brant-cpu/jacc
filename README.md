@@ -45,3 +45,7 @@ Complete the six challenges and three machine demonstrations to keep nine reusab
 At the home hub lake, tap **Aquatic Learning Center**. Choose swimming or the **J.A.C.C. submersible**, then explore the freshwater lake or the reef/open-ocean and deep-ocean simulations. PIP automatically wears aquatic gear without changing its saved outfit. Observe fish, dolphins, whales, sharks, octopuses and deep-sea examples; keep nonliving sample records; repeat pressure, depth, buoyancy, sonar and volcano models. Discoveries appear in My Journal. Reusable construction kits fit the habitat model.
 
 The Enceladus page introduces Saturn's icy ocean moon and a future ocean-world preset. Moon travel is not implemented. See [aquatic science, validation and asset requirements](docs/AQUATIC_SCIENCE.md).
+
+## Character roster
+
+See [approved character decisions](docs/CHARACTERS.md), including Lucas's Lederberg Model and the seventh, orange J.A.C.C.: a girl from India with the Gadgil Model for Ecosystems and Environmental Science. Her name is still to be chosen; the orange character is recorded for future crew-menu implementation.
