@@ -255,3 +255,35 @@ Hydroponics means growing without soil, not without nutrients. Plants require ap
 Recirculation can improve water-use efficiency but is not automatically zero-waste or suitable for every crop/location; electricity, equipment, nutrient management and maintenance matter. Avoid implying hydroponics alone solves global food insecurity or that all plant growth comes from nutrients in soil rather than substantial carbon acquisition from air.
 
 Use pictorial single-tap parts/settings, large controls, snapping, repeat/reset, optional demonstrations, captions/narration and switch/controller access. Do not require pouring, dragging, precise handling or reading. This entry is a recorded plan; no new hydroponic growth/comparison activity has been implemented by it.
+
+## Robotics projects — supplied LearningMole article text
+
+The owner supplied a robotics introduction naming LearningMole/Michelle Connolly, Arduino, electronics, Brushbots, Bristlebots and Junkbots. The article's claims, quotations and physical procedures have not been independently reviewed. Record the educational concepts without adopting its hardware purchases, soldering requirements or real assembly instructions as prerequisites for children.
+
+### Proposed Robot Discovery Workshop
+
+**Placement:** engineering/construction area, connected to Malik's planned Coding & Robot Logic Bench, PIP customization and the farm robot station. Aiden introduces structures/mechanisms; Malik computing; Alex circuits and motors. Every astronaut participates. This is a station family, not a separate gameplay mode.
+
+| Concept | Proposed 2D J.A.C.C. adaptation |
+| --- | --- |
+| Brushbot / Bristlebot | Vibration-Bot Test Tray: select a virtual body, bristle configuration and motor preset; run an automatic trial and compare paths. Treat these names as overlapping vibration-bot examples, not universally distinct robot categories. Bristle geometry, friction, mass and vibration can affect movement; do not promise one deterministic real-world result from bristle angle alone. |
+| Junkbot | Recycled Robot Builder: tap salvaged virtual body pieces, wheels, arms and decorations into snapping slots. Give it a simple selected job and test/revise it. Designs can remain saved without consuming the child's original collectible records. |
+| Controller board / Arduino concepts | Robot Brain Bench: connect a sensor input, a small validated rule program and an actuator output in a symbolic controller-board model. Arduino can be an optional real-world reference; the game does not require a physical board or claim to emulate its firmware. |
+| Sensors and actuators | Sense → Decide → Act Table: choose an obstacle sensor or light/temperature reading example, select a pictured condition, then a motor/light/arm response. Make sensor observations, rules and actions visibly distinct. |
+| Basic electronics | Virtual Circuit Bench: select components and snapping terminals, turn a model power source on/off, and inspect annotated current paths. Optional resistor/switch/motor/meter views are conceptual until electrically validated; no soldering or hardware precision is required. |
+| Programming challenges | Connect to the already planned PIP Route Builder: sequences, then optional loops and conditions, with Run, Step, Stop, Undo and demonstrations. A blocked path gives an explanation, not damage or a forced failure. |
+| Useful robots | Optional future farm/engineering assignments such as checking a model water channel, inspecting a plant or transporting a virtual part. These deployment behaviors are not implemented by this planning entry. |
+
+### Existing features versus proposed expansion
+
+PIP parts/colors, the construction-yard builder-robot demonstration and the farm robot activity already provide playable foundations. The vibration-bot tray, recycled robot builder, sensor-rule editor, controller-board simulation and programmable robot missions above are new proposals, not newly playable features.
+
+### Scientific and access framing
+
+A simple vibration bot can move without sensors, a controller program or AI. Robots may use fixed rules, feedback controllers or learned models; do not call every motorized toy or conditional statement AI. Computing and electronics roles differ: a controller interprets inputs/programs, sensors measure or detect conditions, and actuators produce physical effects. Learned-model demonstrations need a defined training/testing process and uncertainty, as recorded in the coding activity plan.
+
+Use virtual components and original artwork. No child needs coin cells, hot glue, tools, real wiring or soldering to play. Represent component functions with names, shapes and optional speech/captions as well as colors. All fitting, parameter changes and program placement must work through individual taps or keyboard/switch/controller selections; dragging remains optional. No robot health, hunger, inactivity punishment, racing score or mandatory timed response.
+
+Children's future programs must be bounded, interruptible and restricted to a validated command schema. PIP's essential assistance, AAC, pause, sensory settings and return-home functions remain available independently of anything the child programs. Keep automatic-following companion behavior, deterministic programmed rules and any future trained AI capabilities clearly distinguished.
+
+Suggested first prototypes: Vibration-Bot Test Tray and Sense → Decide → Act, followed by the Recycled Robot Builder. Integrate with existing parts/programming plans rather than building duplicate workshops. Physics, electronics and scientific explanations require validation before numerical outcomes are claimed; real-device and child/adaptive-access testing remain necessary.
