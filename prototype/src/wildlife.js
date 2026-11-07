@@ -47,7 +47,7 @@ function wildlifePose(type,x,y,w=58,h=44,phase=0,time=0,travel=24){
 }
 function wildlifeVisible(items,camera){return items.filter(o=>o.x+o.w>camera.x&&o.x<camera.x+1000&&o.y+o.h>camera.y+8&&o.y<camera.y+410).slice(0,32);}
 export function expeditionWildlife(s,time=0){
- const mode=s.active;if(!mode)return [];const w=s.worlds[mode],cam=expeditionCamera(w,mode),chunk=Math.floor(w.x/640),out=[];
+ const mode=s.active;if(!mode||s.colony&&s.colony.kind!=='home')return [];const w=s.worlds[mode],cam=expeditionCamera(w,mode),chunk=Math.floor(w.x/640),out=[];
  for(let k=chunk-2;k<=chunk+2;k++){
   const base=k*640,n=expeditionHash(w.seed,k,83),phase=(n%628)/100;
   const add=(type,x,y,width=58,height=44,travel=24)=>out.push(wildlifePose(type,x,y,width,height,phase,time,travel));

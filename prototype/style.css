@@ -41,3 +41,9 @@ header nav{gap:4px}#places,#aac,#access,#visit{font-size:14px;max-width:80px;pad
 .expedition-target{position:absolute;transform:translate(-50%,-50%);height:12%;border-radius:20px}.high-contrast .expedition-target{background:#fff;color:#000;border:4px solid #000;text-shadow:none}.color-blind .expedition-target{border:3px dashed #17384a;background:#fffbedaa}
 
 .trail-machine-target{position:absolute;transform:translate(-50%,-50%);min-width:110px;min-height:100px;max-width:150px;padding:55px 4px 2px;font-size:13px;pointer-events:auto;background:transparent;border-color:transparent;text-shadow:0 0 3px #fffbed,0 0 3px #fffbed;box-shadow:none}.trail-machine-target:hover,.trail-machine-target:focus-visible{background:#fffbed66;border-color:#17384a}.high-contrast .trail-machine-target{background:#fff;color:#000;border-color:#000;text-shadow:none}.trail-machine-target[hidden]{display:none}
+
+header nav{flex-wrap:wrap;justify-content:flex-end}#my-world{font-size:14px;max-width:90px}#my-world-trip{position:absolute;inset:0;z-index:6;display:flex;align-items:flex-end;justify-content:center;gap:16px;padding:15px;pointer-events:auto}#my-world-trip[hidden]{display:none}#my-world-trip button{min-width:160px;min-height:65px}
+
+@media(max-width:1100px){header{padding:8px 12px}header>div{max-width:160px}header nav{gap:3px}header nav button{width:64px;min-width:64px;max-width:64px!important;padding:4px;font-size:16px}header nav span{font-size:11px}#my-world,#places,#aac,#access,#visit{font-size:12px}}
+
+header button:disabled{opacity:.45;cursor:default}

@@ -22,6 +22,10 @@ Outdoor worlds now include gently moving polygon wildlife and drifting clouds. T
 
 In a generated world, open **Tools / trails → My Machines**. Place your own saved rover, sprayer robot, bridge or habitat with large placement buttons. Rovers survey nearby finds, robots water nearby planted beds, bridges carry the astronaut across prepared gaps, and habitats offer rest/resume. Copies keep their selected parts and color; moving and packing cost nothing. PIP can supply editable starter designs. See [deployment controls, validation and limits](docs/TRAIL_MACHINES.md).
 
+## My World colonies
+
+Open **My World** to create a named home colony, alien planet or alien moon. Choose a landscape, fly there with J.A.C.C. and PIP, and keep a garden, blocks and your own deployed machines. Off-world travel shows them form a rocket, launch, cross space, land and unfold again. Trips can be paused, canceled or skipped; reduced animation gives quick arrival. Each place keeps independent progress and shares the seed bank and garage. See [My World controls, saves, travel and validation](docs/MY_WORLD.md).
+
 ## Build PIP
 
 Open **PIP → Build PIP** for the schematic workshop. Tap parts or optionally drag them onto PIP. Standard restores the base buddy; Match crew copies the current astronaut's suit color. Use Analyze, or Ask PIP on a discovery card, for illustrated offline science explanations. See each build's README for implemented features and limits.
