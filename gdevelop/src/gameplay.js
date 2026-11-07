@@ -76,4 +76,4 @@ nativePipUpdate();nativeConstructionUpdate(dt);nativeAquaticUpdate();nativeSuitU
 obj('Focus').setZOrder(s.overlay?51:s.construction.active||s.construction.orbit?7:3);obj('Focus').setOpacity(actions[s.focus].object?80:255);
 obj('Focus').setPosition((actions[s.focus].object||obj(actions[s.focus].name)).getX()-5,(actions[s.focus].object||obj(actions[s.focus].name)).getY()-5);obj('Focus').setWidth((actions[s.focus].object||obj(actions[s.focus].name)).getWidth()+10);obj('Focus').setHeight((actions[s.focus].object||obj(actions[s.focus].name)).getHeight()+10);
 
-nativeDisplayUpdate();nativeAccessUpdate();nativeOpenUpdate();nativeChapterProps(dt);nativeElevatorUpdate();nativeGardenUpdate();nativeMachinesUpdate(dt);nativeJaccUpdate();nativeRocketUpdate();nativeExpeditionUpdate(dt);nativeSaveProfile();
+nativeDisplayUpdate();nativeAccessUpdate();nativeOpenUpdate();nativeChapterProps(dt);nativeElevatorUpdate();nativeGardenUpdate();nativeMachinesUpdate(dt);nativeJaccUpdate();nativeRocketUpdate();nativeExpeditionUpdate(dt);nativeWildlifeUpdate(dt);nativeSaveProfile();
