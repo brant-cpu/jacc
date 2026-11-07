@@ -47,3 +47,5 @@ These are instructor entry points into existing systems, not a separate newly im
 Shared profile, menu and schematic portrait: `prototype/src/construction.js`. Wiring: `data.js`, `journal.js`, browser `main.js`, native `gdevelop/src/construction.js` and `gameplay.js`. Both generated builds and the native portrait asset are included.
 
 Validation: 90 shared tests passed; mouse and simulated-touch construction checks cover the portrait/menu, rocket-builder handoff, retained boards, PIP demonstrations and undo. The complete GDevelop schema/resource/event harness passed, including all three instructor locations and conversation while a suit scanner is active. Touch-region separation and navigation are checked, and the schematic portrait was visually reviewed. Real iPad and GDevelop editor/renderer testing remain separate.
+
+The later creator-authorized [science faculty expansion](SCIENCE_FACULTY.md) now assigns the other subject instructors. Earlier references to unassigned zone instructors are superseded; Mike and Elon retain their established roles and appearance briefs.

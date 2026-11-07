@@ -26,6 +26,14 @@ In a generated world, open **Tools / trails → My Machines**. Place your own sa
 
 Open **My World** to create a named home colony, alien planet or alien moon. Choose a landscape, fly there with J.A.C.C. and PIP, and keep a garden, blocks and your own deployed machines. Off-world travel shows them form a rocket, launch, cross space, land and unfold again. Trips can be paused, canceled or skipped; reduced animation gives quick arrival. Each place keeps independent progress and shares the seed bank and garage. See [My World controls, saves, travel and validation](docs/MY_WORLD.md).
 
+## Make your habitat a home
+
+Visit a placed habitat and choose **Enter / decorate my room**. Tap furniture, then a large spot; move, put away, change colors and Undo without dragging. Display collected samples, plants and adventure memories. Beds offer rest/resume, the desk opens the journal, and PIP has a dock. Rooms stay saved after reload, moving or packing. See [interior controls and limits](docs/HABITAT_INTERIORS.md).
+
+## Meet the science professors
+
+Mike and Elon are joined by ten fictional subject instructors. Use the authored zone's professor guide, or **Tools / trails → Professor** in generated worlds. Each offers existing science activities and a handoff to PIP; the directory reaches the whole team. See [the faculty roster and zone assignments](docs/SCIENCE_FACULTY.md).
+
 ## Build PIP
 
 Open **PIP → Build PIP** for the schematic workshop. Tap parts or optionally drag them onto PIP. Standard restores the base buddy; Match crew copies the current astronaut's suit color. Use Analyze, or Ask PIP on a discovery card, for illustrated offline science explanations. See each build's README for implemented features and limits.

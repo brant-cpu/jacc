@@ -37,3 +37,5 @@ The PIP toolbar button in either lab now offers a short contextual next step for
 No production character appearance, age, nationality, extra biography or voice recording has been established by this profile. Existing schematic placeholder artwork remains provisional.
 
 Validation: all 88 shared tests passed. Updated mouse and simulated-touch browser checks cover Mike in both labs, the handoff to PIP and current-activity guidance. The complete GDevelop event harness passed, including the robotics-room instructor handoff and PIP’s return-home control. Real-device and GDevelop editor testing remain separate.
+
+The later creator-authorized [science faculty expansion](SCIENCE_FACULTY.md) now assigns the other subject instructors. Earlier references to unassigned zone instructors are superseded; Mike and Elon retain their established roles and appearance briefs.

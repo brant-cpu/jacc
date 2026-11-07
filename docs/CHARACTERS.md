@@ -55,3 +55,7 @@ Professor Elon leads rocket and engineering activities while retaining his progr
 ## Build a J.A.C.C.
 
 Player-created astronauts live in a separate collection. Children can mix helmet, armor, boots, STEM core, wings/thrusters and independent arm tools, and paint each slot differently. Names, skin tone, face style and nationality are editable; nationality is optional and has no effect on tools. Custom characters use one child body shape and no gender field. The canonical nine remain available. See [creator implementation and limits](BUILD_A_JACC.md).
+
+## Additional science professors
+
+The creator-authorized [faculty roster](SCIENCE_FACULTY.md) adds Petra Vale, Leena Rao, Marina Okafor, Aya Mori, Farah Noor, Iris Vega, Nia Laurent, Rowan Silva, Ada North and Mei Solano as fictional subject instructors. PIP remains the active helper in every zone. Their schematic portraits are placeholders.

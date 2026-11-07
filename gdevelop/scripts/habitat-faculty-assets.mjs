@@ -1,0 +1,4 @@
+import {createRequire} from 'node:module';import {roomThemes,roomArtKeys,roomBackdrop,roomItemArt} from '../../prototype/src/habitat.js';import {professors,professorPortrait} from '../../prototype/src/professors.js';const require=createRequire(import.meta.url),sharp=require(process.env.JACC_SHARP_PATH||'sharp');
+for(const theme of Object.keys(roomThemes))await sharp(Buffer.from(roomBackdrop(theme))).png().toFile(new URL('../assets/room-bg-'+theme+'.png',import.meta.url).pathname);
+for(const key of roomArtKeys)await sharp(Buffer.from(roomItemArt(key==='plant-display'?'plant:bean':key))).png().toFile(new URL('../assets/room-item-'+key+'.png',import.meta.url).pathname);
+for(const id of Object.keys(professors))await sharp(Buffer.from(professorPortrait(id))).resize(240,140,{fit:'contain',background:{r:0,g:0,b:0,alpha:0}}).png().toFile(new URL('../assets/professor-'+id+'.png',import.meta.url).pathname);

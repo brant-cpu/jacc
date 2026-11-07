@@ -25,7 +25,7 @@ export function myWorldArrive(host,id){
  // Only actual arrival from elsewhere advances one watered growth stage. Reload never does.
  world.expeditions.active=null;expeditionEnter(world.expeditions,'farm');world.visits++;s.travel=null;return {arrived:id};
 }
-export function beginMyWorldTravel(host,to,start={x:500,y:350}){const s=host.myWorlds;if(!['hub',...Object.keys(myWorldKinds)].includes(to)||to!=='hub'&&!s.worlds[to].created)return false;s.travel={to,offworld:['planet','moon'].includes(to)||['planet','moon'].includes(s.active),phase:0,time:0,start:{x:Math.max(80,Math.min(920,start.x)),y:Math.max(180,Math.min(460,start.y))}};return true;}
+export function beginMyWorldTravel(host,to,start={x:500,y:350}){const s=host.myWorlds;if(!['hub',...Object.keys(myWorldKinds)].includes(to)||to!=='hub'&&!s.worlds[to].created)return false;host.trailMachines.roomOpen=null;s.travel={to,offworld:['planet','moon'].includes(to)||['planet','moon'].includes(s.active),phase:0,time:0,start:{x:Math.max(80,Math.min(920,start.x)),y:Math.max(180,Math.min(460,start.y))}};return true;}
 const myWorldTripStages=['depart','form','launch','space','land','unfold'];
 export function tickMyWorldTravel(host,dt,{paused=false,overlay=false,reduced=false,effects=true,skip=false}={}){
  const t=host.myWorlds.travel;if(!t||paused||overlay)return null;if(skip||reduced||!effects)return myWorldArrive(host,t.to);
