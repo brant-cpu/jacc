@@ -18,6 +18,10 @@ Choose **Places → Big exploration worlds** in the browser, or **Places → Exp
 
 Outdoor worlds now include gently moving polygon wildlife and drifting clouds. The lake has freshwater fish; ocean and cave creatures appear in suitable habitats. Pause and reduced-animation/effects settings stop ambient motion.
 
+## Use My Machines while exploring
+
+In a generated world, open **Tools / trails → My Machines**. Place your own saved rover, sprayer robot, bridge or habitat with large placement buttons. Rovers survey nearby finds, robots water nearby planted beds, bridges carry the astronaut across prepared gaps, and habitats offer rest/resume. Copies keep their selected parts and color; moving and packing cost nothing. PIP can supply editable starter designs. See [deployment controls, validation and limits](docs/TRAIL_MACHINES.md).
+
 ## Build PIP
 
 Open **PIP → Build PIP** for the schematic workshop. Tap parts or optionally drag them onto PIP. Standard restores the base buddy; Match crew copies the current astronaut's suit color. Use Analyze, or Ask PIP on a discovery card, for illustrated offline science explanations. See each build's README for implemented features and limits.
